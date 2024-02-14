@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/2022-01-01-hydejack-site.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4a252e9bb93b1a25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_projects/2022-01-01-Facilitating a Design Studio - Overview.md",
+                "file": "Portfolio/UI UX/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "dd00730d77ec1dde",
@@ -42,12 +29,8 @@
             "id": "62542094d205ff34",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_projects/2022-01-01-Antarsam - Exploring Alternate Histories and Futures.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -116,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_projects/2022-01-01-Facilitating a Design Studio - Overview.md",
+                "file": "Portfolio/UI UX/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_projects/2022-01-01-Facilitating a Design Studio - Overview.md",
+                "file": "Portfolio/UI UX/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_projects/2022-01-01-Facilitating a Design Studio - Overview.md"
+                "file": "Portfolio/UI UX/_posts/2019-01-01-Designing-for-an-Archival-Interface.md"
               }
             }
           }
@@ -177,53 +160,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a252e9bb93b1a25",
+  "active": "5ed04a09d2958d2a",
   "lastOpenFiles": [
-    "_site/projects/2022-01-01-hydejack-site/index.html",
-    "_site/projects/2022-01-01-hydejack-site",
-    "_site/projects/2022-01-01-Facilitating a Design Studio - Overview/index.html",
-    "_site/projects/2022-01-01-Facilitating a Design Studio - Overview",
-    "_site/projects/2022-01-01-Compost Magazine - Technofutures from Bidar/index.html",
-    "_site/projects/2022-01-01-Compost Magazine - Technofutures from Bidar",
-    "_site/projects/2022-01-01-Carefull Collectives and their Care Practices/index.html",
-    "_site/projects/2022-01-01-Carefull Collectives and their Care Practices",
-    "_site/projects/2022-01-01-Designing for an Archival Interface/index.html",
-    "_site/projects/2022-01-01-Designing for an Archival Interface",
-    "_site/projects/2022-01-01-Antarsam - Exploring Alternate Histories and Futures/index.html",
-    "example1/_posts/2022-01-01-1a.md",
-    "example/_posts/1a.md",
-    "example/_posts/1 (2).md",
-    "example1/_posts/1a.md",
-    "example1/_posts/1(1).md",
-    "example1/_posts/1 (5).md",
-    "example1/_posts/1 (4).md",
-    "example1/_posts/1 (3).md",
-    "example1/_posts/1 (2).md",
-    "example1/_posts/1 (1).md",
-    "_featured_categories/example1.md",
-    "_featured_categories/example 1.md",
-    "_featured_categories/example - Copy.md",
-    "example 1/_posts/1 (5).md",
-    "example 1/_posts/1 (4).md",
-    "example 1/_posts/1 (3).md",
-    "example 1/_posts/1 (2).md",
-    "example 1/_posts/1 (1).md",
-    "example 1/_posts/2020-07-03-introducing-hydejack-9.md",
-    "example 1/_posts/2021-02-13-whats-new-in-hydejack-9-1.md",
-    "example 1/_posts/2018-06-01-example-content-iii.md",
-    "example 1/_posts/2017-11-23-example-content-ii.md",
-    "example 1/_posts/2012-02-07-example-content.md",
-    "example - Copy/_posts/2021-02-13-whats-new-in-hydejack-9-1.md",
-    "example - Copy/_posts/2020-07-03-introducing-hydejack-9.md",
-    "_site/assets/img/projects/Podcast.png",
-    "assets/img/projects/Podcast.png",
-    "_site/assets/img/projects/Milli/Milli (9).png",
-    "_site/assets/img/projects/Milli/Milli (8).png",
-    "_site/assets/img/projects/Milli/Milli (7).png",
-    "_site/assets/img/projects/Milli/Milli (6).png",
-    "_site/assets/img/projects/Milli/Milli (5).png",
-    "_site/assets/img/projects/Milli/Milli (4).png",
-    "_site/assets/img/projects/Milli/Milli (3).png",
-    "_site/assets/img/projects/Milli/Milli (2).png"
+    "Portfolio/UI UX/_posts/2018-01-01-Carpooling-Unalone-Karwaan.md",
+    "404.md",
+    "Portfolio/teaching/_posts/2022-01-01-Facilitating-a-Design-Studio-Overview.md",
+    "Portfolio/publication/_posts/2021-01-01-Compost-Magazine-Technofutures-from-Bidar.md",
+    "Portfolio/publication/_posts/2020-01-01-Carefull-Collectives-and-their-Care-Practices.md",
+    "Portfolio/miscellaneous/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
+    "Portfolio/artifact/_posts/2017-01-02-Designers-Ace.md",
+    "_site/blog/index.html",
+    "_site/blog",
+    "blog/index.html",
+    "_site/portfolio/artifact/2017-02-01-Designers-Ace/index.html",
+    "_site/portfolio/artifact/2017-02-01-Designers-Ace",
+    "_site/portfolio/artifact",
+    "_featured_categories/Artifact.md",
+    "_projects/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md",
+    "posts.md",
+    "projects.md",
+    "_projects/Innovation For Dummies - A podcast.md",
+    "_projects/2022-01-01-hydejack-site.md",
+    "_site/portfolio/teaching/2022-12-01-Facilitating-a-Design-Studio-Overview/index.html",
+    "_site/portfolio/teaching/2022-12-01-Facilitating-a-Design-Studio-Overview",
+    "_site/portfolio/teaching",
+    "_site/portfolio/publication/2021-02-01-Compost-Magazine-Technofutures-from-Bidar/index.html",
+    "_projects/Portfolio/UI UX/_posts/2022-01-01-Designing-for-an-Archival-Interface.md",
+    "Portfolio/UI UX/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
+    "_projects/2022-01-01-Compost-Magazine-Technofutures-from-Bidar.md",
+    "_projects/Portfolio/publication/_posts/2022-01-01-Compost-Magazine-Technofutures-from-Bidar.md",
+    "_projects/Portfolio/UI UX/_posts/2022-01-01-Carpooling-Unalone-Karwaan.md",
+    "_featured_categories/UI UX.md",
+    "_projects/Portfolio/miscellaneous/_posts/2022-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
+    "_projects/Portfolio/miscellaneous/_posts/2022-01-01-Antarsam---Exploring-Alternate-Histories-and-Futures.md",
+    "_projects/2022-01-01-Designing-for-an-Archival-Interface.md",
+    "_featured_categories/Artifact - Copy.md",
+    "_projects/Portfolio/artifact/_posts/2022-01-01-Designers-Ace.md",
+    "_projects/2022-01-01-Designers-Ace.md",
+    "_projects/Portfolio/artifact/2022-01-01-Designers-Ace.md",
+    "_site/assets/icons/icon_x96.png",
+    "_site/assets/icons/icon_x72.png",
+    "_site/assets/icons/icon_x512.png",
+    "_site/assets/icons/icon_x48.png",
+    "_site/assets/icons/icon_x384.png",
+    "_site/assets/icons/icon_x192.png",
+    "_site/assets/icons/icon_x128.png",
+    "assets/icons/icon_x48.png",
+    "assets/icons/icon_x96.png",
+    "assets/icons/icon_x72.png"
   ]
 }
