@@ -39,4 +39,4 @@ The name of this website, 'khattamicah', is a play on words. 'Khatta-meetha' is 
 # See Also
 - [Portfolio - Micah Alex ](https://khattamicah.tumblr.com)
 - [micahchoo (Micah Alex) · GitHub](https://github.com/micahchoo)
-- [[How I use Speculative Design in my practice]]
+- [[2022-01-01-How I use Speculative Design in my practice]]

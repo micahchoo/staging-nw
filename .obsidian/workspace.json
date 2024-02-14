@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/hydejack-site.md",
+                "file": "_projects/2022-01-01-hydejack-site.md",
                 "mode": "source",
                 "source": true
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/Facilitating a Design Studio - Overview.md",
+                "file": "_projects/2022-01-01-Facilitating a Design Studio - Overview.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,7 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/Antarsam - Exploring Alternate Histories and Futures.md",
+                "file": "_projects/2022-01-01-Antarsam - Exploring Alternate Histories and Futures.md",
                 "mode": "source",
                 "source": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_projects/Facilitating a Design Studio - Overview.md",
+                "file": "_projects/2022-01-01-Facilitating a Design Studio - Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_projects/Facilitating a Design Studio - Overview.md",
+                "file": "_projects/2022-01-01-Facilitating a Design Studio - Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_projects/Facilitating a Design Studio - Overview.md"
+                "file": "_projects/2022-01-01-Facilitating a Design Studio - Overview.md"
               }
             }
           }
@@ -179,24 +179,30 @@
   },
   "active": "4a252e9bb93b1a25",
   "lastOpenFiles": [
+    "_site/projects/2022-01-01-hydejack-site/index.html",
+    "_site/projects/2022-01-01-hydejack-site",
+    "_site/projects/2022-01-01-Facilitating a Design Studio - Overview/index.html",
+    "_site/projects/2022-01-01-Facilitating a Design Studio - Overview",
+    "_site/projects/2022-01-01-Compost Magazine - Technofutures from Bidar/index.html",
+    "_site/projects/2022-01-01-Compost Magazine - Technofutures from Bidar",
+    "_site/projects/2022-01-01-Carefull Collectives and their Care Practices/index.html",
+    "_site/projects/2022-01-01-Carefull Collectives and their Care Practices",
+    "_site/projects/2022-01-01-Designing for an Archival Interface/index.html",
+    "_site/projects/2022-01-01-Designing for an Archival Interface",
+    "_site/projects/2022-01-01-Antarsam - Exploring Alternate Histories and Futures/index.html",
+    "example1/_posts/2022-01-01-1a.md",
+    "example/_posts/1a.md",
+    "example/_posts/1 (2).md",
+    "example1/_posts/1a.md",
+    "example1/_posts/1(1).md",
     "example1/_posts/1 (5).md",
     "example1/_posts/1 (4).md",
     "example1/_posts/1 (3).md",
     "example1/_posts/1 (2).md",
     "example1/_posts/1 (1).md",
-    "example1/_posts",
-    "example1",
-    "_site/example1/index.html",
-    "_site/example1",
     "_featured_categories/example1.md",
-    "_site/example-1/index.html",
-    "_site/example-1",
     "_featured_categories/example 1.md",
-    "_site/example-copy/index.html",
-    "_site/example-copy",
     "_featured_categories/example - Copy.md",
-    "_site/blog/example 1/2021-02-13-whats-new-in-hydejack-9-1/index.html",
-    "_site/blog/example 1/2017-11-23-example-content-ii/index.html",
     "example 1/_posts/1 (5).md",
     "example 1/_posts/1 (4).md",
     "example 1/_posts/1 (3).md",
@@ -209,12 +215,6 @@
     "example 1/_posts/2012-02-07-example-content.md",
     "example - Copy/_posts/2021-02-13-whats-new-in-hydejack-9-1.md",
     "example - Copy/_posts/2020-07-03-introducing-hydejack-9.md",
-    "example - Copy/_posts/2018-06-01-example-content-iii.md",
-    "example - Copy/_posts/2017-11-23-example-content-ii.md",
-    "example - Copy/_posts/2012-02-07-example-content.md",
-    "Portfolio/_posts/Facilitating a Design Studio - Overview.md",
-    "example/_posts/2021-02-13-whats-new-in-hydejack-9-1.md",
-    "example/_posts/2020-07-03-introducing-hydejack-9.md",
     "_site/assets/img/projects/Podcast.png",
     "assets/img/projects/Podcast.png",
     "_site/assets/img/projects/Milli/Milli (9).png",
