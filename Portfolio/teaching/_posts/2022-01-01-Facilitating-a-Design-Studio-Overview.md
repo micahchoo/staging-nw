@@ -10,12 +10,11 @@ date: '01-12-2022'
 links:
   - title: See full map at Chickpet Field Visit - HCD Sem 7 — Felt
     url: https://felt.com/map/Chickpet-Field-Visit-HCD-Sem-7-ekx6paEpSTmd1UZNCTj13B?lat=12.968386&lon=77.577884&zoom=16.41
-categories: [teaching]
-
+sitemap: true
 ---
 
 * Seedlist
-{:toc .large-only}
+{:toc}
 
 The essence of our exploration lies beyond just human-centered design; it delves into the rich, often overlooked narratives of spaces where humans and non-humans converge. These spaces, termed "gathering-spaces," serve as focal points where diverse actors collaborate to shape the environment and its functions. Our aim is to uncover how humans interact within these spaces, how their gatherings are influenced by the space itself, and the collective forces at play.
 

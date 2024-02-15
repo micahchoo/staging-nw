@@ -1,1 +1,7 @@
-{}
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_drafts",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "assets/img/projects"
+}

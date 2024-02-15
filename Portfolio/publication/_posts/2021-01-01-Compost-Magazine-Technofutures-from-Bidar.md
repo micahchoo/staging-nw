@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: 'Technofutures from Bidar'
 caption:  Published in Compost.Mag
 description: >
@@ -10,7 +10,6 @@ image:
 links:
   - title: Read it here
     url: https://one.compost.digital/fertile-technofutures-from-bidar
-
 sitemap: true
 ---
 

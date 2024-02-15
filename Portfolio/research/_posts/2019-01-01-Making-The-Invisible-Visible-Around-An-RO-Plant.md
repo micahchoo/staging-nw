@@ -1,12 +1,14 @@
 ---
-layout: note
-source:
-compiler:
-category:
-title: Making The Invisible Visible Around An RO Plant
-tags: portfolio/Research, portfolio/Critical-Design Code 
-toc: false
-season: spring
+layout: post
+title: 'Making The Invisible Visible Around An RO Plant'
+caption: The project aimed initially to investigate how reliance on RO plants could be reduced at a state level.
+description: >
+ The team, with feedback from partners, decided to create a prototype that could highlight the potential adverse effects of extensive RO plant usage.
+date: '01-02-19
+'
+image: 
+  path: /assets/img/projects/ROplant.jpg
+sitemap: true
 ---
 
 # Making The Invisible Visible Around An RO Plant
@@ -18,7 +20,8 @@ season: spring
 
 - Chikkaballapur has approximately 400 RO plants, primarily used to combat water fluoridation and subsequent fluorosis.
 - The RO process wastes a significant amount of water and increases the concentration of Total Dissolved Solids (TDS) in the reject water.
-- This reject water often seeps into the ground or drains, potentially leading to increased salinity in the soil and the further depletion and fluoridation of groundwater reserves.
+- This reject water often seeps into the ground or drains, potentially leading to increased salinity in the
+- soil and the further depletion and fluoridation of groundwater reserves.
 - The research team hypothesized that providing the community with data about the water flow and quality associated with the RO plants could expose these unseen issues.
 
 ## Methodology

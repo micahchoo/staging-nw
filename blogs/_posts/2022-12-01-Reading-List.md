@@ -1,10 +1,11 @@
 ---
-layout: note
-title:
-tags: 
-source:
-compiler:
-category:
+layout: post
+title: 'Seeing, Being, Doing: design - Reading List'
+caption: This is the collected reading and references list for this course
+description: >
+ This is the collected reading and references list for the course that I, along with Navin Kushwah and Naveen Bagalkot, jointly delivered to 4th year Human-Centered Design (HCD) students.
+date: '01-12-2022'
+sitemap: true
 ---
 
 
@@ -169,4 +170,4 @@ category:
 | Document | 01_Chapter_1_final_to_share.pdf | - | - |
 | News Article | Elgin theatre enters the pages of Bangalore's history | [Times of India](https://m.timesofindia.com/city/bengaluru/Elgin-theatre-enters-the-pages-of-Bangalores-history/articleshow/11492667.cms) | Communities, Tools and Techniques |
 
-[[Portfolio/Teaching/_posts/Facilitating a Design Studio - Overview]]
+[Seeing, Being, Doing: design - A course review](2022-01-01-Facilitating-a-Design-Studio-Overview.md)

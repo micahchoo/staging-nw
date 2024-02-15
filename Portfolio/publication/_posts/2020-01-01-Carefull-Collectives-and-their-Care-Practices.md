@@ -10,6 +10,7 @@ image:
     1920w: /assets/img/projects/Capstone/Capstone.jpg
     960w:  /assets/img/projects/Capstone/Capstone@0,5x.jpg
     480w:  /assets/img/projects/Capstone/Capstone@0,25x.jpg
+sitemap: true
 ---
 
 # Care-full Collectives and their Care Practices

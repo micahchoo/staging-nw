@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "33c00f2840fc7a64",
+        "id": "dd00730d77ec1dde",
         "type": "tabs",
         "children": [
           {
@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/UI UX/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
+                "file": "Portfolio/UI UX/_posts/Untitled.md",
                 "mode": "source",
                 "source": true
               }
@@ -22,18 +22,47 @@
         ]
       },
       {
-        "id": "dd00730d77ec1dde",
+        "id": "2da3fff2f261c101",
         "type": "tabs",
         "children": [
           {
-            "id": "62542094d205ff34",
+            "id": "9ad43b372a150a0d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Portfolio/code/_posts/2023-01-01-Public-Makings-Github-Repo-and-Website.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f0df1585cd18d87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Portfolio/publication/_posts/2020-01-01-Carefull-Collectives-and-their-Care-Practices.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f1e373a1f6407b9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Portfolio/publication/_posts/2021-01-01-Compost-Magazine-Technofutures-from-Bidar.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Portfolio/UI UX/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
+                "file": "Portfolio/UI UX/_posts/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Portfolio/UI UX/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
+                "file": "Portfolio/UI UX/_posts/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +168,19 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/UI UX/_posts/2019-01-01-Designing-for-an-Archival-Interface.md"
+                "file": "Portfolio/UI UX/_posts/Untitled.md"
+              }
+            }
+          },
+          {
+            "id": "42d248a2380f619f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -162,51 +203,51 @@
   },
   "active": "5ed04a09d2958d2a",
   "lastOpenFiles": [
-    "Portfolio/UI UX/_posts/2018-01-01-Carpooling-Unalone-Karwaan.md",
-    "404.md",
-    "Portfolio/teaching/_posts/2022-01-01-Facilitating-a-Design-Studio-Overview.md",
+    "_drafts/how to make subversive art.md",
+    "Portfolio/UI UX/_posts/Untitled.md",
+    "Portfolio/UI UX/_posts",
+    "_drafts/drafts/Maintainers.md",
+    "_drafts/Narrative Systems.md",
+    "_drafts/my-new-draft.md",
+    "_drafts/drafts/Checklist for Selecting Tools for Indian Collectives.md",
+    "_drafts/Commoning the Inbetweens - Compost Pitch.md",
+    "_drafts/Condom Ads- A Commentary.md",
+    "_drafts/How Offline Stores get your Personal Data - A Pattern Library.md",
+    "_drafts/Ideas.md",
+    "_drafts/Non-Linear Storytelling.md",
+    "_drafts/drafts/Remediating code through thought, story and film.md",
+    "_drafts/The Evolution and Metaphors of Battery.md",
+    "_drafts/Seedlings.md",
+    "blogs/_posts/2022-12-01-Reading-List.md",
+    "blogs/_posts/2022-01-01-Speculative-Storytelling-in-Wayanad.md",
+    "_drafts/drafts/Establishing a Community-Based Generative Wifi Mesh Network.md",
+    "_drafts/drafts",
+    "_featured_categories/Poem.md",
+    "_site/poem/index.html",
+    "_site/poem",
+    "_site/research-1/index.html",
+    "_site/research-1",
+    "_featured_categories/Research.md",
+    "_site/research/index.html",
+    "_site/research",
+    "_site/teaching-1/index.html",
+    "_site/teaching-1",
+    "blogs/Poem/_posts/2022-01-01-Feeling-through-the-Cities-Koramangala.md",
     "Portfolio/publication/_posts/2021-01-01-Compost-Magazine-Technofutures-from-Bidar.md",
+    "blogs/_posts/2020-02-01-Care-in-Collectives.md",
+    "Portfolio/code/_posts/2023-01-01-Public-Makings-Github-Repo-and-Website.md",
+    "_site/assets/img/projects/Paniyas/Paniyas@0,5x.jpg",
+    "assets/img/projects/Paniyas/Paniyas@0,5x.jpg",
+    "_site/assets/img/projects/Paniyas/Paniyas@0,25x.jpg",
+    "assets/img/projects/Paniyas/Paniyas@0,25x.jpg",
+    "_site/assets/img/projects/Paniyas/Paniyas@0,25x (2).jpg",
+    "assets/img/projects/Paniyas/Paniyas@0,25x (2).jpg",
+    "_site/assets/img/projects/Paniyas/Paniyas.jpg",
+    "assets/img/projects/Paniyas/Paniyas.jpg",
+    "_site/assets/img/projects/Paniyas/Paniyas (2).jpg",
+    "assets/img/projects/Paniyas/Paniyas (2).jpg",
     "Portfolio/publication/_posts/2020-01-01-Carefull-Collectives-and-their-Care-Practices.md",
-    "Portfolio/miscellaneous/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
-    "Portfolio/artifact/_posts/2017-01-02-Designers-Ace.md",
-    "_site/blog/index.html",
-    "_site/blog",
-    "blog/index.html",
-    "_site/portfolio/artifact/2017-02-01-Designers-Ace/index.html",
-    "_site/portfolio/artifact/2017-02-01-Designers-Ace",
-    "_site/portfolio/artifact",
-    "_featured_categories/Artifact.md",
-    "_projects/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md",
-    "posts.md",
-    "projects.md",
-    "_projects/Innovation For Dummies - A podcast.md",
-    "_projects/2022-01-01-hydejack-site.md",
-    "_site/portfolio/teaching/2022-12-01-Facilitating-a-Design-Studio-Overview/index.html",
-    "_site/portfolio/teaching/2022-12-01-Facilitating-a-Design-Studio-Overview",
-    "_site/portfolio/teaching",
-    "_site/portfolio/publication/2021-02-01-Compost-Magazine-Technofutures-from-Bidar/index.html",
-    "_projects/Portfolio/UI UX/_posts/2022-01-01-Designing-for-an-Archival-Interface.md",
-    "Portfolio/UI UX/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
-    "_projects/2022-01-01-Compost-Magazine-Technofutures-from-Bidar.md",
-    "_projects/Portfolio/publication/_posts/2022-01-01-Compost-Magazine-Technofutures-from-Bidar.md",
-    "_projects/Portfolio/UI UX/_posts/2022-01-01-Carpooling-Unalone-Karwaan.md",
-    "_featured_categories/UI UX.md",
-    "_projects/Portfolio/miscellaneous/_posts/2022-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
-    "_projects/Portfolio/miscellaneous/_posts/2022-01-01-Antarsam---Exploring-Alternate-Histories-and-Futures.md",
-    "_projects/2022-01-01-Designing-for-an-Archival-Interface.md",
-    "_featured_categories/Artifact - Copy.md",
-    "_projects/Portfolio/artifact/_posts/2022-01-01-Designers-Ace.md",
-    "_projects/2022-01-01-Designers-Ace.md",
-    "_projects/Portfolio/artifact/2022-01-01-Designers-Ace.md",
-    "_site/assets/icons/icon_x96.png",
-    "_site/assets/icons/icon_x72.png",
-    "_site/assets/icons/icon_x512.png",
-    "_site/assets/icons/icon_x48.png",
-    "_site/assets/icons/icon_x384.png",
-    "_site/assets/icons/icon_x192.png",
-    "_site/assets/icons/icon_x128.png",
-    "assets/icons/icon_x48.png",
-    "assets/icons/icon_x96.png",
-    "assets/icons/icon_x72.png"
+    "Portfolio/research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
+    "Portfolio/presentation/_posts/2020-01-01-The-Imposter-Among-Us.md"
   ]
 }

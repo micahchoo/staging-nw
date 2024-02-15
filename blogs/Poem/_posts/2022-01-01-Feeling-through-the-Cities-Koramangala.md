@@ -1,10 +1,8 @@
 ---
-layout: note
-title:
-tags: Portfolio/Writing/Creative-Writing
-source:
-compiler:
-category:
+layout: post
+title: 'Feeling through the Cities - Koramangala'
+date: '01-02-2021'
+sitemap: true
 ---
 
 # Invisible Cities - Koramangala

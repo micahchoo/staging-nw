@@ -1,17 +1,21 @@
 ---
-layout: note
-source:
-compiler:
-category:
-title: Speculative Storytelling in Wayanad
-tags: portfolio/Research 
-toc: false
-season: spring
+layout: post
+title: ' Speculative Storytelling in Wayanad'
+caption:  Published in Compost.Mag
+description: >
+ This was the output of a 5-week course in Wayanad in Kerala, India in the aftermath of the floods of 2018. The Intervention is an educational tool that asks, How it is possible to build aspirations for the future using storytelling?
+date: '01-02-2021'
+image: 
+  path: /assets/img/projects/Tapestry.png
+sitemap: true
+links:
+  - title: See it here
+    url: https://www.behance.net/gallery/76085663/Speculative-Storytelling
 ---
 
 # Speculative Storytelling in Wayanad
 
-While studying the Paniya community in Kerala, I was first introduced to the severity of caste issues in India. I have covered all my research about the tribe here [[The Disenfranchisement of Adivasis in Kerala]] trying to find ties between their past oppressive histories and their current conditions. 
+While studying the Paniya community in Kerala, I was first introduced to the severity of caste issues in India. I have covered all my research about the tribe here [The Disenfranchisement of Adivasis in Kerala](2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md) trying to find ties between their past oppressive histories and their current conditions. 
 
 With this project in particular, I have also written a complimentary piece that fills up a lot of the gaps here <iframe src="https://www.behance.net/gallery/76085663/Speculative-Storytelling" class="resize-vertical" style="height: 689px;"></iframe>. 
 

@@ -1,19 +1,24 @@
 ---
-layout: note
-aliases: [A Literature Review	]
-source:
-compiler:
-category:
-title: The Disenfranchisement of Adivasis in Kerala 
-tags: portfolio/Research portfolio/Research/Lit-Review portfolio/Writing
-toc: true
-season: spring
-linter-yaml-title-alias: A Literature Review	
+layout: post
+title: 'The Disenfranchisement of Paniyas in Kerala'
+caption: A literature review
+description: >
+ This literature review provides insights into various aspects of the Paniya tribe, covering topics such as population, caste names and structures in Wayanad, periods of Paniya history, inter-tribal disparity, work and employment for Adivasis, alienation through the education system, public perceptions, plantation economy, exclusion from the financial system, and health issues.
+image: 
+  path: /assets/img/projects/Paniyas/Paniyas.jpg
+  srcset: 
+    1920w: /assets/img/projects/Paniyas/Paniyas.jpg
+    960w:  /assets/img/projects/Paniyas/Paniyas@0,5x.jpg
+    480w:  /assets/img/projects/Paniyas/Paniyas@0,25x.jpg
+date: '01-12-2018'
+sitemap: true
 ---
 
 >Disclaimer: I have put links to the referred journals and articles wherever I can. It may not be possible to read all of them at a go so I recommend reading through the article and then choosing the links you want to read.
 
 # A Literature Review	
+* seed
+{:toc}
 
 This literature review provides insights into various aspects of the Paniya tribe, covering topics such as population, caste names and structures in Wayanad, periods of Paniya history, inter-tribal disparity, work and employment for Adivasis, alienation through the education system, public perceptions, plantation economy, exclusion from the financial system, and health issues.
 

@@ -1,14 +1,13 @@
 ---
-layout: note
-aliases: [The Impostor Among Us]
-source:
-compiler:
-category:
-title: The Imposter Among Us
-tags: portfolio/Public-Speaking
-toc: true
-season: spring
-linter-yaml-title-alias: The Impostor Among Us
+layout: post
+title: 'The Imposter Among Us'
+caption: These are notes from a presentation (Design Baithak) hosted by Micah and Paul
+description: >
+ "How do platforms compel/enable the manufacturing of "truth" and "ignorance"? And what does that mean in the context of live-streaming politicians"
+date: '01-01-2020'
+image: 
+  path: /assets/img/projects/Impostor.png
+sitemap: true
 ---
 
 # The Impostor Among Us
@@ -21,8 +20,6 @@ linter-yaml-title-alias: The Impostor Among Us
 [The announcement](https://twitter.com/blnaveen/status/1321689139327066112)
 
 ---
-
-# TL;DR
 
 There are two parts we are juxtaposing. Firstly the idea of politicians on Twitch (a live-streaming platform) put into the context of Twitch's various affordances and subcultures. The second part takes the idea of manufactured "authenticity" and manufactured "ignorance" that are enabled/compelled by platform cultures and interfaces. 
 
@@ -142,5 +139,5 @@ Quotes from the Article
 
 	- “There’s the obvious link to the Bihar elections, and it gives them a good opportunity to create a parallel narrative, besides targeting the Mumbai Police and the Maharashtra government, something that has been a constant since Thackeray became CM,” says the digital political strategist quoted earlier in the story. A recent report by social media researcher Joyojeet Pal and his team highlighted that the data showed “the important role played by politicians, especially the BJP, in proposing a ‘murder’ alternative to the ‘suicide’ narrative.”
 
----
+
 
