@@ -6,7 +6,7 @@ description: >
  In my internship with Habba in 2018, I undertook the task of redesigning their website to improve user experience and highlight the unique aspects of their platform. The goal was to create an engaging interface that effectively communicated the values and offerings of Habba, a platform dedicated to supporting artisans and promoting handmade products.
 date: '01-02-2018'
 image: 
-  path: assets/img/projects/2018-01-01-Habba-Redesign/4949188e8a2736a410126f5cfc045c4a_MD5.png
+  path: /assets/img/projects/2018-01-01-Habba-Redesign/Habbahero.png
 links:
   - title: Read it here
     url: 
@@ -23,8 +23,10 @@ In my internship with Habba in 2018, I undertook the task of redesigning their w
 
 The redesigned website incorporated visually appealing elements such as carousels and product grids to showcase the diverse range of products available. The main focus was to highlight Habba’s three key promises: supporting artisans, ensuring product authenticity, and transparent pricing.
 
-![Full-width image](assets/img/projects/2018-01-01-Habba-Redesign/4949188e8a2736a410126f5cfc045c4a_MD5.png){:.lead width="800" height="100" loading="lazy"}
+<a class="spotlight" href="/assets/img/projects/2018-01-01-Habba-Redesign/Habba.png">![Full Website Prototype](/assets/img/projects/2018-01-01-Habba-Redesign/Habba.png)</a>
 
+Full Website Prototype
+{:.figcaption}
 
 To enhance the user’s browsing experience, I introduced a feature that allowed users to choose from different styles for outfits, specifically kurtas. This customization option provided visitors with a personalized shopping experience.
 
