@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/UI UX/website/_posts/2023-01-01-SADHR.md",
+                "file": "Portfolio/UI UX/_posts/2022-01-01-Papad.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b096fc4489fdc009",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Portfolio/research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -38,8 +51,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "0b59a8bb0ba84399",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Portfolio/UI UX/_posts/2021-01-01-Milli.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Portfolio/UI UX/website/_posts/2023-01-01-SADHR.md",
+                "file": "Portfolio/UI UX/_posts/2022-01-01-Papad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Portfolio/UI UX/website/_posts/2023-01-01-SADHR.md",
+                "file": "Portfolio/UI UX/_posts/2022-01-01-Papad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/UI UX/website/_posts/2023-01-01-SADHR.md"
+                "file": "Portfolio/UI UX/_posts/2022-01-01-Papad.md"
               }
             }
           },
@@ -182,43 +209,44 @@
   },
   "active": "4f1cac5d5329ef08",
   "lastOpenFiles": [
-    "_site/portfolio/ui ux/website/2018-02-01-SADHR/index.html",
-    "_site/portfolio/ui ux/website/2018-02-01-SADHR",
+    "Portfolio/UI UX/_posts/2021-01-01-Milli.md",
+    "Portfolio/UI UX/_posts/2022-01-01-Papad.md",
+    "Portfolio/research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
     "Portfolio/UI UX/_posts/2018-01-01-Habba-Redesign.md",
-    "Portfolio/UI UX/website/_posts/2023-01-01-SADHR.md",
-    "Portfolio/UI UX/website/code/_posts/2023-01-01-Public-Makings-Github-Repo-and-Website.md",
+    "_site/portfolio/ui ux/2022-01-01-Papad/index.html",
+    "_site/portfolio/ui ux/2022-01-01-Papad",
+    "Portfolio/website/_posts/2023-01-01-SADHR.md",
+    "_site/portfolio/code/2023-12-01-Public-Makings-Github-Repo-and-Website/index.html",
+    "_site/portfolio/code/2023-12-01-Public-Makings-Github-Repo-and-Website",
+    "_site/portfolio/code",
+    "_site/portfolio/website/code/2023-12-01-Public-Makings-Github-Repo-and-Website/index.html",
+    "_site/portfolio/website/2021-02-01-Pune-Covid-Relief/index.html",
+    "_site/portfolio/website/code/2023-12-01-Public-Makings-Github-Repo-and-Website",
+    "_site/portfolio/website/2022-02-01-Design-Beku-Website/index.html",
+    "_site/portfolio/website/2018-02-01-SADHR/index.html",
+    "assets/img/projects/2023-01-01-SADHR/5d4be9a5da03776a144c492472457cc3_MD5.jpeg",
+    "_site/assets/img/projects/2023-01-01-SADHR/5d4be9a5da03776a144c492472457cc3_MD5.jpeg",
+    "_site/assets/img/projects/Pasted image 20240218130240.png",
+    "assets/img/projects/Pasted image 20240218130240.png",
+    "Portfolio/UI UX/_posts/2018-01-01-Carpooling-Unalone-Karwaan.md",
+    "_site/assets/img/projects/2023-01-01-SADHR/fa4a48560414e6a8fcbafeb80ffe0a0b_MD5.svg",
+    "_site/assets/img/projects/noun-chai-101024.svg",
+    "assets/img/projects/2023-01-01-SADHR/fa4a48560414e6a8fcbafeb80ffe0a0b_MD5.svg",
+    "_featured_categories/UI UX.md",
+    "Portfolio/code/_posts/2023-01-01-Public-Makings-Github-Repo-and-Website.md",
     "Portfolio/presentation/_posts/2020-01-01-The-Imposter-Among-Us.md",
-    "_site/portfolio/ui ux/website/code/2023-12-01-Public-Makings-Github-Repo-and-Website/index.html",
-    "_site/portfolio/ui ux/website/code/2023-12-01-Public-Makings-Github-Repo-and-Website",
-    "_site/portfolio/ui ux/website/code",
-    "_site/portfolio/presentation/teaching/2022-12-01-Facilitating-a-Design-Studio-Overview/index.html",
-    "_site/portfolio/presentation/teaching/2022-12-01-Facilitating-a-Design-Studio-Overview",
-    "_site/portfolio/presentation/teaching",
     "Portfolio/presentation/_posts/2024-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md",
     "_drafts/drafts/Rock of the Nations Church Website.md",
-    "Portfolio/UI UX/_posts/2018-01-01-Carpooling-Unalone-Karwaan.md",
-    "Portfolio/UI UX/website/_posts/2021-01-01-Pune-Covid-Relief.md",
-    "_site/portfolio/ui ux/website/2021-02-01-Pune-Covid-Relief/index.html",
-    "_site/portfolio/ui ux/website/2021-02-01-Pune-Covid-Relief",
+    "Portfolio/website/_posts/2021-01-01-Pune-Covid-Relief.md",
     "_site/assets/img/projects/Micah Alex  Rock of the Nations Church Website/764b69f6da6456382b847d42762e6f2d_MD5.jpg",
     "_site/assets/img/projects/Micah Alex  Rock of the Nations Church Website/06a9b546bf27724561f1a4c01a81c6d6_MD5.jpg",
-    "_site/assets/img/projects/Micah Alex  Rock of the Nations Church Website",
     "assets/img/projects/Micah Alex  Rock of the Nations Church Website/764b69f6da6456382b847d42762e6f2d_MD5.jpg",
-    "assets/img/projects/Micah Alex  Rock of the Nations Church Website/06a9b546bf27724561f1a4c01a81c6d6_MD5.jpg",
     "blogs/_posts/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md",
     "Portfolio/research/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
     "_featured_categories/Website.md",
-    "Portfolio/UI UX/_posts/2022-01-01-Papad.md",
-    "_site/assets/img/projects/Micah Alex  Pune Covid Relief/e66bf7669ce3f1909eb5d34d4ff40fa8_MD5.jpg",
-    "_site/assets/img/projects/Micah Alex  Pune Covid Relief/83c0cdf2597b58c93227a053ac9a02db_MD5.jpg",
-    "_site/assets/img/projects/Micah Alex  Pune Covid Relief/479a68aa15f636e3ed89af42246c14a2_MD5.jpg",
-    "_site/assets/img/projects/Micah Alex  Pune Covid Relief/2a79011cbc52226ada6b3d0f6be7b1f4_MD5.jpg",
-    "assets/img/projects/Micah Alex  Pune Covid Relief/479a68aa15f636e3ed89af42246c14a2_MD5.jpg",
-    "assets/img/projects/Micah Alex  Pune Covid Relief/2a79011cbc52226ada6b3d0f6be7b1f4_MD5.jpg",
-    "Portfolio/UI UX/website/_posts/2023-01-01-Design Beku Website.md",
+    "Portfolio/website/_posts/2023-01-01-Design Beku Website.md",
     "blogs/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
     "_drafts/drafts/Micah Alex  Karwaan - Carpooling.md",
-    "Portfolio/UI UX/_posts/2021-01-01-Milli.md",
     "Portfolio/UI UX/_posts/Untitled.md",
     "Portfolio/publication/_posts/2021-01-01-Compost-Magazine-Technofutures-from-Bidar.md",
     "_drafts/drafts/Micah Alex  Rock of the Nations Church Website(1).md",
@@ -226,7 +254,6 @@
     "_featured_categories/Teaching.md",
     "blogs/_posts/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network.md",
     "blogs/_posts/2020-01-01-Maintainers.md",
-    "blogs/_posts/2021-01-01-Checklist-for-Selecting-Tools-for-Indian-Collectives.md",
-    "blogs/_posts/2021-01-01-Remediating-code-through-thought-story-and-film.md"
+    "blogs/_posts/2021-01-01-Checklist-for-Selecting-Tools-for-Indian-Collectives.md"
   ]
 }

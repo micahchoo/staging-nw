@@ -13,8 +13,13 @@ sitemap: true
 
 
 ## Why hasn’t carpooling gained popularity in India?
+* seed
+{:toc}
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="450" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FlGZklLSlFA2yjPxmcyykud%2FKarwaan%3Ftype%3Ddesign%26node-id%3D1-2318%26t%3DmBKBIBjbD6xK6YN2-1%26scaling%3Dmin-zoom%26page-id%3D35%253A0%26starting-point-node-id%3D1%253A2318%26mode%3Ddesign" allowfullscreen></iframe>
+To begin the research, we conducted secondary research to gather insights into the preferences and motivations of potential carpoolers, the types of passengers who might be interested in carpooling, the incentives for carpooling, and the challenges faced in the pre-technology era. They also explored the factors specific to India that could affect the adoption of carpooling.
+
+
+Through further research, including interviews and interactions with IT professionals participating in carpooling, the team discovered that cohort-based carpooling was successful in India, particularly in the IT sector. Factors such as traveling with like-minded individuals, corporate culture support, platform tie-ups with IT firms, shared destinations, shared context beyond carpooling, and regular commute patterns played a crucial role in boosting carpooling adoption within this specific group.
 
 We carried out some secondary research to find possible answers to this question. We looked at various aspects:
 
@@ -26,21 +31,31 @@ We carried out some secondary research to find possible answers to this question
 - How many of these were solved by Technology?
 - What remains to be solved?
 - Since most of these papers were from elsewhere, what were the defining factors in India?
-* seed
-{:toc}
+
+
+
+## The Principles for Our System Design
+With these insights, the team developed the concept of “Karwaan,” a community-based carpooling platform focused on event-based travel in Bangalore. The platform aimed to facilitate ride-sharing to events, cost splitting, and community-building among participants. The team designed user journeys for booking events, pooling rides, and fostering friendships during the journey. They incorporated monetary and non-monetary nudges within the app to incentivize participation and engagement.
+
+1. It had to be fun
+2. It had to be community-based
+
 ## Key Findings:
 
-1. **Aspirational value of a car:** Cars are seen as a status symbol in society, and owning one is often an aspiration.
+| Aspect | Description |
+| ---- | ---- |
+| Aspirational Value | Cars are perceived as status symbols, and ownership is often an aspiration in society. |
+| Safety | The risk of getting into a stranger's car is a concern, particularly in India. |
+| Inconvenience | Maintaining pool discipline, negotiating pick-up points, potential delays, and longer routes. |
+| Legal Ambiguity | Carpooling platforms operate despite restrictions on private vehicles for commercial use. |
+| Lack of Awareness | Many individuals are unaware of formalized platform-based carpooling services. |
+| Social Barriers | Class differences, building trust among poolmates, negotiating timing, and cost splitting. |
 
-2. **Safety:** The inherent danger of getting into a stranger’s car is ever-present, especially in India.
+Based on their findings, the team identified trust and cooperation as significant barriers to carpooling in India. They also discovered successful models in India that fostered trust and cooperation among carpooling participants. With these insights, the team created clusters of factors that influenced carpooling adoption, including the aspirational value of a car, safety concerns, inconvenience, legal ambiguity, lack of awareness, and social barriers.
 
-3. **Inconvenience:** Factors like maintaining pool discipline, negotiating pick-up points, potential delay due to co-poolers, and longer routes are a source of inconvenience.
+To narrow down their focus, the team eliminated factors that were not major bottlenecks to carpooling adoption, such as the aspirational value of a car and safety concerns. They also considered the legal ambiguity surrounding carpooling, which required policy changes beyond the scope of their project. This led them to shift their perspective and explore the concept of cohort/community traveling as a dominant factor in carpooling adoption.
 
-4. **Legal Ambiguity:** Despite restrictions on private vehicles from undertaking commercial business, many carpooling platforms are running in India. This has kept prices low, but has led to enforcement actions from the government.
 
-5. **Lack of Awareness:** Many people are not aware of formalized platform-based carpooling.
-
-6. **Social Barriers:** Factors related to class differences, building trust among poolmates, and the responsibility of negotiating a system of timing and splitting costs can also hinder carpooling.
 
 ## Successful Carpooling Environments in India
 
@@ -59,12 +74,9 @@ As Vivek Kumar, a marketing manager at Wunder, stated:
 
 >“We are in for a longer game, we are here to build a culture and community of carpoolers than looking at profitability at the moment”.
 
-## The Principles for Our System Design
+We came up with a [piece that details the research more](https://medium.com/exploring-ride-sharing-systems-at-scale/creating-a-community-based-carpooling-system-afbac6b732cb) as a team. 
 
-1. It had to be fun
-2. It had to be community-based
-
-We initially came up with a [prototype](https://medium.com/exploring-ride-sharing-systems-at-scale/creating-a-community-based-carpooling-system-afbac6b732cb) as a team. I also created my own prototype using Figma, available [here](https://www.figma.com/file/lGZklLSlFA2yjPxmcyykud/Karwaan?node-id=1%3A2318).
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="450" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FlGZklLSlFA2yjPxmcyykud%2FKarwaan%3Ftype%3Ddesign%26node-id%3D1-2318%26t%3DmBKBIBjbD6xK6YN2-1%26scaling%3Dmin-zoom%26page-id%3D35%253A0%26starting-point-node-id%3D1%253A2318%26mode%3Ddesign" allowfullscreen></iframe>
 
 ## Contributors
 
