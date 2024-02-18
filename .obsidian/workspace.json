@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/UI UX/_posts/2018-01-01-Habba-Redesign.md",
+                "file": "Portfolio/UI UX/research/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -26,14 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/UI UX/_posts/2022-01-01-Papad.md",
+                "file": "Portfolio/UI UX/_posts/2021-01-01-Milli.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "2da3fff2f261c101",
@@ -61,7 +62,7 @@
                 "file": "Portfolio/UI UX/_posts/2022-01-01-Papad.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           }
@@ -132,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Portfolio/UI UX/_posts/2018-01-01-Habba-Redesign.md",
+                "file": "Portfolio/UI UX/_posts/2021-01-01-Milli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Portfolio/UI UX/_posts/2018-01-01-Habba-Redesign.md",
+                "file": "Portfolio/UI UX/_posts/2021-01-01-Milli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/UI UX/_posts/2018-01-01-Habba-Redesign.md"
+                "file": "Portfolio/UI UX/_posts/2021-01-01-Milli.md"
               }
             }
           },
@@ -207,37 +208,39 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "5ed04a09d2958d2a",
+  "active": "6ee07fe90b893b3e",
   "lastOpenFiles": [
+    "_site/portfolio/ui ux/2021-02-01-Milli/index.html",
+    "_site/portfolio/ui ux/2021-02-01-Milli",
+    "_site/portfolio/ui ux/2024-02-18-2021-01-01-Milli/index.html",
+    "_site/portfolio/ui ux/2024-02-18-2021-01-01-Milli",
     "Portfolio/UI UX/_posts/2022-01-01-Papad.md",
+    "Portfolio/UI UX/_posts/2021-01-01-Milli.md",
+    "Portfolio/UI UX/research/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
+    "_site/assets/js/spotlight.bundle.js",
+    "assets/js/spotlight.bundle.js",
+    "assets/js",
+    "assets/New folder",
+    "_site/spotlight.bundle.js",
+    "spotlight.bundle.js",
+    "_site/openseadragon-bin-4.1.0/images/zoomout_rest.png",
+    "_site/openseadragon-bin-4.1.0/images/zoomout_hover.png",
+    "_site/openseadragon-bin-4.1.0/images/zoomout_pressed.png",
+    "_site/openseadragon-bin-4.1.0/images/zoomout_grouphover.png",
+    "_site/openseadragon-bin-4.1.0/images/zoomin_rest.png",
+    "_site/openseadragon-bin-4.1.0/images/zoomin_pressed.png",
+    "_site/openseadragon-bin-4.1.0/images/zoomin_hover.png",
+    "_site/openseadragon-bin-4.1.0/images/zoomin_grouphover.png",
+    "_site/openseadragon-bin-4.1.0/images/rotateright_rest.png",
+    "_site/openseadragon-bin-4.1.0/images/rotateright_pressed.png",
+    "_site/openseadragon-bin-4.1.0/openseadragon.min.js.map",
     "Portfolio/UI UX/_posts/2018-01-01-Habba-Redesign.md",
-    "assets/img/projects/2018-01-01-Habba-Redesign/4949188e8a2736a410126f5cfc045c4a_MD5.png",
     "_drafts/drafts/2023-01-01-Design Beku Website.md",
-    "_site/assets/img/projects/2018-01-01-Habba-Redesign/4949188e8a2736a410126f5cfc045c4a_MD5.png",
-    "_site/assets/img/projects/2018-01-01-Habba-Redesign",
-    "assets/img/projects/2018-01-01-Habba-Redesign",
-    "_site/assets/img/projects/2023-01-01-Design Beku Website/ab506e00a0b86b73cc9621feb06b0940_MD5.png",
-    "_site/assets/img/projects/2023-01-01-Design Beku Website/7fac2da6636dd8ba9827b15c94681f2a_MD5.png",
-    "_site/assets/img/projects/2023-01-01-Design Beku Website",
-    "assets/img/projects/2023-01-01-Design Beku Website/7fac2da6636dd8ba9827b15c94681f2a_MD5.png",
-    "assets/img/projects/2023-01-01-Design Beku Website/ab506e00a0b86b73cc9621feb06b0940_MD5.png",
-    "assets/img/projects/2023-01-01-Design Beku Website",
-    "_site/assets/img/projects/2022-01-01-Papad/5a7f6ca89656832cb8766b568c7262ee_MD5.png",
-    "_site/assets/img/projects/2022-01-01-Papad/f81403d094e91b0850045e385b561f80_MD5.png",
-    "_site/assets/img/projects/2022-01-01-Papad/8a96afee2cd78614bfedbcc59bc09dfa_MD5.png",
-    "_site/assets/img/projects/2022-01-01-Papad/58e243f2d8704c61edbdcc87a567fd17_MD5.png",
-    "_site/assets/img/projects/2022-01-01-Papad",
-    "assets/img/projects/2022-01-01-Papad",
-    "_site/portfolio/ui ux/2018-02-01-Habba-Redesign/index.html",
-    "_site/portfolio/ui ux/2018-02-01-Habba-Redesign",
-    "_site/portfolio/ui ux/2022-02-01-Papad/index.html",
-    "_site/portfolio/ui ux/2022-02-01-Papad",
     "Portfolio/publication/_posts/2021-01-01-Compost-Magazine-Technofutures-from-Bidar.md",
     "_drafts/drafts/Micah Alex  Rock of the Nations Church Website(1).md",
     "_drafts/drafts/Micah Alex  Pune Covid Relief.md",
     "_drafts/drafts/Micah Alex  Karwaan - Carpooling.md",
     "_drafts/drafts/Micah Alex  Rock of the Nations Church Website.md",
-    "_drafts/drafts/Micah Alex  Milli - A Cross-Annotation Tool for different....md",
     "_featured_categories/Blogs.md",
     "_featured_categories/Teaching.md",
     "blogs/_posts/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network.md",
@@ -252,7 +255,6 @@
     "_drafts/how to make subversive art.md",
     "_drafts/Condom Ads- A Commentary.md",
     "Portfolio/code/_posts/2023-01-01-Public-Makings-Github-Repo-and-Website.md",
-    "Portfolio/UI UX/_posts/Untitled.md",
-    "_drafts/drafts/Maintainers.md"
+    "Portfolio/UI UX/_posts/Untitled.md"
   ]
 }

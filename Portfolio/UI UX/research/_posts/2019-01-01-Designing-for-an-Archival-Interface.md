@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Designing a Connected Archive'
-caption:  An Speculative Dimension of Decentralized Food Production
+caption:  Thoughts on designing a democratic archive
 description: >
   During our time at Milli.Tech, we aimed to design a platform that democratized access to archives.
 date: '01-02-2019'
@@ -58,13 +58,19 @@ See the design showcase [here](https://khattamicah.tumblr.com/post/7119889908117
 
 After the International Archives Week 2020, a collaboration formed between Venkat from NCBS, Dinesh and Bhanu from Janastu, and Prasoon, formerly of QAMRA. Together, they set out to build a platform and create a consortium of archives under the banner of **Milli**. Shafali and I joined as UX Designers during this period. Milli.Tech operated from September 2020 to October 2021.
 
-During our time at Milli.Tech, we aimed to design a platform that democratized access to archives.
-![Milli (12).png](/assets/img/projects/Milli/Milli (12).png)
- This is the story of our journey, focusing specifically on my experience with the topic.
-![Milli (4).png](/assets/img/projects/Milli/Milli (4).png)
-When I started, I had a vague understanding of what an archive was, and I still find it difficult to differentiate between an archive, a museum, and a library. However, I understood that Milli wanted archives to be more like libraries or the inside of a well-loved book—a place for marginalia, play, learning, and creativity.
-![Milli (8).png](/assets/img/projects/Milli/Milli (8).png)
+<a class="spotlight" href="/assets/img/projects/Milli/Milli (12).png">![How to structure such an archive](/assets/img/projects/Milli/Milli (12).png)</a>How to structure such an archive
+{:.figcaption}
 
+<a class="spotlight" href="/assets/img/projects/Milli/Milli (4).png">![The Archive for who?](/assets/img/projects/Milli/Milli (4).png)</a>The Archive for who?
+{:.figcaption}
+
+During our time at Milli.Tech, we aimed to design a platform that democratized access to archives.
+ This is the story of our journey, focusing specifically on my experience with the topic.
+When I started, I had a vague understanding of what an archive was, and I still find it difficult to differentiate between an archive, a museum, and a library. However, I understood that Milli wanted archives to be more like libraries or the inside of a well-loved book—a place for marginalia, play, learning, and creativity.
+
+<a class="spotlight" href="/assets/img/projects/Milli/Milli (8).png">![Initial principles](/assets/img/projects/Milli/Milli (8).png)</a>
+Initial principles
+{:.figcaption}
 ## The Process
 
 We considered various aspects, starting with user stories based on the following hypothesis:
@@ -83,14 +89,25 @@ We considered various aspects, starting with user stories based on the following
 9. As a site administrator of Milli, I want to approve or reject annotations (tags, comments) to prevent spam.
 
 Our overarching goal was to create interconnections among diverse archives, be it private, institutional, governmental, or personal. We aimed to foster a community of users who annotate, discover, and narrate stories using collections of annotations, thus transforming the archival landscape into an interactive space. 
-![Milli (3).png](/assets/img/projects/Milli/Milli (3).png)
+
+<a class="spotlight" href="/assets/img/projects/Milli/Milli (3).png">![Possibilities - Hyperlocal Storytelling](/assets/img/projects/Milli/Milli (3).png)</a>
+Possibilities - Hyperlocal Storytelling
+{:.figcaption}
 
 During our user research, we gleaned several key insights that shaped our design:
 
 1. **Focus on Metadata:** Most archives prefer to share only their metadata. Consequently, we aimed to create an interface that enabled users to annotate this metadata. 
-![Milli (1).png](/assets/img/projects/Milli/Milli (1).png)
+
+<a class="spotlight" href="/assets/img/projects/Milli/Milli (1).png">![What is the Milli Contolled vocabulary](/assets/img/projects/Milli/Milli (1).png)</a>
+What is the Milli Contolled vocabulary
+{:.figcaption}
+
 2. **Flexible Annotation Mechanism:** Users might want to annotate different archival items for various purposes. This was also highlighted in the W3C Standards for Web Annotation. 
-![Milli (2).png](/assets/img/projects/Milli/Milli (2).png)
+3. 
+<a class="spotlight" href="/assets/img/projects/Milli/Milli (2).png">![How to capture why someone annotates](/assets/img/projects/Milli/Milli (2).png)</a>
+How to capture the reason why someone annotates
+{:.figcaption}
+
 3. **Metadata Standard Agnostic:** We observed that different archives employ different metadata standards, such as EAD, FOAF, and Dublincore. As a result, our import mechanism needed to be agnostic to these varying standards.
 
 Based on these insights, we concentrated on several key areas:
@@ -105,24 +122,33 @@ The archival object page is the focal point of interaction. We sought to create 
 - User flows for private curation, notetaking, and collection, including mechanisms to subscribe to new annotations, make private annotations, and save objects to a 'jhola' (a metaphor for a bag).
 
 ## Annotation Widget
-![Milli (6).png](/assets/img/projects/Milli/Milli (6).png)
+<a class="spotlight" href="/assets/img/projects/Milli/Milli (5).png">![Different types of annotable selectors for metadata and data](/assets/img/projects/Milli/Milli (5).png)</a>
+Different types of annotable selectors for metadata and data
+{:.figcaption}
+
+Mocking up what search results would look like
 The annotation widget is the tool that enables users to interact with the archival items. We aimed to create a design that would allow:
 
 - Each annotation to be structured broadly as a key-value pair,
 - Annotation of the entire object and also parts of the object’s description.
 
 ## Search Hits
-![Milli (5).png](/assets/img/projects/Milli/Milli (5).png)
+
+<a class="spotlight" href="/assets/img/projects/Milli/Milli (6).png">![Mocking up what search results would look like](/assets/img/projects/Milli/Milli (6).png)</a>
+Mocking up what search results would look like
+{:.figcaption}
+
+
 When users search for archival items, the results need to provide rich context. We aimed to improve this area by:
 
 - Using the metadata categorization made for the Archival Object page to add more context in an accordion on the results card,
 - Indicating whether the search had hits on the annotations in the object.
-![Milli (9).png](/assets/img/projects/Milli/Milli (9).png)
+
 In summary, we focused on making archival items interactive, facilitating annotations on metadata, and ensuring the user interface is intuitive and informative. This endeavor aims to transform the archival landscape into a more connected, accessible, and engaging space.
 
-
-
-
+<a class="spotlight" href="/assets/img/projects/Milli/Milli (9).png">![Thinking through different access types in search results](/assets/img/projects/Milli/Milli (9).png)</a>
+Thinking through different access types in search results
+{:.figcaption}
 
 
 
