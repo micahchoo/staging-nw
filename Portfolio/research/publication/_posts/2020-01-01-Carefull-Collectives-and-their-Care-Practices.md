@@ -42,9 +42,8 @@ The section further expands on the methodology of the research, discussing diffe
 
 The conclusion summarizes the findings and insights from the research. It reflects on the understanding of care in different networks and proposes alternative organizational structures and rituals based on the research. It introduces the concepts of archetypes and axioms as tools for understanding care roles in collectives and alternatives for organizing institutions for mutual aid.
 
-<a href="/web/viewer.html?file=%2Fassets%2FThesisfinal.pdf">Open Dissertation in Full Screen</a>
+<a href="/assets/Thesisfinal.pdf">Open Dissertation in Full Screen</a>
 
-<iframe  id="pdf-js-viewer" src="/web/viewer.html?file=%2Fassets%2FThesisfinal.pdf"  frameborder="100" width="600" height="1366" title="webviewer" enable-annotation ></iframe>
 
 
 

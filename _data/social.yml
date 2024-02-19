@@ -6,6 +6,10 @@ email:
 amazon:
   name: Amazon
   icon: icon-amazon
+arena:
+  name: Arena
+  icon: icon-asterisk
+  prepend: "https://are.na/"
 google:
   name: Google
   icon: icon-google
