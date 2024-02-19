@@ -10,7 +10,7 @@ slug: website
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
- Hello
+ These are the various websites I have deployed over the years
 menu: true
 order: 1
 # (Optional) You can disable grouping posts by date.

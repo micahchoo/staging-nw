@@ -49,14 +49,18 @@ author:
 
 # Add links to the sidebar.
 menu:
-#  - title:             Blog
-#    url:               /blog/
-#  - title:             Projects
-#    url:               /projects/
+  - title:             Blogs
+    url:               /blogs/
+  - title:             Research
+    url:               /research/
+  - title:             Workshops and Classes
+    url:               /presentation/
+  - title:             UI/UX Design 
+    url:               /UI-UX Design/
 #  - title:             Résumé*
 #    url:               /resume/
-  - title:             Documentation
-    url:               /docs/
+#  - title:             Documentation
+#    url:               /docs/
   - title:             Portfolio
     url:               /portfolio/
 

@@ -11,8 +11,6 @@ categories: [User Research]
 sitemap: true
 ---
 
-
-## Why hasn’t carpooling gained popularity in India?
 * seed
 {:toc}
 
@@ -69,6 +67,24 @@ Apps like Quick Ride, Ho Ho rides and Wunder are promoting carpooling among IT p
 - Regular Commute and Routine times
 
 This led us to understand the importance of 'cohort/community travelling' as a key component in carpooling. Trust, shared community and culture became a significant part of our system design.
+
+
+<a class="spotlight" href="/assets/img/projects/Karwaan/Karwaan(1).jpg">
+  <img src="/assets/img/projects/Karwaan/Karwaan(1).jpg" alt="Possibilities - Hyperlocal Storytelling" style="width:300px">
+</a>
+
+
+Storytelling based matchmaking
+{:.figcaption}
+
+<a class="spotlight" href="/assets/img/projects/Karwaan/Karwaan(2).jpg">
+  <img src="/assets/img/projects/Karwaan/Karwaan(2).jpg" alt="Possibilities - Hyperlocal Storytelling" style="width:300px">
+</a>
+
+
+Booked page
+{:.figcaption}
+
 
 As Vivek Kumar, a marketing manager at Wunder, stated:
 
