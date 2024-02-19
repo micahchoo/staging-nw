@@ -22,9 +22,11 @@ author1:
   social:
    # twitter:         <username>
     github:          micahchoo
-    # email:           <mail@domain.tld>
-    # rss:             https://<url>/feed.xml
-    # facebook:        <username>
+    email:           micah.dvpp7@aleeas.com
+    linkedin:        micahalex
+    flickr:             micahchoo
+    arena:              micah-alex
+    wikipedia:        miximon
     # google:          <number>
     # vk:              <username>
     # youtube:         <string_string_string>
@@ -32,10 +34,9 @@ author1:
     # vine:            <username>
     # spotify:         <user>/<number>
     # soundcloud:      <username>
-    # lastfm:          <username>
+    # lastfm:          MicahAlex
+    rss:             /feed.xml
     # instagram:       <username>
-    flickr:             micahchoo
-    arena:              micah-alex
     # 500px:           <username>
     # dribbble:        <username>
     # behance:         <username>
@@ -52,7 +53,6 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    linkedin:        micahalex
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>

@@ -1,6 +1,6 @@
 ---
 # Featured tags need to have either the `list` or `grid` layout (PRO only).
-layout: list
+layout: grid
 
 # The title of the tag's page.
 title: Portfolio
@@ -10,9 +10,9 @@ slug: Portfolio
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
- Hello
+ 
 menu: true
 order: 1
 # (Optional) You can disable grouping posts by date.
-no_groups: true
+no_groups: false
 ---

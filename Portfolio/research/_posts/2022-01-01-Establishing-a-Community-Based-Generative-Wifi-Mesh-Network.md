@@ -5,8 +5,6 @@ caption:
 description: >
  A speculative framework to imagine contributors to a community network
 date: '01-01-2022'
-image: 
-  path: 
 links:
   - title: 
     url:

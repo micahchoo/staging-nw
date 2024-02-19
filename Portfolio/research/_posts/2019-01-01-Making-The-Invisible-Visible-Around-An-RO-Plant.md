@@ -4,7 +4,7 @@ title: 'Making The Invisible Visible Around An RO Plant'
 caption: The project aimed initially to investigate how reliance on RO plants could be reduced at a state level.
 description: >
  The team, with feedback from partners, decided to create a prototype that could highlight the potential adverse effects of extensive RO plant usage.
-date: '01-02-19
+date: '01-02-2019
 '
 image: 
   path: /assets/img/projects/ROplant.jpg

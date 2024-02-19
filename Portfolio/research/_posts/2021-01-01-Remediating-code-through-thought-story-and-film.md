@@ -5,8 +5,6 @@ caption:  Through thought, story and film
 description: >
  How do you introduce computational thinking in low-literate contexts using non-linear, media-centric programming metaphors
 date: '2021-01-01'
-image: 
-  path: 
 links:
   - title: 
     url:

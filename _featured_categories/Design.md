@@ -10,7 +10,7 @@ slug: design
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
- This is where things are
+
 menu: true
 order: 1
 # (Optional) You can disable grouping posts by date.

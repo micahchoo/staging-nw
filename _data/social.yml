@@ -160,6 +160,7 @@ hackernews:
 wikipedia:
   name: Wikipedia
   icon: icon-wikipedia
+  prepend: "https://en.wikipedia.org/wiki/Special:Contributions/"
 linkedin:
   name: LinkedIn
   icon: icon-linkedin2

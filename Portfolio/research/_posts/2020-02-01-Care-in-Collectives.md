@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Care in Collectives'
-caption:  Published in Compost.Mag
+caption:  Archetypes of care are roles that individuals take within collectives, embodying various care practices that nurture our shared environments
 description: >
   The flora, fauna, and even the technological entities in our environment are part of this care system, each bringing unique contributions to the collective narrative.
 date: '01-02-2020'

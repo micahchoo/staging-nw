@@ -3,7 +3,7 @@ layout: post
 title: 'Portfolio - Workshops, Classes, Panels and Publications'
 description: >
   A list of the Workshops, Classes, Panels and Publications that I organized, spoke, wrote
-date: '01-01-2020'
+date: '01-01-2022'
 image: 
   path: /assets/img/projects/Presentations.jpg
 sitemap: true

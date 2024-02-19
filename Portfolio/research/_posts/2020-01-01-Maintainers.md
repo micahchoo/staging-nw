@@ -3,10 +3,9 @@ layout: post
 title: 'Maintainer'
 caption:  
 description: >
- This was a precursor exploration of [Facilitating a Design Studio] and evolved into the studio structure
+ This was a precursor exploration of [Facilitating a Design Studio](/portfolio/presentation/teaching/2022-12-01-Facilitating-a-Design-Studio-Overview) and evolved into the studio structure
 date: '01-01-2020'
-image: 
-  path: 
+
 links:
   - title: 
     url:

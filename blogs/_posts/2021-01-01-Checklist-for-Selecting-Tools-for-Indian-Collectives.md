@@ -5,8 +5,6 @@ caption:
 description: >
  When selecting tools for use by the collectives I worked with in India, we had to consider the following factors due to the unique context and limited resources available
 date: '01-01-2021'
-image: 
-  path: 
 links:
   - title: 
     url:
