@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
+                "file": "Portfolio/research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "research/publication/_posts/2020-01-01-Carefull-Collectives-and-their-Care-Practices.md",
+                "file": "Portfolio/research/publication/_posts/2020-01-01-Carefull-Collectives-and-their-Care-Practices.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "research/_posts/2019-01-01-Caste-and-Education.md",
+                "file": "Portfolio/presentation/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "research/_posts/2019-01-01-Caste-and-Education.md",
+                "file": "Portfolio/presentation/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "research/_posts/2019-01-01-Caste-and-Education.md",
+                "file": "Portfolio/presentation/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "research/_posts/2019-01-01-Caste-and-Education.md"
+                "file": "Portfolio/presentation/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md"
               }
             }
           },
@@ -209,19 +209,21 @@
   },
   "active": "0b59a8bb0ba84399",
   "lastOpenFiles": [
+    "Portfolio/research/publication/_posts/2022-01-01-List-of-Publications.md",
+    "_site/portfolio/research/publication/2022-01-01-List-of-Publications/index.html",
+    "_site/portfolio/research/publication/2022-01-01-List-of-Publications",
+    "_site/portfolio/research/publication/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications-1/index.html",
+    "_site/portfolio/research/publication/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications-1",
+    "_site/portfolio/presentation/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications-1/index.html",
+    "_site/portfolio/presentation/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications-1",
+    "Portfolio/presentation/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md",
+    "Portfolio/research/_posts/2019-01-01-Caste-and-Education.md",
+    "_site/portfolio/research/2022-02-20-EnableIndia-LE/index.html",
+    "_site/portfolio/research/2022-02-20-EnableIndia-LE",
+    "_site/portfolio/research/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network/index.html",
+    "_site/portfolio/research/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network",
     "_drafts/drafts/Checklist.md",
-    "research/_posts/2022-01-01-EnableIndia-LE.md",
-    "_site/research/2022-02-20-EnableIndia-LE/index.html",
-    "_site/research/2022-02-20-EnableIndia-LE",
-    "_site/research/2021-01-01-Remediating-code-through-thought-story-and-film/index.html",
-    "_site/research/2021-01-01-Remediating-code-through-thought-story-and-film",
-    "_site/research/2020-02-01-Care-in-Collectives/index.html",
-    "_site/research/2020-02-01-Care-in-Collectives",
-    "_site/research/2020-01-01-Maintainers/index.html",
-    "_site/research/2020-01-01-Maintainers",
-    "_site/research/publication/2021-02-01-Compost-Magazine-Technofutures-from-Bidar/index.html",
-    "_site/research/publication/2020-01-01-Carefull-Collectives-and-their-Care-Practices/index.html",
-    "research/_posts/2019-01-01-Caste-and-Education.md",
+    "Portfolio/research/_posts/2022-01-01-EnableIndia-LE.md",
     "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
     "Portfolio/design/UI-UX Design/_posts/2021-01-01-Milli.md",
     "_drafts/drafts/Mapping Migratory Routes of Pastoralists Across India.md",
@@ -230,21 +232,19 @@
     "Portfolio/design/artifact/_posts/2022-01-01-Speculative-Storytelling-in-Wayanad.md",
     "assets/img/logo.png",
     "Portfolio/design/artifact/_posts/2017-01-02-Designers-Ace.md",
-    "research/_posts/2020-02-01-Care-in-Collectives.md",
-    "research/_posts/2020-01-01-Maintainers.md",
-    "research/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
-    "research/publication/_posts/2019-01-01-What-is-Innovation-for-India.md",
+    "Portfolio/research/_posts/2020-02-01-Care-in-Collectives.md",
+    "Portfolio/research/_posts/2020-01-01-Maintainers.md",
+    "Portfolio/research/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
+    "Portfolio/research/publication/_posts/2019-01-01-What-is-Innovation-for-India.md",
     "blogs/_posts/2021-01-01-Checklist-for-Selecting-Tools-for-Indian-Collectives.md",
-    "research/_posts/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network.md",
+    "Portfolio/research/_posts/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network.md",
     "blogs/_posts/2022-12-01-Reading-List.md",
     "blogs/_posts/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md",
-    "research/_posts/2021-01-01-Remediating-code-through-thought-story-and-film.md",
-    "research/_posts/2019-01-01-Making-The-Invisible-Visible-Around-An-RO-Plant.md",
-    "Portfolio/presentation/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md",
+    "Portfolio/research/_posts/2021-01-01-Remediating-code-through-thought-story-and-film.md",
+    "Portfolio/research/_posts/2019-01-01-Making-The-Invisible-Visible-Around-An-RO-Plant.md",
     "_featured_categories/Portfolio.md",
     "_featured_categories/Poem.md",
     "_featured_categories/Design.md",
-    "_featured_categories/example.md",
     "_site/assets/Avatar.jpg",
     "assets/Avatar.jpg",
     "_site/assets/icons/icon-96x96.png",
