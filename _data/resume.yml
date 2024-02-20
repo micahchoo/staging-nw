@@ -2,68 +2,159 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
-  picture: "https://via.placeholder.com/240x240"
-  email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  name: "Micah Alex"
+  label: "Designer"
+  picture: "/assets/Avatar.jpg"
+  email: "micah.dvpp7@aleeas.com"
+  phone: ""
+  website: "https://khattamicah.xyz"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+    I am a writer, designer and artist. I enjoy facilitating collective and open-source work and generally orbit around histories and cultures.
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
+    address: ""
+    postalCode: "CA 90503"
+    city: "Torrance"
     countryCode: "US"
     region: "California"
   profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
+    - network: ""
+      username: ""
       url: ""
     - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+      username: "Micah Alex"
+      url: "https://linkedin.com/in/micahalex/"
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
-    endDate: ""
+
+  - company: "Design Beku"
+    position: "Designer"
+    website: "https://designbeku.in"
+    startDate: "2020-06-01"
+    endDate: "2021-12-31"
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      Design Beku is an organisation aimed at co-designing with Communities for equitable futures
     highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+      - "Co-wrote 5+ grant proposals on topics such as digital rights, open-source software, equitable platforms"
+      - "Facilitated a townhall with over 90 participants to develop organizational charter"
+      - "Designed a design Baithak on the manufacturing of “truth” and “ignorance” in live-streaming politics"
+      - "Designed workshop on algorithms and digital privacy for immigrant communities in Delhi"
+      - "Led volunteer team in creating, translating, and distributing educational content during Covid-19 lockdown"
+  - company: "Design Beku"
+    position: "Design Researcher"
+    website: "https://designbeku.in"
+    startDate: "2022-01-01"
+    endDate: "2022-12-31"
+    summary: >
+      Design Beku is an organisation aimed at co-designing with Communities for equitable futures    
+    highlights:
+      - "Orchestrated and facilitated a workshop for Disability NGO Alliance Coordinators (GSC) across Karnataka"
+      - "Developed metadata schema for repository of experiences, integrated with Enable India's support WhatsApp bot"
+      - "Contributed to mapping existing infrastructures and designing Asset Library and Service Layer for Open Livelihood Maidan (OLM)"
+      - "Led workshops with Disability NGO Alliance coordinators to foster effective archival practices"
+      - "Collaborated in designing and implementing metadata schemas for organizing archival data"
+      - "Introduced interview data booklets at national conference, engaging over 100 disability organizations"
+  - company: "Janastu"
+    position: "Staff Design Researcher"
+    website: "https://janastu.org"
+    startDate: "2020-09-01"
+    endDate: "2022-06-01"
+    summary: >
+      Janastu is An Open-Tech Open-Knowledge organization focusing on projects aimed at community empowerment and technological innovation.
+    highlights:
+      - "Led the design and implementation of Papad Milli, utilizing the W3C Web Annotation Standard to democratize archival access"
+      - "Presented Milli platform designs at Milli International Archives Week, engaging stakeholders across India"
+      - "Co-wrote proposals for projects in open hardware, software, and localization"
+      - "Panel Speaker at Alternatives and Demands in Network Ruins"
+      - "Designed and ran workshops on Intersectionality in Practice"
+      - "Conducted media-literacy classes for young women from rural UP"
+      - "Published articles advocating for digital literacy and empowerment among rural communities"
+      - "Managed events such as Anthillhacks 2020"
+      - "Liaised with grantmakers representing Janastu focusing on outcome delivery and reporting"
+      - "Published Mapping migratory routes of pastoralists across India"
+      - "Led design efforts for the Papad Project, prioritizing audio-based recording methods"
+      - "Published articles reflecting on community-owned wifi-mesh networks and projects empowering young women"
+  - company: "Living Labs Network and Forum"
+    position: "Network Coordinator"
+    website: ""
+    startDate: "2019-11-01"
+    endDate: "2021-01-31"
+    summary: >
+      LLNaF is an organisation focussed at Alternative Development through Generative Research
+    highlights:
+      - "Developed the first iteration of the knowledge observatory for research in Bidar"
+      - "Conducted interviews with diverse stakeholders including potters, writers, and musicians"
+      - "Translated and interviewed an Urdu writer to explore the literary environment in Bidar"
+      - "Initiated testing of a self-hosted server for organizational purposes"
+      - "Co-wrote over 10 grant proposals to support community initiatives"
+      - "Published 'Technofutures from Bidar' and 'Community Networks Stories'"
+      - "Co-facilitated a project-based learning studio on speculative technological design"
+      - "Facilitated a workshop to cross-annotate practices among different creative communities"
+      - "Co-edited 'Untold Bidar' journal featuring local collaborators and placemakers"
+      - "Published articles in a local journal about agrarian practices and mythic narratives"
+  - company: "Habba"
+    position: "Impact and Partnership Intern"
+    website: ""
+    startDate: "2019-05-01"
+    endDate: "2019-07-01"
+    summary: >
+      Habba is an organsiation that aims to bring artisanal products from diverse craftsmen to the internet.
+    highlights:
+      - "Prototyped new website design for enhanced user experience"
+      - "Identified potential partners and sourced handicrafts"
+      - "Contributed to developing new services for Habba"
+  - company: "True Editors"
+    position: "Freelance Editor"
+    website: ""
+    startDate: "2017-01-01"
+    endDate: "2019-01-01"
+    summary: >
+      A proofreading and editing consultancy
+    highlights:
+      - "Edited manuscripts, academic documents, whitepapers, etc."
 volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
+  - company: "Jazz Hands"
+    position: "Fellow"
+    website: ""
+    startDate: "2016-03-01"
+    endDate: "2018-06-01"
+    summary: >
+      Organisation teaching english through a theater based curriculum
     highlights:
-      - "Awarded 'Teacher of the Month'"
+      - "Devised lesson plans for various age groups"
+  - company: "Yes I am Happy!"
+    position: "Education Volunteer"
+    startDate: "2017-01-01"
+    endDate: "2017-04-01"
+    summary: >
+      Education policy think tank
+    highlights:
+      - "Conducted research on Indian education system"
+      - "Wrote article on tweaking education system"
+      - "Conducted origami workshop at government school"
+  - company: "Wikipedia "
+    position: "Contributor"
+    website: "https://en.wikipedia.org/"
+    startDate: "2023-07-01"
+    endDate: "2023-07-31"
+    summary: >
+      Editathon: Dalit History Month
+    highlights:
+      - "Contributed a total of 24.5K words across 27 edited articles, including the creation of 2 new articles. Added 167 references, made 2 Commons uploads, and achieved 105k article views. "
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
+  - institution: "Srishti School of Art, Design and Technology"
+    area: "Design Led Innovation"
+    studyType: "Master"
+    startDate: "2020-06-30"
+    endDate: ""
+    gpa: ""
+    courses: []
+  - institution: "Pune University"
+    area: "Electronics and Telecommunications Engineering"
     studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
-    courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
+    startDate: "2018-08-01"
+    endDate: ""
+    gpa: ""
+    courses: []
+
 awards:
   - title: "Digital Compression Pioneer Award"
     date: "2014-11-01"
