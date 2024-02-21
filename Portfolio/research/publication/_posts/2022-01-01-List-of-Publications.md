@@ -4,8 +4,6 @@ title: 'Publications'
 description: >
   A list of the pieces that I wrote, co-wrote and edited
 date: '01-01-2022'
-image: 
-  path: 
 sitemap: true
 ---
 # Grant-Based Publications
