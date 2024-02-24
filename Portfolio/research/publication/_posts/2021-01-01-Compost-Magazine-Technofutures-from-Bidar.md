@@ -13,7 +13,8 @@ links:
 sitemap: true
 ---
 
-
+* seed
+{:toc}
 
 This piece is a group reflection of a project run in Bidar, India, to set up a community mesh network facilitated by Living Labs Network and Forum, and Janastu/Servelots.
 

@@ -13,7 +13,8 @@ sitemap: true
 ---
 
 # Maintainers
-
+* seed
+{:toc}
 #concept
 This was a precursor exploration of [[Facilitating a Design Studio - Overview]] and evolved into the studio structure
 

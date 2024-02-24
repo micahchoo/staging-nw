@@ -12,7 +12,8 @@ links:
     url: ''
 sitemap: true
 ---
-
+* seed
+{:toc}
 In today's rapidly evolving landscape of social empowerment and inclusion, projects aimed at harnessing collective experiences for positive change stand out as beacons of hope. One such initiative that I had the privilege to be a part of was the Lived Experience Project, spearheaded by Enable India in collaboration with Design Beku. This project was a testament to the power of collaboration and innovation in fostering inclusive communities.
 
 The OLM initiative sought to establish a robust knowledge infrastructure centered around the lived experiences of individuals with disabilities. It aimed to create an open platform, accessible to all, where stakeholders could share insights, resources, and solutions to enhance the livelihoods of persons with disabilities.

@@ -13,7 +13,8 @@ sitemap: true
 *Year: 2019*
 
 *Transdisciplinary Studio - In collaboration with Project Potential Trust, Kishanganj*
-
+* seed
+{:toc}
 The caste system in India, deeply entrenched and multifaceted, continues to exert its influence on various aspects of society, particularly in rural settings where disparities are stark. In an endeavor to comprehend and address the complexities of caste dynamics, our team embarked on a participatory research project in rural Bihar. Through a series of activities and engagements, we delved into the nuances of caste-based power structures and their implications on education, community life, and infrastructure.
 
 ## Project Context

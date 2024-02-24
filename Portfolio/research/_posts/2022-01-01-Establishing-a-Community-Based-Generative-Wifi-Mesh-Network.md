@@ -14,7 +14,8 @@ The establishment of a Generative Community-Owned (CoW) Wifi Mesh Network, focus
 This article will outline the roles various stakeholders play, and explore the actions that can be encouraged or discouraged to maintain the network's generative characteristics.
 [See Guifi.net](https://en.wikipedia.org/wiki/Guifi.net)
 
-
+* seed
+{:toc}
 ## Stakeholders in the CoW Network
 
 1. **Builders**: These participants contribute to the network by adding nodes and devices.

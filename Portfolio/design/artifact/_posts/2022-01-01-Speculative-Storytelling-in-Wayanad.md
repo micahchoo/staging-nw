@@ -14,7 +14,8 @@ links:
 ---
 
 # Speculative Storytelling in Wayanad
-
+* seed
+{:toc}
 While studying the Paniya community in Kerala, I was first introduced to the severity of caste issues in India. I have covered all my research about the tribe here [The Disenfranchisement of Adivasis in Kerala](2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md) trying to find ties between their past oppressive histories and their current conditions. 
 
 With this project in particular, I have also written a complimentary piece that fills up a lot of the gaps here . 

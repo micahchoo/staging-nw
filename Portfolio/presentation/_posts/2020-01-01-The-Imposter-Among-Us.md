@@ -15,7 +15,8 @@ sitemap: true
 🔮 "How do platforms compel/enable the manufacturing of "truth" and "ignorance"? And what does that mean in the context of live-streaming politicians"
 
 >*These are notes from a presentation (Design Baithak) hosted by Micah and Paul*
-
+* seed
+{:toc}
 
 [The announcement](https://twitter.com/blnaveen/status/1321689139327066112)
 

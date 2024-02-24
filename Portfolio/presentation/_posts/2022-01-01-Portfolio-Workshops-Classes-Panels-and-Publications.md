@@ -9,6 +9,10 @@ image:
 sitemap: true
 ---
 # Workshops, Classes, and Panels
+
+ * seed
+ {:.toc}
+
 ### [Seeing, Being, Doing: small-letter ‘d’ design - 4 Month design studio](/portfolio/presentation/teaching/2022-12-01-Facilitating-a-Design-Studio-Overview) - 2022
 A 4-month studio module for 22 undergraduate interaction design students. Held in two+ sites in India, we explored embodied design praxis. What does it mean to design artistically? Can a designer respond like an artist to their context and allow for more freeform exploration of designed outputs than industry dogma <+ with Navin and Siddhant>
 

@@ -26,14 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
+                "file": "Portfolio/research/_posts/2021-01-01-Remediating-code-through-thought-story-and-film.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "f34dbd40bd074cbe",
@@ -58,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/research/publication/_posts/2022-01-01-List-of-Publications.md",
+                "file": "_drafts/drafts/About me.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -132,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Portfolio/research/publication/_posts/2022-01-01-List-of-Publications.md",
+                "file": "_drafts/drafts/About me.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Portfolio/research/publication/_posts/2022-01-01-List-of-Publications.md",
+                "file": "_drafts/drafts/About me.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/research/publication/_posts/2022-01-01-List-of-Publications.md"
+                "file": "_drafts/drafts/About me.md"
               }
             }
           },
@@ -209,50 +210,51 @@
   },
   "active": "0b59a8bb0ba84399",
   "lastOpenFiles": [
-    "Portfolio/presentation/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md",
+    "blogs/_posts/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md",
+    "blogs/_posts/2022-12-01-Reading-List.md",
+    "blogs/Poem/_posts/2022-01-01-Feeling-through-the-Cities-Koramangala.md",
     "Portfolio/research/publication/_posts/2022-01-01-List-of-Publications.md",
+    "Portfolio/research/publication/_posts/2021-01-01-Compost-Magazine-Technofutures-from-Bidar.md",
+    "Portfolio/research/publication/_posts/2020-01-01-Carefull-Collectives-and-their-Care-Practices.md",
+    "Portfolio/research/publication/_posts/2019-01-01-What-is-Innovation-for-India.md",
+    "Portfolio/research/_posts/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network.md",
+    "Portfolio/research/_posts/2022-01-01-EnableIndia-LE.md",
+    "Portfolio/research/_posts/2021-01-01-Remediating-code-through-thought-story-and-film.md",
+    "Portfolio/research/_posts/2020-02-01-Care-in-Collectives.md",
+    "Portfolio/research/_posts/2020-01-01-Maintainers.md",
+    "Portfolio/research/_posts/2019-01-01-Making-The-Invisible-Visible-Around-An-RO-Plant.md",
+    "Portfolio/research/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
+    "Portfolio/research/_posts/2019-01-01-Caste-and-Education.md",
+    "Portfolio/research/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
+    "Portfolio/research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
+    "Portfolio/presentation/teaching/_posts/2022-01-01-Facilitating-a-Design-Studio-Overview.md",
+    "Portfolio/presentation/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md",
+    "Portfolio/presentation/_posts/2020-01-01-The-Imposter-Among-Us.md",
+    "Portfolio/design/website/_posts/2023-01-01-SADHR.md",
+    "Portfolio/design/website/_posts/2023-01-01-Public-Makings-Github-Repo-and-Website.md",
+    "Portfolio/design/website/_posts/2023-01-01-Design Beku Website.md",
+    "Portfolio/design/website/_posts/2021-01-01-Pune-Covid-Relief.md",
+    "Portfolio/design/UI-UX Design/_posts/2018-01-01-Habba-Redesign.md",
+    "Portfolio/design/UI-UX Design/_posts/2018-01-01-Carpooling-Unalone-Karwaan.md",
+    "assets/img/projects/About me 1",
+    "assets/img/projects/About me/2568b9b54a2accb626ee1acbe8fc9708_MD5.jpg",
+    "assets/img/projects/About me/5dd53fea9512d622d6fc6787c3d12e19_MD5.jpg",
+    "assets/img/projects/About me/676e441c499f6217886be726ccba5555_MD5.jpg",
+    "assets/img/projects/About me/28b27cd2af24acafebbc6e5b6b359b88_MD5.webp",
+    "assets/img/projects/About me/c7d56054f69ea03dec8c8acafc15a876_MD5.jpg",
+    "assets/img/projects/About me/0582e5fcc4bd1280715f22e89b26fcaa_MD5.jpg",
+    "assets/img/projects/About me/d0e16a53242161fbc3798f33cf36e61f_MD5.jpg",
+    "assets/img/projects/About me/488c3ee0594ae0cec92c4097ef59613c_MD5.jpg",
+    "assets/img/projects/About me/cfdddc772ac679be6ece366f9a854d6e_MD5.jpg",
+    "assets/img/projects/About me/9502abd07b331ffcabd873d1c48413bb_MD5.jpg",
+    "assets/img/projects/About me",
     "_site/portfolio/research/publication/2022-01-01-List-of-Publications/index.html",
     "_site/portfolio/research/publication/2022-01-01-List-of-Publications",
     "_site/portfolio/research/publication/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications-1/index.html",
     "_site/portfolio/research/publication/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications-1",
     "_site/portfolio/presentation/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications-1/index.html",
     "_site/portfolio/presentation/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications-1",
-    "Portfolio/research/_posts/2019-01-01-Caste-and-Education.md",
     "_site/portfolio/research/2022-02-20-EnableIndia-LE/index.html",
-    "_site/portfolio/research/2022-02-20-EnableIndia-LE",
-    "_site/portfolio/research/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network/index.html",
-    "_site/portfolio/research/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network",
-    "_drafts/drafts/Checklist.md",
-    "Portfolio/research/_posts/2022-01-01-EnableIndia-LE.md",
-    "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
-    "Portfolio/design/UI-UX Design/_posts/2021-01-01-Milli.md",
-    "_drafts/drafts/Mapping Migratory Routes of Pastoralists Across India.md",
-    "_featured_categories/UI-UX Design.md",
-    "index.md",
-    "Portfolio/design/artifact/_posts/2022-01-01-Speculative-Storytelling-in-Wayanad.md",
-    "assets/img/logo.png",
-    "Portfolio/design/artifact/_posts/2017-01-02-Designers-Ace.md",
-    "Portfolio/research/_posts/2020-02-01-Care-in-Collectives.md",
-    "Portfolio/research/_posts/2020-01-01-Maintainers.md",
-    "Portfolio/research/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
-    "Portfolio/research/publication/_posts/2019-01-01-What-is-Innovation-for-India.md",
-    "blogs/_posts/2021-01-01-Checklist-for-Selecting-Tools-for-Indian-Collectives.md",
-    "Portfolio/research/_posts/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network.md",
-    "blogs/_posts/2022-12-01-Reading-List.md",
-    "blogs/_posts/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md",
-    "Portfolio/research/_posts/2021-01-01-Remediating-code-through-thought-story-and-film.md",
-    "Portfolio/research/_posts/2019-01-01-Making-The-Invisible-Visible-Around-An-RO-Plant.md",
-    "_featured_categories/Portfolio.md",
-    "_featured_categories/Poem.md",
-    "_featured_categories/Design.md",
-    "_site/assets/Avatar.jpg",
-    "assets/Avatar.jpg",
-    "_site/assets/icons/icon-96x96.png",
-    "_site/assets/icons/icon-72x72.png",
-    "_site/assets/icons/icon-512x512.png",
-    "_site/assets/icons/icon-48x48.png",
-    "_site/assets/icons/icon-384x384.png",
-    "_site/assets/icons/icon-192x192.png",
-    "_site/assets/icons/icon-128x128.png"
+    "_site/portfolio/research/2022-02-20-EnableIndia-LE"
   ]
 }

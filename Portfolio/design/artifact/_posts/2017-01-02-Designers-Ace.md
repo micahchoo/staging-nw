@@ -18,7 +18,8 @@ sitemap: true
 ---
 
 # Designer's Ace
-
+* seed
+{:toc}
 This was a [project](https://www.behance.net/gallery/63290189/Designers-Ace) from a team of people that were all aspiring to be a part of a design school someday, somewhere. This was a collective effort of a group of aspiring design school applicants: a set of 101 cards aimed at fostering design thinking among budding designers.
 
 Our primary goal was to challenge the prevailing notion that only individuals who have spent their entire lives drawing and sketching can become designers. We partnered with several designers to identify the most effective traits in their profession, subsequently devising tasks to enhance these characteristics.
