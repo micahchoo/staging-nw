@@ -39,4 +39,3 @@ In this article, we reflect on our practice of facilitating spaces with communit
 
 - Published [Learning from COWs: Community Owned Wifi\-Mesh](https://branch.climateaction.tech/issues/issue-4/cows/) - reflecting on our practice of facilitating spaces with communities and arrive at principles that can support open climate networks.
 
-- Published [Jingle Tales](https://criticalcode.recipes/contributions/jingle-tales) – describing a project that we did in Mirzapur, India where we sent laptops made of Raspberry Pis to young women; that they could play with, reconfigure and use to explore their interests.

@@ -49,23 +49,19 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Blogs
-    url:               /blogs/
-  - title:             Research
-    url:               /research/
-  - title:             Workshops and Classes
-    url:               /presentation/
   - title:             UI/UX Design 
     url:               /ui-ux-design/
-  - title:             Posters
-    url:               https://flic.kr/s/aHBqjAGjZW   
-  - title:             Paintings
-    url:               https://flic.kr/s/aHsmUGp5jR
+  - title:             Blogs
+    url:               /blogs/
+  - title:             Research and Writing
+    url:               /research-and-writing/
+  - title:             Workshops and Classes
+    url:               /presentation/
 #  - title:             Résumé*
 #    url:               /resume/
 #  - title:             Documentation
 #    url:               /docs/
-  - title:             Portfolio
+  - title:             Timeline of work
     url:               /portfolio/
 
 # Add links to the footer.
