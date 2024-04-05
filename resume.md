@@ -16,8 +16,9 @@ right_column:
   - languages
   - skills
   - interests
-no_language_icons: false
-no_skill_icons: false
+  - certifications
+no_language_icons: true
+no_skill_icons: true
 buttons:
   print: true
   pdf: /assets/Resume.pdf

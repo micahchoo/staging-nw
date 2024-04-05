@@ -13,33 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
+                "file": "Portfolio/research-and-writing/_posts/2019-01-01-Making-The-Invisible-Visible-Around-An-RO-Plant.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "f34dbd40bd074cbe",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "0b59a8bb0ba84399",
+            "id": "f718caf5df354403",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_featured_categories/Portfolio.md",
+                "file": "blogs/_posts/2021-01-01-Checklist-for-Selecting-Tools-for-Indian-Collectives.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
+                "file": "blogs/_posts/2021-01-01-Checklist-for-Selecting-Tools-for-Indian-Collectives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
+                "file": "blogs/_posts/2021-01-01-Checklist-for-Selecting-Tools-for-Indian-Collectives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md"
+                "file": "blogs/_posts/2021-01-01-Checklist-for-Selecting-Tools-for-Indian-Collectives.md"
               }
             }
           },
@@ -180,53 +175,53 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "4f1cac5d5329ef08",
+  "active": "27b09f1f8e264cdb",
   "lastOpenFiles": [
+    "_drafts/drafts/resume.json",
+    "_data/resume.yml",
+    "_data/resume.json",
+    "_drafts/resume.yml",
+    "assets/resume.json",
+    "_drafts/drafts/2023-01-01-Public-Makings-Github-Repo-and-Website.md",
+    "Portfolio/2022-01-01-My-art.md",
+    "_site/assets/img/projects/2022-01-01-My-art/abbe9ba351ef7a4309d5860753a324d1_MD5.jpg",
+    "_site/assets/img/projects/2022-01-01-My-art",
+    "assets/img/projects/2022-01-01-My-art",
+    "_site/assets/img/projects/Art 1.jpg",
+    "Portfolio/research-and-writing/_posts/2019-01-01-Making-The-Invisible-Visible-Around-An-RO-Plant.md",
+    "assets/img/projects/2022-01-01-My-art/abbe9ba351ef7a4309d5860753a324d1_MD5.jpg",
+    "_site/assets/img/projects/Art.jpg",
+    "assets/img/projects/Art.jpg",
+    "_site/portfolio/2022-01-01-My-art/index.html",
+    "_site/portfolio/2022-01-01-My-art",
+    "_site/portfolio/My art/index.html",
+    "_site/portfolio/My art",
+    "Portfolio/presentation/_posts/2020-01-01-The-Imposter-Among-Us.md",
+    "Portfolio/presentation/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md",
+    "Portfolio/presentation/teaching/_posts/2022-01-01-Facilitating-a-Design-Studio.md",
+    "Portfolio/research-and-writing/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
+    "Portfolio/research-and-writing/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
+    "Portfolio/research-and-writing/_posts/2019-01-01-Caste-and-Education.md",
+    "_site/assets/img/projects/Bihar.jpg",
+    "assets/img/projects/Bihar.jpg",
+    "Portfolio/research-and-writing/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
+    "Portfolio/research-and-writing/_posts/2020-01-01-Maintainers.md",
+    "Portfolio/research-and-writing/_posts/2020-02-01-Care-in-Collectives.md",
+    "Portfolio/research-and-writing/_posts/2021-01-01-Mapping-Migratory-Routes.md",
+    "Portfolio/research-and-writing/_posts/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network.md",
+    "Portfolio/research-and-writing/_posts/2022-01-01-EnableIndia-LE.md",
+    "Portfolio/research-and-writing/_posts/2021-01-01-Remediating-code-through-thought-story-and-film.md",
+    "Portfolio/design/artifact/_posts/2022-01-01-Speculative-Storytelling-in-Wayanad.md",
+    "_site/assets/img/projects/RMPL.png",
+    "_site/assets/img/projects/Pasted image 20240404220843.png",
+    "assets/img/projects/RMPL.png",
+    "_featured_categories/Research-and-Writing.md",
+    "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
     "Portfolio/research/publication/_posts/2021-01-01-Compost-Magazine-Technofutures-from-Bidar.md",
     "Portfolio/research-and-writing/publication/_posts/2021-01-01-Compost-Magazine-Technofutures-from-Bidar.md",
     "Portfolio/research-and-writing/publication/_posts/2022-01-01-List-of-Publications.md",
     "Portfolio/research-and-writing/publication/_posts/2020-01-01-Carefull-Collectives-and-their-Care-Practices.md",
     "Portfolio/research-and-writing/publication/_posts/2019-01-01-What-is-Innovation-for-India.md",
-    "Portfolio/research-and-writing/_posts/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network.md",
-    "Portfolio/research-and-writing/_posts/2021-01-01-Remediating-code-through-thought-story-and-film.md",
-    "Portfolio/research-and-writing/_posts/2020-02-01-Care-in-Collectives.md",
-    "Portfolio/research-and-writing/_posts/2022-01-01-EnableIndia-LE.md",
-    "Portfolio/research-and-writing/_posts/2020-01-01-Maintainers.md",
-    "Portfolio/research-and-writing/_posts/2019-01-01-Making-The-Invisible-Visible-Around-An-RO-Plant.md",
-    "Portfolio/research-and-writing/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
-    "Portfolio/research-and-writing/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
-    "Portfolio/research-and-writing/_posts/2019-01-01-Caste-and-Education.md",
-    "Portfolio/research-and-writing/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
-    "Portfolio/research-and-writing/publication/_posts",
-    "Portfolio/research-and-writing/_posts",
-    "Portfolio/research-and-writing/publication",
-    "Portfolio/research-and-writing",
-    "My art.md",
-    "resume copy.md",
-    "_featured_categories/Research-and-Writing.md",
-    "_featured_categories/Research-and-Writi.md",
-    "Portfolio/research/publication/_posts/2022-01-01-List-of-Publications.md",
-    "_featured_categories/Portfolio.md",
-    "_featured_categories/Presentation.md",
-    "_featured_categories/Artifact.md",
-    "_featured_categories/Blogs.md",
-    "index.md",
-    "_drafts/drafts/About me 1.md",
-    "assets/img/projects/About me 1",
-    "assets/img/projects/About me/2568b9b54a2accb626ee1acbe8fc9708_MD5.jpg",
-    "assets/img/projects/About me/5dd53fea9512d622d6fc6787c3d12e19_MD5.jpg",
-    "assets/img/projects/About me/676e441c499f6217886be726ccba5555_MD5.jpg",
-    "assets/img/projects/About me/28b27cd2af24acafebbc6e5b6b359b88_MD5.webp",
-    "assets/img/projects/About me/c7d56054f69ea03dec8c8acafc15a876_MD5.jpg",
-    "assets/img/projects/About me/0582e5fcc4bd1280715f22e89b26fcaa_MD5.jpg",
-    "assets/img/projects/About me/d0e16a53242161fbc3798f33cf36e61f_MD5.jpg",
-    "assets/img/projects/About me/488c3ee0594ae0cec92c4097ef59613c_MD5.jpg",
-    "assets/img/projects/About me/cfdddc772ac679be6ece366f9a854d6e_MD5.jpg",
-    "assets/img/projects/About me/9502abd07b331ffcabd873d1c48413bb_MD5.jpg",
-    "assets/img/projects/About me",
-    "_site/portfolio/research/publication/2022-01-01-List-of-Publications/index.html",
-    "_site/portfolio/research/publication/2022-01-01-List-of-Publications",
-    "_site/portfolio/research/publication/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications-1/index.html",
-    "_site/portfolio/research/publication/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications-1"
+    "resume copy.md"
   ]
 }

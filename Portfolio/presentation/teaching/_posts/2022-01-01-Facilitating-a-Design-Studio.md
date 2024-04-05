@@ -7,12 +7,9 @@ description: >
 image: 
   path: /assets/img/projects/Seeing, Being, Doing design/ChickpeteMap.png
 date: '01-12-2022'
-links:
-  - title: See full map at Chickpet Field Visit - HCD Sem 7 — Felt
-    url: https://felt.com/map/Chickpet-Field-Visit-HCD-Sem-7-ekx6paEpSTmd1UZNCTj13B?lat=12.968386&lon=77.577884&zoom=16.41
 sitemap: true
 ---
-
+[See full map at Chickpet Field Visit - HCD Sem 7 — Felt](https://felt.com/map/Chickpet-Field-Visit-HCD-Sem-7-ekx6paEpSTmd1UZNCTj13B?lat=12.968386&lon=77.577884&zoom=16.41)
 * Seedlist
 {:toc}
 

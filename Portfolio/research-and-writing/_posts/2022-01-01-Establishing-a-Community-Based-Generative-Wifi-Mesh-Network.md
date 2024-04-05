@@ -5,16 +5,16 @@ caption:
 description: >
  A speculative framework to imagine contributors to a community network
 date: '01-01-2022'
-links:
-  - title: 
-    url:
+image: 
+  path: /assets/img/projects/Community-network.png
 sitemap: true
 ---
 The establishment of a Generative Community-Owned (CoW) Wifi Mesh Network, focused on facilitating content creation and utilization, can spur local businesses.
 This article will outline the roles various stakeholders play, and explore the actions that can be encouraged or discouraged to maintain the network's generative characteristics.
 [See Guifi.net](https://en.wikipedia.org/wiki/Guifi.net)
 
-* seed
+* seed!
+
 {:toc}
 ## Stakeholders in the CoW Network
 

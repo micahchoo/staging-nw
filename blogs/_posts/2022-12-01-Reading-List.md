@@ -170,4 +170,4 @@ sitemap: true
 | Document | 01_Chapter_1_final_to_share.pdf | - | - |
 | News Article | Elgin theatre enters the pages of Bangalore's history | [Times of India](https://m.timesofindia.com/city/bengaluru/Elgin-theatre-enters-the-pages-of-Bangalores-history/articleshow/11492667.cms) | Communities, Tools and Techniques |
 
-[Seeing, Being, Doing: design - A course review](2022-01-01-Facilitating-a-Design-Studio-Overview.md)
+[Seeing, Being, Doing: design - A course review](2022-01-01-Facilitating-a-Design-Studio.md)

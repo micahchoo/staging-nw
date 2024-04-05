@@ -12,84 +12,64 @@ basics:
     I am a writer, designer and artist. I enjoy facilitating collective and open-source work and generally orbit around histories and cultures.
   location:
     address: ""
-    postalCode: "CA 90503"
+    postalCode: ""
     city: "Torrance"
     countryCode: "US"
     region: "California"
   profiles:
-    - network: ""
-      username: ""
-      url: ""
     - network: "LinkedIn"
       username: "Micah Alex"
       url: "https://linkedin.com/in/micahalex/"
 work:
-
+  - company: "OCHIN"
+    position: "EHR Support"
+    website: "https://ochin.org/"
+    startDate: "2023-07-01"
+    endDate: "2024-03-31"
+    summary: >
+      USA-wide Health Center controlled network   
+    highlights:
+      - "Provided exemplary customer support by addressing a wide range of queries related to Electronic Health Record (EHR) systems, demonstrating a understanding of user needs and technical proficiency."
+      - "Leveraged technical tools such as Jira and Azure ADFS to streamline customer service processes, improving response times and ensuring effective resolution of issues."  
+  - company: "Srishti Manipal Institute of Art, Design and Technology"
+    position: "Design Instructor"
+    website: "https://srishtimanipalinstitute.in"
+    startDate: "2022-08-01"
+    endDate: "2022-12-31"
+    summary: >
+      Institute focussing on design education    
+    highlights:
+      - "Integrated UX research methodologies into design instruction, incorporating field research, web design, mapping techniques, surveys, and data visualization."
   - company: "Design Beku"
     position: "Designer"
     website: "https://designbeku.in"
     startDate: "2020-06-01"
-    endDate: "2021-12-31"
+    endDate: "2022-12-31"
     summary: >
       Design Beku is an organisation aimed at co-designing with Communities for equitable futures
     highlights:
-      - "Co-wrote 5+ grant proposals on topics such as digital rights, open-source software, equitable platforms"
-      - "Facilitated a townhall with over 90 participants to develop organizational charter"
-      - "Designed a design Baithak on the manufacturing of “truth” and “ignorance” in live-streaming politics"
-      - "Designed workshop on algorithms and digital privacy for immigrant communities in Delhi"
-      - "Led volunteer team in creating, translating, and distributing educational content during Covid-19 lockdown"
-  - company: "Design Beku"
-    position: "Design Researcher"
-    website: "https://designbeku.in"
-    startDate: "2022-01-01"
-    endDate: "2022-12-31"
-    summary: >
-      Design Beku is an organisation aimed at co-designing with Communities for equitable futures    
-    highlights:
-      - "Orchestrated and facilitated a workshop for Disability NGO Alliance Coordinators (GSC) across Karnataka"
-      - "Developed metadata schema for repository of experiences, integrated with Enable India's support WhatsApp bot"
-      - "Contributed to mapping existing infrastructures and designing Asset Library and Service Layer for Open Livelihood Maidan (OLM)"
-      - "Led workshops with Disability NGO Alliance coordinators to foster effective archival practices"
-      - "Collaborated in designing and implementing metadata schemas for organizing archival data"
-      - "Introduced interview data booklets at national conference, engaging over 100 disability organizations"
+      - "Co-wrote successful grant proposals on topics such as digital rights and equitable platforms, securing funding for initiatives."
+      - "Presented at various workshops, fostering dialogue and community engagement in the development of organizational principles and software/hardware practices."
   - company: "Janastu"
-    position: "Staff Design Researcher"
-    website: "https://janastu.org"
+    position: "Design and Outreach"
+    website: "https://open.janastu.org"
     startDate: "2020-09-01"
     endDate: "2022-06-01"
     summary: >
       Janastu is An Open-Tech Open-Knowledge organization focusing on projects aimed at community empowerment and technological innovation.
     highlights:
-      - "Led the design and implementation of Papad Milli, utilizing the W3C Web Annotation Standard to democratize archival access"
-      - "Presented Milli platform designs at Milli International Archives Week, engaging stakeholders across India"
-      - "Co-wrote proposals for projects in open hardware, software, and localization"
-      - "Panel Speaker at Alternatives and Demands in Network Ruins"
-      - "Designed and ran workshops on Intersectionality in Practice"
-      - "Conducted media-literacy classes for young women from rural UP"
-      - "Published articles advocating for digital literacy and empowerment among rural communities"
-      - "Managed events such as Anthillhacks 2020"
-      - "Liaised with grantmakers representing Janastu focusing on outcome delivery and reporting"
-      - "Published Mapping migratory routes of pastoralists across India"
-      - "Led design efforts for the Papad Project, prioritizing audio-based recording methods"
-      - "Published articles reflecting on community-owned wifi-mesh networks and projects empowering young women"
+      - "Led the UI/UX design and implementation of the Milli platform, utilizing design strategies to democratize archival access and foster collaboration among diverse stakeholders."
+      - "Presented projects at national conferences, garnering interest and engagement from stakeholders and showcasing a practical understanding of technological humanities."
   - company: "Living Labs Network and Forum"
     position: "Network Coordinator"
     website: ""
     startDate: "2019-11-01"
-    endDate: "2021-01-31"
+    endDate: "2021-12-31"
     summary: >
       LLNaF is an organisation focussed at Alternative Development through Generative Research
     highlights:
-      - "Developed the first iteration of the knowledge observatory for research in Bidar"
-      - "Conducted interviews with diverse stakeholders including potters, writers, and musicians"
-      - "Translated and interviewed an Urdu writer to explore the literary environment in Bidar"
-      - "Initiated testing of a self-hosted server for organizational purposes"
-      - "Co-wrote over 10 grant proposals to support community initiatives"
-      - "Published 'Technofutures from Bidar' and 'Community Networks Stories'"
-      - "Co-facilitated a project-based learning studio on speculative technological design"
-      - "Facilitated a workshop to cross-annotate practices among different creative communities"
-      - "Co-edited 'Untold Bidar' journal featuring local collaborators and placemakers"
-      - "Published articles in a local journal about agrarian practices and mythic narratives"
+      - "Successfully wrote proposals for grants, managed multiple projects and initiatives, coordinating with diverse stakeholders and ensuring timely project delivery."
+      - "Facilitated workshops and events, fostering collaboration and knowledge exchange among participants, contributing to the organization's mission of alternative development."
   - company: "Habba"
     position: "Impact and Partnership Intern"
     website: ""
@@ -98,9 +78,7 @@ work:
     summary: >
       Habba is an organsiation that aims to bring artisanal products from diverse craftsmen to the internet.
     highlights:
-      - "Prototyped new website design for enhanced user experience"
-      - "Identified potential partners and sourced handicrafts"
-      - "Contributed to developing new services for Habba"
+      - "Identified and established strategic partnerships, expanding the organization's network and potential impact within the community."
   - company: "True Editors"
     position: "Freelance Editor"
     website: ""
@@ -111,16 +89,16 @@ work:
     highlights:
       - "Edited manuscripts, academic documents, whitepapers, etc."
 volunteer:
-  - company: "Jazz Hands"
+  - organization: "Jazz Hands"
     position: "Fellow"
-    website: ""
+    website: "https://www.jazz-hands.com/"
     startDate: "2016-03-01"
     endDate: "2018-06-01"
     summary: >
       Organisation teaching english through a theater based curriculum
     highlights:
       - "Devised lesson plans for various age groups"
-  - company: "Yes I am Happy!"
+  - organization: "Yes I am Happy!"
     position: "Education Volunteer"
     startDate: "2017-01-01"
     endDate: "2017-04-01"
@@ -130,7 +108,7 @@ volunteer:
       - "Conducted research on Indian education system"
       - "Wrote article on tweaking education system"
       - "Conducted origami workshop at government school"
-  - company: "Wikipedia "
+  - organization: "Wikipedia"
     position: "Contributor"
     website: "https://en.wikipedia.org/"
     startDate: "2023-07-01"
@@ -142,53 +120,47 @@ volunteer:
 education:
   - institution: "Srishti School of Art, Design and Technology"
     area: "Design Led Innovation"
-    studyType: "Master"
-    startDate: "2020-06-30"
-    endDate: ""
-    gpa: ""
-    courses: []
+    studyType: "Masters"
+    endDate: "2020-06-30"
+    courses: [Future and Foresight, Markets, Innovation and Design Strategy, Ethnographic Research]
   - institution: "Pune University"
     area: "Electronics and Telecommunications Engineering"
-    studyType: "Bachelor"
-    startDate: "2018-08-01"
-    endDate: ""
-    gpa: ""
-    courses: []
-
-awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
-publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+    studyType: "Bachelors"
+    endDate: "2018-08-01"
 skills:
-  - name: "Web Development"
-    level: "Master"
+  - name: "Web Design"
+    level: "2 Years"
     keywords:
       - "HTML"
       - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
+      - "Figma"
+      - "Adobe Sketch"
+  - name: "Writing and Communications"
+    level: "2 Years"
     keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+      - "Copywriting"
+      - "UX Writing"
+      - "Proofreading/Editing"
 languages:
   - language: "English"
     fluency: "Native speaker"
+  - language: "Hindi"
+    fluency: "Native speaker"
+  - language: "Marathi"
+    fluency: "Intermediate speaker"
+  - language: "Malayalam"
+    fluency: "Intermediate speaker"
 interests:
-  - name: "Wildlife"
+  - name: "HCI"
     keywords:
-      - "Ferrets"
-      - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+      - "Technological Resilience"
+      - "Interfacial Politics"
+certificates:
+  - name: "Digital Media for Health Outcomes"
+    issuer: Coursera
+    date: Aug 2023
+    url: https://coursera.org/verify/QP4A89M3DKG4
+  - name: "Science Communication: Communicating Trustworthy Information in the Digital World"
+    issuer: Coursera
+    date: July 2023
+    url: https://coursera.org/verify/W6A92EVAMLES

@@ -5,14 +5,12 @@ caption:  Through thought, story and film
 description: >
  How do you introduce computational thinking in low-literate contexts using non-linear, media-centric programming metaphors. A exploration of tools, techniques, and philosophies aimed at breaking traditional narrative boundaries and engaging audiences in interactive experiences.
 date: '2021-01-01'
-links:
-  - title: 
-    url:
+image: 
+  path: /assets/img/projects/RMPL.png
 sitemap: true
 ---
 
 authors: Shafali, Dinesh, Bhanu, Micah
-
 # Remediating Thought, Story, Film, Code
 * seed
 {:toc}

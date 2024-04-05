@@ -6,12 +6,10 @@ description: >
   Explore the journey of creating a robust knowledge infrastructure to enhance the livelihoods of persons with disabilities through the Lived Experience Project.
 date: '2022-02-20'
 image: 
-  path: ''
-links:
-  - title:
-    url: ''
+  path: '/assets/img/projects/2022-01-01-EnableIndia-LE/d4d393f5dd946393ffa1db7c95188467_MD5.jpg'
 sitemap: true
 ---
+
 * seed
 {:toc}
 In today's rapidly evolving landscape of social empowerment and inclusion, projects aimed at harnessing collective experiences for positive change stand out as beacons of hope. One such initiative that I had the privilege to be a part of was the Lived Experience Project, spearheaded by Enable India in collaboration with Design Beku. This project was a testament to the power of collaboration and innovation in fostering inclusive communities.

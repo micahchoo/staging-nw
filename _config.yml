@@ -31,7 +31,7 @@ description:           >
 tagline:               for the sourness of study
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [researcher, artist, designer]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -57,8 +57,8 @@ menu:
     url:               /research-and-writing/
   - title:             Workshops and Classes
     url:               /presentation/
-#  - title:             Résumé*
-#    url:               /resume/
+  - title:             Résumé
+    url:               /resume/
 #  - title:             Documentation
 #    url:               /docs/
   - title:             Timeline of work
