@@ -567,7 +567,7 @@ For best results, check the following options in the print popup:
 ![Uncheck Headers and footers, check Background graphics](/assets/img/docs/chrome-print.png){:width="299" height="588" loading="lazy"}
 
 
-Continue with [Writing](writing.md){:.heading.flip-title}
+Continue with [Writing](docs/writing.md){:.heading.flip-title}
 {:.read-more}
 
 [welcome]: https://hydejack.com/

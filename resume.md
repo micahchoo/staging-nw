@@ -16,7 +16,7 @@ right_column:
   - languages
   - skills
   - interests
-  - certifications
+  - certificates
 no_language_icons: true
 no_skill_icons: true
 buttons:

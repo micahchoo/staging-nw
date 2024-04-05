@@ -7,9 +7,7 @@ description: >
 date: '01-02-2021'
 image: 
   path: /assets/img/projects/Micah%20Alex%20%20Pune%20Covid%20Relief/59dfbdc12cb614cedb0f87191f7263e9_MD5.jpg
-links:
-  - title: Read it here
-    url: 
+
 sitemap: true
 ---
 

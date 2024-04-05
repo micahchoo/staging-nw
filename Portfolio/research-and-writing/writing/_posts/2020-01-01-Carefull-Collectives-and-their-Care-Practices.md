@@ -17,6 +17,8 @@ sitemap: true
 
 * seed
 {:toc}
+
+[Link to source](https://osf.io/preprints/osf/ds39u)
 ### Preface
 
 The preface sets the context for the thesis, discussing our understanding of systemic issues, the importance of future studies, and care as an alternative epistemology. It also acknowledges the author's privilege and how it shapes the research.
