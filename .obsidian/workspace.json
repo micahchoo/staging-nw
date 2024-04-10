@@ -59,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/presentation/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md",
+                "file": "Portfolio/research-and-writing/research/_posts/2020-02-01-Care-in-Collectives.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Portfolio/presentation/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md",
+                "file": "Portfolio/research-and-writing/research/_posts/2020-02-01-Care-in-Collectives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Portfolio/presentation/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md",
+                "file": "Portfolio/research-and-writing/research/_posts/2020-02-01-Care-in-Collectives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/presentation/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md"
+                "file": "Portfolio/research-and-writing/research/_posts/2020-02-01-Care-in-Collectives.md"
               }
             }
           },
@@ -209,8 +209,15 @@
   },
   "active": "f3c73349eba991ba",
   "lastOpenFiles": [
-    "Portfolio/research-and-writing/writing/_posts/2022-01-01-List-of-Publications.md",
+    "Portfolio/research-and-writing/writing/_posts/2020-01-01-Carefull-Collectives-and-their-Care-Practices.md",
+    "_site/research/index.html",
+    "_site/research",
     "Portfolio/presentation/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md",
+    "_featured_categories/Research.md",
+    "_site/research-and-writing-copy/index.html",
+    "_site/research-and-writing-copy",
+    "_featured_categories/Research-and-Writing copy.md",
+    "Portfolio/research-and-writing/writing/_posts/2022-01-01-List-of-Publications.md",
     "Portfolio/research-and-writing/research/_posts/2022-01-01-EnableIndia-LE.md",
     "Portfolio/research-and-writing/research/_posts/2019-01-01-Making-The-Invisible-Visible-Around-An-RO-Plant.md",
     "_site/assets/img/projects/2022-01-01-List-of-Publications/d0e16a53242161fbc3798f33cf36e61f_MD5.jpg",
@@ -225,17 +232,12 @@
     "assets/img/projects/2022-01-01-List-of-Publications/0582e5fcc4bd1280715f22e89b26fcaa_MD5.jpg",
     "_site/assets/img/projects/2022-01-01-List-of-Publications",
     "assets/img/projects/2022-01-01-List-of-Publications",
-    "Portfolio/research-and-writing/writing/_posts/2020-01-01-Carefull-Collectives-and-their-Care-Practices.md",
     "Portfolio/research-and-writing/research/_posts/2020-02-01-Care-in-Collectives.md",
     "_featured_categories/Writing.md",
     "_site/writing/index.html",
     "_site/writing",
     "assets/img/projects/basics",
     "_site/portfolio/research-and-writing/writing/2022-02-01-How-I-use-Speculative-Design-in-my-practice/index.html",
-    "_site/portfolio/research-and-writing/writing/2022-02-01-How-I-use-Speculative-Design-in-my-practice",
-    "_site/portfolio/research-and-writing/writing/2022-01-01-List-of-Publications/index.html",
-    "_site/portfolio/research-and-writing/writing/2022-01-01-List-of-Publications",
-    "_site/portfolio/research-and-writing/writing/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network/index.html",
     "_featured_categories/Research-and-Writing.md",
     "Portfolio/research-and-writing/writing/_posts/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network.md",
     "Portfolio/research-and-writing/writing/_posts/2019-01-01-What-is-Innovation-for-India.md",
@@ -251,8 +253,6 @@
     "Portfolio/research-and-writing/research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
     "Portfolio/research-and-writing/research/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
     "Portfolio/research-and-writing/research/_posts/2019-01-01-Caste-and-Education.md",
-    "Portfolio/research-and-writing/writing/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
-    "Portfolio/research-and-writing/writing/_posts/2020-01-01-Maintainers.md",
-    "Portfolio/research-and-writing/writing/_posts/2021-01-01-Mapping-Migratory-Routes.md"
+    "Portfolio/research-and-writing/writing/_posts/2019-01-01-Designing-for-an-Archival-Interface.md"
   ]
 }
