@@ -51,12 +51,12 @@ author:
 menu:
   - title:             UI/UX Design 
     url:               /ui-ux-design/
-  - title:             Blogs
-    url:               /blogs/
-  - title:             Research and Writing
-    url:               /research-and-writing/
+  - title:             Research
+    url:               /research/
+  - title:             Articles
+    url:               /portfolio/research-and-writing/writing/2022-01-01-List-of-Publications/
   - title:             Workshops and Classes
-    url:               /presentation/
+    url:               /portfolio/presentation/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications/
   - title:             Résumé
     url:               /resume/
 #  - title:             Documentation

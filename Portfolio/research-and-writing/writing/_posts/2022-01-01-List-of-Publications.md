@@ -6,36 +6,33 @@ description: >
 date: '01-01-2022'
 sitemap: true
 ---
-# Grant-Based Publications
+# List of Articles I wrote
 * seed
 {:toc}
-#### [Jingle Tales](https://criticalcode.recipes/contributions/jingle-tales) - 2022
 
-We describe a project that we did in Mirzapur, India where we sent laptops made of Raspberry Pis to young women.
 
-#### [Learning from COWs: Community Owned Wifi-Mesh](https://branch.climateaction.tech/issues/issue-4/cows/) - 2022
+## Community Resilience and Technology
+- [Jingle Tales](https://criticalcode.recipes/contributions/jingle-tales) (2022): Describes a project in Mirzapur, India, where laptops made of Raspberry Pis were sent to young women to empower them.
+- [Learning from COWs: Community Owned Wifi-Mesh](https://branch.climateaction.tech/issues/issue-4/cows/) (2022): Reflects on the practice of facilitating community spaces and principles for open climate networks.
+- [Journeys, Dreams, and Everything In Between](https://blog.janastu.org/journeys-dreams-and-everything-in-between/): Discusses a collaborative effort to empower young women in underserved communities through entrepreneurial skills and technology.
+- [The case for a webinar Pi](https://blog.janastu.org/a-case-for-a-webinar-pi/): Advocates for the Webinar Pi platform to foster digital literacy in rural communities.
 
-In this article, we reflect on our practice of facilitating spaces with communities and arrive at principles that can support open climate networks.
+## Community Networks and Local Knowledge
+- [Techno-futures from Bidar](https://one.compost.digital/fertile-technofutures-from-bidar/) (2021): A group reflection on setting up a community mesh network in Bidar, India.
+- [Community Networks Stories: Experiences from co-creating a local knowledge network](https://www.apc.org/en/blog/community-networks-stories-experiences-co-creating-local-knowledge-network): Shares experiences from co-creating a local knowledge network.
+- [Establishing a community network](https://khattamicah.xyz/portfolio/research-and-writing/writing/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network/): A speculative framework for imagining contributors to a community network.
+- Co-edited a local journal called Untold Bidar featuring pieces on long-time collaborators and placemakers in Bidar, focusing on their practice and life. Interviewed farmers, seed distributors, agrarian scientists, and Published pieces in a local journal about local agrarian practices, mythic narratives and heuristics used by farming practitioners to care for their environments in the context of learning climate practices practices from different types of experts
 
-#### [Techno-futures from Bidar](https://one.compost.digital/fertile-technofutures-from-bidar/) - 2021
+## GIS, Research and Data Visualization
+- [Mapping migratory routes of pastoralists across India](https://blog.janastu.org/mapping-migratory-routes-of-pastoralists/): Involves visualizing migratory routes of pastoralists across India with a focus on accuracy and stakeholder collaboration.
 
-In this article, we reflect on our practice of facilitating spaces with communities and arrive at principles that can support open climate networks.
+## Design and Innovation
+- [How I use speculative design](https://khattamicah.xyz/portfolio/research-and-writing/writing/2022-02-01-How-I-use-Speculative-Design-in-my-practice/): Discusses the use of speculative design methods in practice.
+- [What is Innovation for India](https://khattamicah.xyz/portfolio/research-and-writing/writing/2019-02-01-What-is-Innovation-for-India/): Redefines what innovation means for India through a blog and podcast.
+- [Designing a Connected Archive](https://khattamicah.xyz/portfolio/research-and-writing/writing/2019-02-01-Designing-for-an-Archival-Interface/): Shares thoughts on designing a democratic archival interface.
 
-# Other Publications
-
-- Developed the first iteration of the [knowledge observatory](https://kumu.io/embed/1586e748a8bc19787d61801a7eda1e00) of research conducted in Bidar with 300+ students, 100+ local coordinators, 200+ sub-contexts
-
--   Co-Wrote [Community Networks Stories: Experiences from co-creating a local knowledge network](https://www.apc.org/en/blog/community-networks-stories-experiences-co-creating-local-knowledge-network)
-
-- Co-edited a local journal called Untold Bidar featuring pieces on long-time collaborators and placemakers in Bidar, focusing on their practice and life
-
-- Interviewed farmers, seed distributors, agrarian scientists, and Published pieces in a local journal about local agrarian practices, mythic narratives and heuristics used by farming practitioners to care for their environments in the context of learning climate practices practices from different types of experts
-
-- Published "[Journeys, Dreams, and Everything In Between](https://blog.janastu.org/journeys-dreams-and-everything-in-between/)" about a collaborative effort aimed at empowering young women in underserved communities, particularly in Mirzapur, Uttar Pradesh, by fostering entrepreneurial skills, nurturing dreams, and leveraging technology for economic growth and personal development.
-
-- Published [The case for a webinar Pi](https://blog.janastu.org/a-case-for-a-webinar-pi/) - This piece advocates for the development and implementation of the Webinar Pi, a platform built on Raspberry Pi technology, aimed at fostering digital literacy and empowerment among low-literate rural communities, particularly focusing on young women and students, by providing access to inclusive online communities and tools for skill development and entrepreneurship.
-
-- Published [Mapping migratory routes of pastoralists across India](https://blog.janastu.org/mapping-migratory-routes-of-pastoralists/) - The project involved collating and visualizing diverse migratory routes of pastoralists across India, integrating data from various sources to map seasonal movements and community-specific pathways, with a focus on ensuring accuracy through extensive verification and collaboration with stakeholders such as the Center for Pastoralism and Mitan Handicrafts.
-
-- Published [Learning from COWs: Community Owned Wifi\-Mesh](https://branch.climateaction.tech/issues/issue-4/cows/) - reflecting on our practice of facilitating spaces with communities and arrive at principles that can support open climate networks.
-
+## Collective Practices
+- [Remediating code](https://khattamicah.xyz/portfolio/research-and-writing/writing/2021-01-01-Remediating-code-through-thought-story-and-film/): Explores the remediation of code through thought, story, and film.
+- [Selecting tools for Indian Collectives](https://khattamicah.xyz/portfolio/research-and-writing/writing/2021-01-01-Checklist-for-Selecting-Tools-for-Indian-Collectives/): Discusses the selection of tools for collectives in India considering unique contexts and resources.
+- [Maintainers](https://khattamicah.xyz/portfolio/research-and-writing/writing/2020-01-01-Maintainers/): A precursor exploration that evolved into a studio structure for facilitating design studios.
+- [Care-full Collectives and their Care Practices](https://khattamicah.xyz/portfolio/research-and-writing/writing/2020-01-01-Carefull-Collectives-and-their-Care-Practices/): Explores the relationship between care, collaboration, and networks within collectives.
