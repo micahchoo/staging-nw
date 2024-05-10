@@ -3,14 +3,14 @@ layout: post
 title: 'Maps of Hyderabad Cinema History'
 caption:  Making printable maps of hyderabadi cinema halls through the decades
 description: >
- Conducted in collaboration with the Center for Pastoralism (CfP), the endeavor was part of a larger initiative to analyze the impact of the pandemic on pastoralist livelihoods.
+ This was a project to create print-ready maps of the cinema halls that existed in Hyderabad from 1936 to 2018. 
 image: 
   path: /assets/img/projects/2024-01-01-Mapping-History-of-Cinema/e4fe9b0bde5cc60671cde313f37e7f27_MD5.jpeg
 date: '10-05-2024'
 sitemap: true
 
 ---
-This was a project to create print-ready maps of the cinema halls that existed in Hyderabad from 1936 to 2018. The data was curated by Dr. Yamini and they approached me to make some printable maps. The challenge was to create a visually appealing and informative map that highlighted cinema halls with labels, specific localities like Abids, Musheerabad, and Khairatabad—areas known for their rich history of cinema. The centerpiece of the map was Hussain Sagar, a landmark that helps orient anyone familiar with Hyderabad to the map.
+The data was curated by Dr. Yamini and they approached me to make some printable maps. The challenge was to create a visually appealing and informative map that highlighted cinema halls with labels, specific localities like Abids, Musheerabad, and Khairatabad—areas known for their rich history of cinema. The centerpiece of the map was Hussain Sagar, a landmark that helps orient anyone familiar with Hyderabad to the map.
 
 ### The Mapping Process
 
