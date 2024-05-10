@@ -14,20 +14,20 @@ This was a project to create print-ready maps of the cinema halls that existed i
 
 ### The Mapping Process
 
-![](assets/img/projects/2024-01-01-Mapping-History-of-Cinema/e4fe9b0bde5cc60671cde313f37e7f27_MD5.jpeg)
+<a class="spotlight" href="/assets/img/projects/2024-01-01-Mapping-History-of-Cinema/e4fe9b0bde5cc60671cde313f37e7f27_MD5.jpeg"> ![Image 1 Description](/assets/img/projects/2024-01-01-Mapping-History-of-Cinema/e4fe9b0bde5cc60671cde313f37e7f27_MD5.jpeg) </a> Image 1 Description {:.figcaption} 
 #### Step 1: Stylizing the Map in Mapbox
 The first step involved using Mapbox, a powerful tool for custom map design. The objective was to simplify the map to enhance its aesthetic appeal and readability. This was achieved by:
 - **Color Stylization:** Choosing a color palette that was visually pleasing yet functional.
 - **Hiding Unnecessary Layers:** Removing layers that cluttered the map, such as minor settlements, road names, and highway icons.
 - **Filtering Specific Features:** Ensuring that important features like Abids, Hussain Sagar, and the Outer Ring Roads were prominently visible.
 
-![](assets/img/projects/2024-01-01-Mapping-History-of-Cinema/8e0d88668c4521c62c62f7240aeae4f5_MD5.jpeg)
+<a class="spotlight" href="/assets/img/projects/2024-01-01-Mapping-History-of-Cinema/8e0d88668c4521c62c62f7240aeae4f5_MD5.jpeg"> ![Image 2 Description](/assets/img/projects/2024-01-01-Mapping-History-of-Cinema/8e0d88668c4521c62c62f7240aeae4f5_MD5.jpeg) </a> Image 2 Description {:.figcaption} 
 #### Step 2: Exporting and Georeferencing
 Once the map was stylized:
 - **Export as PNG:** The map was exported from Mapbox as a PNG file.
 - **Georeferencing in QGIS:** The PNG file was then imported into QGIS, a free and open-source geographic information system, where it was georeferenced to align with geographical data accurately.
 
-![](assets/img/projects/2024-01-01-Mapping-History-of-Cinema/dc219fb4923ac748e9cfeaf724e923a4_MD5.jpeg)
+<a class="spotlight" href="/assets/img/projects/2024-01-01-Mapping-History-of-Cinema/dc219fb4923ac748e9cfeaf724e923a4_MD5.jpeg"> ![Image 3 Description](/assets/img/projects/2024-01-01-Mapping-History-of-Cinema/dc219fb4923ac748e9cfeaf724e923a4_MD5.jpeg) </a> Image 3 Description {:.figcaption}
 #### Step 3: Enhancing Map Details in QGIS
 In QGIS, further enhancements were made:
 - **Stylizing Labels:** Labels were styled using callouts and offsets to improve visibility amidst a high density of points.
