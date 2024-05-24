@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/research-and-writing/mapping/_posts/2024-01-01-Mapping-History-of-Cinema.md",
+                "file": "blogs/_posts/2024-05-01-IIIF-images.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Portfolio/research-and-writing/mapping/_posts/2024-01-01-Mapping-History-of-Cinema.md",
+                "file": "blogs/_posts/2024-05-01-IIIF-images.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Portfolio/research-and-writing/mapping/_posts/2024-01-01-Mapping-History-of-Cinema.md",
+                "file": "blogs/_posts/2024-05-01-IIIF-images.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/research-and-writing/mapping/_posts/2024-01-01-Mapping-History-of-Cinema.md"
+                "file": "blogs/_posts/2024-05-01-IIIF-images.md"
               }
             }
           },
@@ -208,8 +208,9 @@
   },
   "active": "f3c73349eba991ba",
   "lastOpenFiles": [
-    "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
     "Portfolio/research-and-writing/mapping/_posts/2024-01-01-Mapping-History-of-Cinema.md",
+    "blogs/_posts/2024-05-01-IIIF-images.md",
+    "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
     "assets/img/projects/2024-01-01-Mapping-History-of-Cinema/8e0d88668c4521c62c62f7240aeae4f5_MD5.jpeg",
     "assets/img/projects/2018 pre inkscape.png",
     "assets/img/projects/2024-01-01-Mapping-History-of-Cinema/dc219fb4923ac748e9cfeaf724e923a4_MD5.jpeg",
