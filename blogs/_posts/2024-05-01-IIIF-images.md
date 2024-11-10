@@ -6,7 +6,7 @@ description: >
 date: '01-05-2024'
 sitemap: true
 ---
-# Why Use IIIF?
+# Why Use IIIF for digital archives?
 
 Many digital archives have adopted the International Image Interoperability Framework (IIIF) due to its numerous advantages over traditional high-resolution images. Unlike heavy images that often lack metadata, are difficult to zoom or pan, load slowly, break at higher zoom levels, and suffer from website compression, IIIF offers a more efficient and versatile solution. 
 
