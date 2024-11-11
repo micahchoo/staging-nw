@@ -17,12 +17,15 @@ While working through this problem, what started standing out as having potentia
 
  For a non-technical person like me, it was quite a dense topic to understand so I kept it as one of those topics that I learn in very small doses over a long period of time. Exploring options, I found a promising solution in the IIIF (International Image Interoperability Framework). IIIF’s robust API suite allows us to store, manage, and display images with intricate metadata, supporting high-resolution viewing, customizable access controls, and detailed annotations. This framework makes it possible to structure and search extensive image collections efficiently, making it ideal for handling complex cultural archives while maintaining accessibility for public engagement or research purposes.
 
+* seed
+{:toc}
 
 ## Grappling with the complexity of IIIF
 
-<a class="spotlight" href="/assets/img/projects/Pasted%20image%2020241109225403.png">
-  <img src="/assets/img/projects/Pasted%20image%2020241109225403.png" alt="A limited explanation of IIIF" style="width:300px">
+<a class="spotlight" href="/assets/img/projects/IIIF%20system.png">
+  <img src="/assets/img/projects/IIIF%20system.png" alt="A limited explanation of IIIF" style="width:300px">
 </a>
+
 
 Schematic of how images are requested for and served
 {:.figcaption}
@@ -36,7 +39,8 @@ As I saw it there 3 main areas where the complexity was really high
 ### The Image Server - 
 The traditional IIIF image server is a dynamically serving images, cut up into tiles (like maps) - so that they can be viewed at a high resolution. 
 
-<a class="spotlight" href="/assets/img/projects/Pasted%20Image%2020241109205324_345.png"> <img src=" assets/img/projects/Pasted%20Image%2020241109205324_345.png" alt="Dynamic images and how URLs like these fetch them" style="width:300px"></a>
+<a class="spotlight" href="/assets/img/projects/IIIF%20URL%20processing.png"> <img src=" assets/img/projects/IIIF%20URL%20processing.png" alt="Dynamic images and how URLs like these fetch them" style="width:300px"></a>
+
 
 A simplification that was offered online was to serve static tiles of that don't do any transformations. If you think of using Google Maps with a slow network, the squares often take time to load when zooming in or out of the map. Google maps to some extent is dynamically creating these square tiles with upto 22 levels of zoom. However, if you were able to limit the viewing to 1 or 2 zoom levels, the tiles can be created once and reused again and again. This is hitting the tradeoff between performance and memory usage.
 
@@ -97,7 +101,7 @@ To view these manifests, we need to have it on the internet with a URL. This is 
 
 
 ### Tropy and Tropiiify
-
+See my test demo [here](https://github.com/micahchoo/Tropiiify-test) 
 This option seems to be the most promising in terms of the performance and flexibility. When combined with github CI/CD, it can be a complete solution on its own.
 
 There are a few steps to follow
@@ -114,21 +118,16 @@ There are a few steps to follow
 11. Preview or download the json
 12. Create an html page with one of the viewers embedded and pass it the url of the manifest.json
 
-See my test demo [here](https://github.com/micahchoo/Tropiiify-test) 
-
-September 4 comment about collaboration - [Collaborative project? - Question - forums.tropy.org](https://forums.tropy.org/t/collaborative-project/4394)
 
 
+## Upcoming Sections
 
-
-#### Alternatives to Github CI/CD
-- 
+Tropy and collaboration - September 4 comment about collaboration - [Collaborative project? - Question - forums.tropy.org](https://forums.tropy.org/t/collaborative-project/4394)
+Alternatives to Github CI/CD 
 - Someone smarter than me can browse the build logs for my github pages and implement it for Gitlab CI/CD
-
-
-
-biiif
-tropy
-wax(?)
-mirador-annotot
-digirati-manifest editor
+~~biiif~~
+~~tropy~~
+- wax(?)
+- mirador-annotot
+- how to store and serve annotations
+~~digirati-manifest editor~~
