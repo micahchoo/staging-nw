@@ -263,6 +263,7 @@
     "_site/research/index.html",
     "_site/research",
     "_site/research-and-writing/index.html",
+    "_site/assets/Avatar.jpg",
     "_site/assets/img/projects/Wax_Workflow.png",
     "assets/img/projects/Wax_Workflow.png",
     "blogs/_posts/2024-05-01-IIIF-images.md",
@@ -294,7 +295,6 @@
     "vendor/bundle/ruby/3.2.0/bundler/gems/hydejack-pro-5b6c691b5f93/assets/img/logo.png",
     "vendor/bundle/ruby/3.2.0/bundler/gems/hydejack-pro-5b6c691b5f93/assets/icons/icon-96x96.png",
     "vendor/bundle/ruby/3.2.0/bundler/gems/hydejack-pro-5b6c691b5f93/assets/icons/icon-72x72.png",
-    "vendor/bundle/ruby/3.2.0/bundler/gems/hydejack-pro-5b6c691b5f93/assets/icons/icon-512x512.png",
     "vendor/bundle/ruby/3.2.0/gems/jekyll-sitemap-1.4.0/spec/fixtures/404.md",
     "vendor/bundle/ruby/3.2.0/gems/jekyll-redirect-from-0.16.0/spec/fixtures/one_redirect_to_url.md",
     "vendor/bundle/ruby/3.2.0/gems/jekyll-redirect-from-0.16.0/spec/fixtures/one_redirect_to_path.md"

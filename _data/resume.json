@@ -116,6 +116,7 @@
       "area": "Design Led Innovation",
       "studyType": "Masters",
       "endDate": "2020-06-30",
+      "gpa": "",
       "courses": [
         "Future and Foresight",
         "Markets",
@@ -126,6 +127,7 @@
     {
       "institution": "Pune University",
       "area": "Electronics and Telecommunications Engineering",
+      "gpa": "",
       "studyType": "Bachelors",
       "endDate": "2018-08-01"
     }
