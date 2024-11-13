@@ -17,7 +17,7 @@
         {% capture name %}{% include components/link.html title=pub.name href=pub.url span_class="bc" %}{% endcapture %}
         {% capture publisher %}<span class="bc">{{ pub.publisher }}</span>{% endcapture %}
         {{ strings.resume.publications_title
-          | default:"<!--name--> by <!--publisher-->"
+          | default:"<!--name--> with <!--publisher-->"
           | replace:"<!--name-->", name
           | replace:"<!--publisher-->", publisher
         }}

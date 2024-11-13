@@ -124,8 +124,10 @@ resume:
   email:               Email
   phone:               Phone
   website:             Website
-  work:                Experience
+  work:                Work Experience
   work_title:          <!--position--> at <!--company-->
+  projects:            Projects
+  projects_title:      <!--project_name--> - <!--project_type-->
   highlights:          Highlights
   volunteer:           Volunteer
   volunteer_title:     <!--position--> at <!--organization-->
@@ -135,7 +137,7 @@ resume:
   awards:              Awards
   awards_title:        <!--title--> from <!--awarder-->
   publications:        Publications
-  publications_title:  <!--name--> by <!--publisher-->
+  publications_title:  <!--name--> with <!--publisher-->
   references:          References
   languages:           Languages
   fluency:             Fluency

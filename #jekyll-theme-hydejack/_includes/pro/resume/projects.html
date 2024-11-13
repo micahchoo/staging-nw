@@ -1,0 +1,70 @@
+{% if resume.projects.size > 0 %}
+<section>
+  <div class="npb">
+    <h2 id="projects" class="h3 hr-bottom">
+      {{ strings.resume.projects | default:"Projects" }}
+      <span class="symbol {{ icons.projects | default:'icon-folder-open' }}"></span>
+    </h2>
+    {% for project in resume.projects %}
+
+    <section>
+      <header
+        {% if forloop.first == false %}class="mt2"{% endif %}
+        property="hasPart"
+        typeof="CreativeWork"
+      >
+        {% if project.startDate.size > 0 %}
+          <p class="faded">
+            {% include components/from-to.html from=project.startDate to=project.endDate format=from_to_format %}
+          </p>
+        {% endif %}
+        
+        <h3 class="h4 faded">
+          <meta property="name" content="{{ project.name }}"/>
+          {% capture title %}<span class="bc">{{ project.name }}</span>{% endcapture %}
+          {% capture project_class %}{% if project.endDate.size > 0 %}{% else %}org p-org h-card{% endif %}{% endcapture %}
+          {% capture project_name %}
+            {% if project.url %}
+              <a href="{{ project.url }}" class="{{ project_class }}" span_class="bc" property="sameAs">
+                {{ project.name }}
+              </a>
+            {% else %}
+              <span class="{{ project_class }}">{{ project.name }}</span>
+            {% endif %}
+          {% endcapture %}
+          {{ strings.resume.project_title
+            | default:"<!--title-->"
+            | replace:"<!--title-->", title
+          }}
+        </h3>
+      </header>
+
+      {% if project.description.size > 0 %}
+        <p class="note">{{ project.description }}</p>
+      {% endif %}
+
+      {% if project.highlights.size > 0 %}
+        <h4 class="sr-only">{{ strings.resume.highlights | default:"Highlights" }}</h4>
+        <ul>
+          {% for highlight in project.highlights %}
+            <li>{{ highlight | markdownify | raw }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      
+      {% if project.keywords.size > 0 %}
+        <p class="keywords faded">
+        {{ strings.resume.keywords | default:"Keywords:" }}
+          {% for keyword in project.keywords %}
+            <span class="keyword">{{ keyword }}</span> |
+          {% endfor %}
+        </p>
+      {% endif %}
+      
+    </section>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+
