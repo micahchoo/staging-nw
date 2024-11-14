@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Caption Generator & Extractor</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; }
+    label { display: block; margin: 15px 0 5px; }
+    input, textarea { width: 100%; padding: 8px; font-size: 1rem; }
+    button { padding: 10px 15px; margin-top: 10px; cursor: pointer; }
+    .output { margin-top: 20px; padding: 10px; background: #f4f4f4; border: 1px solid #ddd; white-space: pre; }
+  </style>
+</head>
+<body>
+
+  <h2>HTML Caption Generator & Extractor</h2>
+
+  <!-- First Tool: HTML Generator -->
+  <section>
+    <h3>1. Generate HTML String</h3>
+    
+    <label for="pathInput">Image Path:</label>
+    <input type="text" id="pathInput" placeholder="/assets/img/projects/IIIF%20URL%20processing.png">
+    
+    <label for="captionInput">Caption:</label>
+    <input type="text" id="captionInput" placeholder="Dynamic images and how URLs like these fetch them">
+    
+    <button onclick="generateOutput()">Generate HTML</button>
+    
+    <div class="output" id="output"></div>
+    <button onclick="copyToClipboard()">Copy to Clipboard</button>
+  </section>
+
+  <!-- Second Tool: HTML Extractor -->
+  <section style="margin-top: 40px;">
+    <h3>2. Extract Image Path and Caption from HTML</h3>
+    
+    <label for="htmlInput">Enter HTML Code:</label>
+    <textarea id="htmlInput" placeholder='<a class="spotlight" href="/assets/img/projects/Biiif%20folder%20naming%20conventions.png"> <img src="/assets/img/projects/Biiif%20folder%20naming%20conventions.png" alt="How to name folder hierarchy in to create manifests" style="width:500px"></a>' rows="4"></textarea>
+    
+    <button onclick="extractAndFillInputs()">Extract & Fill</button>
+  </section>
+
+  <script>
+    // First tool function: Generates the desired HTML output with newline indicators
+    function generateOutput() {
+      const path = document.getElementById('pathInput').value;
+      const caption = document.getElementById('captionInput').value;
+      
+      // Format the output with explicit \n for new lines
+      const outputHTML = `<a class="spotlight" href="${path}">![${caption}](${path}){:.lead width="800" height="100" loading="lazy"}</a>` +
+                         `\n${caption}` +
+                         `\n{:.figcaption}`;
+      document.getElementById('output').textContent = outputHTML;
+    }
+
+    // Copy output text to clipboard
+    function copyToClipboard() {
+      const outputText = document.getElementById('output').textContent;
+      navigator.clipboard.writeText(outputText).then(() => {
+        alert("Copied to clipboard!");
+      }).catch(err => {
+        alert("Failed to copy: " + err);
+      });
+    }
+
+    // Second tool function: Extracts image path and caption from HTML input
+    function extractAndFillInputs() {
+      const htmlInput = document.getElementById('htmlInput').value;
+      
+      // Use regular expressions to find the path and caption in the input HTML
+      const pathMatch = htmlInput.match(/href="([^"]+)"/);
+      const captionMatch = htmlInput.match(/alt="([^"]+)"/);
+      
+      // If matches are found, set values in the first tool's input fields
+      if (pathMatch && captionMatch) {
+        document.getElementById('pathInput').value = pathMatch[1];
+        document.getElementById('captionInput').value = captionMatch[1];
+      } else {
+        alert("Invalid HTML format. Please make sure it contains href and alt attributes.");
+      }
+    }
+  </script>
+
+</body>
+</html>

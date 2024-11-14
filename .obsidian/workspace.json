@@ -55,21 +55,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/research-and-writing/research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala"
-            }
-          },
-          {
-            "id": "b4a0d19aa33a4dd5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "blogs/_posts/2024-05-01-IIIF-images.md",
                 "mode": "source",
                 "backlinks": true,
@@ -77,6 +62,18 @@
               },
               "icon": "lucide-file",
               "title": "2024-05-01-IIIF-images"
+            }
+          },
+          {
+            "id": "b4a0d19aa33a4dd5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-11-09 20.21.06.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-11-09 20.21.06.excalidraw"
             }
           },
           {
@@ -92,7 +89,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -166,7 +163,7 @@
               "state": {
                 "file": "blogs/_posts/2024-05-01-IIIF-images.md",
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -230,12 +227,12 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,8 +247,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b4a0d19aa33a4dd5",
+  "active": "947f149dff9c1733",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-11-09 20.21.06.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-10 20.26.03.excalidraw.md",
+    "blogs/_posts/2024-05-01-IIIF-images.md",
+    "assets/img/projects/Wax_Workflow.png",
+    "Portfolio/research-and-writing/research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
+    "Excalidraw/Drawing 2024-11-10 11.34.45.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-10 13.09.21.excalidraw.md",
+    "assets/img/projects/Zoom_Levels_Tiling.png",
+    "_site/imagemaker.html",
+    "imagemaker.html",
+    "wrangler (Copy).toml",
+    "assets/img/projects/Tropy plugin settings.png",
     "#jekyll-theme-hydejack/_includes/pro/resume/projects.html",
     "#jekyll-theme-hydejack/_includes/pro/resume/work (Copy).html",
     "_site/writing/index.html",
@@ -259,17 +268,10 @@
     "_site/website/index.html",
     "_site/website",
     "_site/ui-ux-design/index.html",
-    "_site/ui-ux-design",
-    "_site/teaching/index.html",
-    "_site/teaching",
-    "_site/research/index.html",
     "_site/assets/Avatar.jpg",
     "_site/assets/img/projects/Wax_Workflow.png",
-    "assets/img/projects/Wax_Workflow.png",
-    "blogs/_posts/2024-05-01-IIIF-images.md",
     "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
     "blogs/_posts/2022-12-01-Audio-sensemaking-cross-annotation.md",
-    "Excalidraw/Drawing 2024-11-10 20.26.03.excalidraw.md",
     "blogs/_posts/2022-12-01-Reading-List.md",
     "blogs/_posts/Untitled.md",
     "vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser/vendor/http-parser-java/README.md",
@@ -289,14 +291,8 @@
     "vendor/bundle/ruby/3.2.0/gems/jekyll-redirect-from-0.16.0/spec/fixtures/_authors/kansaichris.md",
     "vendor/bundle/ruby/3.2.0/gems/jekyll-redirect-from-0.16.0/spec/fixtures/_articles/redirect-me-plz.md",
     "vendor/bundle/ruby/3.2.0/gems/jekyll-4.3.3/lib/theme_template/example/_post.md",
-    "vendor/bundle/ruby/3.2.0/gems/ffi-1.16.3/ext/ffi_c/libffi/README.md",
     "vendor/bundle/ruby/3.2.0/bundler/gems/hydejack-pro-5b6c691b5f93/assets/img/swipe.svg",
     "vendor/bundle/ruby/3.2.0/bundler/gems/hydejack-pro-5b6c691b5f93/assets/img/sidebar-bg.jpg",
-    "vendor/bundle/ruby/3.2.0/bundler/gems/hydejack-pro-5b6c691b5f93/assets/img/logo.png",
-    "vendor/bundle/ruby/3.2.0/bundler/gems/hydejack-pro-5b6c691b5f93/assets/icons/icon-96x96.png",
-    "vendor/bundle/ruby/3.2.0/bundler/gems/hydejack-pro-5b6c691b5f93/assets/icons/icon-72x72.png",
-    "vendor/bundle/ruby/3.2.0/gems/jekyll-sitemap-1.4.0/spec/fixtures/404.md",
-    "vendor/bundle/ruby/3.2.0/gems/jekyll-redirect-from-0.16.0/spec/fixtures/one_redirect_to_url.md",
-    "vendor/bundle/ruby/3.2.0/gems/jekyll-redirect-from-0.16.0/spec/fixtures/one_redirect_to_path.md"
+    "vendor/bundle/ruby/3.2.0/bundler/gems/hydejack-pro-5b6c691b5f93/assets/img/logo.png"
   ]
 }

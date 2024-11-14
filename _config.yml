@@ -110,14 +110,14 @@ google_fonts:          Montserrat|Tenor+Sans|Open+Sans|Menlo
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font:                 Tenor Sans , Helvetica, sans-serif
+font:                 Poppins,Funnel Display , Helvetica, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font_heading:          Montserrat, Roboto Slab, Helvetica, sans-serif
+font_heading:          Bebas Neue, Montserrat, Roboto Slab, Helvetica, sans-serif
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
-font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
+font_code:             Menlo, Monaco, Consolas, monospace;
 
 defaults:
   # You can use this to provide a default accent color and background for

@@ -265,7 +265,7 @@
     },
     {
       "name": "South Asian Digital History",
-      "description": "Started curating existing web content from two buckets.History of the Digital: This includes the exploration of technology and the internet and their interaction with socio-cultural phenomena within South Asia.Digitized History: As archives throughout South Asia transition to digitization, formerly inaccessible cultural and historical artifacts become available for study and exploration.",
+      "description": "Started curating existing web content from two buckets.History of the Digital - This includes the exploration of technology and the internet and their interaction with socio-cultural phenomena within South Asia. Digitized History - As archives throughout South Asia transition to digitization, formerly inaccessible cultural and historical artifacts become available for study and exploration.",
       "url": "https://micahchoo.github.io/awesome-digital-history-South-Asia/",
       "keywords": [
         "digital history",
@@ -332,12 +332,13 @@
     {
       "name": "Seeing, Being, Doing: Design",
       "role": "Design Instructor",
-      "startDate": "2022",
-      "endDate": "2022",
-      "description": "Co-facilitated a course for 22 4th-year HCD students focusing on exploring gathering spaces and practicing situated-making. Students engaged in activities such as site mapping and artifact building, learning through a field-based studio environment.",
+      "startDate": "2022-08-01",
+      "endDate": "2022-12-31",
+      "description": "Co-facilitated a course for 22 4th-year HCD students focusing on exploring gathering spaces and practicing situated-making.",
       "entity": "Srishti Manipal Institute Of Art, Design and Technology",
       "type": "teaching",
       "highlights": [
+        "Students engaged in activities such as site mapping and artifact building, learning through a field-based studio environment.",
         "Promoted experiential learning and collaboration with external partners.",
         "Fostered artistic exploration in response to real-life contexts."
       ]
@@ -345,8 +346,6 @@
     {
       "name": "Beyond Listening",
       "role": "Instructor",
-      "startDate": "2022",
-      "endDate": "2022",
       "description": "Co-facilitated a course on podcasting and oral narratives, covering podcast production, interview techniques, and audio editing. Explored the role of sound in publishing, particularly for low English literacy populations in India.",
       "type": "teaching",
       "highlights": [
@@ -357,8 +356,6 @@
     {
       "name": "Speculative Technological Design Studio",
       "role": "Co-facilitator",
-      "startDate": "2021",
-      "endDate": "2021",
       "description": "Led a project-based learning studio on speculative technological design, guiding students to work with local creative practitioners on archiving and distributing knowledge.",
       "type": "teaching",
       "entity": "Srishti Manipal Institute Of Art, Design and Technology",
@@ -370,8 +367,6 @@
     {
       "name": "Alternatives and Demands in Network Ruins",
       "type": "conference/talk/panel",
-      "startDate": "2021",
-      "endDate": "2021",
       "url": "https://twitter.com/dcwalk_/status/1381598287082500100?s=20&t=UQoNcd_xPznfUZlNuWoDbA",
       "description": "Participated in a panel talk discussing Servelots/Janastu’s experiments with Community Networks, focusing on innovative solutions and challenges in sustaining community-driven networking models."
     },

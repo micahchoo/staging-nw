@@ -54,10 +54,9 @@
       
       {% if project.keywords.size > 0 %}
         <p class="keywords faded">
-        {{ strings.resume.keywords | default:"Keywords:" }}
           {% for keyword in project.keywords %}
-            <span class="keyword">{{ keyword }}</span> |
-          {% endfor %}
+            | <span class="keyword">{{ keyword }}</span> 
+          {% endfor %} |
         </p>
       {% endif %}
       
