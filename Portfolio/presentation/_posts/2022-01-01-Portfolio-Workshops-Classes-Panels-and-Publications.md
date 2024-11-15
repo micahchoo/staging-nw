@@ -29,6 +29,7 @@ sitemap: true
 
 - [Design and Social Justice](https://twitter.com/onefuture_india/status/1386285835775987712/photo/1) (2021): A workshop discussing how design can support or hinder social justice goals, focusing on equity for marginalized communities. Collaborators: Senjuti, Siddhant.
 
+
 ## Digital Archives and Annotations
 
 - [Lived Experience Archives for Champions of the Disability Sector](/portfolio/research-and-writing/research/2022-02-20-EnableIndia-LE/) (2022): A workshop for the Disability NGO Alliance on archiving day-to-day practices and knowledge. Collaborators: Bhanu, Senjuti, Madhavi.

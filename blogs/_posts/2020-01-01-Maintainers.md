@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Maintainer'
+title: 'Maintainers: A chapter Review'
 caption:  
 description: >
  This was a precursor exploration of [Facilitating a Design Studio](/portfolio/presentation/teaching/2022-12-01-Facilitating-a-Design-Studio-Overview) and evolved into the studio structure
@@ -13,12 +13,11 @@ sitemap: true
 ---
 
 # Maintainers
-* seed
-{:toc}
+
 #concept
 This was a precursor exploration of [[Facilitating a Design Studio - Overview]] and evolved into the studio structure
 
-Mark Young's chapter on the invisible infrastructure addresses the often unnoticed aspects of our urban environments. The complex networks of infrastructure that support our cities are usually kept out of sight, and consequently out of mind. This hasn't always been the case - there was a time when these systems were prominently displayed as symbols of progress. The misconception that infrastructure is inherently stable and permanent can lead us to view breakdowns as anomalies or failures of design. As a result, we may overlook the critical work of technicians, whose tasks are often deemed as responses to infrequent issues, rather than integral parts of the technology's lifecycle.
+[Mark Young's chapter on the invisible infrastructure](https://doi.org/10.1007/978-3-030-52313-8_6) addresses the often unnoticed aspects of our urban environments. The complex networks of infrastructure that support our cities are usually kept out of sight, and consequently out of mind. This hasn't always been the case - there was a time when these systems were prominently displayed as symbols of progress. The misconception that infrastructure is inherently stable and permanent can lead us to view breakdowns as anomalies or failures of design. As a result, we may overlook the critical work of technicians, whose tasks are often deemed as responses to infrequent issues, rather than integral parts of the technology's lifecycle.
 
 Maintenance is broadly defined as any activity that contributes to the continued functioning of a technical system. This includes cleaning, repairing, modifying, or replacing parts. The user's interaction with the technology over time, their capacity to fix issues and maintain functionality, extends the concept of the technology beyond the device itself. Maintenance is often rendered invisible due to it being carried out in secluded places or during off-peak hours to minimize disruption. Furthermore, this type of work is often performed by individuals who occupy less privileged positions in society, making it less visible in our collective consciousness.
 
@@ -36,7 +35,7 @@ https://escholarship.org/uc/item/6xj932f8?s=09
 
 Here are some additional notes on various topics:
 
-- **Ethnographic Studies of Repair (ESR)**: ESR focuses on the ethnographic examination of repair practices. It explores how repair activities often remain invisible in society, with everyday breakages and repair work hidden from view. Repair people themselves are often marginalized and overlooked. By understanding repair as a process and considering the interplay of artifacts, networks, and human agency, the visibility and significance of infrastructures and technologies can be better understood.
+- Ethnographic Studies of Repair (ESR) ESR focuses on the ethnographic examination of repair practices. It explores how repair activities often remain invisible in society, with everyday breakages and repair work hidden from view. Repair people themselves are often marginalized and overlooked. By understanding repair as a process and considering the interplay of artifacts, networks, and human agency, the visibility and significance of infrastructures and technologies can be better understood.
 
 - **Observing Infrastructures and Technologies**: Observing and gaining visibility into infrastructures and technologies can have several benefits. It can lead to the development of alternatives and enhance resilience by providing options. It can foster diversity and specificity of use, enabling alternative ways of using technologies. Additionally, observing and participating in repair practices can promote solidarity, transforming low-income jobs into essential and valued roles. Exploring these observations can inform human-centered design practices.
 

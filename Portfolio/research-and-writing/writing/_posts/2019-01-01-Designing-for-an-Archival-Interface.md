@@ -12,12 +12,14 @@ sitemap: true
 # Designing a Connected Archive
 ## Introduction to Archives, Archival Processes and Archival Interface Design
 
-* seed
-{:toc}
+
 
 Archives are fascinating vessels of history, embodying a rich mosaic of artifacts that range from private letters to copyrighted films, from land records to propaganda materials, and even taboo items. The task of an archivist involves categorizing, storing, and preserving these historical documents based on the specific orientation of the archive. However, this multifaceted array of artifacts doesn't just represent historical records; they embody diverse narratives, interests, and stakeholders, all coalescing into what we term the **Archival Record**. 
 
 The establishment and functioning of an archive often inspire key queries around ownership, usage, description, and interpretation. Delving into these questions helps to illuminate the negotiations, conflicts, and complexities that swirl around the archival process. The nature and contents of an archive are significantly influenced by these negotiations and the changing environments, as archives are meant to serve as long-term repositories.
+
+* seed
+{:toc}
 
 ## Archival Items and Collections
 

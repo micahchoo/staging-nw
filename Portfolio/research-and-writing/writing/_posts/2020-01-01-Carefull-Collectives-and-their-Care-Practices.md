@@ -29,7 +29,7 @@ The introduction explores the intersections of care, collaboration, and networks
 
 ### Literature Review
 
-The literature review discusses the selection of topics around ethics of care, networks, and collaboration. It highlights the importance of non-western voices and explores different theories of care and collaborative work. It discusses the work of bruno latour, annemarie mol, ella myers, jenna grant and other care-based researchers
+The literature review discusses the selection of topics around ethics of care, networks, and collaboration. It highlights the importance of non-western voices and explores different theories of care and collaborative work. It discusses the work of bruno latour, annemarie mol, ella myers, jenna grant and other care-based researchers.
 
 ### Methodology
 

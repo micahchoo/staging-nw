@@ -1,8 +1,8 @@
 ---
 layout: post
-title: How to simply set up IIIF for your small archive
+title: How to simply set up IIIF images for your small archive
 caption: ... it felt wrong, that something like this wasn't a native web standard, but could only easily be made in walled-garden platforms.
-description: 
+description: A piece about my sisyphisean struggle with IIIF while it was still nascent, but in the process learning about new ways of organising for IIIF that favour the smaller archives
 date: 01-05-2024
 sitemap: true
 image: 
