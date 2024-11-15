@@ -2,9 +2,11 @@
 layout: post
 title: How to simply set up IIIF for your small archive
 caption: ... it felt wrong, that something like this wasn't a native web standard, but could only easily be made in walled-garden platforms.
-description: ""
+description: 
 date: 01-05-2024
 sitemap: true
+image: 
+ path: /assets/img/projects/IIIF_Header_Post.png
 ---
 
 For the last few years, I have been in search of a way to host images, text and other types of content on the internet in a no-code or low-code but organized and categorized setup. This has led me to many interesting places and ways of doing this. In this article, I want to talk about hosting images using self-hostable tools.
@@ -86,7 +88,7 @@ At each Zoom Level, the image is cut up into smaller and smaller tiles - Deep Zo
 
 However, if you were able to limit the viewing to 1 or 2 zoom levels, the tiles can be created once and reused again and again. This is hitting the tradeoff between performance and memory usage.
 
- A github repo with the images pre-cut into tiles at different zoom levels and corresponding tiles and info.jsons could behave like an IIIF image server. 
+ A github repo with the images [pre-cut into tiles at different zoom levels](http://ronallo.com/iiif-workshop-new/image-api/image-servers/static.html) and corresponding tiles and info.jsons could behave like an IIIF image server. 
 
 [You can see an example of static tiles in this repository of cat pics](https://github.com/edsilv/biiif-workshop/tree/gh-pages/collection/_abyssinian)
 {:.note title="Example"}
@@ -125,19 +127,17 @@ The manifest.json is the part of the object that allows the image to work in a v
 - An **Annotation Page** organizes a list of Annotations on a Canvas, while **Annotation Collections** group Annotation Pages at a higher level, allowing different types of commentary or translations to be kept separate.
 [Read more here](https://iiif.io/api/presentation/3.0/#21-defined-types)
 ##### Creating the Manifests - Organizing the collection
-The process of bundling the metadata with the images is also a labour-intensive task. Most institutions that are switching to IIIF for their collections use either custom-built or resource-heavy Content management Software to create manifests. They might also use an Archival [Content Management Systems](https://github.com/IIIF/awesome-iiif?tab=readme-ov-file#collection-management-systems-cmss-and-digital-asset-management-dams-that-support-iiif) like Islandora, Arches or Omeka. This is however, much harder to do for smaller archivists. Currently, there exists no generic way to set up metadata in a spreadsheet(as non-technical people will want to do) and have it converted to a manifest. 
+The process of bundling the metadata with the images is also a labour-intensive task. Most institutions that are switching to IIIF for their collections use either [custom-built or resource-heavy](http://ronallo.com/iiif-workshop-new/presentation-api/data-workflows.html) Content management Software to create manifests. They might also use an Archival [Content Management Systems](https://github.com/IIIF/awesome-iiif?tab=readme-ov-file#collection-management-systems-cmss-and-digital-asset-management-dams-that-support-iiif) like [Islandora](https://islandora.github.io/documentation/user-documentation/iiif/), [Arches](https://arches.readthedocs.io/en/stable/developing/advanced/managing-and-hosting-iiif/) or [Omeka](https://omeka.org/classic/plugins/IiifItems/). This is however, much harder to do for smaller archivists. For years, there existed no generic way to set up metadata in a spreadsheet(as non-technical people will want to do) and have it converted to a manifest. 
 
 
 #### Creating Annotations - User-generated metadata
 A little less intimidating problem but equally as important is the user-generated metadata or Annotations. How do we enable viewers and end users to create Annotations on these images and have these annotations reflect when viewing them.
-
-
 #### Hosting the archive itself
 In this configuration, there are a few storage locations that we need to solve.
 1. Where the images are stored and served from
-2. Where the annotations are stored and served from
-3. Where the manifests are stored and served from
-4. Where is the viewer and archive stored
+2. Where the [annotations are stored](https://training.iiif.io/iiif-5-day-workshop/day-three/annotations-stores.html) and [served](https://training.iiif.io/iiif-5-day-workshop/day-three/annotations-stores-install.html) from
+3. Where the manifests are [stored and served](https://training.iiif.io/iiif-5-day-workshop/day-two/4-serving-your-manifest.html) from
+4. Where is the [viewer](https://training.iiif.io/iiif-5-day-workshop/day-two/7-building-a-gallery-viewer.html) and archive stored
 
 
 ## Is it possible to create a simple user-hosted IIIF archive
@@ -170,43 +170,53 @@ After organising the files and folders, the script should create manifests as 'i
 
 To view these manifests, we need to have it on the internet with a URL. This is possible to do with github pages. However, storing the images on a github repository and the manifest, with an html file in which you pass the url of the manifest to the IIIF viewer embedded in the webpage.
 
-### Wax
-https://minicomp.github.io/wiki/wax/
+### [Wax](https://minicomp.github.io/wiki/wax/)
+
 Wax is an end-to-end workflow for creating exhibitions while following minimal computing principles. It uses a jekyll site with a interesting uses of the ruby plugins like Rake and ready-made jekyll components to create an image exhibition. 
 With github pages, wax is quite extensive and powerful. While tropy would be good for people interested in having a better backend organizing experience, Wax places itself in the better viewing part of the spectrum. 
 It uses the build process to create static tiles, search data as well as creating manifests. The documentation is beautiful and well-thought out as well and is meant for complete beginners to peruse.
 This doesn't have any easy method for creating annotations however.
+
 <a class="spotlight" href="/assets/img/projects/Wax_Workflow.png">![How Wax handles the files and metadata](/assets/img/projects/Wax_Workflow.png){:.lead width="800" height="100" loading="lazy"}</a>
 
 How Wax handles the files and metadata
 {:.figcaption}
 
-![](Wax_Workflow.png)
 
 
 ### Tropy and Tropiiify
-See my test demo [here](https://github.com/micahchoo/Tropiiify-test) 
+
 This option seems to be the most promising in terms of the performance and flexibility. When combined with github CI/CD, it can be a complete solution on its own. It is able to provide features that allow organising the files, adding metadata, adding annotation and creating manifests. 
 
 While the developers of Tropy have repeatedly asserted that tropy's data model is good enough for non-image sources, they don't have time to build support for audio-visual items as well. Being a great organisational suite, Tropy would be well-suited as a multiplayer app. However, as of Sept 4, Tropy dev's main recommendation is to use a shared folder and be carefull to avoid desynced editing. [Collaborative project? - Question - forums.tropy.org](https://forums.tropy.org/t/collaborative-project/4394)
 
 There are a few steps to follow
-1. Install Tropy
-2. Download the tropiiify plugin as .zip
-3. Install the plugin to tropy in the Preferences menu
-4. Create a repo and [activate github pages](https://www.youtube.com/watch?v=5XhxR9Vs6zc&pp=ygUVZ2l0aHViIHBhZ2VzIHR1dG9yaWFs) for it
-5. In the plugin settings change the base ID to the github pages url till 1 level above the index.json 
-<a class="spotlight" href="/assets/img/projects/Tropy%20plugin%20settings.png"> <img src=" assets/img/projects/Tropy%20plugin%20settings.png" alt="Tropiiify plugin settings"></a>
+- Install Tropy
+- Download the tropiiify plugin as .zip
+- Install the plugin to tropy in the Preferences menu
+- Create a repo and [activate github pages](https://www.youtube.com/watch?v=5XhxR9Vs6zc&pp=ygUVZ2l0aHViIHBhZ2VzIHR1dG9yaWFs) for it
+- In the plugin settings change the base ID to the github pages url till 1 level above the index.json 
 
-7. Import items to Tropy, [organize](https://www.youtube.com/watch?v=jqTkI49JUDA) the images add annotations
-8. For every item, add a unique number in the identifier field
-9. Export>tropiify
-10. Upload this folder to the github repo you created
-11. Go to [Digirati Manifest editor](https://manifest-editor.digirati.services/)>Open manifest url>Paste the URL of the manifest.json file from your github pages site
-12. Preview/Edit or download the json (If changed reupload to Github)
-13. Create an html page with one of the viewers embedded and pass it the url of the manifest.json
+<a class="spotlight" href="/assets/img/projects/Tropy%20plugin%20settings.png">![Tropiiify plugin settings](/assets/img/projects/Tropy%20plugin%20settings.png){:.lead width="800" height="100" loading="lazy"}</a>
+Tropiiify plugin settings
+{:.figcaption}
 
+- Import items to Tropy, [organize](https://www.youtube.com/watch?v=jqTkI49JUDA) the images add annotations
+- For every item, add a unique number in the identifier field
+- Export>tropiiify
+
+<a class="spotlight" href="/assets/img/projects/Tropiiify_Export.png">![Exporting to Tropiiify](/assets/img/projects/Tropiiify_Export.png){:.lead width="800" height="100" loading="lazy"}</a>
+Exporting to Tropiiify
+{:.figcaption}
+
+- Upload this folder to the github repo you created
+- Go to [Digirati Manifest editor](https://manifest-editor.digirati.services/)>Open manifest url>Paste the URL of the manifest.json file from your github pages site
+- Preview/Edit or download the json (If changed reupload to Github)
+- Create an html page with one of the viewers embedded and pass it the url of the manifest.json
+
+See my test demo [here](https://github.com/micahchoo/Tropiiify-test) 
 
 ## Some possible Alternatives to Github pages
 ### Gitlab CI/CD 
 - Someone smarter than me could probably implement it for Gitlab CI/CD. Which could be an exciting possibility.
+
