@@ -7,11 +7,8 @@ date: 01-05-2024
 sitemap: true
 image:
   path: /assets/img/projects/IIIF_Header_Post.png
-
+bluesky_post_uri: https://bsky.app/profile/khattamicah.xyz/post/3lbqas73nd225
 ---
-vjug55kidv6sye7ykr5faxxn
-3lbq7dp6k6k2x
-"at://did:plc:tc67mguo6vvlgqpw54mez6jv/app.bsky.feed.post/3lbqas73nd22"
 
 For the last few years, I have been in search of a way to host images, text and other types of content on the internet in a no-code or low-code but organized and categorized setup. This has led me to many interesting places and ways of doing this. In this article, I want to talk about hosting images using self-hostable tools.
 
@@ -47,7 +44,7 @@ It was during that time that I started experimenting with Cantaloupe, a IIIF ima
 
 
 
-* seed
+* seed 
 {:toc}
 
 ## How do I actually organize, metadatize, annotate and then serve these images?
@@ -225,9 +222,8 @@ See my test demo [here](https://github.com/micahchoo/Tropiiify-test)
 - Someone smarter than me could probably implement it for Gitlab CI/CD. Which could be an exciting possibility.
 
 
-
-
-
 ---
 
-<script>document.addEventListener('DOMContentLoaded', function() { const uri = 'https://bsky.social/coryzue.com/posts/3jxgux'; if (uri) {initBlueskyComments('bluesky-comments', uri);}});</script>
+<div id="bluesky-comments"></div>
+
+

@@ -49,13 +49,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/research-and-writing/writing/_posts/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md",
+                "file": "blogs/_posts/2024-11-25-Adding-Bluesky-comments.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2022-01-01-How-I-use-Speculative-Design-in-my-practice"
+              "title": "2024-11-25-Adding-Bluesky-comments"
             }
           },
           {
@@ -105,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "iiif",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,8 +126,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -214,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -233,19 +232,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "81741ec4b25839f4",
+  "active": "540548bdff813dfc",
   "lastOpenFiles": [
-    "node_modules/@atproto/api/LICENSE.txt",
-    "node_modules/@atproto/api/tsconfig.tests.tsbuildinfo",
-    "node_modules/@atproto/api/tsconfig.build.tsbuildinfo",
-    "node_modules/@atproto/api/jest.setup.ts",
-    "node_modules/@atproto/api/jest.d.ts",
-    "node_modules/@atproto/xrpc/LICENSE.txt",
-    "node_modules/@atproto/xrpc/tsconfig.build.tsbuildinfo",
-    "node_modules/@atproto/xrpc/src/client.ts",
-    "node_modules/@atproto/xrpc/src/xrpc-client.ts",
-    "node_modules/@atproto/xrpc/src/util.ts",
-    "node_modules/@atproto/xrpc/src/types.ts",
+    "blogs/_posts/2024-11-25-Adding-Bluesky-comments.md",
+    "_site/blogs/2024-11-25-2024-11-25-Adding-Bluesky-comments/index.html",
+    "_site/blogs/2024-11-25-2024-11-25-Adding-Bluesky-comments",
+    "Portfolio/research-and-writing/writing/_posts/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md",
+    "Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md",
+    "_site/blogs/2023-12-01-Adding-Bluesky-comments/index.html",
+    "_site/blogs/2023-12-01-Adding-Bluesky-comments",
+    "_site/blogs/2023-12-01-Public-Makings-Github-Repo-and-Website-1/index.html",
+    "_site/blogs/2023-12-01-Public-Makings-Github-Repo-and-Website-1",
+    "_drafts/drafts/2023-01-01-Public-Makings-Github-Repo-and-Website.md",
+    "_drafts/drafts/2019-01-01-What-is-Innovation-for-India.md",
+    "_site/portfolio/research-and-writing/writing/2024-05-01-IIIF-images/index.html",
+    "_site/portfolio/research-and-writing/writing/2024-05-01-IIIF-images",
+    "_site/portfolio/research-and-writing/writing/2024-11-25-2024-05-01-IIIF-images/index.html",
+    "_site/portfolio/research-and-writing/writing/2024-11-25-2024-05-01-IIIF-images",
     "node_modules/@atproto/xrpc/README.md",
     "node_modules/@atproto/xrpc/CHANGELOG.md",
     "node_modules/@atproto/api/README.md",
@@ -266,11 +269,6 @@
     "node_modules/re-template-tag/README.md",
     "node_modules/uint8arrays/README.md",
     "node_modules/zod/README.md",
-    "node_modules/scheduler/README.md",
-    "node_modules/graphemer/README.md",
-    "node_modules/graphemer/CHANGELOG.md",
-    "node_modules/loose-envify/README.md",
-    "node_modules/iso-datestring-validator/README.md",
     "assets/img/projects/IIIF_Header_Post.png",
     "_site/assets/img/icomoon/fonts/icomoon.svg",
     "assets/img/icomoon/fonts/icomoon.svg",
