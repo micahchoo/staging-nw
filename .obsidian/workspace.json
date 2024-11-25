@@ -13,28 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/research-and-writing/mapping/_posts/2024-01-01-Mapping-History-of-Cinema.md",
+                "file": "assets/img/projects/Presentations.json.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2024-01-01-Mapping-History-of-Cinema"
+              "title": "Presentations.json"
             }
           },
           {
-            "id": "4fdb6c56b6c1af6e",
+            "id": "d03a93d4d3d30565",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/img/projects/IIIF_Header_Post.png"
+                "file": "_drafts/drafts/2024-05-01-photos-and-text.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
               },
-              "icon": "lucide-image",
-              "title": "IIIF_Header_Post"
+              "icon": "lucide-file",
+              "title": "2024-05-01-photos-and-text"
+            }
+          },
+          {
+            "id": "67a79b0d1e97af13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Portfolio/presentation/_posts/2020-01-01-The-Imposter-Among-Us.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2020-01-01-The-Imposter-Among-Us"
+            }
+          },
+          {
+            "id": "5dd694910f6feecb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/drafts/Checklist.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Checklist"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "2ecb51e606006cb1",
@@ -46,13 +80,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md",
+                "file": "Portfolio/research-and-writing/writing/_posts/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2024-05-01-IIIF-images"
+              "title": "2022-01-01-How-I-use-Speculative-Design-in-my-practice"
+            }
+          },
+          {
+            "id": "81741ec4b25839f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/drafts/2024-05-01-photos-gallery.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-05-01-photos-gallery"
             }
           }
         ]
@@ -86,7 +135,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "easyl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md",
+                "file": "Portfolio/research-and-writing/mapping/_posts/2024-01-01-Mapping-History-of-Cinema.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2024-05-01-IIIF-images"
+              "title": "Backlinks for 2024-01-01-Mapping-History-of-Cinema"
             }
           },
           {
@@ -146,12 +195,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogs/_posts/2024-05-01-IIIF-images.md",
+                "file": "Portfolio/research-and-writing/writing/_posts/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2024-05-01-IIIF-images"
+              "title": "Outgoing links from 2022-01-01-How-I-use-Speculative-Design-in-my-practice"
             }
           },
           {
@@ -173,10 +222,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md"
+                "file": "Portfolio/research-and-writing/writing/_posts/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-05-01-IIIF-images"
+              "title": "Outline of 2022-01-01-How-I-use-Speculative-Design-in-my-practice"
             }
           },
           {
@@ -194,7 +243,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -215,51 +264,51 @@
   },
   "active": "6f42379e51a7d397",
   "lastOpenFiles": [
-    "Portfolio/research-and-writing/mapping/_posts/2024-01-01-Mapping-History-of-Cinema.md",
-    "blogs/_posts/2020-01-01-Maintainers.md",
+    "Portfolio/research-and-writing/writing/_posts/2022-01-01-List-of-Publications.md",
     "Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md",
+    "_drafts/drafts/Checklist.md",
+    "_site/assets/atproto/comments.js",
+    "_site/assets/atproto/comments.css",
+    "_site/assets/atproto",
+    "assets/atproto/comments.js",
+    "assets/atproto/comments.css",
+    "assets/atproto",
+    "index.md",
+    "Portfolio/presentation/_posts/2020-01-01-The-Imposter-Among-Us.md",
+    "_drafts/drafts/2024-05-01-photos-and-text.md",
+    "Portfolio/design/UI-UX Design/_posts/2021-01-01-Milli.md",
+    "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
+    "Portfolio/presentation/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md",
+    "Portfolio/design/UI-UX Design/website/_posts/2023-01-01-SADHR.md",
+    "Portfolio/design/UI-UX Design/_posts/2018-01-01-Habba-Redesign.md",
+    "Portfolio/design/UI-UX Design/_posts/2018-01-01-Carpooling-Unalone-Karwaan.md",
+    "Portfolio/design/artifact/_posts/2022-01-01-Speculative-Storytelling-in-Wayanad.md",
+    "Portfolio/design/artifact/_posts/2017-01-02-Designers-Ace.md",
+    "_drafts/drafts/The Disenfranchisement of Adivasis in Kerala.md",
+    "_drafts/drafts/2024-05-01-photos-gallery-OSD.md",
+    "_drafts/drafts/2024-05-01-photos-gallery.md",
+    "_site/assets/img/projects/Presentations.json/index.html",
+    "_site/assets/img/projects/Presentations.json",
+    "assets/img/projects/Presentations.json.md",
+    "assets/img/projects/IIIF_Header_Post.png",
+    "_site/assets/img/projects/a.json/index.html",
+    "_site/assets/img/projects/a.json",
+    "Portfolio/research-and-writing/research/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
+    "_site/assets/img/icomoon/fonts/icomoon.svg",
+    "assets/img/icomoon/fonts/icomoon.svg",
+    "_site/assets/img/icomoon-v1.0/fonts/icomoon.svg",
+    "assets/img/icomoon-v1.0/fonts/icomoon.svg",
+    "Portfolio/research-and-writing/mapping/_posts/2024-01-01-Mapping-History-of-Cinema.md",
+    "_site/assets/img/sidebar.png",
+    "assets/img/sidebar.png",
+    "_site/assets/img/Website Banner.png",
+    "assets/img/Website Banner.png",
+    "blogs/_posts/2020-01-01-Maintainers.md",
     "Portfolio/presentation/teaching/_posts/2022-01-01-Facilitating-a-Design-Studio.md",
-    "_site/tag-writing/index.html",
-    "_site/tag-writing",
-    "_site/tag-website/index.html",
-    "_site/tag-website",
-    "_site/tag-ui-ux-design/index.html",
-    "_site/tag-ui-ux-design",
-    "_site/tag-teaching/index.html",
-    "_site/tag-teaching",
-    "_site/tag-research/index.html",
-    "_site/tag-research",
     "_featured_tags/Writing.md",
     "_featured_tags/Website.md",
     "_featured_tags/UI-UX Design.md",
     "_featured_tags/Teaching.md",
-    "_featured_tags/Research.md",
-    "_featured_tags/Research-and-Writing.md",
-    "_featured_tags/Presentation.md",
-    "_featured_tags/Portfolio.md",
-    "_featured_tags/Poem.md",
-    "_featured_tags/Mapping.md",
-    "_featured_tags/Design.md",
-    "_featured_tags/Blogs.md",
-    "_featured_tags/Artifact.md",
-    "_featured_categories (Copy)/Writing.md",
-    "_featured_categories (Copy)/Website.md",
-    "_featured_categories (Copy)/UI-UX Design.md",
-    "_featured_categories (Copy)/Teaching.md",
-    "_featured_categories (Copy)/Research.md",
-    "_featured_categories (Copy)/Research-and-Writing.md",
-    "_featured_categories (Copy)/Presentation.md",
-    "_featured_categories (Copy)/Portfolio.md",
-    "_featured_categories (Copy)/Poem.md",
-    "assets/img/projects/IIIF_Header_Post.png",
-    "assets/img/projects/Wax_Workflow.png",
-    "assets/img/projects/Tropiiify_Export.png",
-    "assets/img/projects/Pasted image 20241114171726.png",
-    "assets/img/projects/Zoom_Levels_Tiling.png",
-    "assets/img/projects/Tropy plugin settings.png",
-    "_site/assets/Avatar.jpg",
-    "_site/assets/img/projects/Wax_Workflow.png",
-    "vendor/bundle/ruby/3.2.0/bundler/gems/hydejack-pro-5b6c691b5f93/assets/icomoon/fonts/icomoon.svg",
-    "vendor/bundle/ruby/3.2.0/gems/jekyll-sitemap-1.4.0/spec/fixtures/images/hubot.png"
+    "assets/img/projects/Wax_Workflow.png"
   ]
 }

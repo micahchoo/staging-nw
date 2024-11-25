@@ -21,10 +21,10 @@
         
         <h3 class="h4 faded">
           <meta property="name" content="{{ project.name }}"/>
-          {% capture title %}<span class="bc">{{ project.name }}</span>{% endcapture %}
+          {% capture title %}<a href="{{ project.url }}" class="{{ project_class }}" span_class="bc" property="sameAs"> {{ project.name }}</a>{% endcapture %}
           {% capture project_class %}{% if project.endDate.size > 0 %}{% else %}org p-org h-card{% endif %}{% endcapture %}
           {% capture project_name %}
-            {% if project.url %}
+            {% if project.url%}
               <a href="{{ project.url }}" class="{{ project_class }}" span_class="bc" property="sameAs">
                 {{ project.name }}
               </a>
@@ -39,6 +39,14 @@
         </h3>
       </header>
 
+
+      {% if project.keywords.size > 0 %}
+          <ul class="tags">
+            {% for key in project.keywords %}
+              <li class="tag">{{ key }}</li>
+            {% endfor %}
+          </ul>{% endif %}
+
       {% if project.description.size > 0 %}
         <p class="note">{{ project.description }}</p>
       {% endif %}
@@ -51,15 +59,6 @@
           {% endfor %}
         </ul>
       {% endif %}
-      
-      {% if project.keywords.size > 0 %}
-        <p class="keywords faded">
-          {% for keyword in project.keywords %}
-            | <span class="keyword">{{ keyword }}</span> 
-          {% endfor %} |
-        </p>
-      {% endif %}
-      
     </section>
     {% endfor %}
   </div>

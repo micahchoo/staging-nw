@@ -2,6 +2,12 @@
 layout: welcome
 title:  Welcome
 cover:  true
+selected_posts:
+  - Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md
+  - Portfolio/presentation/_posts/2020-01-01-The-Imposter-Among-Us.md
+posts_page: /blog/
+featured: false
+
 ---
 
 I am Micah Alex, a multifaceted Researcher, Designer, and Artist, driven by the pursuit of crafting alternatives rooted in grounded narratives.

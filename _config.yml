@@ -96,7 +96,7 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/sidebar.png
 accent_color:          rgb(98,36,92)
 
 # This is used for the `theme-color` meta tag,
@@ -110,7 +110,7 @@ google_fonts:          Montserrat|Tenor+Sans|Open+Sans|Menlo
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font:                 Poppins,Funnel Display , Helvetica, sans-serif
+font:                 Poppins, Funnel Display, Helvetica, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss

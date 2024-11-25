@@ -220,3 +220,21 @@ See my test demo [here](https://github.com/micahchoo/Tropiiify-test)
 ### Gitlab CI/CD 
 - Someone smarter than me could probably implement it for Gitlab CI/CD. Which could be an exciting possibility.
 
+
+
+
+
+
+
+
+
+
+
+
+---
+
+<div id="comments-container"></div>
+<script>
+//loadComments("at://did:plc:scmcyemdposb4vuidhztn2ui/app.bsky.feed.post/3lbb32nb4322g")
+loadCommentsURL("bsky.app/profile/khattamicah.xyz/post/3lbqasjbd7c25")
+</script>

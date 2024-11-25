@@ -95,7 +95,8 @@
       "endDate": "2019-07-01",
       "summary": "Habba is an organsiation that aims to bring artisanal products from diverse craftsmen to the internet",
       "highlights": [
-        "I was initially tasked with managing relationships with existing NGO partners and exploring new partnerships, while gaining insights into the organization's learning opportunities. I proactively took on diverse responsibilities, including redesigning the website using Figma to enhance user experience, sourcing handicrafts for the site, and identifying potential partnerships. I contributed to the growth of the Habba brand by helping develop new services like Habba Bowl and Habba Juices, conducting surveys, and drafting plans. Additionally, I played an active role in event planning and office space reimagining, demonstrating my strategic and innovative approach to problem-solving and project development."
+        "I was initially tasked with managing relationships with existing NGO partners and exploring new partnerships, while gaining insights into the organization's learning opportunities. I proactively took on diverse responsibilities, including redesigning the website using Figma to enhance user experience, sourcing handicrafts for the site, and identifying potential partnerships.",
+        "I contributed to the growth of the Habba brand by helping develop new services like Habba Bowl and Habba Juices, conducting surveys, and drafting plans. Additionally, I played an active role in event planning and office space reimagining, demonstrating my strategic and innovative approach to problem-solving and project development."
       ]
     },
     {
@@ -289,6 +290,7 @@
     },
     {
       "name": "Hyderabad Maps Illustration",
+      "url": "/portfolio/research-and-writing/mapping/2024-05-10-Mapping-History-of-Cinema/",
       "description": "A freelance project illustrating old maps of Hyderabad using GIS tools for research purposes.",
       "highlights": [
         "Created over 10 digital illustrations of historical maps.",
@@ -308,7 +310,7 @@
       "type": "Data Visualisation"
     },
     {
-      "name": "Indian Institute of Human Settlements - Website Development",
+      "name": "Website Development - Indian Institute of Human Settlements",
       "description": "Developed a WordPress web experience for the Tamil Nadu Government Sustainable Habitats program, incorporating interactive navigation and data visualization.",
       "highlights": [
         "Built an interactive chat navigation using Google Dialogflow.",

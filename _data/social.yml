@@ -8,7 +8,7 @@ amazon:
   icon: icon-amazon
 arena:
   name: Arena
-  icon: icon-asterisk
+  icon: icon-svg
   prepend: "https://are.na/"
 google:
   name: Google
