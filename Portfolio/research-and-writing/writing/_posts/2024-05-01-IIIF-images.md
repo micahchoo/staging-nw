@@ -224,6 +224,5 @@ See my test demo [here](https://github.com/micahchoo/Tropiiify-test)
 
 ---
 
-<div id="bluesky-comments"></div>
 
 
