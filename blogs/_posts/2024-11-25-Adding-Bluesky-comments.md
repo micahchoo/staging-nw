@@ -1,16 +1,14 @@
 ---
-layout: project
+layout: post
 title: Adding Bluesky comments to your Jekyll Site
 description: Emily and then Cory demonstrated a way to add Bluesky comments and replies to a post as comments to your blog. I tried to add it to the Hydejack site
-date: 01-12-2023
-image: screenshot
+date: 25-11-2024
+image: 
  path: /assets/img/projects/Bluesky-comments-hydejack.png
-links:
-  - title: Original post
-    url: https://www.coryzue.com/writing/bluesky-comments/
 sitemap: true
 ---
- path: /assets/img/projects/Bluesky-comments-hydejack.png
+
+[Original post](https://www.coryzue.com/writing/bluesky-comments/)
 
 Add this to your includes/my-scripts.html
 ```
