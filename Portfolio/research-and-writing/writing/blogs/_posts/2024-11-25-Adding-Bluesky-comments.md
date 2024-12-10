@@ -12,14 +12,35 @@ sitemap: true
 
 Add this to your includes/my-scripts.html
 ```
-<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/bluesky-comments@0.3.0/dist/bluesky-comments.umd.js"></script>
+
+<!-- Add this new module script -->
+<script type="module">
+  import BlueskyComments from 'https://unpkg.com/bluesky-comments@0.4.0/dist/bluesky-comments.es.js';
+  
+  // For Hydejack's push state
+  document.getElementById('_pushState').addEventListener('hy-push-state-load', function() {
+    const author = 'your-handle.bsky.social'; // Replace with your Bluesky handle
+    if (author) {
+      BlueskyComments.init('bluesky-comments', {author});
+    }
+  });
+</script>
+
 ```
 
 Add this to your includes/my-head.html
 ```
 <link rel="stylesheet" href="https://unpkg.com/bluesky-comments@0.3.0/dist/bluesky-comments.css">
+
+<!-- Add this new importmap before any other scripts -->
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18",
+    "react-dom": "https://esm.sh/react-dom@18"
+  }
+}
+</script>
 ```
 
 On your markdown post, in the frontmatter replace the url and add
@@ -27,25 +48,11 @@ On your markdown post, in the frontmatter replace the url and add
 bluesky_post_uri: https://bsky.app/profile/khattamicah.xyz/post/3lbqas73nd225
 ```
 
-in includes folder, create a file called bluesky-comments.html
-```
-<div id="bluesky-comments"></div>
-
-<script>
-  document.getElementById('_pushState').addEventListener('hy-push-state-load', function() {
-    const uri = '{{ page.bluesky_post_uri }}';
-    console.log(uri);
-    if (uri) {
-      initBlueskyComments('bluesky-comments', uri);
-    }
-  });
-</script>
-```
 
 In the layouts/post.html add this 
 ```
-{% include bluesky-comments.html %}
-```
+  <div id="bluesky-comments"></div>
+  ```
 
 before this line
 ```
