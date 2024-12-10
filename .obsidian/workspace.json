@@ -28,49 +28,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/research-and-writing/writing/blogs/_posts/2024-11-25-Counter-Design.md",
+                "file": "Portfolio/research-and-writing/writing/blogs/_posts/2024-12-10-Counter-Design.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-25-Counter-Design"
+              "title": "2024-12-10-Counter-Design"
             }
           },
           {
-            "id": "fb00cbd9934ab6c0",
+            "id": "2266069ae2a2fc1a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/img/projects/Google_UX_Principles.png"
+                "file": "Portfolio/research-and-writing/mapping/_posts/2021-01-01-Mapping-Migratory-Routes.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Google_UX_Principles"
+              "icon": "lucide-file",
+              "title": "2021-01-01-Mapping-Migratory-Routes"
             }
           },
           {
-            "id": "0411269065048133",
+            "id": "5d53a12115e4c684",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/img/projects/CounterInterfacial.jpg"
+                "file": "Portfolio/research-and-writing/research/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "CounterInterfacial"
-            }
-          },
-          {
-            "id": "c4557395999f7414",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/img/projects/DeArrow_working.png"
-              },
-              "icon": "lucide-image",
-              "title": "DeArrow_working"
+              "icon": "lucide-file",
+              "title": "2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures"
             }
           }
         ],
@@ -192,10 +186,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/research-and-writing/writing/blogs/_posts/2024-11-25-Counter-Design.md"
+                "file": "Portfolio/research-and-writing/writing/blogs/_posts/2024-12-10-Counter-Design.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-11-25-Counter-Design"
+              "title": "Outline of 2024-12-10-Counter-Design"
             }
           },
           {
@@ -234,8 +228,21 @@
   },
   "active": "5dd694910f6feecb",
   "lastOpenFiles": [
+    "Portfolio/research-and-writing/research/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
+    "Portfolio/research-and-writing/mapping/_posts/2021-01-01-Mapping-Migratory-Routes.md",
+    "Portfolio/research-and-writing/writing/blogs/_posts/2024-12-10-Counter-Design.md",
+    "_site/portfolio/research-and-writing/writing/blogs/2024-12-10-Counter-Design/index.html",
+    "_site/portfolio/research-and-writing/writing/blogs/2024-12-10-Counter-Design",
+    "_site/portfolio/research-and-writing/writing/blogs/2024-11-25-Adding-Bluesky-comments/index.html",
+    "_site/portfolio/research-and-writing/writing/blogs/2024-11-25-Adding-Bluesky-comments",
+    "_site/portfolio/research-and-writing/writing/blogs/poem/2021-02-01-Feeling-through-the-Cities-Koramangala/index.html",
+    "_site/portfolio/research-and-writing/writing/blogs/poem/2021-02-01-Feeling-through-the-Cities-Koramangala",
+    "_site/portfolio/research-and-writing/writing/blogs/poem",
+    "_site/portfolio/research-and-writing/writing/blogs",
+    "_site/assets/img/projects/Google_UX_Principles.png",
+    "_site/assets/img/projects/DeArrow_working.png",
+    "_site/assets/img/projects/CounterInterfacial.jpg",
     "assets/img/projects/Google_UX_Principles.png",
-    "Portfolio/research-and-writing/writing/blogs/_posts/2024-11-25-Counter-Design.md",
     "assets/img/projects/CounterInterfacial.jpg_exiftool_tmp",
     "assets/img/projects/CounterInterfacial.jpg-temp.jpg",
     "assets/img/projects/CounterInterfacial.jpg",
@@ -245,18 +252,8 @@
     "Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md",
     "assets/img/projects/Pasted image 20241126002006.png",
     "_site/assets/img/projects/Pasted image 20241126002006.png",
-    "_site/blogs/2024-11-25-Adding-Bluesky-comments/index.html",
-    "_site/blogs/2024-11-25-Adding-Bluesky-comments",
-    "_site/blogs/2024-11-25-2024-11-25-Adding-Bluesky-comments/index.html",
-    "_site/blogs/2024-11-25-2024-11-25-Adding-Bluesky-comments",
-    "_site/blogs/2023-12-01-Adding-Bluesky-comments/index.html",
-    "_site/blogs/2023-12-01-Adding-Bluesky-comments",
     "assets/img/projects/Bluesky-comments-hydejack.png",
-    "_site/assets/img/projects/Bluesky-comments-hydejack.png",
-    "_site/assets/img/projects/Pasted image 20241125181611.png",
     "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
-    "#jekyll-theme-hydejack/_includes/bluesky-comments.html",
-    "#jekyll-theme-hydejack/_includes/icon-github (Copy).html",
     "Portfolio/research-and-writing/writing/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
     "_drafts/drafts/Checklist.md",
     "Portfolio/design/artifact/_posts/2017-01-02-Designers-Ace.md",
@@ -276,8 +273,6 @@
     "node_modules/@atproto/common-web/CHANGELOG.md",
     "node_modules/bluesky-comments/README.md",
     "node_modules/react/README.md",
-    "node_modules/@atproto/lexicon/README.md",
-    "node_modules/@atproto/lexicon/CHANGELOG.md",
-    "assets/img/projects/IIIF_Header_Post.png"
+    "node_modules/@atproto/lexicon/README.md"
   ]
 }
