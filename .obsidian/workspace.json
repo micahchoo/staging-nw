@@ -28,65 +28,53 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2024-05-01-IIIF-images"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "2ecb51e606006cb1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6f42379e51a7d397",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "blogs/_posts/2024-11-25-Adding-Bluesky-comments.md",
+                "file": "Portfolio/research-and-writing/writing/blogs/_posts/2024-11-25-Counter-Design.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-25-Adding-Bluesky-comments"
+              "title": "2024-11-25-Counter-Design"
             }
           },
           {
-            "id": "4a2b91a0c9530032",
+            "id": "fb00cbd9934ab6c0",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "assets/img/projects/Bluesky-comments-hydejack.png"
+                "file": "assets/img/projects/Google_UX_Principles.png"
               },
               "icon": "lucide-image",
-              "title": "Bluesky-comments-hydejack"
+              "title": "Google_UX_Principles"
             }
           },
           {
-            "id": "81741ec4b25839f4",
+            "id": "0411269065048133",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
+                "file": "assets/img/projects/CounterInterfacial.jpg"
               },
-              "icon": "lucide-file",
-              "title": "2022-01-01-Papad"
+              "icon": "lucide-image",
+              "title": "CounterInterfacial"
+            }
+          },
+          {
+            "id": "c4557395999f7414",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/img/projects/DeArrow_working.png"
+              },
+              "icon": "lucide-image",
+              "title": "DeArrow_working"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,12 +165,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogs/_posts/2024-11-25-Adding-Bluesky-comments.md",
+                "file": "Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2024-11-25-Adding-Bluesky-comments"
+              "title": "Outgoing links from 2024-05-01-IIIF-images"
             }
           },
           {
@@ -204,10 +192,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogs/_posts/2024-11-25-Adding-Bluesky-comments.md"
+                "file": "Portfolio/research-and-writing/writing/blogs/_posts/2024-11-25-Counter-Design.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-11-25-Adding-Bluesky-comments"
+              "title": "Outline of 2024-11-25-Counter-Design"
             }
           },
           {
@@ -244,14 +232,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6f42379e51a7d397",
+  "active": "5dd694910f6feecb",
   "lastOpenFiles": [
+    "assets/img/projects/Google_UX_Principles.png",
+    "Portfolio/research-and-writing/writing/blogs/_posts/2024-11-25-Counter-Design.md",
+    "assets/img/projects/CounterInterfacial.jpg_exiftool_tmp",
+    "assets/img/projects/CounterInterfacial.jpg-temp.jpg",
+    "assets/img/projects/CounterInterfacial.jpg",
+    "assets/img/projects/DeArrow_working.png",
+    "assets/img/projects/2024-11-25-Interfacing-with-the-Fediverse",
+    "Portfolio/research-and-writing/writing/blogs/_posts/2024-11-25-Adding-Bluesky-comments.md",
+    "Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md",
+    "assets/img/projects/Pasted image 20241126002006.png",
+    "_site/assets/img/projects/Pasted image 20241126002006.png",
     "_site/blogs/2024-11-25-Adding-Bluesky-comments/index.html",
     "_site/blogs/2024-11-25-Adding-Bluesky-comments",
     "_site/blogs/2024-11-25-2024-11-25-Adding-Bluesky-comments/index.html",
     "_site/blogs/2024-11-25-2024-11-25-Adding-Bluesky-comments",
-    "Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md",
-    "blogs/_posts/2024-11-25-Adding-Bluesky-comments.md",
     "_site/blogs/2023-12-01-Adding-Bluesky-comments/index.html",
     "_site/blogs/2023-12-01-Adding-Bluesky-comments",
     "assets/img/projects/Bluesky-comments-hydejack.png",
@@ -260,11 +257,8 @@
     "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
     "#jekyll-theme-hydejack/_includes/bluesky-comments.html",
     "#jekyll-theme-hydejack/_includes/icon-github (Copy).html",
-    "_site/portfolio/design/ui-ux design/2022-01-01-Papad/index.html",
-    "_site/portfolio/design/ui-ux design/2022-01-01-Papad",
     "Portfolio/research-and-writing/writing/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
     "_drafts/drafts/Checklist.md",
-    "_site/portfolio/design/ui-ux design/2024-11-25-2022-01-01-Papad/index.html",
     "Portfolio/design/artifact/_posts/2017-01-02-Designers-Ace.md",
     "Portfolio/research-and-writing/writing/_posts/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md",
     "_drafts/drafts/2023-01-01-Public-Makings-Github-Repo-and-Website.md",
@@ -284,13 +278,6 @@
     "node_modules/react/README.md",
     "node_modules/@atproto/lexicon/README.md",
     "node_modules/@atproto/lexicon/CHANGELOG.md",
-    "node_modules/multiformats/README.md",
-    "assets/img/projects/IIIF_Header_Post.png",
-    "_site/assets/img/icomoon/fonts/icomoon.svg",
-    "assets/img/icomoon/fonts/icomoon.svg",
-    "_site/assets/img/icomoon-v1.0/fonts/icomoon.svg",
-    "assets/img/icomoon-v1.0/fonts/icomoon.svg",
-    "_site/assets/img/sidebar.png",
-    "assets/img/sidebar.png"
+    "assets/img/projects/IIIF_Header_Post.png"
   ]
 }

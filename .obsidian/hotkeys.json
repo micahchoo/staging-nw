@@ -16,5 +16,13 @@
       ],
       "key": "C"
     }
+  ],
+  "change-case:select": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
   ]
 }

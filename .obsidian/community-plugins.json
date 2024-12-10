@@ -1,8 +1,10 @@
 [
   "obsidian-bulk-rename-plugin",
-  "obsidian-local-images-plus",
   "file-explorer-plus",
   "editing-toolbar",
   "obsidian-prozen",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "change-case",
+  "ollama",
+  "obsidian-local-images-plus"
 ]
