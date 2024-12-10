@@ -9,6 +9,14 @@ Fill in `href`. You may have to adjust `as` and `onload`/`rel`, depending on con
 Fallback in case JavaScript isn't enabled.
 Fill in `href`. You may have to adjust `rel`.
 -->
+<script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@18",
+        "react-dom": "https://esm.sh/react-dom@18"
+      }
+    }
+    </script>
 <noscript><link href="<path/to/content.css>" rel="stylesheet"></noscript>
 {% endcomment %}
 <link rel="stylesheet" href="https://unpkg.com/bluesky-comments@0.3.0/dist/bluesky-comments.css">

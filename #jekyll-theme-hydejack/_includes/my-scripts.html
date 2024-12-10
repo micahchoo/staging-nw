@@ -54,9 +54,14 @@ The snippet below will run the code on every `hy-push-state-load` event instead.
 </script>
 {% endcomment %}
 
+<script type="module">
+  import BlueskyComments from 'https://unpkg.com/bluesky-comments@0.4.0/dist/bluesky-comments.es.js';
+  
+  // For Hydejack's push state
+  document.getElementById('_pushState').addEventListener('hy-push-state-load', function() {
+    const author = 'your-handle.bsky.social'; // Replace with your Bluesky handle
+    if (author) {
+      BlueskyComments.init('bluesky-comments', {author});
+    }
+  });
 </script>
-<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/bluesky-comments@0.3.0/dist/bluesky-comments.umd.js"></script>
-
-
