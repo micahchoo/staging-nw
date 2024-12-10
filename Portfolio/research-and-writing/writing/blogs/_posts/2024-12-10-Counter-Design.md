@@ -6,6 +6,7 @@ date: 10-12-2024
 image:
   path: /assets/img/projects/CounterInterfacial.jpg
 sitemap: true
+bluesky_post_uri: https://bsky.app/profile/khattamicah.xyz/post/3lcwy3i2pzc2n
 ---
 
 
