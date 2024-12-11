@@ -73,8 +73,8 @@ Thinking through this with Paul, whose Ph.D. studies memes and dissent in India,
 
 Let us record the conman who spoke too fast the last time we met him. We paid that time but we will learn. We will listen to the recording. Replay the conversations in our head and practice hard-hitting replies in the shower. 
 
-Allow the interface to be archivable and annotable and we are create spaces for our future selves to come back and reflect and make meaning. To ruminate on the things we didn't notice the first time around, to see the warning signs retrospectively. 
+Allow the interface to be archivable and annotable and we are creating spaces for our future selves to come back and reflect and make meaning. To ruminate on the things we didn't notice the first time around, to see the warning signs retrospectively. 
 
-
+<div id="bluesky-comments"></div>
 
 ---

@@ -97,7 +97,7 @@ theme: jekyll-theme-hydejack
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar.png
-accent_color:          rgb(98,36,92)
+accent_color:          rgb(133, 44, 124)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
@@ -183,7 +183,7 @@ kramdown:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus:                
+# disqus:                
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
@@ -241,7 +241,7 @@ hydejack:
   no_third_column:     false
 
   # Set to `true` if you don't like oversized headlines on large screens.
-  no_large_headings:   false
+  no_large_headings:   true
 
   # Set to `true` if you do not want to expose your resume and projects
   # in machine-readable formats.
