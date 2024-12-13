@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/research-and-writing/writing/blogs/_posts/2024-12-10-Counter-Design.md",
+                "file": "Portfolio/design/artifact/_posts/2024-12-12-DataViz-Indian-Cities.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-10-Counter-Design"
+              "title": "2024-12-12-DataViz-Indian-Cities"
             }
           },
           {
@@ -201,10 +201,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/research-and-writing/writing/blogs/_posts/2024-12-10-Counter-Design.md"
+                "file": "Portfolio/design/artifact/_posts/2024-12-12-DataViz-Indian-Cities.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-12-10-Counter-Design"
+              "title": "Outline of 2024-12-12-DataViz-Indian-Cities"
             }
           },
           {
@@ -243,8 +243,19 @@
   },
   "active": "5dd694910f6feecb",
   "lastOpenFiles": [
-    "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
+    "_site/portfolio/design/artifact/2017-12-12-DataViz-Indian-Cities/index.html",
+    "_site/portfolio/design/artifact/2017-12-12-DataViz-Indian-Cities",
+    "_site/assets/img/projects/DataVizSite.png",
+    "_site/assets/img/projects/Pasted image 20241212202719.png",
+    "assets/img/projects/DataVizSite.png",
+    "_site/portfolio/design/artifact/2017-02-01-DataViz-Indian-Cities/index.html",
+    "_site/portfolio/design/artifact/2017-02-01-DataViz-Indian-Cities",
+    "_site/portfolio/design/artifact/2017-02-01-Designers-Ace-1/index.html",
+    "_site/portfolio/design/artifact/2017-02-01-Designers-Ace-1",
     "Portfolio/research-and-writing/writing/blogs/_posts/2024-12-10-Counter-Design.md",
+    "Portfolio/design/artifact/_posts/2024-12-12-DataViz-Indian-Cities.md",
+    "Portfolio/design/artifact/_posts/Untitled.md",
+    "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
     "Portfolio/research-and-writing/research/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
     "Portfolio/research-and-writing/mapping/_posts/2021-01-01-Mapping-Migratory-Routes.md",
     "_site/portfolio/research-and-writing/writing/blogs/2024-12-10-Counter-Design/index.html",
@@ -252,23 +263,15 @@
     "_site/portfolio/research-and-writing/writing/blogs/2024-11-25-Adding-Bluesky-comments/index.html",
     "_site/portfolio/research-and-writing/writing/blogs/2024-11-25-Adding-Bluesky-comments",
     "_site/portfolio/research-and-writing/writing/blogs/poem/2021-02-01-Feeling-through-the-Cities-Koramangala/index.html",
-    "_site/portfolio/research-and-writing/writing/blogs/poem/2021-02-01-Feeling-through-the-Cities-Koramangala",
-    "_site/portfolio/research-and-writing/writing/blogs/poem",
-    "_site/portfolio/research-and-writing/writing/blogs",
     "_site/assets/img/projects/Google_UX_Principles.png",
     "_site/assets/img/projects/DeArrow_working.png",
     "_site/assets/img/projects/CounterInterfacial.jpg",
     "assets/img/projects/Google_UX_Principles.png",
-    "assets/img/projects/CounterInterfacial.jpg_exiftool_tmp",
     "assets/img/projects/CounterInterfacial.jpg-temp.jpg",
     "assets/img/projects/CounterInterfacial.jpg",
     "assets/img/projects/DeArrow_working.png",
-    "assets/img/projects/2024-11-25-Interfacing-with-the-Fediverse",
     "Portfolio/research-and-writing/writing/blogs/_posts/2024-11-25-Adding-Bluesky-comments.md",
     "Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md",
-    "assets/img/projects/Pasted image 20241126002006.png",
-    "_site/assets/img/projects/Pasted image 20241126002006.png",
-    "assets/img/projects/Bluesky-comments-hydejack.png",
     "Portfolio/research-and-writing/writing/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
     "_drafts/drafts/Checklist.md",
     "Portfolio/design/artifact/_posts/2017-01-02-Designers-Ace.md",
@@ -285,9 +288,6 @@
     "node_modules/@atproto/syntax/README.md",
     "node_modules/@atproto/syntax/CHANGELOG.md",
     "node_modules/@atproto/common-web/README.md",
-    "node_modules/@atproto/common-web/CHANGELOG.md",
-    "node_modules/bluesky-comments/README.md",
-    "node_modules/react/README.md",
-    "node_modules/@atproto/lexicon/README.md"
+    "node_modules/@atproto/common-web/CHANGELOG.md"
   ]
 }
