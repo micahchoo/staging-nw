@@ -9,7 +9,7 @@ image:
   path: /assets/img/projects/IIIF_Header_Post.png
 bluesky_post_uri: https://bsky.app/profile/khattamicah.xyz/post/3lbqas73nd225
 ---
-
+ 
 For the last few years, I have been in search of a way to host images, text and other types of content on the internet in a no-code or low-code but organized and categorized setup. This has led me to many interesting places and ways of doing this. In this article, I want to talk about hosting images using self-hostable tools.
 
 To briefly talk about why I set about looking for such solutions - I am part of few collectives that work with cultural and creative practice-based research in Karnataka, India. As is, in the course of our work, we come across some interesting collections and collectors of images for different purposes. 
