@@ -26,15 +26,12 @@
             "id": "5dd694910f6feecb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Portfolio/design/artifact/_posts/2024-12-12-DataViz-Indian-Cities.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "assets/Resume.pdf"
               },
-              "icon": "lucide-file",
-              "title": "2024-12-12-DataViz-Indian-Cities"
+              "icon": "lucide-file-text",
+              "title": "Resume"
             }
           },
           {
@@ -102,7 +99,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -201,10 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/design/artifact/_posts/2024-12-12-DataViz-Indian-Cities.md"
+                "file": "assets/Resume.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-12-12-DataViz-Indian-Cities"
+              "title": "Outline of Resume"
             }
           },
           {
@@ -243,6 +244,9 @@
   },
   "active": "5dd694910f6feecb",
   "lastOpenFiles": [
+    "resume.md",
+    "Portfolio/research-and-writing/research/_posts/2020-02-01-Care-in-Collectives.md",
+    "Portfolio/design/artifact/_posts/2024-12-12-DataViz-Indian-Cities.md",
     "_site/portfolio/design/artifact/2017-12-12-DataViz-Indian-Cities/index.html",
     "_site/portfolio/design/artifact/2017-12-12-DataViz-Indian-Cities",
     "_site/assets/img/projects/DataVizSite.png",
@@ -253,7 +257,6 @@
     "_site/portfolio/design/artifact/2017-02-01-Designers-Ace-1/index.html",
     "_site/portfolio/design/artifact/2017-02-01-Designers-Ace-1",
     "Portfolio/research-and-writing/writing/blogs/_posts/2024-12-10-Counter-Design.md",
-    "Portfolio/design/artifact/_posts/2024-12-12-DataViz-Indian-Cities.md",
     "Portfolio/design/artifact/_posts/Untitled.md",
     "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
     "Portfolio/research-and-writing/research/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
@@ -262,7 +265,6 @@
     "_site/portfolio/research-and-writing/writing/blogs/2024-12-10-Counter-Design",
     "_site/portfolio/research-and-writing/writing/blogs/2024-11-25-Adding-Bluesky-comments/index.html",
     "_site/portfolio/research-and-writing/writing/blogs/2024-11-25-Adding-Bluesky-comments",
-    "_site/portfolio/research-and-writing/writing/blogs/poem/2021-02-01-Feeling-through-the-Cities-Koramangala/index.html",
     "_site/assets/img/projects/Google_UX_Principles.png",
     "_site/assets/img/projects/DeArrow_working.png",
     "_site/assets/img/projects/CounterInterfacial.jpg",
@@ -287,7 +289,6 @@
     "node_modules/react-dom/README.md",
     "node_modules/@atproto/syntax/README.md",
     "node_modules/@atproto/syntax/CHANGELOG.md",
-    "node_modules/@atproto/common-web/README.md",
-    "node_modules/@atproto/common-web/CHANGELOG.md"
+    "node_modules/@atproto/common-web/README.md"
   ]
 }
