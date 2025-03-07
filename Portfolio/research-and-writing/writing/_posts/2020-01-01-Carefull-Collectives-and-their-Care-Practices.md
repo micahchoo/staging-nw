@@ -21,7 +21,7 @@ sitemap: true
 [Link to source](https://osf.io/preprints/osf/ds39u)
 <a href="/assets/Thesisfinal.pdf">Open Dissertation in Full Screen</a>
 
-![A visual Abstract](https://www.youtube.com/watch?v=XzOHZEEnEsY)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XzOHZEEnEsY?si=LOha1HARicl7eV34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 # Caring in Networks: Reflections on Archetypes and Axioms of Collaborative Practice
 
 My thesis journey took me from the historic streets of Bidar to the urgent digital spaces created during the COVID-19 pandemic, exploring the invisible threads that hold communities of practice together. Throughout this work, I was been guided by a central question: How do we reimagine different modes of collaborative networks that take care of their communities and their value systems? It was also written by a far less cynical version of me, which is probably the only way I would have seen these connections.
