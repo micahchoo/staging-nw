@@ -160,7 +160,7 @@ hackernews:
 wikipedia:
   name: Wikipedia
   icon: icon-wikipedia
-  prepend: "https://en.wikipedia.org/wiki/Special:Contributions/"
+  prepend: "https://xtools.wmcloud.org/ec/en.wikipedia.org/Miximon#general-stats"
 linkedin:
   name: LinkedIn
   icon: icon-linkedin2
