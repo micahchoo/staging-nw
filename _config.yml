@@ -20,7 +20,7 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Micah Alex
+title:                 khattamicah
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -110,11 +110,11 @@ google_fonts:          false
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font:                 Poppins, Funnel Display, Helvetica, sans-serif
+font:                 Roboto
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font_heading:          Bebas Neue, Montserrat, Roboto Slab, Helvetica, sans-serif
+font_heading:          Roboto Slab
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
 font_code:             Menlo, Monaco, Consolas, monospace;
@@ -338,6 +338,7 @@ exclude:
   - log/
   - .bundle/
   - _drafts/drafts
+  - Portfolio/.obsidian
   - .obsidian
 
 include:

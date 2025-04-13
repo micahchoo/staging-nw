@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Adding Bluesky comments to your Jekyll Site
 description: Emily and then Cory demonstrated a way to add Bluesky comments and replies to a post as comments to your blog. I tried to add it to the Hydejack site
 date: 25-11-2024
