@@ -6,3 +6,5 @@ vendor
 .obsidian
 Portfolio/.obsidian
 .vscode
+.obsidian/workspace.json
+templates
