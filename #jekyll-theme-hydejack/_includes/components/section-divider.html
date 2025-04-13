@@ -1,0 +1,6 @@
+<!-- _includes/components/section-divider.html -->
+<div class="section-divider {% if include.style %}style-{{ include.style }}{% else %}style-default{% endif %}">
+    {% if include.text %}
+    <span class="divider-text">{{ include.text }}</span>
+    {% endif %}
+  </div>

@@ -1,0 +1,9 @@
+<!-- _includes/components/key-takeaways.html -->
+<div class="key-takeaways">
+    <h2 class="takeaways-title">{{ include.title | default: "Key Takeaways" }}</h2>
+    <ul class="takeaways-list">
+      {% for takeaway in include.points %}
+      <li class="takeaway-item">{{ takeaway | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+      {% endfor %}
+    </ul>
+  </div>

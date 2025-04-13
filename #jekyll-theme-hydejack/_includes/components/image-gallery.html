@@ -1,0 +1,13 @@
+<!-- _includes/components/image-gallery.html -->
+<div class="image-gallery {% if include.columns %}columns-{{ include.columns }}{% else %}columns-2{% endif %}">
+    {% for image in include.images %}
+    <div class="gallery-item">
+      <a class="spotlight" href="{{ image.path | relative_url }}">
+        <img src="{{ image.path | relative_url }}" alt="{{ image.alt | default: 'Gallery image' }}" {% if image.caption %}title="{{ image.caption }}"{% endif %} loading="lazy">
+      </a>
+      {% if image.caption %}
+      <div class="caption">{{ image.caption }}</div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>

@@ -6,6 +6,36 @@ it will only run on the initial page.
 The snippet below will run the code on every `hy-push-state-load` event instead.
 -->
 <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Function to force dark mode color refresh
+    function refreshDarkModeColors() {
+      const isDarkMode = document.body.classList.contains('dark-mode');
+      if (isDarkMode) {
+        // Apply dark mode colors directly to the document root
+        document.documentElement.style.setProperty('--accent-color', '#ffe9bd');
+        document.documentElement.style.setProperty('--accent-color-darkened', 'rgb(230, 210, 170)');
+      }
+    }
+    
+    // Run immediately
+    refreshDarkModeColors();
+    
+    // Also run after a slight delay to catch any post-load changes
+    setTimeout(refreshDarkModeColors, 100);
+    
+    // Also run when dark mode toggles
+    const observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+        if (mutation.attributeName === 'class') {
+          refreshDarkModeColors();
+        }
+      });
+    });
+    
+    observer.observe(document.body, { attributes: true });
+  });
+</script>
+<script>
   document.getElementById('_pushState').addEventListener('hy-push-state-load', function (e) {
     function e(e){
       (console.error?console.error:console.log).call(console,e)
@@ -54,26 +84,5 @@ The snippet below will run the code on every `hy-push-state-load` event instead.
 </script>
 {% endcomment %}
 
-<script type="importmap">
-  {
-      "imports": {
-        "react": "https://esm.sh/react@18",
-        "react-dom": "https://esm.sh/react-dom@18"
-      }
-    }
-  </script>
-
-<script type="module">
-  import BlueskyComments from 'https://unpkg.com/bluesky-comments@0.5.1/dist/bluesky-comments.es.js';
-
-document.addEventListener('DOMContentLoaded', function() {
-  const author = 'khattamicah.xyz'; // Replace with your Bluesky handle
-  if (author) {
-    BlueskyComments.init('bluesky-comments', {
-      author,
-      uri: '{{ page.bluesky_post_uri }}', // This will use the front matter variable if present
-      commentFilters: [BlueskyComments.Filters.NoPins]
-    });
-  }
-});
-</script>
+  <!-- Custom component scripts -->
+  <script src="{{ '/assets/js/custom-components.js' | relative_url }}"></script>

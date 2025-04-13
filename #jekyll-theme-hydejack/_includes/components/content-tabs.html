@@ -1,0 +1,15 @@
+<!-- _includes/components/content-tabs.html -->
+<div class="content-tabs">
+    <div class="tabs-nav">
+      {% for tab in include.tabs %}
+      <button class="tab-button{% if forloop.first %} active{% endif %}" data-tab="{{ forloop.index }}">{{ tab.title }}</button>
+      {% endfor %}
+    </div>
+    <div class="tabs-content">
+      {% for tab in include.tabs %}
+      <div class="tab-pane{% if forloop.first %} active{% endif %}" id="tab-{{ forloop.index }}">
+        {{ tab.content | markdownify }}
+      </div>
+      {% endfor %}
+    </div>
+  </div>

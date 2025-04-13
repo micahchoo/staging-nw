@@ -1,0 +1,17 @@
+<!-- _includes/components/content-card.html -->
+<div class="content-card {% if include.accent %}accent-{{ include.accent }}{% endif %} {% if include.type %}type-{{ include.type }}{% endif %}">
+    {% if include.title %}
+    <h3 class="card-title">{{ include.title }}</h3>
+    {% endif %}
+    {% if include.icon %}
+    <div class="card-icon">
+      <i class="icon-{{ include.icon }}"></i>
+    </div>
+    {% endif %}
+    <div class="card-content">
+      {{ include.content | markdownify }}
+    </div>
+    {% if include.link %}
+    <a href="{{ include.link }}" class="card-link">{{ include.link_text | default: "Read more" }}</a>
+    {% endif %}
+  </div>

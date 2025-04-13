@@ -1,0 +1,28 @@
+workflow_steps:
+  - number: 1
+    label: Record Audio
+    description: Users record audio content directly through the interface
+    active: true
+  - number: 2
+    label: Segment
+    description: Break long recordings into meaningful segments
+  - number: 3
+    label: Tag & Annotate
+    description: Add tags and visual markers to segments
+  - number: 4
+    label: Organize
+    description: Group related audio segments into collections
+  - number: 5
+    label: Publish
+    description: Share with the community through various channels
+
+ui_mockups:
+  - image: /assets/img/projects/2022-01-01-Papad/58e243f2d8704c61edbdcc87a567fd17_MD5.png
+    alt: Papad mobile interface
+    caption: Mobile view optimized for touchscreen interaction
+  - image: /assets/img/projects/2022-01-01-Papad/252973305ed0a18376f6c7e6c033481d_MD5.png
+    alt: Papad web interface
+    caption: Web dashboard for audio management
+  - image: /assets/img/projects/2022-01-01-Papad/PapadMob_(5).jpg
+    alt: Audio annotation interface
+    caption: Visual annotation system for audio segments

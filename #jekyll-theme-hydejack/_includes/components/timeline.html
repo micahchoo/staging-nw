@@ -1,0 +1,23 @@
+<!-- _includes/components/timeline.html -->
+<div class="timeline">
+    {% for event in include.events %}
+    <div class="timeline-item">
+      <div class="timeline-marker">
+        {% if event.icon %}
+        <i class="icon-{{ event.icon }}"></i>
+        {% else %}
+        <span class="dot"></span>
+        {% endif %}
+      </div>
+      <div class="timeline-content">
+        {% if event.date %}
+        <div class="timeline-date">{{ event.date }}</div>
+        {% endif %}
+        <h3 class="timeline-title">{{ event.title }}</h3>
+        <div class="timeline-description">
+          {{ event.description | markdownify }}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>

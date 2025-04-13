@@ -1,0 +1,26 @@
+{% comment %}
+  This file creates a basic two-column layout.
+  It's designed to place text content in one column and visual content (like images or videos) in the other.
+  The actual content is not defined here; it's passed in when this file is used (included) on a page.
+{% endcomment %}
+<div class="content-columns">
+    {% comment %} This is the container for the text content. {% endcomment %}
+    <div class="text-column">
+      {% comment %}
+        This placeholder `{{ include.text_content }}` will be replaced by the actual text content
+        provided when this 'content-columns.html' file is included on a page.
+        Example usage on a page might look like:
+        {% include components/content-columns.html text_content="<p>Some paragraph text.</p>" visual_content="<img src='...'/>" %}
+      {% endcomment %}
+      {{ include.text_content }}
+    </div>
+    {% comment %} This is the container for the visual content. {% endcomment %}
+    <div class="visual-column">
+      {% comment %}
+        Similar to the text column, this placeholder `{{ include.visual_content }}` will be replaced
+        by the actual visual content (like an image tag <img ...> or video embed code)
+        provided when this file is included.
+      {% endcomment %}
+      {{ include.visual_content }}
+    </div>
+  </div>

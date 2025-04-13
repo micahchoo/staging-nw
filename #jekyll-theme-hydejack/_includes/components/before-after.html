@@ -1,0 +1,18 @@
+<!-- _includes/components/before-after.html -->
+<div class="before-after-container">
+    <h3 class="before-after-title">{{ include.title | default: "Before & After" }}</h3>
+    <div class="before-after">
+      <div class="before-side">
+        <h4>{{ include.before_title | default: "Before" }}</h4>
+        <div class="before-content">
+          {{ include.before_content | markdownify }}
+        </div>
+      </div>
+      <div class="after-side">
+        <h4>{{ include.after_title | default: "After" }}</h4>
+        <div class="after-content">
+          {{ include.after_content | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
