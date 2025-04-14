@@ -338,9 +338,10 @@ exclude:
   - log/
   - .bundle/
   - _drafts/drafts
-  - Portfolio/.obsidian
+  - /Portfolio/.obsidian
   - .obsidian
-  - templates
+  - /templates
+  - _posts
 
 include:
   - .well-known
