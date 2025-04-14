@@ -61,7 +61,55 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/test/_posts/2022-01-01-Milli.md",
+                "file": "templates/components/ui-gallery.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ui-gallery"
+            }
+          },
+          {
+            "id": "c679844e88ee40f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Portfolio/research-and-writing/research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala"
+            }
+          },
+          {
+            "id": "8cd253798170d65f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/components/feature-box.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2022-01-01-Milli"
+              "title": "feature-box"
             }
           },
           {
@@ -111,15 +159,24 @@
               "state": {
                 "file": "Portfolio/research-and-writing/research/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -238,13 +295,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/test/_posts/2022-01-01-Milli.md",
+                "file": "Portfolio/research-and-writing/research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2022-01-01-Milli"
+              "title": "Outline of 2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala"
             }
           },
           {
@@ -282,44 +339,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b8d2eae7fa422ed5",
+  "active": "c679844e88ee40f9",
   "lastOpenFiles": [
+    "templates/components/featured-quote.md",
+    "templates/components/feature-box.md",
+    "templates/components/component-selector.md",
+    "Portfolio/research-and-writing/research/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
+    "Portfolio/research-and-writing/research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
+    "templates/components/ui-gallery.md",
+    "_data/datafiles/Wayanad.yml",
+    "_data/datafiles",
+    "_site/2025-04-13-a/index.html",
+    "_site/2025-04-13-a",
+    "_site/2025-04-13-aaa/index.html",
+    "_site/2025-04-13-aaa",
+    "_site/2025-04-13-aba/index.html",
+    "_site/2025-04-13-aba",
     "_site/blank/index.html",
     "_site/blank",
     "blank.md",
-    "_site/Portfolio/blank/index.html",
-    "_site/Portfolio/blank",
-    "Portfolio/blank.md",
+    "_posts/tutorial/2025-04-13-a.md",
+    "_posts/research/2025-04-13-aaa.md",
+    "_posts/project/2025-04-13-aba.md",
+    "_drafts/Untitled.md",
     "_drafts/Untitled 5.md",
-    "templates/markdown/nutshell.md",
-    "templates/nutshell-quick.js",
-    "templates/markdown/link-selector.md",
+    "_drafts/Untitled 4.md",
+    "_drafts/Untitled 3.md",
+    "_drafts/Untitled 2.md",
+    "_drafts/Untitled 1.md",
+    "#jekyll-theme-hydejack/templater.md",
+    "#jekyll-theme-hydejack/templater-guide.md",
     "Portfolio/test/_posts/2022-01-01-Milli.md",
+    "Portfolio/blank.md",
+    "templates/markdown/nutshell.md",
+    "templates/markdown/link-selector.md",
     "templates/markdown/wikilink.md",
     "templates/markdown/spotlight-image.md",
     "templates/markdown/markdown-link.md",
     "templates/markdown/hidden-section.md",
-    "templates/markdown/Untitled",
-    "Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md",
-    "templates/markdown/kramdown-syntax.md",
-    "_site/2025-04-13-aaa/index.html",
-    "_site/2025-04-13-aaa",
-    "_drafts/Untitled 4.md",
-    "templates/components/component-selector.md",
-    "_drafts/Untitled 3.md",
-    "templates/markdown/callout-box.md",
-    "templates/markdown/markdown-features.md",
-    "templates/helpers/frontmatter.md",
-    "templates/markdown",
-    "templates/Untitled.md",
-    "templates/commands/new-post.md",
-    "templates/components/ui-gallery.md",
-    "templates/layouts/layout-selector.md",
-    "templates/layouts/projects-layout.md",
-    "templates/layouts/standard-project.md",
-    "templates/layouts/standard-post.md",
-    "_site/templates/components/featured-quote/index.html",
-    "_site/templates/components/featured-quote",
     "_site/assets/img/projects/2021-01-01-Milli/Milli1.png",
     "_site/assets/img/projects/2021-01-01-Milli/b01fe4d05d5255c8eccd8f6f08de18dc_MD5.jpg",
     "_site/assets/img/projects/2021-01-01-Milli/Mypagewf.jpg",

@@ -14,78 +14,108 @@ date: '01-12-2018'
 sitemap: true
 ---
 
->Disclaimer: I have put links to the referred journals and articles wherever I can. It may not be possible to read all of them at a go so I recommend reading through the article and then choosing the links you want to read.
+{% include components/content-card.html 
+  title="To Note"
+  content="This is an old article and hasn't been updated since 2021"
+  type="warning"
+  accent="orange"
+%}
 
 # A Literature Review	
 * seed
 {:toc}
 
+{% include components/featured-quote.html 
+  text="When people say it has been 60 years of India’s liberation, I find it difficult to believe, for we are still slaves, working for others, picking up human excreta with our bare hands."
+  source="Kala bai Lavre, a manual scavenger"
+  style="shadow"
+  align="center"
+  size="large"
+%}
+
+{% include components/featured-quote.html 
+  text="Rule"
+  source="A"
+  style="rule"
+  align="center"
+  size="large"
+%}
+
+{% include components/featured-quote.html 
+  text="Stack"
+  source="A"
+  style="stack"
+  align="center"
+  size="large"
+%}
 This literature review provides insights into various aspects of the Paniya tribe, covering topics such as population, caste names and structures in Wayanad, periods of Paniya history, inter-tribal disparity, work and employment for Adivasis, alienation through the education system, public perceptions, plantation economy, exclusion from the financial system, and health issues.
 
 ## Population
 
-1. According to the 2011 census, the scheduled tribes' population in Kerala is 4.85 lakh, which accounts for 1.45% of the general population. ([Source](http://spb.kerala.gov.in/EconomicReview2016/web/chapter04_14.php))
+1. According to the 2011 census, the scheduled tribes' population in Kerala is 4.85 lakh, which accounts for [1.45% of the general population.](https://www.stdd.kerala.gov.in/index.php/about-us/tribes-in-kerala/population-statistics-2011-census)
 
 ## Caste Names, Structures in Wayanad
 
-2. A reading ([**source**](http://shodhganga.inflibnet.ac.in/bitstream/10603/46446/11/11_chapter3.pdf)) explores the organization of the caste system in Wayanad. It delves into the history and naming conventions of each tribe, providing insights into their origins and implications. The focus of this article is on the Paniya tribe. The reading also covers the history of Wayanad and its Adivasi populations.
+2. Livelihood changes and health status of paniyan of Wayanad  by Vipindas, P [explores the organization of the caste system](https://shodhganga.inflibnet.ac.in/bitstream/10603/467937/6/06_chapter%202.pdf) in Wayanad. **Pages 1–13** outline each of the tribes, their histories and how they got their names, which is interesting because of the implications it has for the phrase “What’s in a name”; **pages 14–19** describe the history of Wayanad and its Adivasi populations and **page 20** describes the tribe at the focus of this article- The Paniyans.
 
 ## Periods of Paniya History
 
-3. Paniya history can be divided into four periods, as summarized in a paper called "Kulirani" ([**source**](https://www.researchgate.net/publication/242184693_THE_SHRINKING_LIVELIHOOD_STRATEGIES_OF_THE_PANIYAR)). These periods include an early hunter-gatherer phase, a long period of being agrarian slaves, a phase of being liberated wage earners in a competitive market, and a period marked by a rising sense of desperation and hopelessness, leading to dependence on state welfare.
+3. Paniya history can be divided into four periods, as summarized in [THE_SHRINKING_LIVELIHOOD_STRATEGIES_OF_THE_PANIYAR by Baby Francis Kulirani ](https://www.researchgate.net/publication/242184693_THE_SHRINKING_LIVELIHOOD_STRATEGIES_OF_THE_PANIYAR). These periods include an early hunter-gatherer period leading to a long period of being agrarian slaves. Then as liberated wage earners, they entered an extremely competitive market, grew dependent on state welfare as a rising sense of desperation and hopelessness set in.
 
 ## The Tribal People are Not a Monolith
 
-4. A paper ([**source**](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.823.7446&rep=rep1&type=pdf)) highlights the inter-tribal disparities in welfare scheme benefits and socio-economic conditions. It emphasizes that different tribes have vastly different socio-economic and political lives, challenging the notion of tribes as a monolithic group.
+4. [TRIBAL POPULATIONS IN KERALA’S DEVELOPMENT PROCESS: AN IMPACT EVALUATION OF POLICIES AND SCHEMES](https://www.redalyc.org/journal/364/36465118005/html/) highlights the inter-tribal disparities in welfare scheme benefits and socio-economic conditions. It emphasizes that different tribes have vastly different socio-economic and political lives, challenging the notion of tribes as a monolithic group.
 
-5. Another paper ([**source**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3441884/)) further emphasizes the inter-tribal disparities, showcasing the significant differences within tribal groups. It also sheds light on the stark contrast between ST communities and non-tribal groups.
+5. [Health divide” between indigenous and non-indigenous populations in Kerala, India: Population based study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3441884/) further emphasizes the inter-tribal disparities, showcasing the significant differences within tribal groups. It also sheds light on the stark contrast between ST communities and non-tribal groups.
 
 ## Work and Employment for Adivasis
 
-6. A paper ([**source**](http://imrfjournals.in/pdf/MATHS/SSIRJ-VOLUME-2-ISSUE-1-2016/78.pdf)) explores the kind of work Adivasis engage in and their average monthly earnings as of 2016. It highlights their lack of political representation, economic growth, and physical well-being.
+6. [SOCIO-ECONOMIC DEPRIVATION AND MALNUTRITION AMONG THE TRIBAL WOMEN: A COMPARITIVE STUDY](https://www.imrfjournals.com/_files/ugd/8b382d_6cff2e797a344d33907534b64e0ddb9f.pdf) explores the kind of work Adivasi women engage in and their average monthly earnings as of 2016. It highlights their lack of political representation, economic growth, and physical well-being.
 
 ## Alienation through the Education System
 
-7. The challenges faced by Paniya children in accessing education are outlined in a paper ([**source**](http://sci-hub.tw/10.1177/2455328x17745174)). The paper raises questions about the inclusivity of existing educational models. Additionally, a video ([**source**](https://www.youtube.com/watch?v=DAKtKeOGWQQ)) provides insights into an education system designed with Adivasis in mind.
+7. The challenges faced by Paniya children in accessing education are outlined in ([Inclusive Properties of School Interactional Milieu: Implicationsfor Identity Construction and Social Exclusion](http://sci-hub.tw/10.1177/2455328x17745174)). The paper raises questions about the inclusivity of existing educational models. Additionally, a video ([**source**](https://www.youtube.com/watch?v=DAKtKeOGWQQ)) provides insights into an education system designed with Adivasi culture in mind.
 
-## Public Perceptions
-
-8. Local discussions revealed stereotypes about Paniyas, such as being perceived as lazy, unreliable, alcoholic, and dependent on government welfare schemes. These perceptions reflect the perpetuation of oppressive systems.
-
-9. The Paniyas often become objects of spectacle, as observed firsthand when a guide encouraged taking photos of Paniyas passing by. This phenomenon may be attributed to the focus of social research and government aid centered around the tribe.
 
 ## Plantation Economy
 
-10. Paniya workers primarily engaged in paddy cultivation but faced a decline in employment due to the expansion of plantations. They were not easily absorbed into the plantation labor economy. ([**Source 1**](http://shodhganga.inflibnet.ac.in/bitstream/10603/222/16/16_chapter7.pdf), [**Source 2**](http://www.internationaljournalssrg.org/IJEMS/2018/Volume5-Issue3/IJEMS-V5I3P101.pdf))
+10. Paniya workers primarily engaged in paddy cultivation but faced a decline in employment due to the expansion of plantations. They were not easily absorbed into the plantation labor economy. 
+11. [Ch 7- Socio Economic Conditions of Migrant Plantation Labourers A Study of Selected Plantations in Karnataka](http://hdl.handle.net/10603/302206), 
+12. [An Overview of the Socio Economic Conditions of Paniya Tribal Community in Kerala](http://www.internationaljournalssrg.org/IJEMS/2018/Volume5-Issue3/IJEMS-V5I3P101.pdf)
 
 ## Exclusion from the Financial System
 
-11. The majority of the Paniya population was excluded from formal financial activities and the financial sector. ([**Source**](http://shodhganga.inflibnet.ac.in/bitstream/10603/24419/13/13_chapter6.pdf))
+11. The majority of the Paniya population was excluded from formal financial activities and the financial sector. ([**Source**](http://hdl.handle.net/10603/389309)
 
 ## Health and Caste
 
-12. The Paniya Tribe faces numerous health problems. One study ([**Source 1**](http://www.ijamhrjournal.org/downloadpdf.asp?issn=2349-4220;year=2015;volume=2;issue=1;spage=33;epage=38;aulast=Philip;type=2)) focuses on malnutrition among Paniya children, highlighting their underutilization of available governmental schemes and the resulting deprivation at the community level. Another study ([**Source 2**](https://www.ncbi.nlm.nih.gov/pubmed/17108296/)) explores the impact of caste on the health of tribal women, with lower castes experiencing amplified vulnerabilities while upper castes enjoy protection due to an invisible caste buffer. Additionally, a study ([**Source 3**](http://www.iosrjournals.org/iosr-jhss/papers/Vol.%2021%20Issue4/Version-3/C0214033036.pdf)) examines the occurrence of various diseases among Adivasis, including the prevalence of sickle cell anemia in Paniya communities.
+12. The Paniya Tribe faces numerous health problems. One [study](http://dx.doi.org/10.4103/2349-4220.159135) focuses on malnutrition among Paniya children, highlighting their underutilization of available governmental schemes and the resulting deprivation at the community level. Another study - [Women's health in a rural community in Kerala, India](https://www.ncbi.nlm.nih.gov/pubmed/17108296/) explores the impact of caste on the health of tribal women, with lower castes experiencing amplified vulnerabilities while upper castes enjoy protection due to an invisible caste buffer. Additionally, a study - [Morbidity Pattern of Tribes in Kerala](http://www.iosrjournals.org/iosr-jhss/papers/Vol.%2021%20Issue4/Version-3/C0214033036.pdf) examines the occurrence of various diseases among Adivasis, including the prevalence of sickle cell anemia in Paniya communities.
 13. Access to quality healthcare is limited for tribal populations due to their remote locations. Government hospitals, community health centers, and primary health centers, though available, are insufficient to meet their needs. Mobile medical units have been introduced to cater to remote tribal areas. ASHA workers play a crucial role in responding to healthcare issues and alerting the government healthcare infrastructure. However, historical aversion to healthcare institutions among Paniyas remains a challenge. Government hospitals in Wayanad, located in Kalpetta, are often the only facilities equipped for specialized operations like deliveries, further restricting access to quality healthcare for the tribals living in remote areas.
 
 
 
 # System Map of Issues
 
-![Credit: Author’s own (_Read the legend — Take a circled issue — backtrack and see the other issues contributing to that — move to next circle)_](https://miro.medium.com/max/900/1*tXJw5OprfmsJXyFlnv-_1g.jpeg)
+{% assign gallery_items = site.data.wayanad.gallery_items %}
+{% include components/ui-gallery.html items=page.gallery_items %}
 
-> Decreasing Health, Alienation, Landlessness, Erosion of Cultural Pride, Anger, Lack of Wealth and a disconnected population
+I then mapped this into the three stages of alienation** _(in the footsteps of Kulirani [[The Disenfranchisement of Adivasis in Kerala#Periods of Paniya history]] whose work I had mentioned in the earlier article)_
 
-After seeing the connections between Erosion of Cultural Pride and Anger, Landlessnessness and Wealthlessness and Alienation and Disconnection.
+Decreasing Health, Alienation, Landlessness, Erosion of Cultural Pride, Anger, Lack of Wealth and a disconnected population. After seeing the connections between Erosion of Cultural Pride and Anger, Landlessnessness and Wealthlessness and Alienation and Disconnection.
 
->Every single child labourer that I have documented comes from a highly impoverished family unit and belongs to a low-caste or minority community.
 
-Siddharth Kara
+{% include components/featured-quote.html 
+  text="Every single child labourer that I have documented comes from a highly impoverished family unit and belongs to a low-caste or minority community."
+  source="Siddharth Kara"
+  align="center"
+  size="large"
+%}
 
 ## Understanding the History
 
 Through the readings mentioned above as well as few current media pieces as well as stories and songs that the Paniya peoples tell about themselves.
 
-**I then mapped this into the three stages of alienation** _(in the footsteps of  Kulirani[[The Disenfranchisement of Adivasis in Kerala#Periods of Paniya history]] whose work I had mentioned in the earlier article)_
+**I then mapped this into the three stages of alienation** _(in the footsteps of  Kulirani [[The Disenfranchisement of Adivasis in Kerala#Periods of Paniya history]] whose work I had mentioned in the earlier article)_
 
 # A Rich Culture mixed with Centuries of Oppression
 

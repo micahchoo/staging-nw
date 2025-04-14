@@ -28,7 +28,7 @@
               - `class="spotlight"`: This class likely triggers a JavaScript "lightbox" effect,
                  allowing users to click the thumbnail to see a larger version of the image.
             {% endcomment %}
-            <a class="spotlight" href="{{ item.image | relative_url }}">
+            <a class="spotlight" href="href="{% if item.image contains '://' %}{{ item.image }}{% else %}{{ item.image | relative_url }}{% endif %}"">
               {% comment %}
                 Display the actual image.
                 - `src="{{ item.image | relative_url }}"`: Sets the image source URL.
@@ -36,8 +36,7 @@
                   It uses the 'alt' property from the item data if provided, otherwise it falls back
                   to using the 'caption' text as the alt text. Good alt text is important!
               {% endcomment %}
-              <img src="{{ item.image | relative_url }}" alt="{{ item.alt | default:item.caption }}" />
-            </a>
+              <img src="{% if item.image contains '://' %}{{ item.image }}{% else %}{{ item.image | relative_url }}{% endif %}" alt="{{ item.alt | default:item.caption }}" />            </a>
           {% comment %} Check if the current 'item' data has a 'caption' property. {% endcomment %}
           {% if item.caption %}
             {% comment %} If a caption exists, display it using the <figcaption> element. {% endcomment %}
