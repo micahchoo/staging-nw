@@ -1,54 +1,29 @@
 {% comment %}
-  This component generates a gallery of images.
-  It expects a list of 'items' to be provided when this file is included on a page.
-  Each 'item' in the list should represent one image in the gallery and can have properties like:
-  - `image`: The URL/path to the image file. (Required)
-  - `alt`: Alternative text for the image (for accessibility and SEO). (Optional)
-  - `caption`: Text to display below the image as a caption. (Optional)
-  - `description`: A longer description text associated with the image. (Optional)
-
-  Example usage on a page might look like:
-  {% assign gallery_items = site.data.my_gallery_data %}
-  {% include components/ui-gallery.html items=gallery_items %}
+ This component generates a gallery of images.
+ It expects a list of 'items' to be provided when this file is included on a page.
+ Each 'item' in the list should represent one image in the gallery and can have properties like:
+ - `image`: The URL/path to the image file. (Required)
+ - `alt`: Alternative text for the image (for accessibility and SEO). (Optional)
+ - `caption`: Text to display below the image as a caption. (Optional)
+ - `description`: A longer description text associated with the image. (Optional)
+ Example usage on a page might look like:
+ {% assign gallery_items = site.data.my_gallery_data %}
+ {% include components/ui-gallery.html items=gallery_items %}
 {% endcomment %}
-  <div class="ui-gallery">
-    {% comment %} Loop through each 'item' in the 'include.items' list provided. {% endcomment %}
-    {% for item in include.items %}
-      {% comment %} Container for a single image and its associated text within the gallery. {% endcomment %}
-      <div class="gallery-item">
-        {% comment %}
-          The <figure> element is semantically appropriate for grouping an image (<img />)
-          with its caption (<figcaption>).
-        {% endcomment %}
-        <figure>
-            {% comment %}
-              Create a link (<a>) around the image.
-              - `href="{{ item.image | relative_url }}"`: The link points directly to the image file itself.
-                 `relative_url` ensures the path is correct.
-              - `class="spotlight"`: This class likely triggers a JavaScript "lightbox" effect,
-                 allowing users to click the thumbnail to see a larger version of the image.
-            {% endcomment %}
-            <a class="spotlight" href="{{ item.image | relative_url }}">
-              {% comment %}
-                Display the actual image.
-                - `src="{{ item.image | relative_url }}"`: Sets the image source URL.
-                - `alt="{{ item.alt | default:item.caption }}"`: Sets the alternative text.
-                  It uses the 'alt' property from the item data if provided, otherwise it falls back
-                  to using the 'caption' text as the alt text. Good alt text is important!
-              {% endcomment %}
-              <img src="{{ item.image | relative_url }}" alt="{{ item.alt | default:item.caption }}" />
-            </a>
-          {% comment %} Check if the current 'item' data has a 'caption' property. {% endcomment %}
-          {% if item.caption %}
-            {% comment %} If a caption exists, display it using the <figcaption> element. {% endcomment %}
-            <figcaption>{{ item.caption }}</figcaption>
-          {% endif %}
-        </figure>
-        {% comment %} Check if the current 'item' data has a 'description' property. {% endcomment %}
-        {% if item.description %}
-          {% comment %} If a description exists, display it in a standard paragraph (<p>). {% endcomment %}
-          <p>{{ item.description }}</p>
-        {% endif %}
-      </div>
-    {% endfor %} {% comment %} End of the loop through each gallery item. {% endcomment %}
+<div class="ui-gallery">
+  {% for item in include.items %}
+  <div class="gallery-item">
+    <figure>
+      <a class="spotlight" href="{{ item.image | relative_url }}">
+        <img src="{{ item.image | relative_url }}" alt="{{ item.alt | default:item.caption }}" />
+      </a>
+      {% if item.caption %}
+      <figcaption>{{ item.caption }}</figcaption>
+      {% endif %}
+    </figure>
+    {% if item.description %}
+    <p>{{ item.description }}</p>
+    {% endif %}
   </div>
+  {% endfor %}
+</div>
