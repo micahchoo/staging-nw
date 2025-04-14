@@ -222,7 +222,7 @@ hydejack:
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
   # This will increase site build speed dramatically!
-  no_inline_css:       true
+  no_inline_css:       false
 
   # Set to `true` if you don't intend on changing the accent color on a per-page basis. 
   # This will increase site build speed!
@@ -238,7 +238,7 @@ hydejack:
   # When set to `true`, will not extend the content in the "third column" on large screens.
   # Instead, all content will remains within the center column.
   # Note that this will not affect the Table of Contents, use `no_toc` instead.
-  no_third_column:     true
+  no_third_column:     false
 
   # Set to `true` if you don't like oversized headlines on large screens.
   no_large_headings:   true
@@ -276,13 +276,13 @@ hydejack:
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
     # Set to `true` to always use the dark theme.
-    always:            true
+    always:            false
 
     # Set to `true` to use the dark theme based on visitors' preference (OS setting).
-    dynamic:           false
+    dynamic:           true
 
     # Set to `true` to allow visitors to switch between light and dark mode.
-    icon:              false
+    icon:              true
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------
@@ -338,10 +338,10 @@ exclude:
   - log/
   - .bundle/
   - _drafts/drafts
-  - /Portfolio/.obsidian
+  - ./Portfolio/.obsidian
   - .obsidian
-  - /templates
   - _posts
+  - templates
 
 include:
   - .well-known
