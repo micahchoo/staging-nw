@@ -340,6 +340,7 @@ exclude:
   - _drafts/drafts
   - Portfolio/.obsidian
   - .obsidian
+  - _posts
 
 include:
   - .well-known
