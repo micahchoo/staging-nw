@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md",
+                "file": "templates/markdown/nutshell.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,103 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2024-05-01-IIIF-images"
+              "title": "nutshell"
+            }
+          },
+          {
+            "id": "6ca0c109fb2d4335",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/markdown/nutshell.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": true,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "nutshell"
+            }
+          },
+          {
+            "id": "b8d2eae7fa422ed5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/components/ui-gallery.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ui-gallery"
+            }
+          },
+          {
+            "id": "c679844e88ee40f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Portfolio/test/_posts/2022-01-01-Milli.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2022-01-01-Milli"
+            }
+          },
+          {
+            "id": "8cd253798170d65f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/components/feature-box.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "feature-box"
             }
           },
           {
@@ -37,9 +133,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
+                "file": "templates/markdown/kramdown-syntax.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -52,31 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2022-01-01-Papad"
-            }
-          },
-          {
-            "id": "2266069ae2a2fc1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Portfolio/research-and-writing/mapping/_posts/2021-01-01-Mapping-Migratory-Routes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2021-01-01-Mapping-Migratory-Routes"
+              "title": "kramdown-syntax"
             }
           },
           {
@@ -87,15 +159,24 @@
               "state": {
                 "file": "Portfolio/research-and-writing/research/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -115,7 +196,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -214,13 +295,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/research-and-writing/mapping/_posts/2021-01-01-Mapping-Migratory-Routes.md",
+                "file": "Portfolio/test/_posts/2022-01-01-Milli.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2021-01-01-Mapping-Migratory-Routes"
+              "title": "Outline of 2022-01-01-Milli"
             }
           },
           {
@@ -253,23 +334,49 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "zk-prefixer:Create new unique note": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "2266069ae2a2fc1a",
+  "active": "c679844e88ee40f9",
   "lastOpenFiles": [
-    "_site/tag-writing/index.html",
-    "_site/tag-writing",
-    "_site/tag-website/index.html",
-    "_site/tag-website",
-    "_site/tag-ui-ux-design/index.html",
-    "_site/tag-ui-ux-design",
-    "_site/tag-teaching/index.html",
-    "_site/tag-teaching",
-    "_site/tag-research/index.html",
-    "_site/tag-research",
-    "_site/tag-research-and-writing/index.html",
+    "_site/assets/img/projects/Milli/Milli/index.html",
+    "_site/assets/img/projects/Milli/Milli",
+    "assets/img/projects/Milli/Milli.md",
+    "Portfolio/research-and-writing/research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
+    "_site/blankish/index.html",
+    "_site/blankish",
+    "blankish.md",
+    "_site/2025-04-13-a/index.html",
+    "_site/2025-04-13-a",
+    "_site/2025-04-13-aaa/index.html",
+    "_site/2025-04-13-aaa",
+    "_site/2025-04-13-aba/index.html",
+    "_site/2025-04-13-aba",
+    "_site/blank/index.html",
+    "blank.md",
+    "_posts/tutorial/2025-04-13-a.md",
+    "_posts/project/2025-04-13-aba.md",
+    "_posts/research/2025-04-13-aaa.md",
+    "_drafts/Untitled.md",
+    "_drafts/Untitled 5.md",
+    "_drafts/Untitled 4.md",
+    "_drafts/Untitled 3.md",
+    "_drafts/Untitled 2.md",
+    "_drafts/Untitled 1.md",
+    "#jekyll-theme-hydejack/templater.md",
+    "#jekyll-theme-hydejack/templater-guide.md",
+    "templates/components/featured-quote.md",
+    "templates/components/feature-box.md",
+    "templates/components/component-selector.md",
+    "Portfolio/research-and-writing/research/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
+    "templates/components/ui-gallery.md",
+    "Portfolio/test/_posts/2022-01-01-Milli.md",
+    "Portfolio/blank.md",
+    "templates/markdown/nutshell.md",
+    "templates/markdown/link-selector.md",
+    "templates/markdown/wikilink.md",
     "_site/assets/img/projects/2021-01-01-Milli/Milli1.png",
     "_site/assets/img/projects/2021-01-01-Milli/b01fe4d05d5255c8eccd8f6f08de18dc_MD5.jpg",
     "_site/assets/img/projects/2021-01-01-Milli/Mypagewf.jpg",
@@ -279,31 +386,6 @@
     "_site/assets/img/projects/2021-01-01-Milli/Milli.jpg",
     "_site/assets/img/projects/2021-01-01-Milli/86088c9ac55bf31a55e0f2a5786366f2_MD5.jpg",
     "_site/assets/img/projects/2021-01-01-Milli/7c9d7f8b6d2d523cb3afd200ee2c9a52_MD5.jpg",
-    "_site/assets/img/projects/2021-01-01-Mapping-Migratory-Routes/982ba988f35b9fabcb5884f9ab2bbaf8_MD5.jpg",
-    "_featured_categories/test.md",
-    "_featured_categories/Writing copy.md",
-    "Portfolio/test/_posts/2022-01-01-Papad.md",
-    "Portfolio/test/_posts/2022-01-01-Milli.md",
-    "Portfolio/test/_posts/2022-01-01-Koramangala.md",
-    "Portfolio/test/2022-01-01-Koramangala.md",
-    "Portfolio/test/2022-01-01-Papad copy.md",
-    "Portfolio/test/2022-01-01-Papad.md",
-    "Portfolio/test/2022-01-01-Milli copy.md",
-    "Portfolio/test copy/2022-01-01-Milli.md",
-    "Portfolio/test/2022-01-01-Milli.md",
-    "Portfolio/test/2022-01-01-My-art.md",
-    "Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md",
-    "Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md",
-    "Portfolio/research-and-writing/writing/_posts/2021-01-01-Compost-Magazine-Technofutures-from-Bidar.md",
-    "Portfolio/research-and-writing/writing/_posts/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network.md",
-    "Portfolio/research-and-writing/writing/_posts/2021-01-01-Checklist-for-Selecting-Tools-for-Indian-Collectives.md",
-    "Portfolio/research-and-writing/writing/_posts/2020-01-01-Carefull-Collectives-and-their-Care-Practices.md",
-    "Portfolio/research-and-writing/writing/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
-    "Portfolio/research-and-writing/research/_posts/2019-01-01-Caste-and-Education.md",
-    "Portfolio/research-and-writing/research/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
-    "Portfolio/2022-01-01-My-art.md",
-    "Excalidraw/Scripts/Downloaded/Uniform size.md",
-    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
-    "Portfolio/research-and-writing/writing/blogs/_posts/2024-12-10-Counter-Design.md"
+    "_site/assets/img/projects/2021-01-01-Mapping-Migratory-Routes/982ba988f35b9fabcb5884f9ab2bbaf8_MD5.jpg"
   ]
 }

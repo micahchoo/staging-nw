@@ -5,3 +5,16 @@
 [build.environment]
   JEKYLL_ENV = "production"
   RUBY_VERSION = "2.7.1"
+
+[[headers]]
+  for = "/api/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "https://specificdomain.com"
+    Access-Control-Allow-Methods = "GET, POST"
+    Access-Control-Allow-Headers = "Origin, Content-Type"
+
+[[headers]]
+  for = "/assets/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET"
