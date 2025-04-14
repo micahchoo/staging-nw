@@ -12,5 +12,6 @@ templates
 templates
 drafts
 Portfolio/test
-
 /.obsidian
+.obsidian/workspace.json
+
