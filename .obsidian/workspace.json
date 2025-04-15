@@ -59,17 +59,24 @@
             "id": "b8d2eae7fa422ed5",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 4948.194411591669,
-                  "y": 988.1214869559938,
-                  "zoom": -2.4
+                "file": "index.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "index"
             }
           },
           {
@@ -169,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -321,8 +328,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -332,19 +340,31 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "3b9a549714a9195d",
+  "active": "5d53a12115e4c684",
   "lastOpenFiles": [
+    "_site/blankish/index.html",
+    "_site/blankish",
+    "blankish.md",
+    "_posts/tutorial/2025-04-13-a.md",
+    "_posts/research/2025-04-13-aaa.md",
+    "_posts/project/2025-04-13-aba.md",
+    "_posts/tutorial",
+    "_posts/research",
+    "_posts/project",
+    "_posts",
+    "_drafts/Untitled.md",
+    "_drafts/Untitled 5.md",
+    "_drafts/Untitled 4.md",
+    "_drafts/Untitled 3.md",
+    "_drafts/Untitled 2.md",
+    "_drafts/Untitled 1.md",
+    "_data/datafiles/Wayanad.yml",
+    "_data/datafiles",
+    "#jekyll-theme-hydejack/templater.md",
+    "#jekyll-theme-hydejack/templater-guide.md",
     "_site/tag-writing/index.html",
     "_site/tag-writing",
     "_site/tag-website/index.html",
-    "_site/tag-website",
-    "_site/tag-ui-ux-design/index.html",
-    "_site/tag-ui-ux-design",
-    "_site/tag-teaching/index.html",
-    "_site/tag-teaching",
-    "_site/tag-research/index.html",
-    "_site/tag-research",
-    "_site/tag-research-and-writing/index.html",
     "_site/Untitled.canvas",
     "Untitled.canvas",
     "Portfolio/research-and-writing/writing/blogs/Poem/_posts/2022-01-01-Feeling-through-the-Cities-Koramangala.md",
@@ -360,18 +380,6 @@
     "Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md",
     "Portfolio/research-and-writing/writing/_posts/2022-01-01-List-of-Publications.md",
     "Portfolio/research-and-writing/writing/_posts/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md",
-    "Portfolio/research-and-writing/writing/_posts/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network.md",
-    "Portfolio/research-and-writing/writing/_posts/2021-01-01-Compost-Magazine-Technofutures-from-Bidar.md",
-    "Portfolio/research-and-writing/writing/_posts/2021-01-01-Checklist-for-Selecting-Tools-for-Indian-Collectives.md",
-    "Portfolio/research-and-writing/writing/_posts/2020-01-01-Carefull-Collectives-and-their-Care-Practices.md",
-    "Portfolio/research-and-writing/writing/_posts/2019-01-01-Designing-for-an-Archival-Interface.md",
-    "Portfolio/research-and-writing/research/_posts/2022-01-01-EnableIndia-LE.md",
-    "Portfolio/research-and-writing/research/_posts/2020-02-01-Care-in-Collectives.md",
-    "Portfolio/research-and-writing/research/_posts/2019-01-01-Making-The-Invisible-Visible-Around-An-RO-Plant.md",
-    "Portfolio/research-and-writing/research/_posts/2019-01-01-Caste-and-Education.md",
-    "Portfolio/research-and-writing/research/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
-    "Portfolio/research-and-writing/research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
-    "Portfolio/presentation/teaching/_posts/2022-01-01-Facilitating-a-Design-Studio.md",
     "_site/assets/img/projects/2021-01-01-Milli/Milli1.png",
     "_site/assets/img/projects/2021-01-01-Milli/b01fe4d05d5255c8eccd8f6f08de18dc_MD5.jpg",
     "_site/assets/img/projects/2021-01-01-Milli/Mypagewf.jpg",

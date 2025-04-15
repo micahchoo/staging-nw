@@ -3,13 +3,10 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-.obsidian
-Portfolio/.obsidian
 .vscode
 templates
 _drafts
 Portfolio/test
-/.obsidian
 .obsidian/workspace.json
 Reorg
-/.obsidian
+

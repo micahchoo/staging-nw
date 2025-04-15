@@ -1,0 +1,19 @@
+{
+  "URICommands": [
+    {
+      "name": "Add Nutshell Expandable",
+      "id": "create-nutshell link1744575686827",
+      "URITemplate": "[:{{selection}}]({{line}})",
+      "encode": true,
+      "icon": "link"
+    },
+    {
+      "name": "Wiki Reference",
+      "id": "quick-web reference1744575751785",
+      "URITemplate": "[:{{selection}}](https://en.wikipedia.org/wiki/{{line}})",
+      "encode": true,
+      "icon": "globe-2"
+    }
+  ],
+  "notification": false
+}

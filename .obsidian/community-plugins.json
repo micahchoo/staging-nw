@@ -6,5 +6,9 @@
   "obsidian-excalidraw-plugin",
   "change-case",
   "ollama",
-  "obsidian-local-images-plus"
+  "obsidian-local-images-plus",
+  "templater-obsidian",
+  "quickadd",
+  "cmdr",
+  "uri-commands"
 ]
