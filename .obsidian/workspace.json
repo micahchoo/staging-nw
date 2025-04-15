@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/components/ui-gallery.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -76,18 +76,18 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ui-gallery"
+              "title": "index"
             }
           },
           {
-            "id": "c679844e88ee40f9",
+            "id": "3b9a549714a9195d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/test/_posts/2022-01-01-Milli.md",
+                "file": "Reorg/Portfolio/research-and-writing/writing/_posts/2022-01-01-List-of-Publications.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2022-01-01-Milli"
+              "title": "2022-01-01-List-of-Publications"
             }
           },
           {
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -295,13 +295,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/test/_posts/2022-01-01-Milli.md",
+                "file": "Reorg/Portfolio/research-and-writing/writing/_posts/2022-01-01-List-of-Publications.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2022-01-01-Milli"
+              "title": "Outline of 2022-01-01-List-of-Publications"
             }
           },
           {
@@ -323,60 +323,63 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "zk-prefixer:Create new unique note": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
-      "templater-obsidian:Templater": false
+      "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "c679844e88ee40f9",
+  "active": "5d53a12115e4c684",
   "lastOpenFiles": [
-    "package-lock.json",
-    "node_modules/re-template-tag/test/index_test.js",
-    "node_modules/re-template-tag/test",
-    "node_modules/re-template-tag/package.json",
-    "node_modules/re-template-tag/esm/index.js",
-    "node_modules/re-template-tag/esm",
-    "node_modules/re-template-tag/cjs/index.js",
-    "node_modules/re-template-tag/cjs",
-    "node_modules/re-template-tag/README.md",
-    "node_modules/re-template-tag/LICENSE",
-    "node_modules/re-template-tag",
-    "node_modules",
+    "_site/blankish/index.html",
+    "_site/blankish",
     "blankish.md",
     "_posts/tutorial/2025-04-13-a.md",
     "_posts/research/2025-04-13-aaa.md",
     "_posts/project/2025-04-13-aba.md",
+    "_posts/tutorial",
+    "_posts/research",
+    "_posts/project",
+    "_posts",
     "_drafts/Untitled.md",
     "_drafts/Untitled 5.md",
     "_drafts/Untitled 4.md",
     "_drafts/Untitled 3.md",
     "_drafts/Untitled 2.md",
     "_drafts/Untitled 1.md",
+    "_data/datafiles/Wayanad.yml",
+    "_data/datafiles",
     "#jekyll-theme-hydejack/templater.md",
     "#jekyll-theme-hydejack/templater-guide.md",
-    "assets/img/projects/Milli/Milli.md",
-    "Portfolio/research-and-writing/research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
-    "blank.md",
-    "templates/components/featured-quote.md",
-    "templates/components/feature-box.md",
-    "templates/components/component-selector.md",
-    "Portfolio/research-and-writing/research/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
-    "templates/components/ui-gallery.md",
-    "Portfolio/test/_posts/2022-01-01-Milli.md",
-    "Portfolio/blank.md",
-    "templates/markdown/nutshell.md",
-    "templates/markdown/link-selector.md",
+    "_site/tag-writing/index.html",
+    "_site/tag-writing",
+    "_site/tag-website/index.html",
+    "_site/Untitled.canvas",
+    "Untitled.canvas",
+    "Portfolio/research-and-writing/writing/blogs/Poem/_posts/2022-01-01-Feeling-through-the-Cities-Koramangala.md",
+    "Portfolio/research-and-writing/writing/blogs/_posts/2024-12-10-Counter-Design.md",
+    "Portfolio/design/UI-UX Design/website/_posts/2023-01-01-SADHR.md",
+    "Portfolio/design/UI-UX Design/website/_posts/2023-01-01-Design Beku Website.md",
+    "Portfolio/design/UI-UX Design/website/_posts/2021-01-01-Pune-Covid-Relief.md",
+    "Portfolio/research-and-writing/mapping/_posts/2024-01-01-Mapping-History-of-Cinema.md",
+    "Portfolio/research-and-writing/mapping/_posts/2021-01-01-Mapping-Migratory-Routes.md",
+    "Portfolio/design/artifact/_posts/2024-12-12-DataViz-Indian-Cities.md",
+    "Portfolio/design/artifact/_posts/2017-01-02-Designers-Ace.md",
+    "Portfolio/design/artifact/_posts/2022-01-01-Speculative-Storytelling-in-Wayanad.md",
+    "Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md",
+    "Portfolio/research-and-writing/writing/_posts/2022-01-01-List-of-Publications.md",
+    "Portfolio/research-and-writing/writing/_posts/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md",
     "_site/assets/img/projects/2021-01-01-Milli/Milli1.png",
     "_site/assets/img/projects/2021-01-01-Milli/b01fe4d05d5255c8eccd8f6f08de18dc_MD5.jpg",
     "_site/assets/img/projects/2021-01-01-Milli/Mypagewf.jpg",

@@ -342,7 +342,7 @@ exclude:
   - .obsidian
   - _posts
   - templates
-
+  - Reorg
 include:
   - .well-known
   - LICENSE.md
