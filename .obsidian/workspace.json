@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/test/_posts/2022-01-01-Milli.md",
+                "file": "Portfolio/research-and-writing/writing/_posts/2022-01-01-List-of-Publications.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2022-01-01-Milli"
+              "title": "2022-01-01-List-of-Publications"
             }
           },
           {
@@ -271,13 +271,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/test/_posts/2022-01-01-Milli.md",
+                "file": "Portfolio/research-and-writing/writing/_posts/2022-01-01-List-of-Publications.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2022-01-01-Milli"
+              "title": "Outline of 2022-01-01-List-of-Publications"
             }
           },
           {
@@ -316,6 +316,10 @@
   },
   "active": "b8d2eae7fa422ed5",
   "lastOpenFiles": [
+    "_sass/my-style.scss",
+    "_sass/my-style.css",
+    "index.md",
+    "Portfolio/test/_posts/2022-01-01-Milli.md",
     "assets/img/projects/Milli/Milli.md",
     "blankish.md",
     "_posts/research/2025-04-13-aaa.md",
@@ -336,13 +340,11 @@
     "#jekyll-theme-hydejack/templater.md",
     "#jekyll-theme-hydejack/templater-guide.md",
     "Portfolio/test/_posts/2022-01-01-Papad.md",
-    "Portfolio/test/_posts/2022-01-01-Milli.md",
     "templates/components/ui-gallery.md",
     "Portfolio/test/_posts/2022-01-01-Koramangala.md",
     "package-lock.json",
     "node_modules/re-template-tag/test/index_test.js",
     "node_modules/re-template-tag/test",
-    "node_modules/re-template-tag/package.json",
     "node_modules/re-template-tag/README.md",
     "Portfolio/research-and-writing/research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
     "blank.md",
@@ -350,7 +352,6 @@
     "templates/components/feature-box.md",
     "templates/components/component-selector.md",
     "Portfolio/research-and-writing/research/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
-    "Portfolio/blank.md",
     "_site/assets/img/projects/2021-01-01-Milli/Milli1.png",
     "_site/assets/img/projects/2021-01-01-Milli/b01fe4d05d5255c8eccd8f6f08de18dc_MD5.jpg",
     "_site/assets/img/projects/2021-01-01-Milli/Mypagewf.jpg",

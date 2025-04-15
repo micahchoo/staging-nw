@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url:                   https://khattamicah.xyz
+url:                   
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -222,11 +222,11 @@ hydejack:
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
   # This will increase site build speed dramatically!
-  no_inline_css:       false
+  no_inline_css:       true
 
   # Set to `true` if you don't intend on changing the accent color on a per-page basis. 
   # This will increase site build speed!
-  no_page_style:       false
+  no_page_style:       true
 
   # Code blocks and tables "break" the layout by spanning the full available width.
   # Set this to true if you want them to be the same width as other content.
@@ -238,7 +238,7 @@ hydejack:
   # When set to `true`, will not extend the content in the "third column" on large screens.
   # Instead, all content will remains within the center column.
   # Note that this will not affect the Table of Contents, use `no_toc` instead.
-  no_third_column:     false
+  no_third_column:     true
 
   # Set to `true` if you don't like oversized headlines on large screens.
   no_large_headings:   true
@@ -342,6 +342,7 @@ exclude:
   - .obsidian
   - _posts
   - templates
+  - test
 
 include:
   - .well-known

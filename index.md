@@ -1,31 +1,86 @@
 ---
 layout: welcome
-title:  Welcome
-cover:  true
+title: Micah Alex
+cover: true
+image: /assets/img/sidebar-bg.jpg
+description: >
+  Designer, Researcher, and Artist exploring community technology, 
+  archives, and alternative digital infrastructures.
+selected_projects:
+  - Portfolio/design/UI-UX Design/_posts/2021-01-01-Milli.md
+  - Portfolio/design/UI-UX Design/_posts/2022-01-01-Papad.md
+  - Portfolio/research-and-writing/research/_posts/2022-01-01-EnableIndia-LE.md
+  - Portfolio/research-and-writing/writing/_posts/2021-01-01-Compost-Magazine-Technofutures-from-Bidar.md
+projects_page: /portfolio/
 selected_posts:
-  - Portfolio/research-and-writing/writing/_posts/2024-05-01-IIIF-images.md
+  - Portfolio/research-and-writing/writing/_posts/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md
   - Portfolio/presentation/_posts/2020-01-01-The-Imposter-Among-Us.md
-posts_page: /blog/
-featured: false
-
+posts_page: /writing/
+no_groups: true
 ---
 
-I am Micah Alex, a multifaceted Researcher, Designer, and Artist, driven by the pursuit of crafting alternatives rooted in grounded narratives.
--   [Blogs](https://khattamicah.xyz/blogs/)
--   [Research](https://khattamicah.xyz/research/)
--   [Workshops and Classes](https://khattamicah.xyz/presentation/)
--   [UI/UX Design](https://khattamicah.xyz/ui-ux-design/)
--   [Posters](https://flic.kr/s/aHBqjAGjZW)
--   [Paintings](https://flic.kr/s/aHsmUGp5jR)
--   [Portfolio](https://khattamicah.xyz/portfolio/)
+## Featured Work
 
----
-Through pieces like [**Techno-futures from Bidar**](https://one.compost.digital/fertile-technofutures-from-bidar/), I collaboratively reflected on the potential of technology to catalyze and nurture spaces of cultural collaboration, while acknowledging its limitations. Projects like [**South Asian Digital History Repository**](https://khattamicah.xyz/portfolio/design/website/2023-02-01-SADHR/) and [**Establishing a Community Network**](https://khattamicah.xyz/portfolio/research/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network/)  were my efforts toward building collaborative platforms and networks aimed at democratizing knowledge and resources. [**Making The Invisible Visible Around An RO Plant**](https://khattamicah.xyz/portfolio/research/2019-02-01-Making-The-Invisible-Visible-Around-An-RO-Plant/) delves into community-centric tech approaches and the exploration of indigenous knowledge systems. Designing platforms like [**Milli**](https://khattamicah.xyz/portfolio/design/ui-ux%20design/2021-02-01-Milli/) and [**Papad**](https://khattamicah.xyz/portfolio/design/ui-ux%20design/2022-01-01-Papad/), helped me traverse different open source paradigms towards democratizing access to information and archives. They were also experiences in community-centric technological interventions and participatory design practices.
+<!--projects-->
 
-From projects like [**Papad**](https://khattamicah.xyz/portfolio/design/ui-ux%20design/2022-01-01-Papad/), an open-source Audio Annotation and Archival Tool, designed to be used by community-based practitioners, to my involvement as a Research Associate at the [Climate Resource Center](https://khattamicah.xyz/portfolio/presentation/2022-01-01-portfolio-workshops-classes-panels-and-publications/#research-associate-climate-resource-center---2022) where I interviewed agricultural experts, farmers, and folklore artists, my work follows paths of grassroots-level engagement and technological empowerment.
+## Recent Writings
 
-In [**Speculative Storytelling in Wayanad**](https://khattamicah.xyz/portfolio/design/artifact/2021-02-01-Speculative-Storytelling-in-Wayanad/) and [**Care-full Collectives and their Care Practices**](https://khattamicah.xyz/portfolio/research/publication/2020-01-01-Carefull-Collectives-and-their-Care-Practices/), I explore the power of narratives in envisioning alternate futures and promoting care-driven practices. Narrative projects like [**Antarsam - Exploring Alternate Histories and Futures**](https://khattamicah.xyz/portfolio/research/miscellaneous/2019-02-01-Antarsam-Exploring-Alternate-Histories-and-Futures/) were a result of my speculative exploration into alternate histories and potential futures, rooted in ecological systems, cultural contexts, and linguistic roots.
+<!--posts-->
 
-From exploring the impact of caste-based power structures in projects like [**Caste and Education Geospatially in Rural Bihar**](https://khattamicah.xyz/portfolio/research/2019-01-01-Caste-and-Education/), I engage in participatory approaches to historical inquiry. My explorations into topics like [**The Disenfranchisement of Paniyas in Kerala**](https://khattamicah.xyz/portfolio/research/2018-12-01-The-Disenfranchisement-of-Adivasis-in-Kerala/) reflect my journey of self-discovery and learning through immersive experiences and ethnographic research. The [**Lived Experience Archives for Champions of the Disability Sector**](https://khattamicah.xyz/portfolio/research/2022-02-20-EnableIndia-LE/) was especially helpful in learning the importance of archiving marginalized voices and experiences for the empowerment of communities.
+## Areas of Focus
 
-While teaching classes like [**Seeing, Being, Doing: small-letter ‘d’ design - 4 Month design studio**](https://khattamicah.xyz/portfolio/presentation/teaching/2022-12-01-Facilitating-a-Design-Studio-Overview), I was able to reflect on gradual, iterative progress and continuous learning in my endeavors.
+<div class="focus-grid">
+  <div class="focus-item">
+    <h3>Community Archives</h3>
+    <p>Designing platforms that empower communities to preserve and share their knowledge on their own terms.</p>
+    <a href="/research" class="arrow-link">Explore Research →</a>
+  </div>
+  
+  <div class="focus-item">
+    <h3>Participatory Design</h3>
+    <p>Creating inclusive design processes that center marginalized voices and experiences.</p>
+    <a href="/ui-ux-design" class="arrow-link">View Design Projects →</a>
+  </div>
+  
+  <div class="focus-item">
+    <h3>Alternative Infrastructures</h3>
+    <p>Building community networks and platforms that support local knowledge sharing and creative economies.</p>
+    <a href="/writing" class="arrow-link">Read Articles →</a>
+  </div>
+  
+  <div class="focus-item">
+    <h3>Teaching & Facilitation</h3>
+    <p>Guiding workshops and courses on design thinking, speculative futures, and contextual technology.</p>
+    <a href="/portfolio/presentation/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications/" class="arrow-link">See Workshops →</a>
+  </div>
+</div>
+
+
+
+<style>
+  .focus-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+  }
+  
+  .focus-item {
+    padding: 1.5rem;
+    border-radius: 8px;
+    background: rgba(0,0,0,0.03);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .focus-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  }
+  
+  .arrow-link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+</style>
