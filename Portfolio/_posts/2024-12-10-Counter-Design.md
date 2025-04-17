@@ -7,7 +7,7 @@ image:
   path: /assets/img/projects/CounterInterfacial.jpg
 sitemap: true
 bluesky_post_uri: https://bsky.app/profile/khattamicah.xyz/post/3lcxq3qhhts25
-categories: writing, pedagogy
+categories: [writing, pedagogy]
 tags:
   - design-methods
   - platform-analysis

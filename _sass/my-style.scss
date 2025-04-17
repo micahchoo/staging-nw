@@ -1647,3 +1647,35 @@
   #nutshell-close-all[show=no]{
       opacity:0;
   }
+
+  /* button */
+  .btn
+  {
+   color: #272f32;
+  }
+
+  /* Post Tags*/
+  /* Post metadata styling */
+.post-tags {
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+  opacity: 0.85;
+  line-height: 1.2;
+}
+
+/* Optional: add some spacing between tags */
+.post-tags a {
+  margin-right: 0.5rem;
+}
+
+/* Optional: add a small icon before tags */
+.post-tags:before {
+  content: "Tagged"; /* tag icon from icomoon - check your icon set */
+  margin-right: 0.25rem;
+  font-size: 0.8rem;
+}
+
+.tag-name {
+  text-transform: capitalize;
+}
+
