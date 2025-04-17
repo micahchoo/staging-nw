@@ -1,28 +1,31 @@
 {% comment %}
- This component generates a gallery of images.
+ This component generates a gallery of images using a responsive grid layout.
  It expects a list of 'items' to be provided when this file is included on a page.
- Each 'item' in the list should represent one image in the gallery and can have properties like:
+ Each 'item' in the list should represent one image in the gallery and can have:
  - `image`: The URL/path to the image file. (Required)
- - `alt`: Alternative text for the image (for accessibility and SEO). (Optional)
- - `caption`: Text to display below the image as a caption. (Optional)
- - `description`: A longer description text associated with the image. (Optional)
- Example usage on a page might look like:
+ - `alt`: Alternative text for the image. (Optional)
+ - `caption`: Text to display as a caption. (Optional)
+ - `description`: A longer description text. (Optional)
+ - `size`: Size class for the image - 'wide', 'tall', or 'big'. (Optional)
+ 
+ Example usage:
  {% assign gallery_items = site.data.my_gallery_data %}
  {% include components/ui-gallery.html items=gallery_items %}
 {% endcomment %}
-<div class="ui-gallery">
+
+<div class="grid-wrapper">
   {% for item in include.items %}
-  <div class="gallery-item">
-    <figure>
+  <div class="{{ item.size | default:'' }}">
+    <figure class="gallery-figure">
       <a class="spotlight" href="{{ item.image | relative_url }}">
-        <img src="{{ item.image | relative_url }}" alt="{{ item.alt | default:item.caption }}" />
+        <img src="{{ item.image | relative_url }}" alt="{{ item.alt | default:item.caption }}" loading="lazy" />
       </a>
       {% if item.caption %}
-      <figcaption>{{ item.caption }}</figcaption>
+      <figcaption class="gallery-caption">{{ item.caption }}</figcaption>
       {% endif %}
     </figure>
     {% if item.description %}
-    <p>{{ item.description }}</p>
+    <p class="gallery-description">{{ item.description }}</p>
     {% endif %}
   </div>
   {% endfor %}

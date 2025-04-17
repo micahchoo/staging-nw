@@ -10,5 +10,6 @@
   "templater-obsidian",
   "quickadd",
   "cmdr",
-  "uri-commands"
+  "uri-commands",
+  "note-refactor-obsidian"
 ]
