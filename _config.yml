@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url:                   https://khattamicah.xyz
+url:                   
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -196,7 +196,7 @@ kramdown:
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [about, related]
+  post_addons:         [about, related, random]
 
   # Configure the order of complementary content on project pages
   project_addons:      [about]
@@ -226,7 +226,7 @@ hydejack:
 
   # Set to `true` if you don't intend on changing the accent color on a per-page basis. 
   # This will increase site build speed!
-  no_page_style:       false
+  no_page_style:       true
 
   # Code blocks and tables "break" the layout by spanning the full available width.
   # Set this to true if you want them to be the same width as other content.
@@ -282,7 +282,7 @@ hydejack:
     dynamic:           false
 
     # Set to `true` to allow visitors to switch between light and dark mode.
-    icon:              false
+    icon:              true
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------
@@ -338,10 +338,8 @@ exclude:
   - log/
   - .bundle/
   - _drafts/drafts
-  - /Portfolio/.obsidian
+  - Portfolio/.obsidian
   - .obsidian
-  - /templates
-  - _posts
 
 include:
   - .well-known

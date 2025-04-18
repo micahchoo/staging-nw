@@ -1,0 +1,2 @@
+ # [Ways of Seeing: Archives and Annotations](https://www.milli.link/iaw2021/#ways-of-seeing--an-archive-annotation-workshop) 
+ - (2021): A design demo/workshop on enhancing institutional archives through discovery, annotation, and re-narration. Collaborators: Bhanu, Venkat, Satakshi, Dinesh, Shafali. [Video here](https://www.youtube.com/watch?t=7416&v=rNUbcno_fzQ)

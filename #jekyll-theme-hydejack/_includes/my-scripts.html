@@ -6,6 +6,36 @@ it will only run on the initial page.
 The snippet below will run the code on every `hy-push-state-load` event instead.
 -->
 <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Function to force dark mode color refresh
+    function refreshDarkModeColors() {
+      const isDarkMode = document.body.classList.contains('dark-mode');
+      if (isDarkMode) {
+        // Apply dark mode colors directly to the document root
+        document.documentElement.style.setProperty('--accent-color', '#ffe9bd');
+        document.documentElement.style.setProperty('--accent-color-darkened', 'rgb(230, 210, 170)');
+      }
+    }
+    
+    // Run immediately
+    refreshDarkModeColors();
+    
+    // Also run after a slight delay to catch any post-load changes
+    setTimeout(refreshDarkModeColors, 100);
+    
+    // Also run when dark mode toggles
+    const observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+        if (mutation.attributeName === 'class') {
+          refreshDarkModeColors();
+        }
+      });
+    });
+    
+    observer.observe(document.body, { attributes: true });
+  });
+</script>
+<script>
   document.getElementById('_pushState').addEventListener('hy-push-state-load', function (e) {
     function e(e){
       (console.error?console.error:console.log).call(console,e)
@@ -55,32 +85,4 @@ The snippet below will run the code on every `hy-push-state-load` event instead.
 {% endcomment %}
 
   <!-- Custom component scripts -->
-  <script src="{{ '/assets/js/custom-components.js' | relative_url }}"></script><script src="{{ '/assets/js/spotlight.bundle.js | relative_url }}"></script>
-  <script src="{{ '/assets/js/nutshell.js' | relative_url }}">
-    Nutshell.setOptions({
-      startOnLoad: true, // Start Nutshell on load? (default: true)
-      lang: 'en', // Language (default: 'en', which is English)
-    });  
-    </script>
-    <script>
-      // Add custom handler for inline text explanations
-      Nutshell.handlers.text = {
-        // Determine if this handler should handle the link
-        canHandle: function(link){
-          return link.href.startsWith('**');
-        },
-        
-        // Get the content
-        getContent: function(link){
-          return new Promise(function(resolve){
-            // Extract the text after "text:"
-            const content = link.href.substring(5);
-            resolve({
-              title: "",
-              content: content,
-              error: null
-            });
-          });
-        }
-      };
-      </script>
+  <script src="{{ '/assets/js/custom-components.js' | relative_url }}"></script>

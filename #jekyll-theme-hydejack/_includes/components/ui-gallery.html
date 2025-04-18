@@ -1,15 +1,16 @@
 {% comment %}
-  This component generates a gallery of images.
-  It expects a list of 'items' to be provided when this file is included on a page.
-  Each 'item' in the list should represent one image in the gallery and can have properties like:
-  - `image`: The URL/path to the image file. (Required)
-  - `alt`: Alternative text for the image (for accessibility and SEO). (Optional)
-  - `caption`: Text to display below the image as a caption. (Optional)
-  - `description`: A longer description text associated with the image. (Optional)
-
-  Example usage on a page might look like:
-  {% assign gallery_items = site.data.my_gallery_data %}
-  {% include components/ui-gallery.html items=gallery_items %}
+ This component generates a gallery of images using a responsive grid layout.
+ It expects a list of 'items' to be provided when this file is included on a page.
+ Each 'item' in the list should represent one image in the gallery and can have:
+ - `image`: The URL/path to the image file. (Required)
+ - `alt`: Alternative text for the image. (Optional)
+ - `caption`: Text to display as a caption. (Optional)
+ - `description`: A longer description text. (Optional)
+ - `size`: Size class for the image - 'wide', 'tall', or 'big'. (Optional)
+ 
+ Example usage:
+ {% assign gallery_items = site.data.my_gallery_data %}
+ {% include components/ui-gallery.html items=gallery_items %}
 {% endcomment %}
   <div class="ui-gallery">
     {% comment %} Loop through each 'item' in the 'include.items' list provided. {% endcomment %}
@@ -28,7 +29,7 @@
               - `class="spotlight"`: This class likely triggers a JavaScript "lightbox" effect,
                  allowing users to click the thumbnail to see a larger version of the image.
             {% endcomment %}
-            <a class="spotlight" href="href="{% if item.image contains '://' %}{{ item.image }}{% else %}{{ item.image | relative_url }}{% endif %}"">
+            <a class="spotlight" href="{{ item.image | relative_url }}">
               {% comment %}
                 Display the actual image.
                 - `src="{{ item.image | relative_url }}"`: Sets the image source URL.
@@ -36,7 +37,8 @@
                   It uses the 'alt' property from the item data if provided, otherwise it falls back
                   to using the 'caption' text as the alt text. Good alt text is important!
               {% endcomment %}
-              <img src="{% if item.image contains '://' %}{{ item.image }}{% else %}{{ item.image | relative_url }}{% endif %}" alt="{{ item.alt | default:item.caption }}" />            </a>
+              <img src="{{ item.image | relative_url }}" alt="{{ item.alt | default:item.caption }}" />
+            </a>
           {% comment %} Check if the current 'item' data has a 'caption' property. {% endcomment %}
           {% if item.caption %}
             {% comment %} If a caption exists, display it using the <figcaption> element. {% endcomment %}
@@ -51,3 +53,5 @@
       </div>
     {% endfor %} {% comment %} End of the loop through each gallery item. {% endcomment %}
   </div>
+  {% endfor %}
+</div>

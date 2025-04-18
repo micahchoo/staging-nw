@@ -1,0 +1,52 @@
+{% comment %}
+  Filtered Grid Component
+  
+  Parameters:
+  - tag: Filter posts by this tag (optional)
+  - category: Filter posts by this category (optional)
+  - featured: Set to "yes" to show only featured posts, "no" to show non-featured posts (optional)
+  - full: Set to "1" to show all posts, "0" to show only 4 posts with a read more link (default: "0")
+{% endcomment %}
+
+{% assign filtered_posts = site.posts %}
+
+{% if include.category %}
+  {% assign filtered_posts = site.categories[include.category] %}
+  {% assign target_url = include.category | prepend: "/" | append: "/" %}
+  {% assign more_title = include.category | capitalize %}
+{% endif %}
+
+{% if include.tag %}
+  {% assign filtered_posts = site.tags[include.tag] %}
+  {% assign target_url = include.tag | prepend: "/tag-" | append: "/" %}
+  {% assign more_title = include.tag | capitalize %}
+{% endif %}
+
+{% if include.featured == "yes" %}
+  {% assign filtered_posts = filtered_posts | where: "featured", true %}
+{% elsif include.featured == "no" %}
+  {% assign filtered_posts = filtered_posts | where_exp: "post", "post.featured != true" %}
+{% endif %}
+
+{% assign full = include.full | default: "0" %}
+{% assign limit = filtered_posts.size %}
+{% if full == "0" %}
+  {% assign limit = 4 %}
+{% endif %}
+
+<div class="columns {% unless include.no_third_column %}columns-break{% endunless %}">
+  {% for post in filtered_posts limit: limit %}
+    {% assign post_featured = post.featured | default: false %}
+    <div class="column {% if post_featured %}column-1{% else %}column-1-2{% endif %}">
+      {% include_cached pro/post-card.html post=post featured=post_featured %}
+    </div>
+  {% endfor %}
+</div>
+
+{% if full == "0" and filtered_posts.size > 4 and target_url %}
+  {% capture posts_title %}<a class="heading flip-title" href="{{ target_url | relative_url }}">{{ more_title }}</a>{% endcapture %}
+  {% assign text = site.data.strings.welcome.more_posts | default:"See <!--posts_title--> for more" %}
+  <p class="read-more mt1">
+    {{ text | replace:"<!--posts_title-->", posts_title }}
+  </p>
+{% endif %}
