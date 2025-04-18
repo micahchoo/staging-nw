@@ -25,6 +25,8 @@ type: personal,professional
 * seed
 {:toc}
 
+{% include components/featured-quote.html 
+  text="When people say it has been 60 years of India’s liberation, I find it difficult to believe, for we are still slaves, working for others, picking up human excreta with our bare hands."
   source="Kala bai Lavre, a manual scavenger"
   style="shadow"
   align="center"
