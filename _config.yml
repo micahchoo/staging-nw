@@ -338,8 +338,10 @@ exclude:
   - log/
   - .bundle/
   - _drafts/drafts
-  - Portfolio/.obsidian
-  - .obsidian
+  - _posts
+  - templates
+  - test
+  - /.obsidian
 
 include:
   - .well-known

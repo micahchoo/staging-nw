@@ -1,5 +1,0 @@
----
-layout: post
----
-This paper reports an exercise in generating a stop list for general text based on the Brown corpus of 1,014,000 words drawn from a broad range of literature in English. We start with a list of tokens occurring more than 300 times in the Brown corpus. From this list of 278 words, 32 are culled on the grounds that they are too important as potential index terms. Twenty-six words are then added to the list in the belief that they may occur very frequently in certain kinds of literature. Finally, 149 words are added to the list because the finite state machine based filter in which this list is intended to be used is able to filter them at almost no cost. The final product is a list of 421 stop words that should be maximally efficient and effective in filtering the most frequently occurring and semantically neutral words in general literature in English.
-# : Section 1 (Bring me moon)

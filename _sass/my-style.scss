@@ -24,12 +24,12 @@
   --body-color: #e3f2fc;        // dark mode text
   --body-bg: #292c2e;           // dark mode background
   --accent-color: #ffe9bd !important;      // dark mode accent
-  --theme-color: #bdebff!important;       // dark mode secondary
-  --border-color: #c6aeae!important;      // dark mode primary
+  --theme-color: #bdebff;       // dark mode secondary
+  --border-color: #c6aeae;      // dark mode primary
   
   // Derived accent colors for dark mode
-  --accent-color-faded: rgba(255, 233, 189, 0.5)!important;
-  --accent-color-highlight: rgba(255, 233, 189, 0.1)!important;
+  --accent-color-faded: rgba(255, 233, 189, 0.5);
+  --accent-color-highlight: rgba(255, 233, 189, 0.1);
   --accent-color-darkened: rgb(230, 210, 170)!important;
   
   // Gray shades for dark mode

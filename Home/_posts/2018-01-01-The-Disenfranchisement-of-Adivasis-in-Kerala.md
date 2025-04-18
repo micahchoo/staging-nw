@@ -12,11 +12,16 @@ image:
     480w: /assets/img/projects/Paniyas/Paniyas@0,25x.jpg
 date: 01-12-2018
 sitemap: true
+categories:
+  - writing
+tags:
+  - indigenous-rights
+  - land-rights
+  - social-justice
+  - ethnographic-research
+type: personal,professional
 ---
 
->Disclaimer: I have put links to the referred journals and articles wherever I can. It may not be possible to read all of them at a go so I recommend reading through the article and then choosing the links you want to read.
-
-# A Literature Review	
 * seed
 {:toc}
 

@@ -1,11 +1,11 @@
 <!-- _includes/components/featured-quote.html -->
-<div class="featured-quote {% if include.style %}style-{{ include.style }}{% endif %} align-{{ include.align | default: 'left' }} size-{{ include.size | default: 'medium' }}">
-  <blockquote>
-    <p>{{ include.text | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-    {% if include.source %}
-    <footer>
-      <cite>{{ include.source }}</cite>
-    </footer>
-    {% endif %}
-  </blockquote>
-</div>
+<div class="featured-quote {% if include.align == 'right' %}align-right{% elsif include.align == 'center' %}align-center{% else %}align-left{% endif %} {% if include.size == 'large' %}size-large{% elsif include.size == 'small' %}size-small{% else %}size-medium{% endif %}">
+    <blockquote>
+      {{ include.text | markdownify }}
+      {% if include.source %}
+      <footer>
+        <cite>{{ include.source }}</cite>
+      </footer>
+      {% endif %}
+    </blockquote>
+  </div>
