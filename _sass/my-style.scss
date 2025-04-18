@@ -1,5 +1,5 @@
 /* _sass/my-style.scss */
-:root.html {
+:root {
   // Light theme custom colors
   --body-color: #03121c;        // text color
   --body-bg: #d1d4d6;           // background color
@@ -20,16 +20,16 @@
 }
 
 // Dark mode overrides
-html.dark-mode {
-  --body-color: #e3f2fc!important;        // dark mode text
-  --body-bg: #292c2e!important;           // dark mode background
+.dark-mode {
+  --body-color: #e3f2fc;        // dark mode text
+  --body-bg: #292c2e;           // dark mode background
   --accent-color: #ffe9bd !important;      // dark mode accent
-  --theme-color: #bdebff!important;       // dark mode secondary
-  --border-color: #c6aeae!important;      // dark mode primary
+  --theme-color: #bdebff;       // dark mode secondary
+  --border-color: #c6aeae;      // dark mode primary
   
   // Derived accent colors for dark mode
-  --accent-color-faded: rgba(255, 233, 189, 0.5)!important;
-  --accent-color-highlight: rgba(255, 233, 189, 0.1)!important;
+  --accent-color-faded: rgba(255, 233, 189, 0.5);
+  --accent-color-highlight: rgba(255, 233, 189, 0.1);
   --accent-color-darkened: rgb(230, 210, 170)!important;
   
   // Gray shades for dark mode
@@ -38,16 +38,6 @@ html.dark-mode {
   --gray-text: #bdebff;         // secondary color in dark mode
   --menu-text: #c6aeae;         // primary color in dark mode
 }
-
-
-
-.description {
-
-  max-width: 100%;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-
 .sidebar {
   color: rgba(255,255,255,.75);
   text-align: center;
@@ -213,7 +203,7 @@ html.dark-mode {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #272f32;
   font-weight: bold;
   z-index: 2;
 }
@@ -240,11 +230,6 @@ html.dark-mode {
 
 .timeline-item:hover .timeline-content {
   background-color: rgba(255, 255, 255, 0.1);
-}
-
-.timeline-item.active .marker-circle {
-  background-color: var(--accent-color-darkened, #4c51bf);
-  box-shadow: 0 0 0 4px rgba(90, 103, 216, 0.2);
 }
 
 .timeline-title {
@@ -382,100 +367,103 @@ html.dark-mode {
   background: rgba(255, 255, 255, 0.05);
 }
 
-/* UI Gallery component */
-/* ui Gallery Component */
-.ui-gallery {
-  max-width: 1200px;
+/* Gallery Grid Layout */
+.grid-wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 200px;
+  grid-auto-flow: dense;
   margin: 2rem auto;
-  column-count: 2;
-  column-gap: 16px;
+  max-width: 1200px;
 }
 
-.ui-gallery .gallery-item {
-  break-inside: avoid;
-  margin-bottom: 16px;
+.grid-wrapper > div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
 }
 
-.ui-gallery figure {
+.grid-wrapper > div > figure {
+  width: 100%;
+  height: 100%;
   margin: 0;
+  overflow: hidden;
   position: relative;
 }
 
-.ui-gallery figcaption {
-  position: absolute;
-  background: rgba(0, 0, 0, 0.5);
+.grid-wrapper > div > figure > a {
   width: 100%;
-  box-sizing: border-box;
-  bottom: 3px;
-  color: #fff;
-  height: 30px;
-  border-radius: 0 0 8px 8px;
-  transition: height 0.3s ease;
-  
-  /* Center alignment changes */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 4px 8px;
-  
-  /* Handle text overflow */
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.ui-gallery figure:hover figcaption {
-  height: auto;
-  white-space: normal;
-  align-items: flex-start; /* Change alignment on hover */
-  justify-content: flex-start;
-  text-align: center;
-  padding: 8px;
-}
-
-.ui-gallery img {
-  width: 100%;
-  border-radius: 8px;
+  height: 100%;
   display: block;
+}
+
+.grid-wrapper > div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
   transition: transform 0.3s ease;
 }
 
-.ui-gallery figure:hover img {
+.grid-wrapper > div:hover img {
   transform: scale(1.02);
 }
 
-.ui-gallery p {
-  margin: 0;
-  padding: 8px 4px;
+/* Size classes */
+.grid-wrapper .wide {
+  grid-column: span 3;
+}
+
+.grid-wrapper .tall {
+  grid-row: span 3;
+}
+
+.grid-wrapper .big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+/* Caption styling */
+.gallery-caption {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  bottom: 0;
+  color: #fff;
+  padding: 8px;
   font-size: 0.9rem;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-/* Dark mode adjustments */
-.dark-mode .ui-gallery p {
-  color: #e2e8f0;
+.grid-wrapper > div:hover .gallery-caption {
+  opacity: 1;
 }
 
-.dark-mode .ui-gallery figcaption {
-  background: rgba(0, 0, 0, 0.7);
+.gallery-description {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #f0f0f0;
 }
 
 /* Responsive adjustments */
 @media screen and (max-width: 500px) {
-  .masonry-gallery {
-    column-count: 1;
+  .grid-wrapper {
+    grid-template-columns: 1fr;
   }
-}
-
-@media screen and (min-width: 501px) and (max-width: 700px) {
-  .masonry-gallery {
-    column-count: 2;
+  
+  .grid-wrapper .wide,
+  .grid-wrapper .big {
+    grid-column: auto;
   }
-}
-
-@media screen and (min-width: 701px) and (max-width: 900px) {
-  .masonry-gallery {
-    column-count: 3;
+  
+  .grid-wrapper .tall,
+  .grid-wrapper .big {
+    grid-row: span 1;
   }
 }
 
@@ -1141,697 +1129,468 @@ html.dark-mode {
     --border-color: rgba(255, 255, 255, 0.1);
   }
 
-  /* Layout-specific styles to add to my-style.scss */
 
-/* Research Post Layout */
-.research-post {
-    font-family: var(--font-family);
-    line-height: 1.8;
+
+
+  /***************************************************
+  HEADERS with link / embed options
+  ***************************************************/
+
+  .nutshell-heading{
+      position:relative;
   }
-  
-  .research-post h2 {
-    margin-top: 2.5rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--border-color);
+  .nutshell-heading-embed{
+
+      /* Position at end of heading text */
+      width: 0; /* don't force newline */
+      display: inline-block;
+      position: relative;
+      top:0.14em; left:0;
+
+      /* Button, reveal on hover */
+      opacity:0;
+      cursor: pointer;
+      transition: all 0.1s ease-in-out;
+
   }
-  
-  .research-post blockquote {
-    font-size: 0.95rem;
-    background-color: rgba(var(--accent-color-rgb), 0.05);
-    padding: 1rem 1.5rem;
-    margin: 1.5rem 0;
-    border-left: 4px solid var(--accent-color);
+  .nutshell-heading-embed img{
+      width:1em; height:1em;
+      min-width: 1em;
+      min-height: 1em; /* some deal with the devil */
   }
-  
-  .research-post .references-section {
-    margin-top: 3rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--border-color);
+  .nutshell-heading:hover .nutshell-heading-embed{
+      left:0.25em;
+      opacity:0.33;
   }
-  
-  .research-post table {
-    width: 100%;
-    margin: 2rem 0;
-    border-collapse: collapse;
-  }
-  
-  .research-post table th {
-    background-color: rgba(var(--accent-color-rgb), 0.1);
-    padding: 0.75rem;
-    border: 1px solid var(--border-color);
-    text-align: left;
-  }
-  
-  .research-post table td {
-    padding: 0.75rem;
-    border: 1px solid var(--border-color);
-  }
-  
-  .research-post table tr:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.02);
-  }
-  
-  /* Project Post Layout */
-  .project-post .project-meta {
-    margin-top: 3rem;
-    padding: 1.5rem;
-    background-color: rgba(var(--accent-color-rgb), 0.05);
-    border-radius: 8px;
-  }
-  
-  .project-post .project-meta h3 {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    color: var(--accent-color);
-  }
-  
-  .project-post .project-meta p {
-    margin-bottom: 0.5rem;
-  }
-  
-  .project-post .project-meta p:last-child {
-    margin-bottom: 0;
-  }
-  
-  .project-post h2 {
-    font-size: 1.8rem;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  .project-post h3 {
-    font-size: 1.4rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .project-post img {
-    border-radius: 4px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Tutorial Post Layout */
-  .tutorial-post h2 {
-    background-color: rgba(var(--accent-color-rgb), 0.1);
-    padding: 0.75rem 1rem;
-    border-radius: 4px;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  .tutorial-post h3 {
-    margin-top: 2rem;
-    border-bottom: 2px solid rgba(var(--accent-color-rgb), 0.2);
-    padding-bottom: 0.5rem;
-  }
-  
-  .tutorial-post pre {
-    border-radius: 4px;
-    margin: 1.5rem 0;
-  }
-  
-  .tutorial-post code {
-    background-color: rgba(0, 0, 0, 0.05);
-    padding: 0.2rem 0.4rem;
-    border-radius: 3px;
-  }
-  
-  .tutorial-post pre code {
-    background-color: transparent;
-    padding: 0;
-  }
-  
-  .tutorial-post ol li,
-  .tutorial-post ul li {
-    margin-bottom: 0.75rem;
-  }
-  
-  /* Creative Post Layout */
-  .creative-post {
-    font-family: var(--font-family);
-    line-height: 1.8;
-  }
-  
-  .creative-header {
-    margin-bottom: 2.5rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-  
-  .creative-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  }
-  
-  .creative-description {
-    padding: 1.5rem;
-    background-color: rgba(var(--accent-color-rgb), 0.05);
-    border-radius: 8px;
-  }
-  
-  .creative-description h2 {
-    margin-top: 0;
-    color: var(--accent-color);
-  }
-  
-  .creative-description p {
-    margin-bottom: 0;
-  }
-  
-  .creative-content {
-    font-size: 1.1rem;
-  }
-  
-  .creative-content p:first-of-type::first-letter {
-    font-size: 3.5rem;
-    float: left;
-    line-height: 1;
-    padding-right: 0.5rem;
-    margin-top: 0.25rem;
-    color: var(--accent-color);
-  }
-  
-  /* Archive Post Layout */
-  .archive-post .collection-highlights {
-    margin: 3rem 0;
-  }
-  
-  .archive-post .collection-highlights h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  
-  .archive-post .timeline {
-    margin: 3rem 0;
-  }
-  
-  /* Shared styles across post types */
-  .post-wrapper {
-    margin-bottom: 3rem;
-  }
-  
-  /* Responsive styles */
-  @media (min-width: 768px) {
-    .creative-header {
-      grid-template-columns: 2fr 1fr;
-      align-items: center;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    .creative-header {
-      grid-template-columns: 1fr;
-    }
-    
-    .creative-content p:first-of-type::first-letter {
-      font-size: 2.5rem;
-    }
-  }
-  
-  /* Dark mode adjustments */
-  .dark-mode .research-post blockquote,
-  .dark-mode .tutorial-post pre,
-  .dark-mode .tutorial-post code {
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-  
-  .dark-mode .research-post table th {
-    background-color: rgba(var(--accent-color-rgb), 0.2);
-  }
-  
-  .dark-mode .research-post table tr:nth-child(even) {
-    background-color: rgba(255, 255, 255, 0.02);
-  }
-  
-  .dark-mode .project-post img,
-  .dark-mode .creative-image img {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  .nutshell-heading:hover .nutshell-heading-embed:hover{
+      opacity:1;
   }
 
-  /* Project Links Styling - Add this to the layout-specific-styles.scss file */
+  /***************************************************
+  EXPANDABLE LINKS
+  ***************************************************/
 
-.project-post .project-links {
-    margin-top: 2rem;
-    padding: 1.5rem;
-    background-color: rgba(var(--accent-color-rgb), 0.05);
-    border-radius: 8px;
+  .nutshell-expandable{
+
+      /* Boring style to fit parent */
+      color: inherit;
+      text-decoration: none;
+      border-bottom: dotted 1.5px var(--accent-color);
+      /* So those balls work */
+      position:relative;
+
+      /* Animate opacity on hover */
+      transition: opacity 0.1s ease-in-out;
+      opacity: 1;
+
   }
-  
-  .project-post .project-links h3 {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    color: var(--accent-color);
+  .nutshell-expandable:hover{
+      color: inherit;
+      opacity: 0.8;
   }
-  
-  .project-post .links-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+  .nutshell-expandable .nutshell-expandable-text{
+      padding-left: 0.35em; /* Give balls space */
   }
-  
-  .project-post .project-link {
-    display: inline-block;
-    padding: 0.5rem 1.25rem;
-    background-color: var(--accent-color);
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: 600;
-    transition: background-color 0.2s ease, transform 0.2s ease;
+  /* The balls! */
+  .nutshell-ball-up, .nutshell-ball-down{
+
+      /* Placed to the left */
+      position: absolute;
+      display: inline-block;
+      left: 1px;
+
+      /* They're balls */
+      width: 0.15em;
+      height: 0.15em;
+      background: #000;
+      border-radius: 1em;
+
+      /* Animate moving up & down */
+      transition: top 0.1s ease-in-out;
+
   }
-  
-  .project-post .project-link:hover {
-    background-color: var(--accent-color-darkened);
-    transform: translateY(-2px);
-  }
-  
-  /* Dark mode adjustment */
-  .dark-mode .project-post .project-link {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* Ball animation! Depends on open/closed, hover */
+  .nutshell-expandable[mode=closed] .nutshell-ball-up{            top:0.4em;  }
+  .nutshell-expandable[mode=closed] .nutshell-ball-down{          top:0.7em;  }
+  .nutshell-expandable[mode=closed]:hover .nutshell-ball-up{      top:0.2em;  }
+  .nutshell-expandable[mode=closed]:hover .nutshell-ball-down{    top:0.9em;  }
+  .nutshell-expandable[mode=open] .nutshell-ball-up{              top:0.4em;  }
+  .nutshell-expandable[mode=open] .nutshell-ball-down{            top:0.7em;  }
+  .nutshell-expandable[mode=open]:hover .nutshell-ball-up{        top:0.55em; }
+  .nutshell-expandable[mode=open]:hover .nutshell-ball-down{      top:0.55em; }
+
+  /* Followup! */
+  .nutshell-followup{
+      opacity:0.33;
   }
 
-  /* Custom Nutshell CSS for Khattamicah.xyz */
+  /***************************************************
+  BUBBLES:
+  ***************************************************/
 
-.nutshell-heading {
-  position: relative;
+  .nutshell-bubble{
+
+      /* Gon' stretch out */
+      display: inline-block;
+      width: 100%;
+
+      /* It's nice & speech-bubble-lookin' */
+      border: 1px solid black;
+      /*border: 1px solid #ddd;*/
+      border-radius: 20px;
+
+      /* For the speech-bubble arrow */
+      position: relative;
+      margin-top: 22px;
+
+      /* For subtle move up & down */
+      position: relative;
+      top: 0;
+      transition: top 0.3s linear;
+
+  }
+
+  /* Arrow outline */
+  .nutshell-bubble-arrow{
+      width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-bottom: 20px solid #000;
+      /*border-bottom: 20px solid #ddd;*/
+      position: absolute;
+      top: -20px;
+      pointer-events: none; /* don't block clicking */
+      --arrow-background: #fff; /* css var */
+  }
+
+  /* Arrow white */
+  .nutshell-bubble-arrow::after{
+      content: "";
+      width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-bottom: 20px solid #fff; /* fallback */
+      border-bottom: 20px solid var(--arrow-background); /* css var */
+      position: absolute;
+      top: 1.5px;
+      left: -20px;
+      pointer-events: none; /* don't block clicking */
+  }
+
+  /* Overflow: contains the head/section/food */
+  .nutshell-bubble-overflow{
+      overflow: hidden;
+  }
+  .nutshell-bubble-overflow[mode=opening]{
+      transition: height 0.3s ease-out; /* Snap to open */
+  }
+  .nutshell-bubble-overflow[mode=closing]{
+      transition: height 0.3s ease-in; /* Snap to close */
+  }
+
+  /* Head: Embed Button, show on hover */
+  .nutshell-bubble-overflow-embed-button{
+      position: absolute;
+      top:5px; right:10px;
+      width:1em; height:1em;
+      opacity:0;
+      transition: all 0.1s ease-in-out;
+      cursor:pointer;
+  }
+  .nutshell-bubble-overflow-embed-button img{
+      width:1em; height:1em;
+  }
+  .nutshell-bubble-overflow:hover > .nutshell-bubble-overflow-embed-button{
+      right: 5px;
+      opacity: 0.33;
+  }
+  .nutshell-bubble-overflow:hover > .nutshell-bubble-overflow-embed-button:hover{
+      opacity: 1.0;
+  }
+  /* NO EMBEDDING IF IT'S A PREVIEW INSIDE EMBED MODAL */
+  .nutshell-embed-modal .nutshell-bubble-overflow-embed-button{
+      display:none;
+  }
+
+  /* Section */
+  .nutshell-bubble-overflow-section{
+      padding: 0 1em;
+      padding-bottom: 0.5em;
+      overflow: hidden; /* to capture full height, including <p>'s margins */
+  }
+  .nutshell-bubble-overflow-section > div{
+      margin: 1em 0; /* if you people forgot to put your text in <p>'s -_- */
+  }
+  .nutshell-bubble-overflow-section img{
+      max-width:100%; /* so it fits */
+  }
+  .nutshell-bubble-overflow-section video{
+      max-width:100%; /* so it fits */
+  }
+  /* Total hack for nice styling */
+  .nutshell-bubble-overflow-section img[data-float=left]{
+      float: left;
+      margin: 1em;
+  }
+  .nutshell-bubble-overflow-section img[data-float=right]{
+      float: right;
+      margin: 1em;
+  }
+  .nutshell-bubble-overflow-section iframe{
+      max-width:100%; /* so it fits */
+      border: 1px solid rgba(0,0,0,0.2);
+  }
+  .nutshell-bubble-overflow-section .nutshell-bubble{
+      /* So that recursive bubbles don't get squashed too quickly */
+      width: calc(100% + 2em - 6px); /* undo section's padding, minus a gap */
+      position: relative;
+      right: calc(1em - 2px);
+  }
+
+  /* From */
+  .nutshell-bubble-from{
+      font-size: 0.69em;
+      /* line-height: 0.69em; */
+      margin-bottom: -0.69em;
+      opacity: 0.69;
+  }
+
+  /* Foot: is a close button, too. */
+  .nutshell-bubble-overflow-close{
+
+      /* A &times; sign */
+      font-family: inherit;
+      font-size: 1rem;
+      text-align: center;
+
+      /* Whole-width bottom */
+      position:absolute;
+      width:100%;
+      bottom:0;
+      border: 0;
+      background: none;
+
+      /* A button that gets darker. */
+      cursor:pointer;
+      opacity: 0.33;
+      transition: opacity 0.1s ease-in-out;
+
+  }
+  .nutshell-bubble-overflow-close:hover{
+      background: none;
+      opacity:1;
+  }
+
+  /* Misc styling for bubbles. I am a busybody. */
+  .nutshell-bubble li{
+      margin-bottom: 0.5em;
+  }
+  .nutshell-bubble code{
+      background: #ddd;
+      border-radius: 5px;
+      /*font-weight:100;*/
+      padding: 0 5px;
+  }
+  .nutshell-bubble blockquote{
+      /*background: #eee;*/
+      margin-left: 0px;
+      margin-right: 0px;
+      border-left: 0.5em solid #eee;
+      padding: 1px 1em 1px 1.5em;
+      margin-top: 0;
+  }
+
+  /***************************************************
+  EMBED MODAL
+  ***************************************************/
+
+  .nutshell-embed-modal{
+
+      /* TAKE UP WHOLE SCREEN */
+      position: fixed;
+      z-index: 99999;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      /* Animate by fade in */
+      transition: opacity 0.3s ease-in-out;
+      opacity: 1;
+  }
+  .nutshell-embed-modal[mode=shown]{  opacity:1; }
+  .nutshell-embed-modal[mode=hidden]{ opacity:0; }
+
+  /* Background is a big transparent black */
+  #nutshell-embed-modal-bg{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+  }
+
+  /* Bubble is a big white rounded rect */
+  #nutshell-embed-modal-bubble{
+
+      /* In the middle */
+      position: absolute;
+      margin: auto;
+      top: 0; left: 0; right: 0; bottom: 0;
+      width: 600px;
+      height: 450px;
+
+      /* Color & font */
+      background: #fff;
+      color: #000;
+      border-radius: 30px;
+      font-size: 20px;
+      line-height: 1.5em;
+
+      /* Animate by slide up */
+      transition: top 0.3s ease-in-out;
+  }
+  .nutshell-embed-modal[mode=shown] #nutshell-embed-modal-bubble{  top:0;     }
+  .nutshell-embed-modal[mode=hidden] #nutshell-embed-modal-bubble{ top:100px; }
+
+  /* Close button */
+  #nutshell-embed-modal-close{
+
+      /* Top right button */
+      z-index: 999;
+      position: absolute;
+      top: 5px; right: 10px;
+      cursor: pointer;
+
+      /* Just a times sign */
+      font-size: 40px;
+      /*font-weight: 100;*/
+      height: 40px;
+
+      /* Anim */
+      opacity: 0.25;
+      transition: opacity 0.1s ease-in-out;
+
+  }
+  #nutshell-embed-modal-close:hover{
+      opacity:1;
+  }
+
+  /* Can scroll inside! */
+  #nutshell-embed-modal-overflow{
+      overflow-x: visible;
+      overflow-y: scroll;
+      padding: 15px 30px;
+      width: calc(100% - 60px);
+      height: calc(100% - 30px);
+  }
+
+  /* The "inputs" in the modal should look code-like */
+  #nutshell-embed-modal-bubble input{
+      width: 100%;
+      font-size: 14px;
+      font-family: monospace;
+  }
+
+  /* Learn More */
+  #nutshell-embed-p4{
+      font-size: 0.7em;
+      line-height: 0em;
+      text-align: center;
+      margin-top: 3em;
+  }
+
+  /***************************************************
+  CLOSE ALL NUTSHELLS
+  ***************************************************/
+
+  #nutshell-close-all{
+
+      /* Top-right */
+      position: fixed;
+      top: 0; right: 0;
+
+      /* Fades in & out */
+      transition: opacity 0.9s ease-in-out;
+      opacity: 0;
+      text-align: right;
+      cursor: pointer;
+
+      /* Little text */
+      font-size: 0.7em;
+      line-height: 1.2em;
+
+      /* Rounded corner */
+      /*background: inherit;*/
+      background: #ffacacef;
+      color:black;
+      padding: 0.7em;
+      border-radius: 0 0 0 1em;
+
+  }
+  #nutshell-close-all[show=yes]{
+      opacity:1;
+  }
+  #nutshell-close-all[show=no]{
+      opacity:0;
+  }
+
+  /* button */
+  .btn
+  {
+   color: #272f32;
+  }
+
+  /* Post Tags*/
+  /* Post metadata styling */
+.post-tags {
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+  opacity: 0.85;
+  line-height: 1.2;
 }
-.nutshell-heading-embed {
-  /* Position at end of heading text */
-  width: 0; /* don't force newline */
+
+/* Optional: add some spacing between tags */
+.post-tags a {
+  margin-right: 0.5rem;
+}
+
+/* Optional: add a small icon before tags */
+.post-tags:before {
+  content: "Tagged"; /* tag icon from icomoon - check your icon set */
+  margin-right: 0.25rem;
+  font-size: 0.8rem;
+}
+
+.tag-name {
   display: inline-block;
-  position: relative;
-  top: 0.14em; 
-  left: 0;
-
-  /* Button, reveal on hover */
-  opacity: 0;
-  cursor: pointer;
-  transition: all 0.1s ease-in-out;
+  padding: 0.25em 0.6em;
+  margin: 0.2em;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--accent-color-darkened);
+  background-color: var(--accent-color-highlight);
+  border-radius: 999px; /* Makes it pill-shaped */
+  text-transform: capitalize;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+  letter-spacing: 0.03em;
 }
-.nutshell-heading-embed img {
-  width: 1em; 
-  height: 1em;
-  min-width: 1em;
-  min-height: 1em;
+.tag-name:hover {
+  background-color: var(--accent-color);
+  color:#272f32;
 }
-.nutshell-heading:hover .nutshell-heading-embed {
-  left: 0.25em;
-  opacity: 0.33;
-}
-.nutshell-heading:hover .nutshell-heading-embed:hover {
-  opacity: 1;
-}
-
-/* EXPANDABLE LINKS */
-.nutshell-expandable {
-  /* Style to match site theme */
-  color: inherit;
-  text-decoration: none;
-  border-bottom: dotted 1.5px var(--accent-color);
-
-  /* So those balls work */
-  position: relative;
-
-  /* Animate opacity on hover */
-  transition: opacity 0.1s ease-in-out;
-  opacity: 1;
-}
-.nutshell-expandable:hover {
-  color: inherit;
-  opacity: 0.8;
-}
-.nutshell-expandable .nutshell-expandable-text {
-  padding-left: 0.35em; /* Give balls space */
-}
-
-/* The indicator balls */
-.nutshell-ball-up, .nutshell-ball-down {
-  /* Placed to the left */
-  position: absolute;
-  display: inline-block;
-  left: 1px;
-
-  /* They're balls */
-  width: 0.15em;
-  height: 0.15em;
-  background: var(--accent-color);
-  border-radius: 1em;
-
-  /* Animate moving up & down */
-  transition: top 0.1s ease-in-out;
-}
-
-/* Ball animation - depends on open/closed, hover */
-.nutshell-expandable[mode=closed] .nutshell-ball-up {           top: 0.4em; }
-.nutshell-expandable[mode=closed] .nutshell-ball-down {         top: 0.7em; }
-.nutshell-expandable[mode=closed]:hover .nutshell-ball-up {     top: 0.2em; }
-.nutshell-expandable[mode=closed]:hover .nutshell-ball-down {   top: 0.9em; }
-.nutshell-expandable[mode=open] .nutshell-ball-up {             top: 0.4em; }
-.nutshell-expandable[mode=open] .nutshell-ball-down {           top: 0.7em; }
-.nutshell-expandable[mode=open]:hover .nutshell-ball-up {       top: 0.55em; }
-.nutshell-expandable[mode=open]:hover .nutshell-ball-down {     top: 0.55em; }
-
-/* Firefox adjustments */
-@-moz-document url-prefix() {
-  .nutshell-expandable[mode=closed] .nutshell-ball-up {           top: 0.2em; }
-  .nutshell-expandable[mode=closed] .nutshell-ball-down {         top: 0.5em; }
-  .nutshell-expandable[mode=closed]:hover .nutshell-ball-up {     top: 0.0em; }
-  .nutshell-expandable[mode=closed]:hover .nutshell-ball-down {   top: 0.7em; }
-  .nutshell-expandable[mode=open] .nutshell-ball-up {             top: 0.2em; }
-  .nutshell-expandable[mode=open] .nutshell-ball-down {           top: 0.5em; }
-  .nutshell-expandable[mode=open]:hover .nutshell-ball-up {       top: 0.35em; }
-  .nutshell-expandable[mode=open]:hover .nutshell-ball-down {     top: 0.35em; }
-}
-
-/* Followup */
-.nutshell-followup {
-  opacity: 0.33;
-}
-
-/* BUBBLES */
-.nutshell-bubble {
-  /* Stretches out */
-  display: inline-block;
-  width: 100%;
-
-  /* Speech-bubble appearance */
-  border: 1px solid var(--accent-color);
-  border-radius: 20px;
-  background: var(--body-bg);
+/* Project Context */
+.note-ct
+{
+  background:rgba(0,0,0,0);
   color: var(--body-color);
-
-  /* For the speech-bubble arrow */
-  position: relative;
-  margin-top: 22px;
-
-  /* For subtle move up & down */
-  position: relative;
-  top: 0;
-  transition: top 0.3s linear;
-}
-
-/* Arrow outline */
-.nutshell-bubble-arrow {
-  width: 0;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 20px solid var(--accent-color);
-  position: absolute;
-  top: -20px;
-  pointer-events: none; /* don't block clicking */
-  --arrow-background: var(--body-bg); /* css var */
-}
-
-/* Arrow background */
-.nutshell-bubble-arrow::after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 20px solid var(--body-bg);
-  position: absolute;
-  top: 1.5px;
-  left: -20px;
-  pointer-events: none;
-}
-
-/* Overflow: contains the head/section/foot */
-.nutshell-bubble-overflow {
-  overflow: hidden;
-  border-radius: 19px; /* Slightly less than bubble to avoid edge artifacts */
-}
-.nutshell-bubble-overflow[mode=opening] {
-  transition: height 0.3s ease-out; /* Snap to open */
-}
-.nutshell-bubble-overflow[mode=closing] {
-  transition: height 0.3s ease-in; /* Snap to close */
-}
-
-/* Head: Embed Button, show on hover */
-.nutshell-bubble-overflow-embed-button {
-  position: absolute;
-  top: 5px; 
-  right: 10px;
-  width: 1em; 
-  height: 1em;
-  opacity: 0;
-  transition: all 0.1s ease-in-out;
-  cursor: pointer;
-}
-.nutshell-bubble-overflow-embed-button img {
-  width: 1em; 
-  height: 1em;
-}
-.nutshell-bubble-overflow:hover > .nutshell-bubble-overflow-embed-button {
-  right: 5px;
-  opacity: 0.33;
-}
-.nutshell-bubble-overflow:hover > .nutshell-bubble-overflow-embed-button:hover {
-  opacity: 1.0;
-}
-/* NO EMBEDDING IF IT'S A PREVIEW INSIDE EMBED MODAL */
-.nutshell-embed-modal .nutshell-bubble-overflow-embed-button {
-  display: none;
-}
-
-/* Section */
-.nutshell-bubble-overflow-section {
-  padding: 0 1em;
-  padding-bottom: 0.5em;
-  overflow: hidden; /* to capture full height, including <p>'s margins */
-}
-.nutshell-bubble-overflow-section > div {
-  margin: 1em 0;
-}
-.nutshell-bubble-overflow-section img {
-  max-width: 100%;
-}
-.nutshell-bubble-overflow-section video {
-  max-width: 100%;
-}
-/* Total hack for nice styling */
-.nutshell-bubble-overflow-section img[data-float=left] {
-  float: left;
-  margin: 1em;
-}
-.nutshell-bubble-overflow-section img[data-float=right] {
-  float: right;
-  margin: 1em;
-}
-.nutshell-bubble-overflow-section iframe {
-  max-width: 100%;
+  font-size: smaller;
   border: 1px solid var(--border-color);
-}
-.nutshell-bubble-overflow-section .nutshell-bubble {
-  /* So that recursive bubbles don't get squashed too quickly */
-  width: calc(100% + 2em - 6px); /* undo section's padding, minus a gap */
+  padding: 1.2rem;
+  margin: 1rem -1rem;
   position: relative;
-  right: calc(1em - 2px);
-}
-
-/* From */
-.nutshell-bubble-from {
-  font-size: 0.69em;
-  margin-bottom: -0.69em;
-  opacity: 0.69;
-  color: var(--gray-text);
-}
-
-/* Foot: is a close button, too. */
-.nutshell-bubble-overflow-close {
-  /* A × sign */
-  font-family: inherit;
-  font-size: 1rem;
-  text-align: center;
-
-  /* Whole-width bottom */
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  border: 0;
-  background: none;
-  color: var(--body-color);
-
-  /* A button that gets darker. */
-  cursor: pointer;
-  opacity: 0.33;
-  transition: opacity 0.1s ease-in-out;
-}
-.nutshell-bubble-overflow-close:hover {
-  background: none;
-  opacity: 1;
-}
-
-/* Misc styling for bubbles */
-.nutshell-bubble li {
-  margin-bottom: 0.5em;
-}
-.nutshell-bubble code {
-  background: var(--gray-bg);
-  border-radius: 5px;
-  padding: 0 5px;
-}
-.nutshell-bubble blockquote {
-  margin-left: 0px;
-  margin-right: 0px;
-  border-left: 0.5em solid var(--gray-bg);
-  padding: 1px 1em 1px 1.5em;
-  margin-top: 0;
-}
-
-/* EMBED MODAL */
-.nutshell-embed-modal {
-  /* TAKE UP WHOLE SCREEN */
-  position: fixed;
-  z-index: 99999;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
-  /* Animate by fade in */
-  transition: opacity 0.3s ease-in-out;
-  opacity: 1;
-}
-.nutshell-embed-modal[mode=shown] { opacity: 1; }
-.nutshell-embed-modal[mode=hidden] { opacity: 0; }
-
-/* Background is a big transparent black */
-#nutshell-embed-modal-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-/* Bubble is a big rounded rect */
-#nutshell-embed-modal-bubble {
-  /* In the middle */
-  position: absolute;
-  margin: auto;
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0;
-  width: 600px;
-  height: 450px;
-
-  /* Color & font */
-  background: var(--body-bg);
-  color: var(--body-color);
-  border-radius: 30px;
-  font-size: 20px;
-  line-height: 1.5em;
-
-  /* Animate by slide up */
-  transition: top 0.3s ease-in-out;
-}
-.nutshell-embed-modal[mode=shown] #nutshell-embed-modal-bubble { top: 0; }
-.nutshell-embed-modal[mode=hidden] #nutshell-embed-modal-bubble { top: 100px; }
-
-/* Close button */
-#nutshell-embed-modal-close {
-  /* Top right button */
-  z-index: 999;
-  position: absolute;
-  top: 5px; 
-  right: 10px;
-  cursor: pointer;
-
-  /* Just a times sign */
-  font-size: 40px;
-  height: 40px;
-  color: var(--body-color);
-
-  /* Anim */
-  opacity: 0.25;
-  transition: opacity 0.1s ease-in-out;
-}
-#nutshell-embed-modal-close:hover {
-  opacity: 1;
-}
-
-/* Can scroll inside! */
-#nutshell-embed-modal-overflow {
-  overflow-x: visible;
-  overflow-y: scroll;
-  padding: 15px 30px;
-  width: calc(100% - 60px);
-  height: calc(100% - 30px);
-}
-
-/* The "inputs" in the modal should look code-like */
-#nutshell-embed-modal-bubble input {
-  width: 100%;
-  font-size: 14px;
-  font-family: monospace;
-  background: var(--body-bg);
-  color: var(--body-color);
-  border: 1px solid var(--border-color);
-}
-
-/* Learn More */
-#nutshell-embed-p4 {
-  font-size: 0.7em;
-  line-height: 0em;
-  text-align: center;
-  margin-top: 3em;
-}
-
-/* CLOSE ALL NUTSHELLS */
-#nutshell-close-all {
-  /* Top-right */
-  position: fixed;
-  top: 0; 
-  right: 0;
-
-  /* Fades in & out */
-  transition: opacity 0.9s ease-in-out;
-  opacity: 0;
-  text-align: right;
-  cursor: pointer;
-
-  /* Little text */
-  font-size: 0.7em;
-  line-height: 1.2em;
-
-  /* Rounded corner */
-  background: var(--body-bg);
-  padding: 0.7em;
-  border-radius: 0 0 0 1em;
-  color: var(--body-color);
-}
-#nutshell-close-all[show=yes] {
-  opacity: 1;
-}
-#nutshell-close-all[show=no] {
-  opacity: 0;
-}
-
-/* Dark mode adjustments */
-.dark-mode .nutshell-ball-up,
-.dark-mode .nutshell-ball-down {
-  background: var(--accent-color);
-}
-
-.dark-mode .nutshell-bubble {
-  border-color: var(--accent-color);
-}
-
-.dark-mode .nutshell-bubble-arrow {
-  border-bottom-color: var(--accent-color);
-}
-
-.dark-mode .nutshell-bubble-arrow::after {
-  border-bottom-color: var(--body-bg);
 }

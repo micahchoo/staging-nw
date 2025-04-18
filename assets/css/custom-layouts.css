@@ -1,0 +1,102 @@
+/* my-style.css */
+:root {
+    /* Light theme custom colors */
+    --body-color: #03121c; /* text color */
+    --body-bg: #d1d4d6; /* background color */
+    --accent-color: rgb(81, 57, 57); /* primary color */
+    --theme-color: rgb(0, 46, 66); /* secondary color */
+    --border-color: #513939; /* border color matching primary */
+    /* Derived accent colors */
+    --accent-color-faded: rgba(81, 57, 57, 0.5);
+    --accent-color-highlight: rgba(81, 57, 57, 0.1);
+    --accent-color-darkened: rgb(66, 44, 0); /* accent from light theme */
+    /* Gray shades */
+    --gray: #666;
+    --gray-bg: rgba(0, 0, 0, 0.03);
+    --gray-text: #444;
+    --menu-text: #002e42; /* secondary color for menu */
+  }
+  
+  /* Dark mode overrides */
+  .dark-mode {
+    --body-color: #e3f2fc; /* dark mode text */
+    --body-bg: #292c2e; /* dark mode background */
+    --accent-color: #ffe9bd !important; /* dark mode accent */
+    --theme-color: #bdebff; /* dark mode secondary */
+    --border-color: #c6aeae; /* dark mode primary */
+    /* Derived accent colors for dark mode */
+    --accent-color-faded: rgba(255, 233, 189, 0.5);
+    --accent-color-highlight: rgba(255, 233, 189, 0.1);
+    --accent-color-darkened: rgb(230, 210, 170)!important;
+    /* Gray shades for dark mode */
+    --gray: #999;
+    --gray-bg: rgba(255, 255, 255, 0.05);
+    --gray-text: #bdebff; /* secondary color in dark mode */
+    --menu-text: #c6aeae; /* primary color in dark mode */
+  }
+  
+  .sidebar {
+    color: rgba(255,255,255,.75);
+    text-align: center;
+  }
+  
+  .sidebar-sticky {
+    font-size: 0.9rem; /* Reduce font size */
+    max-height: 95vh; /* Ensure it doesn't overflow viewport height */
+  }
+  
+  .sidebar-about {
+    margin-bottom: 1rem; /* Create more space between sections */
+  }
+  
+  .sidebar-about .h1 {
+    font-size: 2rem; /* Adjust title size */
+  }
+  
+  .sidebar-about .p {
+    font-size: 1.5rem; /* Adjust title size */
+  }
+  
+  .sidebar-nav {
+    margin-top: 1rem; /* Add space before navigation */
+  }
+  
+  .f4, .sidebar-nav-item, h4, .h4, .post-date {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .sidebar-sticky .sidebar-social > ul {
+    display: flex;
+    list-style: none;
+    padding: 0 0.5rem; /* Add horizontal padding */
+    margin: 0 auto; /* Center the list */
+    flex-wrap: wrap; /* Allow icons to wrap to next line */
+    justify-content: center; /* Center the icons */
+    max-width: 100%; /* Ensure it doesn't overflow */
+  }
+  
+  .sidebar-sticky .sidebar-social > ul > li {
+    /* Make icons slightly smaller if needed */
+    transform: scale(0.8);
+  }
+  
+  /* Make sure the outer container is centered */
+  .sidebar-sticky .sidebar-social {
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Ensure icon links have enough tap/click area */
+  .sidebar-sticky .sidebar-social > ul > li > a {
+    padding: 0.25rem;
+    display: block;
+  }
+  
+  /* Responsive adjustments */
+  @media (min-width: 64em) {
+    .sidebar-sticky {
+      padding-top: 2rem; /* Add some padding at the top */
+      padding-bottom: 1rem; /* Add some padding at the bottom */
+    }
+  }

@@ -6,13 +6,13 @@ description: >
   You'll probably want to modify it in `resume.md`, and maybe set `hide_description` to `true` in the front matter.
 hide_description: true
 left_column:
-  - projects
+  - work
   - publications
   - references
   - awards
   - volunteer
 right_column:
-  - work
+  - projects
   - education
   - languages
   - skills
@@ -20,6 +20,7 @@ right_column:
   - certificates
 no_language_icons: true
 no_skill_icons: true
+no_third_column: true
 buttons:
   print: true
   pdf: /assets/Resume.pdf
