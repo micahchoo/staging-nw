@@ -11,111 +11,13 @@
             "id": "74aec9fa38ddd499",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< Updated upstream
-                "file": "Home/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
-=======
-                "file": "templates/markdown/nutshell.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "nutshell"
-            }
-          },
-          {
-            "id": "6ca0c109fb2d4335",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/markdown/nutshell.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "nutshell"
-            }
-          },
-          {
-            "id": "b8d2eae7fa422ed5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Portfolio/test/_posts/2022-01-01-Milli.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2022-01-01-Milli"
-            }
-          },
-          {
-            "id": "8cd253798170d65f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/components/feature-box.md",
->>>>>>> Stashed changes
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala"
+              "title": "New tab"
             }
           }
-<<<<<<< Updated upstream
         ]
-=======
-        ],
-        "currentTab": 2
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
       }
     ],
     "direction": "vertical"
@@ -267,19 +169,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "templater-obsidian:Templater": false,
-=======
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
->>>>>>> Stashed changes
-=======
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
->>>>>>> Stashed changes
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -289,8 +181,6 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   "floating": {
     "id": "dfd6a5343dcbe2fc",
     "type": "floating",
@@ -307,24 +197,10 @@
                 "id": "3d52684ddc4cdc71",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Dataview/Tags.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
+                  "type": "empty",
+                  "state": {},
                   "icon": "lucide-file",
-                  "title": "Tags"
+                  "title": "New tab"
                 }
               }
             ]
@@ -342,106 +218,53 @@
   },
   "active": "74aec9fa38ddd499",
   "lastOpenFiles": [
-    "Dataview/Categories.md",
-    "Home/test/_posts/2022-01-01-Koramangala.md",
-    "Dataview/Tags.md",
-    "Home/_posts/2022-01-01-Speculative-Storytelling-in-Wayanad.md",
-    "_site/Dataview/Categories/index.html",
-    "_site/Dataview/Categories",
-    "_site/Dataview/Untitled/index.html",
-    "_site/Dataview/Untitled",
-    "_site/Dataview/Tags/index.html",
-    "_site/Dataview/Tags",
-    "_site/Dataview",
-    "_drafts/Untitled.md",
-    "Dataview",
-    "Home/_posts/2022-01-01-Papad.md",
-    "Home/_posts/2021-01-01-Milli.md",
-    "Home/_posts/2024-05-01-IIIF-images.md",
-    "Home/_posts/2024-12-10-Counter-Design.md",
-    "_featured_tags/Media Making.md",
-    "_site/tag-media-making/index.html",
-    "_site/tag-media-making",
-    "Home/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md",
-    "Home/_posts/2022-01-01-Koramangala.md",
-    "Home/_posts/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md",
-    "Home/_posts/2022-01-01-Facilitating-a-Design-Studio.md",
-    "Home/_posts/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network.md",
-    "Home/_posts/2022-01-01-EnableIndia-LE.md",
-    "Home/_posts/2021-01-01-Pune-Covid-Relief.md",
-    "Home/_posts/2021-01-01-Checklist-for-Selecting-Tools-for-Indian-Collectives.md",
-    "Home/_posts/2020-01-01-The-Imposter-Among-Us.md",
-    "Home/_posts/2020-01-01-Carefull-Collectives-and-their-Care-Practices.md",
-    "Home/_posts/2019-01-01-Making-The-Invisible-Visible-Around-An-RO-Plant.md",
-    "Home/_posts/2019-01-01-Caste-and-Education.md",
-    "Home/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
-    "Home/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
-    "Home/_posts/2018-01-01-Habba-Redesign.md",
-    "Home/_posts/2018-01-01-Carpooling-Unalone-Karwaan.md",
+    "_site/tag-worldbuilding/index.html",
+    "_site/tag-worldbuilding",
+    "_site/tag-workshop-facilitation/index.html",
+    "_site/tag-workshop-facilitation",
+    "_site/tag-wifi-mesh/index.html",
+    "_site/tag-wifi-mesh",
+    "_site/tag-user-research/index.html",
+    "_site/tag-user-research",
+    "_site/tag-urban-history/index.html",
+    "_site/tag-urban-history",
+    "_site/tag-urban-experience/index.html",
+    "_site/Untitled.canvas",
+    "_drafts/2020-02-01-Care-in-Collectives.md",
+    "_drafts/2019-01-01-Designing-for-an-Archival-Interface.md",
+    "assets/img/projects/Milli/Milli.md",
     "assets/img/projects/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala/f2c7c402bc8a7bcaeee3dd571d99e63f_MD5.jpg",
     "assets/img/projects/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala/96bfd4025f617a87f1bbbb27fa6d90ce_MD5.jpg",
+    "_featured_tags/Worldbuilding.md",
+    "_featured_tags/Workshop Facilitation.md",
+    "_featured_tags/Wifi Mesh.md",
+    "_featured_tags/User Research.md",
+    "_featured_tags/Urban History.md",
+    "_featured_tags/Urban Experience.md",
+    "_featured_tags/Tooling.md",
+    "_featured_tags/Technology Deep Dive.md",
+    "_featured_tags/Speculative Fiction.md",
+    "_featured_tags/Speculative Design.md",
+    "_featured_tags/Social Justice.md",
+    "_featured_tags/Social Infrastructure.md",
+    "_featured_tags/Social Enterprise.md",
+    "_featured_tags/Small Archives.md",
+    "_featured_tags/Situated Practice.md",
+    "_featured_tags/Service Design.md",
+    "_featured_tags/Rural India.md",
+    "_featured_tags/Resource Directory.md",
+    "_featured_tags/QGIS.md",
+    "_featured_tags/Poetic Documentation.md",
+    "_featured_tags/Platform Analysis.md",
+    "_featured_tags/Place Writing.md",
+    "Untitled.canvas",
     "assets/img/logo.png",
-    "_site/Untitled.canvas",
     "_site/assets/img/projects/2022-01-01-Papad/f81403d094e91b0850045e385b561f80_MD5.png",
     "_site/assets/img/projects/2022-01-01-Papad/PapadMob_(6).jpg",
     "_site/assets/img/projects/2022-01-01-Papad/PapadMob_(5).jpg",
     "_site/assets/img/projects/2022-01-01-Papad/PapadMob_(4).jpg",
     "_site/assets/img/projects/2022-01-01-Papad/PapadMob_(3).jpg",
     "_site/assets/img/projects/2022-01-01-Papad/PapadMob_(2).jpg",
-    "_site/assets/img/projects/2022-01-01-Papad/PapadMob_(1).jpg",
-    "Untitled.canvas"
-=======
-  "active": "b8d2eae7fa422ed5",
-  "lastOpenFiles": [
-=======
-  "active": "b8d2eae7fa422ed5",
-  "lastOpenFiles": [
->>>>>>> Stashed changes
-    "Portfolio/test/_posts/2022-01-01-Papad.md",
-    "Portfolio/test/_posts/2022-01-01-Milli.md",
-    "templates/components/ui-gallery.md",
-    "assets/img/projects/Milli/Milli.md",
-    "blankish.md",
-    "_posts/research/2025-04-13-aaa.md",
-    "_posts/tutorial/2025-04-13-a.md",
-    "_posts/project/2025-04-13-aba.md",
-    "_posts/research",
-    "_posts/tutorial",
-    "_posts/project",
-    "_posts",
-    "_drafts/Untitled.md",
-    "_drafts/Untitled 5.md",
-    "_drafts/Untitled 4.md",
-    "_drafts/Untitled 3.md",
-    "_drafts/Untitled 2.md",
-    "_drafts/Untitled 1.md",
-    "_data/datafiles/Wayanad.yml",
-    "_data/datafiles",
-    "#jekyll-theme-hydejack/templater.md",
-    "#jekyll-theme-hydejack/templater-guide.md",
-    "Portfolio/test/_posts/2022-01-01-Koramangala.md",
-    "package-lock.json",
-    "node_modules/re-template-tag/test/index_test.js",
-    "node_modules/re-template-tag/test",
-    "node_modules/re-template-tag/package.json",
-    "node_modules/re-template-tag/README.md",
-    "Portfolio/research-and-writing/research/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
-    "blank.md",
-    "templates/components/featured-quote.md",
-    "templates/components/feature-box.md",
-    "templates/components/component-selector.md",
-    "Portfolio/research-and-writing/research/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
-    "Portfolio/blank.md",
-    "_site/assets/img/projects/2021-01-01-Milli/Milli1.png",
-    "_site/assets/img/projects/2021-01-01-Milli/b01fe4d05d5255c8eccd8f6f08de18dc_MD5.jpg",
-    "_site/assets/img/projects/2021-01-01-Milli/Mypagewf.jpg",
-    "_site/assets/img/projects/2021-01-01-Milli/MilliStory.jpg",
-    "_site/assets/img/projects/2021-01-01-Milli/Milli3.png",
-    "_site/assets/img/projects/2021-01-01-Milli/Milli2.png",
-    "_site/assets/img/projects/2021-01-01-Milli/Milli.jpg",
-    "_site/assets/img/projects/2021-01-01-Milli/86088c9ac55bf31a55e0f2a5786366f2_MD5.jpg",
-    "_site/assets/img/projects/2021-01-01-Milli/7c9d7f8b6d2d523cb3afd200ee2c9a52_MD5.jpg",
-    "_site/assets/img/projects/2021-01-01-Mapping-Migratory-Routes/982ba988f35b9fabcb5884f9ab2bbaf8_MD5.jpg"
->>>>>>> Stashed changes
+    "_site/assets/img/projects/2022-01-01-Papad/PapadMob_(1).jpg"
   ]
 }
