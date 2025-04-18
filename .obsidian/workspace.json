@@ -112,6 +112,9 @@
 =======
         ],
         "currentTab": 2
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       }
     ],
@@ -265,9 +268,14 @@
   "left-ribbon": {
     "hiddenItems": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "templater-obsidian:Templater": false,
+=======
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
+>>>>>>> Stashed changes
 =======
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
@@ -281,6 +289,7 @@
       "zk-prefixer:Create new unique note": false
     }
   },
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   "floating": {
     "id": "dfd6a5343dcbe2fc",
@@ -384,6 +393,10 @@
 =======
   "active": "b8d2eae7fa422ed5",
   "lastOpenFiles": [
+=======
+  "active": "b8d2eae7fa422ed5",
+  "lastOpenFiles": [
+>>>>>>> Stashed changes
     "Portfolio/test/_posts/2022-01-01-Papad.md",
     "Portfolio/test/_posts/2022-01-01-Milli.md",
     "templates/components/ui-gallery.md",
