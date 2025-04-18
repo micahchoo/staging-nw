@@ -1,18 +1,23 @@
 ---
 layout: post
-title: 'The Imposter Among Us'
-description: >
- This is a reading list from a discussion on "How do platforms compel/enable the manufacturing of "truth" and "ignorance"? And what does that mean in the context of live-streaming politicians"
-date: '01-01-2020'
-image: 
+title: The Imposter Among Us
+description: |
+  This is a reading list from a discussion on "How do platforms compel/enable the manufacturing of "truth" and "ignorance"? And what does that mean in the context of live-streaming politicians"
+date: 01-01-2020
+image:
   path: /assets/img/projects/Impostor.png
 sitemap: true
-categories: pedagogy, writing
+categories:
+  - pedagogy
+  - writing
 tags:
   - platform-analysis
-  - critical practice
+  - critical-practice
   - technology-deep-dive
-type: personal, professional
+  - workshop-facilitation
+type:
+  - personal
+  - professional
 ---
 [The announcement](https://twitter.com/blnaveen/status/1321689139327066112)
 

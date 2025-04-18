@@ -1,25 +1,31 @@
 ---
 layout: post
-title: 'Designers Ace'
-description: >
- A set of 101 cards aimed at fostering design thinking among budding designers.
-date: '01-02-2017'
-image: 
+title: Designers Ace
+description: |
+  A set of 101 cards aimed at fostering design thinking among budding designers.
+date: 01-02-2017
+image:
   path: /assets/img/projects/DesignerA/DesignerA.jpg
-  srcset: 
+  srcset:
     1920w: /assets/img/projects/DesignerA/DesignerA.jpg
-    960w:  /assets/img/projects/DesignerA/DesignerA@0,5x.jpg
-    480w:  /assets/img/projects/DesignerA/DesignerA@0,25x.jpg
+    960w: /assets/img/projects/DesignerA/DesignerA@0,5x.jpg
+    480w: /assets/img/projects/DesignerA/DesignerA@0,25x.jpg
 links:
   - title: Behance
     url: https://www.behance.net/gallery/63290189/Designers-Ace
 sitemap: true
-categories: [experiments, design]
+categories:
+  - experiments
+  - design
+  - research-and-writing
 tags:
   - game-design
   - design-thinking
+  - communication-strategy
 duration: 8 months
-role: [designer, researcher]  
+role:
+  - designer
+  - researcher
 type: experimental
 ---
 

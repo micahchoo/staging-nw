@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "7497ddd0a11fb875",
+        "id": "4fdc69b56fce6926",
         "type": "tabs",
         "children": [
           {
-            "id": "3d52684ddc4cdc71",
+            "id": "74aec9fa38ddd499",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home/test/_posts/2022-01-01-Papad.md",
+                "file": "Home/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2022-01-01-Papad"
+              "title": "2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala"
             }
           }
         ]
@@ -50,7 +50,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": true
               },
               "icon": "lucide-folder-closed",
@@ -195,32 +195,95 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "3d52684ddc4cdc71",
+  "floating": {
+    "id": "dfd6a5343dcbe2fc",
+    "type": "floating",
+    "children": [
+      {
+        "id": "ff3fc7eea6c6db2e",
+        "type": "window",
+        "children": [
+          {
+            "id": "98ed1ef999d26aee",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3d52684ddc4cdc71",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Dataview/Tags.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Tags"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1920,
+        "y": 32,
+        "width": 1920,
+        "height": 524,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "74aec9fa38ddd499",
   "lastOpenFiles": [
+    "Dataview/Categories.md",
     "Home/test/_posts/2022-01-01-Koramangala.md",
-    "Home/test/_posts/2022-01-01-Milli.md",
+    "Dataview/Tags.md",
+    "Home/_posts/2022-01-01-Speculative-Storytelling-in-Wayanad.md",
+    "_site/Dataview/Categories/index.html",
+    "_site/Dataview/Categories",
+    "_site/Dataview/Untitled/index.html",
+    "_site/Dataview/Untitled",
+    "_site/Dataview/Tags/index.html",
+    "_site/Dataview/Tags",
+    "_site/Dataview",
+    "_drafts/Untitled.md",
+    "Dataview",
     "Home/_posts/2022-01-01-Papad.md",
-    "#jekyll-theme-hydejack/_includes/pro/related-posts copy.html",
-    "#jekyll-theme-hydejack/_includes/components/related-posts copy.html",
-    "_site/experiments/index.html",
-    "_site/experiments",
-    "_featured_categories/Experiments.md",
-    "_site/home/experiments/design/2017-02-01-Designers-Ace/index.html",
-    "_site/home/experiments/design/2017-02-01-Designers-Ace",
-    "_site/home/experiments/design",
-    "_site/home/ui-ux design/2022-01-01-Papad/index.html",
-    "_site/home/ui-ux design/2022-01-01-Papad",
-    "_site/home/ui-ux design",
     "Home/_posts/2021-01-01-Milli.md",
-    "Home/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
+    "Home/_posts/2024-05-01-IIIF-images.md",
+    "Home/_posts/2024-12-10-Counter-Design.md",
+    "_featured_tags/Media Making.md",
+    "_site/tag-media-making/index.html",
+    "_site/tag-media-making",
+    "Home/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md",
+    "Home/_posts/2022-01-01-Koramangala.md",
+    "Home/_posts/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md",
+    "Home/_posts/2022-01-01-Facilitating-a-Design-Studio.md",
+    "Home/_posts/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network.md",
     "Home/_posts/2022-01-01-EnableIndia-LE.md",
+    "Home/_posts/2021-01-01-Pune-Covid-Relief.md",
+    "Home/_posts/2021-01-01-Checklist-for-Selecting-Tools-for-Indian-Collectives.md",
+    "Home/_posts/2020-01-01-The-Imposter-Among-Us.md",
+    "Home/_posts/2020-01-01-Carefull-Collectives-and-their-Care-Practices.md",
+    "Home/_posts/2019-01-01-Making-The-Invisible-Visible-Around-An-RO-Plant.md",
+    "Home/_posts/2019-01-01-Caste-and-Education.md",
     "Home/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
+    "Home/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
+    "Home/_posts/2018-01-01-Habba-Redesign.md",
+    "Home/_posts/2018-01-01-Carpooling-Unalone-Karwaan.md",
     "assets/img/projects/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala/f2c7c402bc8a7bcaeee3dd571d99e63f_MD5.jpg",
     "assets/img/projects/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala/96bfd4025f617a87f1bbbb27fa6d90ce_MD5.jpg",
-    "Home/_posts/2022-01-01-Speculative-Storytelling-in-Wayanad.md",
-    "Home/_posts/2024-12-10-Counter-Design.md",
-    "Home/_posts/2019-01-01-Caste-and-Education.md",
-    "Home/_posts/2019-01-01-Making-The-Invisible-Visible-Around-An-RO-Plant.md",
     "assets/img/logo.png",
     "_site/Untitled.canvas",
     "_site/assets/img/projects/2022-01-01-Papad/f81403d094e91b0850045e385b561f80_MD5.png",
@@ -230,20 +293,6 @@
     "_site/assets/img/projects/2022-01-01-Papad/PapadMob_(3).jpg",
     "_site/assets/img/projects/2022-01-01-Papad/PapadMob_(2).jpg",
     "_site/assets/img/projects/2022-01-01-Papad/PapadMob_(1).jpg",
-    "index.md",
-    "_featured_tags/Writing.md",
-    "_featured_categories/Writing.md",
-    "Untitled.canvas",
-    "Home/_posts/2024-05-01-IIIF-images.md",
-    "Home/_posts/2024-01-01-Mapping-History-of-Cinema.md",
-    "Home/_posts/2022-01-01-Portfolio-Workshops-Classes-Panels-and-Publications.md",
-    "Home/_posts/2022-01-01-My-art.md",
-    "Home/_posts/2022-01-01-List-of-Publications.md",
-    "Home/_posts/2022-01-01-Koramangala.md",
-    "Home/_posts/2022-01-01-How-I-use-Speculative-Design-in-my-practice.md",
-    "Home/_posts/2022-01-01-Feeling-through-the-Cities-Koramangala.md",
-    "Home/_posts/2022-01-01-Facilitating-a-Design-Studio.md",
-    "Home/_posts/2022-01-01-Establishing-a-Community-Based-Generative-Wifi-Mesh-Network.md",
-    "Home/_posts/2021-01-01-Pune-Covid-Relief.md"
+    "Untitled.canvas"
   ]
 }

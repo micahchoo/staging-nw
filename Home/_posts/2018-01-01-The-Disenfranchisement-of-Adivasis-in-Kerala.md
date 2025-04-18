@@ -1,29 +1,26 @@
 ---
 layout: post
-title: 'The Disenfranchisement of Paniyas in Kerala'
+title: The Disenfranchisement of Paniyas in Kerala
 caption: A literature review
-description: >
- By studying the literature around the Paniya tribe, I cover topics such as population, caste names and structures in Wayanad, periods of Paniya history, inter-tribal disparity, work and employment for Adivasis, alienation through the education system, public perceptions, plantation economy, exclusion from the financial system, and health issues. This was a student project.
-image: 
+description: |
+  By studying the literature around the Paniya tribe, I cover topics such as population, caste names and structures in Wayanad, periods of Paniya history, inter-tribal disparity, work and employment for Adivasis, alienation through the education system, public perceptions, plantation economy, exclusion from the financial system, and health issues. This was a student project.
+image:
   path: /assets/img/projects/Paniyas/Paniyas.jpg
-  srcset: 
+  srcset:
     1920w: /assets/img/projects/Paniyas/Paniyas.jpg
-    960w:  /assets/img/projects/Paniyas/Paniyas@0,5x.jpg
-    480w:  /assets/img/projects/Paniyas/Paniyas@0,25x.jpg
-date: '01-12-2018'
+    960w: /assets/img/projects/Paniyas/Paniyas@0,5x.jpg
+    480w: /assets/img/projects/Paniyas/Paniyas@0,25x.jpg
+date: 01-12-2018
 sitemap: true
-categories: writing
+categories:
+  - writing
 tags:
-  - indigenous-rights	
-  - land-rights	
+  - indigenous-rights
+  - land-rights
   - social-justice
   - ethnographic-research
-type: personal, professional
+type: personal,professional
 ---
-
-
-* seed
-{:toc}
 
 * seed
 {:toc}
@@ -221,6 +218,3 @@ To end this I’d like to quote from M.S. Sreerekha’s [report](http://environm
 > In the decades of never-ending legal battles, the adivasi community has experienced and learned the complexities that law can create. They have seen that a change of words or definitions on one piece of legislation on land, restored, alienated, forest, nonforest, immovable property, agricultural, non-agricultural, revenue land, forest land…and the ways in these can be used/misused means a lot to them.
 
 > …. the only changing “ground reality” is that the long fight against the migrant, upper caste/class settlers within the state has today become a struggle against the state and many big plantation owners and private agriculturalists, working hand in hand.
-
-
-

@@ -1,16 +1,28 @@
 ---
 layout: post
-title: 'Caste and Education Geospatially in Rural Bihar'
-description: >
+title: Caste and Education Geospatially in Rural Bihar
+description: |
   A transdisciplinary research project in collaboration with Project Potential Trust, Kishanganj, delving into the impact of the caste system on education and societal structures in rural Bihar.
-date: '01-01-2019'
+date: 01-01-2019
 caption: Research project about caste-based power structures and their implications on education, community life, and infrastructure
-image: 
+image:
   path: /assets/img/projects/Bihar.jpg
 sitemap: true
-categories: [design, research]
-tags: [caste system, education, rural india, participatory research]
-role: [designer, researcher]
+categories:
+  - design
+  - research
+tags:
+  - caste-system
+  - education
+  - rural-india
+  - participatory-research
+  - workshop-facilitation
+  - game-design
+  - Maps
+  - ethnographic-research
+role:
+  - designer
+  - researcher
 type: professional
 ---
 

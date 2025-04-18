@@ -1,0 +1,2 @@
+# [Design Beku Townhall](https://twitter.com/DesignBeku/status/1305805491126247424?s=20&t=fWFgayBf_gS-tGYtN90eNQ) (2021): 
+A workshop to define principles for Design Beku, advocating for conscientious design practices. The townhall helped shape the organization's foundation.

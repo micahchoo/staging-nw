@@ -1,17 +1,21 @@
 ---
 layout: post
-title: 'Pune Covid Relief'
-description: >
- Website deployed for dissemination of covid-19 resources
-date: '01-02-2021'
-image: 
+title: Pune Covid Relief
+description: |
+  Website deployed for dissemination of covid-19 resources
+date: 01-02-2021
+image:
   path: /assets/img/projects/Micah%20Alex%20%20Pune%20Covid%20Relief/59dfbdc12cb614cedb0f87191f7263e9_MD5.jpg
-categories: UI-UX Design
+categories:
+  - UI-UX Design
 tags:
-  - Covid-19
+  - covid-19
   - resource-directory
   - emergency-response
   - information-architecture
+  - collaboration
+  - collective-praxis
+  - tooling
 sitemap: true
 type: personal
 ---

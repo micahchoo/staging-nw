@@ -1,21 +1,27 @@
 ---
 layout: post
-title: 'How I use speculative design'
+title: How I use speculative design
 caption: Methods as practice
-description: >
- I use Speculative design methods to inquire different questions.
-date: '01-02-2022'
-image: 
+description: |
+  I use Speculative design methods to inquire different questions.
+date: 01-02-2022
+image:
   path: /assets/img/projects/SpecD/SpecD.jpg
-  srcset: 
+  srcset:
     1920w: /assets/img/projects/SpecD/SpecD.jpg
-    960w:  /assets/img/projects/SpecD/SpecD@0,5x.jpg
-    480w:  /assets/img/projects/SpecD/SpecD@0,25x.jpg
+    960w: /assets/img/projects/SpecD/SpecD@0,5x.jpg
+    480w: /assets/img/projects/SpecD/SpecD@0,25x.jpg
 sitemap: true
-categories: blog
+categories:
+  - blog
 tags:
   - design-methods
-type: personal
+  - speculative-design
+  - speculative-fiction
+  - alternative-futures
+  - collective-praxis
+type:
+  - personal
 ---
 
 In a world that often embraces a linear view of progress, it is essential to question the dominant systems and explore alternative ways of thinking and existing. Speculative design provides a powerful framework for challenging the status quo and envisioning diverse futures. By engaging in speculative practices, we can unravel the complexities of our present and shed light on the untapped possibilities that lie beyond. 

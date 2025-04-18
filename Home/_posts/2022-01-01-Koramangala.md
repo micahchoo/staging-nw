@@ -8,13 +8,13 @@ description: >
   of daily life in Koramangala, Bangalore.
 date: '01-02-2025'
 sitemap: true
-categories: writing
+categories: [writing]
 tags:
   - place-writing
   - urban-experience
   - personal-narrative
   - poetic-documentation
-type: personal
+type: [personal]
 ---
 
 My house is in a silent place in koramangala  
@@ -44,5 +44,3 @@ I can't seem to remember the names of anyone else because I pay them cash"
   align="right"
   size="large"
 %}
-
-

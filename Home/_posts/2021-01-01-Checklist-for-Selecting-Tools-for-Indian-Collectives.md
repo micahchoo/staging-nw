@@ -9,11 +9,11 @@ links:
   - title: 
     url:
 sitemap: true
-categories: blog
+categories: [blog]
 tags:
   - collectives
   - tooling
-type: personal, professional
+type: [personal, professional]
 ---
 
  #checklist 
@@ -47,4 +47,3 @@ When selecting tools for use by the collectives I worked with in India, we had t
 Considerations for the checklist were driven by the unique characteristics of the work environment in India, including the need for export functionality, limited resources for maintenance, challenges related to connectivity and device capabilities, language and interface simplicity requirements, the importance of open visibility for learning and collaboration, and the limited technical expertise of collaborators.
 
 By carefully assessing these factors, the collectives aimed to choose tools that aligned with their specific needs, enabling efficient and effective collaboration while taking into account the limitations and priorities of the context in which they operate.
-

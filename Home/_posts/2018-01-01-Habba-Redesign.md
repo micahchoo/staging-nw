@@ -1,19 +1,24 @@
 ---
 layout: post
-title: 'Habba'
-caption:  Working prototype for Habba - an Artisanal E-commerce platform
-description: >
- In my internship with Habba in 2018, I undertook the task of redesigning their website to improve user experience and highlight the unique aspects of their platform. The goal was to create an engaging interface that effectively communicated the values and offerings of Habba, a platform dedicated to supporting artisans and promoting handmade products.
-date: '01-02-2018'
-image: 
+title: Habba
+caption: Working prototype for Habba - an Artisanal E-commerce platform
+description: |
+  In my internship with Habba in 2018, I undertook the task of redesigning their website to improve user experience and highlight the unique aspects of their platform. The goal was to create an engaging interface that effectively communicated the values and offerings of Habba, a platform dedicated to supporting artisans and promoting handmade products.
+date: 01-02-2018
+image:
   path: /assets/img/projects/2018-01-01-Habba-Redesign/Habbahero.png
-categories: UI-UX Design
+categories:
+  - UI-UX Design
 tags:
   - e-commerce
   - artisanal-crafts
   - social-enterprise
+  - design
+  - interface-design
 duration: 6 months
-role: [designer, researcher]  
+role:
+  - designer
+  - researcher
 type: professional
 sitemap: true
 ---

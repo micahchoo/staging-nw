@@ -1,20 +1,26 @@
 ---
 layout: post
-title: 'Establishing a community network'
-caption:  
-description: >
- I created a speculative framework to imagine a long-term sustainable community network and its stakeholders
-date: '01-01-2022'
-image: 
+title: Establishing a community network
+caption: 
+description: |
+  I created a speculative framework to imagine a long-term sustainable community network and its stakeholders
+date: 01-01-2022
+image:
   path: /assets/img/projects/Community-network.png
 sitemap: true
-categories: writing
+categories:
+  - writing
 tags:
   - community-networks
   - wifi-mesh
   - knowledge-infrastructure
   - social-infrastructure
-type: experimental
+  - alternate-internet
+  - alternative-futures
+  - organizational-practice
+  - collectives
+type:
+  - experimental
 ---
 
 The establishment of a Generative Community-Owned (CoW) Wifi Mesh Network, focused on facilitating content creation and utilization, can spur local businesses.

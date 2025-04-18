@@ -1,25 +1,32 @@
 ---
 layout: post
-title: 'Seeing, Being, Doing: design'
-description: >
- I, co-taught a four month course on responding as a creative practitioner to places where humans and non-humans gather through place-based design research methods.
-image: 
+title: "Seeing, Being, Doing: design"
+description: |
+  I, co-taught a four month course on responding as a creative practitioner to places where humans and non-humans gather through place-based design research methods.
+image:
   path: /assets/img/projects/Seeing, Being, Doing design/ChickpeteMap.png
-date: '01-12-2022'
+date: 01-12-2022
 sitemap: true
-categories: pedagogy
+categories:
+  - pedagogy
 tags:
-  - design-education	
-  - situated-practice	
+  - design-education
+  - situated-practice
   - field-research
   - experiential-learning
+  - workshop-facilitation
+  - place-writing
+  - design-methods
+  - design-research
 duration: 5 months
-role: [instructor]  
-organizations: 
+role:
+  - instructor
+organizations:
   - title: SMI
     url: https://srishtimanipalinstitute.in/
     description: Srishti Manipal Institute of Art, Design and Technology (SMI)pioneered transdisciplinary art and design pedagogy for over two decades
-type: professional
+type:
+  - professional
 ---
 
 [See full map at Chickpet Field Visit - HCD Sem 7 — Felt](https://felt.com/map/Chickpet-Field-Visit-HCD-Sem-7-ekx6paEpSTmd1UZNCTj13B?lat=12.968386&lon=77.577884&zoom=16.41)

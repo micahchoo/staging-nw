@@ -6,8 +6,15 @@ date: 10-12-2024
 image:
   path: /assets/img/projects/CounterInterfacial.jpg
 sitemap: true
-categories: [writing, pedagogy]
-tags: [design methods, platform analysis, critical practice, technology deep dive]
+categories:
+  - writing
+  - pedagogy
+tags:
+  - design-methods
+  - platform-analysis
+  - critical-practice
+  - technology-deep-dive
+  - design
 type: personal, professional
 ---
 

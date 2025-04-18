@@ -9,7 +9,7 @@ date: '10-05-2024'
 sitemap: true
 categories: [Mapping]
 tags: [QGIS, Maps, urban history]
-type: experimental
+type: [experimental]
 ---
 The data was curated by Dr. Yamini and they approached me to make some printable maps. The challenge was to create a visually appealing and informative map that highlighted cinema halls with labels, specific localities like Abids, Musheerabad, and Khairatabad—areas known for their rich history of cinema. The centerpiece of the map was Hussain Sagar, a landmark that helps orient anyone familiar with Hyderabad to the map.
 * seed
@@ -51,5 +51,3 @@ In QGIS, further enhancements were made:
 The map underwent final refinements in Inkscape, a vector graphics editor:
 - **Importing the Map:** The QGIS-exported PNG was imported into Inkscape.
 - **Adding a Legend:** For labels that could not fit directly on the map, a legend was created to accommodate them, ensuring no information was lost.
-
-

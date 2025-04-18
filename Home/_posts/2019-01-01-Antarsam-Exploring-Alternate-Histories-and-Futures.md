@@ -5,7 +5,7 @@ description: >
   The Antarsam project is a speculative exploration into alternate histories and potential futures, inspired by ecological systems, technological artifacts, cultural contexts, and linguistic roots. Antarsam represents an immersive dive into the possibilities that emerge when the threads of history, technology, and ecology intertwine to weave a new societal fabric.
 date: '01-02-2019'
 categories: [writing]
-tags: [Speculative Fiction, alternative futures,	worldbuilding, alternate Internet]
+tags: [speculative-fiction, alternative-futures, worldbuilding, alternate-internet]
 image: 
   path: /assets/img/projects/Antarsam/alexandr-podvalny-Food.jpg
   srcset: 

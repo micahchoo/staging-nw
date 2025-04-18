@@ -1,22 +1,24 @@
 ---
 layout: post
-title: 'Care-full Collectives and their Care Practices'
-description: >
+title: Care-full Collectives and their Care Practices
+description: |
   I explore the intricate relationship between care, collaboration, and networks within various collectives, delving into my experiences in Team YUVAA, Living Labs Network and Forum, Design Beku, and the InterCity Covid Apps Network. Through thick descriptions and reflective analysis, it observes diverse care-giving roles and proposes alternative organizational structures rooted in mutual aid principles.
-date: '01-01-2020'
-image: 
+date: 01-01-2020
+image:
   path: /assets/img/projects/Capstone/Capstone.jpg
-  srcset: 
+  srcset:
     1920w: /assets/img/projects/Capstone/Capstone.jpg
-    960w:  /assets/img/projects/Capstone/Capstone@0,5x.jpg
-    480w:  /assets/img/projects/Capstone/Capstone@0,25x.jpg
+    960w: /assets/img/projects/Capstone/Capstone@0,5x.jpg
+    480w: /assets/img/projects/Capstone/Capstone@0,25x.jpg
 sitemap: true
-categories: writing
+categories:
+  - writing
 tags:
   - care-research
   - organisational-research
   - collaboration
-type: personal, professional
+  - alternative-futures
+type: personal,professional
 ---
 
 
@@ -116,9 +118,3 @@ Working with these networks has transformed my understanding of care from a vagu
 If we understand our social and environmental reality as fundamentally broken, then care becomes not just a nice addition but the most appropriate way to navigate our world. These networks demonstrate what it means to combine "active engagement with receptivity" – to care deeply while acknowledging limitations, to persist through setbacks without clinging to rigid expectations.
 
 My hope is that this work contributes to a richer understanding of care as a practice that emerges from and shapes our collaborative efforts. In a time of compounding crises, reimagining how we form and sustain networks may be one of our most important collective tasks.
-
-
-
-
-
-

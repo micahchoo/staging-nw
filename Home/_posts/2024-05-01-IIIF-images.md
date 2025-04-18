@@ -7,7 +7,7 @@ date: 01-05-2024
 sitemap: true
 image:
   path: /assets/img/projects/IIIF_Header_Post.png
-categories: writing, pedagogy
+categories: [writing, pedagogy]
 tags:
   - tooling
   - small-archives
@@ -232,6 +232,3 @@ See my test demo [here](https://github.com/micahchoo/Tropiiify-test)
 
 
 ---
-
-
-

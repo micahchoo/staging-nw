@@ -1,18 +1,23 @@
 ---
 layout: post
-title: 'Carpooling Unalone - Karwaan'
-caption:  User research and app prototype for Carpooling in India 
-description: >
+title: Carpooling Unalone - Karwaan
+caption: User research and app prototype for Carpooling in India
+description: |
   A classroom project doing user research about Carpooling in India leading to a design
-date: '01-10-2018'
-image: 
+date: 01-10-2018
+image:
   path: /assets/img/projects/Karwaan.png
-categories: UI-UX Design
+categories:
+  - UI-UX Design
 tags:
   - user-research
   - service-design
+  - design
+  - interface-design
 duration: 6 months
-role: [designer, researcher]  
+role:
+  - designer
+  - researcher
 type: professional
 sitemap: true
 ---

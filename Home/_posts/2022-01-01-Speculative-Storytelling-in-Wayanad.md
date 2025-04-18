@@ -1,19 +1,30 @@
 ---
 layout: post
-title: ' Speculative Storytelling in Wayanad'
-description: >
- This was the output of a 5-week course in Wayanad in Kerala, India in the aftermath of the floods of 2018. The Intervention is an educational tool that asks, How it is possible to build aspirations for the future using storytelling?
-date: '01-02-2021'
-image: 
+title: " Speculative Storytelling in Wayanad"
+description: |
+  This was the output of a 5-week course in Wayanad in Kerala, India in the aftermath of the floods of 2018. The Intervention is an educational tool that asks, How it is possible to build aspirations for the future using storytelling?
+date: 01-02-2021
+image:
   path: https://web.archive.org/web/20250417074058im_/https://mir-s3-cdn-cf.behance.net/project_modules/fs/259fbf76085663.5c5f337a307b1.png
 sitemap: true
 links:
   - title: See it here
     url: https://www.behance.net/gallery/76085663/Speculative-Storytelling
-categories: research
-role: [designer, researcher]  
-type: professional
-tags: [design, design research, speculative design]
+categories:
+  - research
+role:
+  - designer
+  - researcher
+type:
+  - professional
+tags:
+  - design
+  - design-research
+  - speculative-design
+  - design-methods
+  - indigenous-rights
+  - media-making
+  - worldbuilding
 ---
 
 # Speculative Storytelling in Wayanad

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 'The Lived Experience Project'
-caption: 'Archiving and annotating collective experiences for peer learning'
-description: >
+title: The Lived Experience Project
+caption: Archiving and annotating collective experiences for peer learning
+description: |
   Explore the journey of creating a robust knowledge infrastructure to enhance the livelihoods of persons with disabilities through the Lived Experience Project.
-date: '2022-02-20'
-image: 
-  path: '/assets/img/projects/2022-01-01-EnableIndia-LE/d4d393f5dd946393ffa1db7c95188467_MD5.jpg'
+date: 2022-02-20
+image:
+  path: /assets/img/projects/2022-01-01-EnableIndia-LE/d4d393f5dd946393ffa1db7c95188467_MD5.jpg
 sitemap: true
 categories:
   - service-design
@@ -17,15 +17,21 @@ tags:
   - knowledge-infrastructure
   - disability-tech
   - organisational-research
-organizations: 
-- title: Enable India
-  url: https://www.enableindia.org/
-  description: >
-    EnAble India is an NGO for people with disabilities helping thousands of differently-abled citizens to lead a dignified independent life.
-- title: Design Beku
-  url: https://www.enableindia.org/
-  description: Design Beku explores the possibilities of an alternate design and technology, grounded in care.
-role: [strategy, technologist, researcher]
+  - design-methods
+  - community-archiving
+  - service-design
+organizations:
+  - title: Enable India
+    url: https://www.enableindia.org/
+    description: |
+      EnAble India is an NGO for people with disabilities helping thousands of differently-abled citizens to lead a dignified independent life.
+  - title: Design Beku
+    url: https://www.enableindia.org/
+    description: Design Beku explores the possibilities of an alternate design and technology, grounded in care.
+role:
+  - strategy
+  - technologist
+  - researcher
 duration: 1 year
 type: professional
 ---

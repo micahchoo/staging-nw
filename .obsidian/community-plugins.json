@@ -2,14 +2,13 @@
   "obsidian-bulk-rename-plugin",
   "file-explorer-plus",
   "editing-toolbar",
-  "obsidian-prozen",
   "obsidian-excalidraw-plugin",
   "change-case",
-  "ollama",
   "obsidian-local-images-plus",
   "templater-obsidian",
-  "quickadd",
   "cmdr",
   "uri-commands",
-  "note-refactor-obsidian"
+  "note-refactor-obsidian",
+  "obsidian-frontmatter-tag-suggest",
+  "dataview"
 ]
