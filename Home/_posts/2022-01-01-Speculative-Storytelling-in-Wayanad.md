@@ -5,18 +5,15 @@ description: >
  This was the output of a 5-week course in Wayanad in Kerala, India in the aftermath of the floods of 2018. The Intervention is an educational tool that asks, How it is possible to build aspirations for the future using storytelling?
 date: '01-02-2021'
 image: 
-  path: /assets/img/projects/Tapestry.png
+  path: https://web.archive.org/web/20250417074058im_/https://mir-s3-cdn-cf.behance.net/project_modules/fs/259fbf76085663.5c5f337a307b1.png
 sitemap: true
 links:
   - title: See it here
     url: https://www.behance.net/gallery/76085663/Speculative-Storytelling
-categories: Research
+categories: research
 role: [designer, researcher]  
 type: professional
-tags:
-  - design
-  - design-research
-  - speculative-design
+tags: [design, design research, speculative design]
 ---
 
 # Speculative Storytelling in Wayanad
@@ -33,7 +30,6 @@ We needed cultural context to make the stories relevant and reachable to the kid
 
 Their traditional dance, 'Vattakalli' is inspired from the movement of elephants, so we wanted to keep the elephants central to the story. The elephants represent their belief in themselves. The rain and the floods were an obvious reference to the 2018 floods. 
 
-<iframe src="https://www.behance.net/gallery/76085663/Speculative-Storytelling" class="resize-vertical" style="height: 689px;"></iframe>
 
 People Involved: @GopikaVerma,  @JahnviVegad, @VedaSeshan, @MicahAlex
 

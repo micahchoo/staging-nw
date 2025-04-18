@@ -12,7 +12,6 @@
         {{ post.title }}
       {% unless no_link_title %}</a>{% endunless %}
     </h1>
-
     <div class="post-date">
       {% capture foobar %}
         {%- unless site.hydejack.hide_dates -%}
@@ -31,8 +30,6 @@
       <span class="ellipsis mr1">
         {{ foobar }}
       </span>
-      
-      <!-- NEW: External links section (from project.html) -->
       {% if post.links.size > 0 %}
       <span class="ellipsis ml1">
         <span class="sr-only">{{ separator }} {{ site.data.strings.links | default:"Links" }}{{ site.data.strings.colon }}</span>
@@ -43,8 +40,6 @@
         {% endfor %}
       </span>
       {% endif %}
-      <!-- END NEW -->
-      
       {% unless site.hydejack.hide_dates or site.hydejack.hide_last_modified or post.hide_last_modified %}
         {% if post.last_modified_at %}
           {% assign d1 = post.date             | date:"%Y-%m-%d" %}
@@ -61,40 +56,13 @@
         {% endif %}
       {% endunless %}
     </div>
-  <!-- Tags on a new line with smaller font -->
   {% if post.tags.size > 0 %}
   <div class="post-tags">
     {%- assign tag_start = site.data.strings.tag_start | default:"under" -%}
-    {%- assign tag_separator = site.data.strings.tag_separator | default:", " -%}
-    {%- include components/tag-list.html tags=post.tags meta=site.featured_tags start_with=tag_start separator=tag_separator -%}
-  </div>
-  {% endif %}
-    <!-- MODIFIED: Image handling to support screenshot/image with improved handling -->
-    {% assign screenshot = post.screenshot | default:post.image %}
-    {% unless hide_image %}{% if screenshot %}
-      {% unless no_link_title %}<a href="{{ post.url | relative_url }}" class="no-hover no-print-link {% unless post.hide_image %}flip-project{% endunless %}" tabindex="-1">{% endunless %}
-        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
-          {% include_cached components/hy-img.html 
-            img=screenshot 
-            alt=post.title 
-            sizes="(min-width: 90em) 48rem, (min-width: 54em) 42rem, (min-width: 42em) 38rem, 100vw"
-            width=864 
-            height=486 
-          %}
-        </div>
-      {% unless no_link_title %}</a>{% endunless %}
-      {% assign alt = '' %}
-    {% endif %}{% endunless %}
-    <!-- END MODIFIED -->
-
-    {% include components/message.html text=post.description hide=hide_description alt=alt %}
-    <!-- NEW: Add caption metadata if provided -->
-    {% if post.caption %}<meta property="disambiguatingDescription" content="{{ post.caption }}"/>{% endif %}
-    <!-- END NEW -->
-    <!-- Project Context Line (NEW) -->
+    {%- include components/tag-list.html tags=post.tags meta=site.featured_tags start_with=tag_start -%}
     {% if post.role %}
-    <p class="project-context">
-      A {{ post.type | default:"personal" }} {{ post.categories[0] | default:"" }} project
+    <p class="project-context note-ct">
+      Context: A {{ post.type | default:"personal" }} {{ post.categories[0] | default:"" }} project
       {% if post.organizations.size > 0 %}with 
         {% for org in post.organizations %}
           <span class="org-tooltip" data-tooltip="{{ org.description }}">
@@ -106,6 +74,28 @@
       {% if post.duration %}({{ post.duration }}){% endif %}
     </p>
     {% endif %}
+    <hr></hr>
+  </div>
+  {% endif %}
+    {% assign screenshot = post.screenshot | default:post.image %}
+    {% unless hide_image %}{% if screenshot %}
+      {% unless no_link_title %}<a href="{{ post.url | relative_url }}" class="no-hover no-print-link {% unless post.hide_image %}flip-project{% endunless %}" tabindex="-1">{% endunless %}
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          <a class="spotlight" href="{{ post.image.path }}">
+            {% include_cached components/hy-img.html 
+            img=screenshot 
+            alt=post.title 
+            sizes="(min-width: 90em) 48rem, (min-width: 54em) 42rem, (min-width: 42em) 38rem, 100vw"
+            width=864 
+            height=486 
+          %}
+          </a>
+        </div>
+      {% unless no_link_title %}</a>{% endunless %}
+      {% assign alt = '' %}
+    {% endif %}{% endunless %}
+    {% include components/message.html text=post.description hide=hide_description alt=alt %}
+    {% if post.caption %}<meta property="disambiguatingDescription" content="{{ post.caption }}"/>{% endif %}
   </header>
 
   {% if no_excerpt %}

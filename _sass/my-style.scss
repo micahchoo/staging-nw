@@ -966,280 +966,7 @@
     --border-color: rgba(255, 255, 255, 0.1);
   }
 
-  /* Layout-specific styles to add to my-style.scss */
 
-/* Research Post Layout */
-.research-post {
-    font-family: var(--font-family);
-    line-height: 1.8;
-  }
-  
-  .research-post h2 {
-    margin-top: 2.5rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--border-color);
-  }
-  
-  .research-post blockquote {
-    font-size: 0.95rem;
-    background-color: rgba(var(--accent-color-rgb), 0.05);
-    padding: 1rem 1.5rem;
-    margin: 1.5rem 0;
-    border-left: 4px solid var(--accent-color);
-  }
-  
-  .research-post .references-section {
-    margin-top: 3rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--border-color);
-  }
-  
-  .research-post table {
-    width: 100%;
-    margin: 2rem 0;
-    border-collapse: collapse;
-  }
-  
-  .research-post table th {
-    background-color: rgba(var(--accent-color-rgb), 0.1);
-    padding: 0.75rem;
-    border: 1px solid var(--border-color);
-    text-align: left;
-  }
-  
-  .research-post table td {
-    padding: 0.75rem;
-    border: 1px solid var(--border-color);
-  }
-  
-  .research-post table tr:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.02);
-  }
-  
-  /* Project Post Layout */
-  .project-post .project-meta {
-    margin-top: 3rem;
-    padding: 1.5rem;
-    background-color: rgba(var(--accent-color-rgb), 0.05);
-    border-radius: 8px;
-  }
-  
-  .project-post .project-meta h3 {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    color: var(--accent-color);
-  }
-  
-  .project-post .project-meta p {
-    margin-bottom: 0.5rem;
-  }
-  
-  .project-post .project-meta p:last-child {
-    margin-bottom: 0;
-  }
-  
-  .project-post h2 {
-    font-size: 1.8rem;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  .project-post h3 {
-    font-size: 1.4rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .project-post img {
-    border-radius: 4px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Tutorial Post Layout */
-  .tutorial-post h2 {
-    background-color: rgba(var(--accent-color-rgb), 0.1);
-    padding: 0.75rem 1rem;
-    border-radius: 4px;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  .tutorial-post h3 {
-    margin-top: 2rem;
-    border-bottom: 2px solid rgba(var(--accent-color-rgb), 0.2);
-    padding-bottom: 0.5rem;
-  }
-  
-  .tutorial-post pre {
-    border-radius: 4px;
-    margin: 1.5rem 0;
-  }
-  
-  .tutorial-post code {
-    background-color: rgba(0, 0, 0, 0.05);
-    padding: 0.2rem 0.4rem;
-    border-radius: 3px;
-  }
-  
-  .tutorial-post pre code {
-    background-color: transparent;
-    padding: 0;
-  }
-  
-  .tutorial-post ol li,
-  .tutorial-post ul li {
-    margin-bottom: 0.75rem;
-  }
-  
-  /* Creative Post Layout */
-  .creative-post {
-    font-family: var(--font-family);
-    line-height: 1.8;
-  }
-  
-  .creative-header {
-    margin-bottom: 2.5rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-  
-  .creative-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  }
-  
-  .creative-description {
-    padding: 1.5rem;
-    background-color: rgba(var(--accent-color-rgb), 0.05);
-    border-radius: 8px;
-  }
-  
-  .creative-description h2 {
-    margin-top: 0;
-    color: var(--accent-color);
-  }
-  
-  .creative-description p {
-    margin-bottom: 0;
-  }
-  
-  .creative-content {
-    font-size: 1.1rem;
-  }
-  
-  .creative-content p:first-of-type::first-letter {
-    font-size: 3.5rem;
-    float: left;
-    line-height: 1;
-    padding-right: 0.5rem;
-    margin-top: 0.25rem;
-    color: var(--accent-color);
-  }
-  
-  /* Archive Post Layout */
-  .archive-post .collection-highlights {
-    margin: 3rem 0;
-  }
-  
-  .archive-post .collection-highlights h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  
-  .archive-post .timeline {
-    margin: 3rem 0;
-  }
-  
-  /* Shared styles across post types */
-  .post-wrapper {
-    margin-bottom: 3rem;
-  }
-  
-  /* Responsive styles */
-  @media (min-width: 768px) {
-    .creative-header {
-      grid-template-columns: 2fr 1fr;
-      align-items: center;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    .creative-header {
-      grid-template-columns: 1fr;
-    }
-    
-    .creative-content p:first-of-type::first-letter {
-      font-size: 2.5rem;
-    }
-  }
-  
-  /* Dark mode adjustments */
-  .dark-mode .research-post blockquote,
-  .dark-mode .tutorial-post pre,
-  .dark-mode .tutorial-post code {
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-  
-  .dark-mode .research-post table th {
-    background-color: rgba(var(--accent-color-rgb), 0.2);
-  }
-  
-  .dark-mode .research-post table tr:nth-child(even) {
-    background-color: rgba(255, 255, 255, 0.02);
-  }
-  
-  .dark-mode .project-post img,
-  .dark-mode .creative-image img {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  }
-
-  /* Project Links Styling - Add this to the layout-specific-styles.scss file */
-
-.project-post .project-links {
-    margin-top: 2rem;
-    padding: 1.5rem;
-    background-color: rgba(var(--accent-color-rgb), 0.05);
-    border-radius: 8px;
-  }
-  
-  .project-post .project-links h3 {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    color: var(--accent-color);
-  }
-  
-  .project-post .links-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-  
-  .project-post .project-link {
-    display: inline-block;
-    padding: 0.5rem 1.25rem;
-    background-color: var(--accent-color);
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: 600;
-    transition: background-color 0.2s ease, transform 0.2s ease;
-  }
-  
-  .project-post .project-link:hover {
-    background-color: var(--accent-color-darkened);
-    transform: translateY(-2px);
-  }
-  
-  /* Dark mode adjustment */
-  .dark-mode .project-post .project-link {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  }
 
 
   /***************************************************
@@ -1676,6 +1403,31 @@
 }
 
 .tag-name {
+  display: inline-block;
+  padding: 0.25em 0.6em;
+  margin: 0.2em;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--accent-color-darkened);
+  background-color: var(--accent-color-highlight);
+  border-radius: 999px; /* Makes it pill-shaped */
   text-transform: capitalize;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+  letter-spacing: 0.03em;
 }
-
+.tag-name:hover {
+  background-color: var(--accent-color);
+  color:#272f32;
+}
+/* Project Context */
+.note-ct
+{
+  background:rgba(0,0,0,0);
+  color: var(--body-color);
+  font-size: smaller;
+  border: 1px solid var(--border-color);
+  padding: 1.2rem;
+  margin: 1rem -1rem;
+  position: relative;
+}

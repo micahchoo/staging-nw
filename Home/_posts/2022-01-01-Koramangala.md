@@ -7,8 +7,6 @@ description: >
   A poetic reflection on the hidden rhythms and overlooked details 
   of daily life in Koramangala, Bangalore.
 date: '01-02-2025'
-image: 
-  path: /assets/img/creative/koramangala.jpg
 sitemap: true
 categories: writing
 tags:

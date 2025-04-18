@@ -21,7 +21,10 @@ tags:
 type: personal, professional
 ---
 
-# A Literature Review	
+
+* seed
+{:toc}
+
 * seed
 {:toc}
 
@@ -76,7 +79,7 @@ This literature review provides insights into various aspects of the Paniya trib
 
 # System Map of Issues
 
-![Credit: Author’s own (_Read the legend — Take a circled issue — backtrack and see the other issues contributing to that — move to next circle)_](https://miro.medium.com/max/900/1*tXJw5OprfmsJXyFlnv-_1g.jpeg)
+![Credit: Author’s own (_Read the legend — Take a circled issue — backtrack and see the other issues contributing to that — move to next circle)_](assets/img/projects/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala/96bfd4025f617a87f1bbbb27fa6d90ce_MD5.jpg)
 
 > Decreasing Health, Alienation, Landlessness, Erosion of Cultural Pride, Anger, Lack of Wealth and a disconnected population
 
@@ -177,7 +180,7 @@ In this vicious circle, they then approach the owners of the land they work in f
 ## **No Access:**
 
 
-![Image for post](https://miro.medium.com/max/500/1*aMh9fY_0POHMqfKmyqyC4Q.jpeg)
+![Image for post](assets/img/projects/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala/f2c7c402bc8a7bcaeee3dd571d99e63f_MD5.jpg)
 
 ### CK Janu on the political position of Adivasis
 
@@ -217,5 +220,7 @@ To end this I’d like to quote from M.S. Sreerekha’s [report](http://environm
 > 
 > In the decades of never-ending legal battles, the adivasi community has experienced and learned the complexities that law can create. They have seen that a change of words or definitions on one piece of legislation on land, restored, alienated, forest, nonforest, immovable property, agricultural, non-agricultural, revenue land, forest land…and the ways in these can be used/misused means a lot to them.
 
-## …. the only changing “ground reality” is that the long fight against the migrant, upper caste/class settlers within the state has today become a struggle against the state and many big plantation owners and private agriculturalists, working hand in hand.
+> …. the only changing “ground reality” is that the long fight against the migrant, upper caste/class settlers within the state has today become a struggle against the state and many big plantation owners and private agriculturalists, working hand in hand.
+
+
 

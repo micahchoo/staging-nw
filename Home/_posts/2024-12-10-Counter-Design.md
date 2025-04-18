@@ -6,13 +6,8 @@ date: 10-12-2024
 image:
   path: /assets/img/projects/CounterInterfacial.jpg
 sitemap: true
-bluesky_post_uri: https://bsky.app/profile/khattamicah.xyz/post/3lcxq3qhhts25
 categories: [writing, pedagogy]
-tags:
-  - design-methods
-  - platform-analysis
-  - critical-practice
-  - technology-deep-dive
+tags: [design methods, platform analysis, critical practice, technology deep dive]
 type: personal, professional
 ---
 

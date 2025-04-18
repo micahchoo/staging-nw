@@ -14,7 +14,7 @@ links:
   - title: Behance
     url: https://www.behance.net/gallery/63290189/Designers-Ace
 sitemap: true
-categories: experiments
+categories: [experiments, design]
 tags:
   - game-design
   - design-thinking

@@ -196,7 +196,7 @@ kramdown:
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [about, related]
+  post_addons:         [about, related, random]
 
   # Configure the order of complementary content on project pages
   project_addons:      [about]
@@ -338,12 +338,10 @@ exclude:
   - log/
   - .bundle/
   - _drafts/drafts
-  - ./Portfolio/.obsidian
-  - .obsidian
   - _posts
   - templates
   - test
-  - Reorg
+  - /.obsidian
 
 include:
   - .well-known
