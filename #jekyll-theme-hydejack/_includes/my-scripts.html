@@ -5,8 +5,36 @@ CloudFlare will inject this on every page, but due to Hydejack's push state appr
 it will only run on the initial page.
 The snippet below will run the code on every `hy-push-state-load` event instead.
 -->
-
-
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Function to force dark mode color refresh
+    function refreshDarkModeColors() {
+      const isDarkMode = document.body.classList.contains('dark-mode');
+      if (isDarkMode) {
+        // Apply dark mode colors directly to the document root
+        document.documentElement.style.setProperty('--accent-color', '#ffe9bd');
+        document.documentElement.style.setProperty('--accent-color-darkened', 'rgb(230, 210, 170)');
+      }
+    }
+    
+    // Run immediately
+    refreshDarkModeColors();
+    
+    // Also run after a slight delay to catch any post-load changes
+    setTimeout(refreshDarkModeColors, 100);
+    
+    // Also run when dark mode toggles
+    const observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+        if (mutation.attributeName === 'class') {
+          refreshDarkModeColors();
+        }
+      });
+    });
+    
+    observer.observe(document.body, { attributes: true });
+  });
+</script>
 <script>
   document.getElementById('_pushState').addEventListener('hy-push-state-load', function (e) {
     function e(e){
@@ -56,5 +84,5 @@ The snippet below will run the code on every `hy-push-state-load` event instead.
 </script>
 {% endcomment %}
 
-
-
+  <!-- Custom component scripts -->
+  <script src="{{ '/assets/js/custom-components.js' | relative_url }}"></script>
