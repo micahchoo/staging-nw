@@ -467,49 +467,211 @@
 }
 
 
-/* Featured Quote Component */
+/* Featured Quote Component Styles */
 .featured-quote {
-    margin: 2rem 0;
-    padding: 1rem 2rem;
-    border-left: 4px solid var(--accent-color);
-    background-color: rgba(var(--accent-color-rgb), 0.05);
-    position: relative;
-  }
-  
-  .featured-quote.align-center {
-    text-align: center;
-    border-left: none;
-    border-top: 2px solid var(--accent-color);
-    border-bottom: 2px solid var(--accent-color);
-    padding: 2rem;
-  }
-  
-  .featured-quote.align-left {
-    border-left: none;
-    border-right: 4px solid var(--accent-color);
-    text-align: right;
-  }
-  
-  .featured-quote.size-large blockquote {
-    font-size: 1.5rem;
-    line-height: 1.6;
-  }
-  
-  .featured-quote.size-small blockquote {
-    font-size: 0.95rem;
+  position: relative;
+  margin: 3rem auto;
+  font-family: var(--font-family, "Bebas Neue, Montserrat, Roboto Slab, Helvetica, sans-serif");
+  max-width: 85%;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Base style for all quotes */
+.featured-quote blockquote {
+  background: var(--body-bg, #d1d4d6);
+  padding: 2rem 2.5rem;
+  margin: 0;
+  border: 2px solid var(--accent-color, rgb(81, 57, 57));
+  color: var(--body-color, #03121c);
+  font-family: var(--font, "Poppins, Funnel Display, Helvetica, sans-serif");
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
+}
+
+.featured-quote blockquote p {
+  margin: 0;
+  font-style: italic;
+}
+
+.featured-quote blockquote footer {
+  margin-top: 1.5rem;
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+  font-family: var(--font-heading, "Bebas Neue, Montserrat, Roboto Slab, Helvetica, sans-serif");
+  color: var(--gray-text, #444);
+}
+
+.featured-quote blockquote footer cite {
+  font-style: normal;
+  color: var(--accent-color, rgb(81, 57, 57));
+}
+
+/* Default stacked style with box shadows */
+.featured-quote blockquote {
+  box-shadow: 13px 13px 0 0 var(--body-bg, #d1d4d6),
+              15px 15px 0 0 var(--accent-color, rgb(81, 57, 57)),
+              15px 11px 0 0 var(--accent-color, rgb(81, 57, 57)),
+              11px 15px 0 0 var(--accent-color, rgb(81, 57, 57));
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+/* Shadow style */
+.featured-quote.style-shadow blockquote {
+  box-shadow: 15px 15px 0 0 var(--accent-color, rgb(81, 57, 57));
+}
+
+/* Rule style */
+.featured-quote.style-rule blockquote {
+  position: relative;
+  left: 7px;
+  box-shadow: -2px 0 0 var(--accent-color, rgb(81, 57, 57)),
+              -4px 0 0 var(--accent-color-faded, rgba(81, 57, 57, 0.5)),
+              -7px 0 0 var(--accent-color, rgb(81, 57, 57));
+}
+
+/* Size variants */
+.featured-quote.size-large blockquote {
+  font-size: 1.5rem;
+}
+
+.featured-quote.size-medium blockquote {
+  font-size: 1.2rem;
+}
+
+.featured-quote.size-small blockquote {
+  font-size: 0.95rem;
+}
+
+/* Alignment variants */
+.featured-quote.align-center {
+  text-align: center;
+}
+
+.featured-quote.align-center blockquote footer {
+  text-align: center;
+}
+
+.featured-quote.align-right {
+  text-align: right;
+}
+
+/* Hover animation */
+.featured-quote:hover {
+  transform: translateY(-5px);
+}
+
+.featured-quote:hover blockquote {
+  box-shadow: 13px 18px 0 0 var(--body-bg, #d1d4d6),
+              15px 20px 0 0 var(--accent-color, rgb(81, 57, 57)),
+              15px 16px 0 0 var(--accent-color, rgb(81, 57, 57)),
+              11px 20px 0 0 var(--accent-color, rgb(81, 57, 57));
+}
+
+.featured-quote.style-shadow:hover blockquote {
+  box-shadow: 15px 20px 0 0 var(--accent-color, rgb(81, 57, 57));
+}
+
+/* Quotation marks */
+.featured-quote blockquote:before,
+.featured-quote blockquote:after {
+  content: '"';
+  font-family: Georgia, serif;
+  font-size: 4rem;
+  position: absolute;
+  opacity: 0.3;
+  color: var(--accent-color, rgb(81, 57, 57));
+}
+
+.featured-quote blockquote:before {
+  top: -10px;
+  left: 10px;
+}
+
+.featured-quote blockquote:after {
+  bottom: -30px;
+  right: 10px;
+}
+
+/* Dark mode adjustments */
+.dark-mode .featured-quote blockquote {
+  background: var(--body-bg, #292c2e);
+  color: var(--body-color, #e3f2fc);
+  border-color: var(--accent-color, #ffe9bd);
+}
+
+.dark-mode .featured-quote blockquote footer {
+  color: var(--gray-text, #bdebff);
+}
+
+.dark-mode .featured-quote blockquote footer cite {
+  color: var(--accent-color, #ffe9bd);
+}
+
+.dark-mode .featured-quote blockquote:before,
+.dark-mode .featured-quote blockquote:after {
+  color: var(--accent-color, #ffe9bd);
+}
+
+.dark-mode .featured-quote blockquote {
+  box-shadow: 13px 13px 0 0 var(--body-bg, #292c2e),
+              15px 15px 0 0 var(--accent-color, #ffe9bd),
+              15px 11px 0 0 var(--accent-color, #ffe9bd),
+              11px 15px 0 0 var(--accent-color, #ffe9bd);
+}
+
+.dark-mode .featured-quote.style-shadow blockquote {
+  box-shadow: 15px 15px 0 0 var(--accent-color, #ffe9bd);
+}
+
+.dark-mode .featured-quote.style-rule blockquote {
+  box-shadow: -2px 0 0 var(--accent-color, #ffe9bd),
+              -4px 0 0 var(--accent-color-faded, rgba(255, 233, 189, 0.5)),
+              -7px 0 0 var(--accent-color, #ffe9bd);
+}
+
+.dark-mode .featured-quote:hover blockquote {
+  box-shadow: 13px 18px 0 0 var(--body-bg, #292c2e),
+              15px 20px 0 0 var(--accent-color, #ffe9bd),
+              15px 16px 0 0 var(--accent-color, #ffe9bd),
+              11px 20px 0 0 var(--accent-color, #ffe9bd);
+}
+
+.dark-mode .featured-quote.style-shadow:hover blockquote {
+  box-shadow: 15px 20px 0 0 var(--accent-color, #ffe9bd);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .featured-quote {
+    max-width: 100%;
   }
   
   .featured-quote blockquote {
-    margin: 0;
-    font-style: italic;
+    padding: 1.5rem;
   }
   
-  .featured-quote blockquote footer {
-    margin-top: 1rem;
-    font-style: normal;
-    font-weight: bold;
-    opacity: 0.8;
+  .featured-quote blockquote,
+  .featured-quote.style-shadow blockquote {
+    box-shadow: 8px 8px 0 0 var(--accent-color, rgb(81, 57, 57));
   }
+  
+  .featured-quote:hover blockquote,
+  .featured-quote.style-shadow:hover blockquote {
+    box-shadow: 8px 12px 0 0 var(--accent-color, rgb(81, 57, 57));
+  }
+  
+  .dark-mode .featured-quote blockquote,
+  .dark-mode .featured-quote.style-shadow blockquote {
+    box-shadow: 8px 8px 0 0 var(--accent-color, #ffe9bd);
+  }
+  
+  .dark-mode .featured-quote:hover blockquote,
+  .dark-mode .featured-quote.style-shadow:hover blockquote {
+    box-shadow: 8px 12px 0 0 var(--accent-color, #ffe9bd);
+  }
+}
   
   /* Image Gallery Component */
   .image-gallery {

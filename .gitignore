@@ -4,6 +4,9 @@ _site
 .jekyll-metadata
 vendor
 .vscode
+.obsidian/workspace.json
+templates
+/.obsidian
 templates
 _drafts
 Portfolio/test
