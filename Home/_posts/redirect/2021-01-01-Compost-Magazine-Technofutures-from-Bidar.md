@@ -10,7 +10,7 @@ links:
   - title: Read it here
     url: https://one.compost.digital/fertile-technofutures-from-bidar
 sitemap: true
-categories: [writing, creative coding]
+categories: [writing, research, experiments]
 tags: [Technology Networks,	Community Networks,	Local Knowledge]
 type: personal, professional
 ---

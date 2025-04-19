@@ -16,3 +16,4 @@ order: 1
 # (Optional) You can disable grouping posts by date.
 no_groups: true
 ---
+{% include components/filtered-grid.html tag="alternate-internet" full="0" %}

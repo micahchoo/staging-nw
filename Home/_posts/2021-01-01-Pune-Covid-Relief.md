@@ -10,8 +10,6 @@ categories:
   - UI-UX Design
 tags:
   - covid-19
-  - resource-directory
-  - emergency-response
   - information-architecture
   - collaboration
   - collective-praxis

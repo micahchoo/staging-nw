@@ -5,17 +5,20 @@ caption: Using Data Visualizations to tell stories of Pimpri-Chinchwad's data
 description: I have come to realise I don't understand much about my home municipality, this was an effort to read through different reports. Then I realised I hate reading numbers
 date: 12-12-2017
 image:
-  path: /assets/img/projects/DesignerA/DesignerA.jpg
-  srcset:
-    1920w: /assets/img/projects/DesignerA/DesignerA.jpg
-    960w: /assets/img/projects/DesignerA/DesignerA@0,5x.jpg
-    480w: /assets/img/projects/DesignerA/DesignerA@0,25x.jpg
-links:
-  - title: Link
-    url: https://www.behance.net/gallery/63290189/Designers-Ace
+  path: /assets/img/projects/DataVizSite.png
 sitemap: true
-categories: [mapping, experiments]
-tags: [data visualization,	urban planning,	local governance,	information design]
+categories:
+  - Mapping
+  - experiments
+tags:
+  - data
+  - visualization
+  - urban
+  - planning
+  - local
+  - governance
+  - information
+  - design
 type: personal, professional
 ---
 

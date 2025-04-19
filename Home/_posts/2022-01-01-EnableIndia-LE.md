@@ -10,16 +10,13 @@ image:
 sitemap: true
 categories:
   - service-design
+  - research
 tags:
   - communication-strategy
-  - archival-interface-design
   - workshop-facilitation
   - knowledge-infrastructure
   - disability-tech
   - organisational-research
-  - design-methods
-  - community-archiving
-  - service-design
 organizations:
   - title: Enable India
     url: https://www.enableindia.org/

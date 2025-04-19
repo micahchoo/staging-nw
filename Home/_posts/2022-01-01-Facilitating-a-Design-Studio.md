@@ -10,12 +10,9 @@ sitemap: true
 categories:
   - pedagogy
 tags:
-  - design-education
   - situated-practice
   - field-research
-  - experiential-learning
   - workshop-facilitation
-  - place-writing
   - design-methods
   - design-research
 duration: 5 months
@@ -29,7 +26,7 @@ type:
   - professional
 ---
 
-[See full map at Chickpet Field Visit - HCD Sem 7 — Felt](https://felt.com/map/Chickpet-Field-Visit-HCD-Sem-7-ekx6paEpSTmd1UZNCTj13B?lat=12.968386&lon=77.577884&zoom=16.41)
+[See fully annotated map at Chickpet Field Visit - HCD Sem 7 — Felt](https://felt.com/map/Chickpet-Field-Visit-HCD-Sem-7-ekx6paEpSTmd1UZNCTj13B?lat=12.968386&lon=77.577884&zoom=16.41)
 * Seedlist
 {:toc}
 
@@ -55,10 +52,9 @@ By critically evaluating the metaphors extracted from these environments, we aim
 <iframe title="Up Close: “hand, writing” by Julia Solomonoff | THE SHED" src="https://www.youtube.com/embed/AZh9EwjlRl0?feature=oembed" height="240" width="540" allowfullscreen="" allow="fullscreen"></iframe>
 
 ## Student Projects:
-- [Gathering Spaces - thetipsyartist.in](https://thetipsyartist.in/project/view/644a5376d95ac6f8357bf4dd)
+- [Gathering Spaces - thetipsyartist.in](https://thetipsyartist.in/work/gathring-spaces)
 - [Patchwork Pete - B•LORE by BIC - Atheeva](https://bangaloreinternationalcentre.org/blore/patchwork-pete-b%e2%80%a2lore-by-bic)
 - [the brown kid - The Pete Project playlist ](https://soundcloud.com/brown-kid-646151136/sets/the-pete-project?si=4ccb602f84944d54a3434d7673804d77&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
-- [Recording a place : simplebooklet.com](https://simplebooklet.com/recordingaplace)
 - [Pallavi Kiragi - Seeing, Doing, Being Design](https://www.behance.net/gallery/160708807/Gathering-Spaces-in-Chickpete)
 - [The monkey that did everything on his own - Malay](https://prethesis-a3.vercel.app)
 - [Single Screen Theatres - Sakshi Joshi](https://sakshijsh8.wixsite.com/sakshi-joshi/single-screen-theatres)

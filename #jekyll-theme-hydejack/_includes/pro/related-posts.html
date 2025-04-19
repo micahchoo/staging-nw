@@ -10,10 +10,10 @@
   {% endif %}
 {% elsif site.hydejack.use_lsi or site.use_lsi %}
   {% assign related_posts = site.related_posts %}
-{% elsif post.categories%}
-  {% assign related_posts = site.categories[post.categories] | where_exp:"post", "post.url != page.url" %}
-{% elsif post.tags %}
-  {% assign related_posts = site.tags[post.tags] | where_exp:"post", "post.url != page.url" %}
+{% elsif post.categories.first %}
+  {% assign related_posts = site.categories[post.categories.first] | where_exp:"post", "post.url != page.url" %}
+{% elsif post.tags.first %}
+  {% assign related_posts = site.tags[post.tags.first] | where_exp:"post", "post.url != page.url" %}
 {% else %}
   {% assign related_posts = site.related_posts %}
 {% endif %}
@@ -22,7 +22,7 @@
 <aside class="other-projects related mb0" role="complementary">
   <h2>{{ site.data.strings.related_posts | default:"Related Posts" }}</h2>
   <div class="columns">
-    {% for post in related_posts limit:4 %}
+    {% for post in related_posts limit:6 %}
       <div class="column column-1-2">
         {% if post %}
           {% include_cached pro/post-card.html post=post %}

@@ -11,10 +11,24 @@
             "id": "fc2992adf31b1cd4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Home/_posts/2022-01-01-Facilitating-a-Design-Studio.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2022-01-01-Facilitating-a-Design-Studio"
             }
           }
         ]
@@ -90,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Home/_posts/2022-01-01-Facilitating-a-Design-Studio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 2022-01-01-Facilitating-a-Design-Studio"
             }
           },
           {
@@ -108,11 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Home/_posts/2022-01-01-Facilitating-a-Design-Studio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 2022-01-01-Facilitating-a-Design-Studio"
             }
           },
           {
@@ -150,20 +166,21 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Home/_posts/2022-01-01-Facilitating-a-Design-Studio.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 2022-01-01-Facilitating-a-Design-Studio"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,46 +196,100 @@
       "templater-obsidian:Templater": false
     }
   },
+  "floating": {
+    "id": "6f0906fdfe40306f",
+    "type": "floating",
+    "children": [
+      {
+        "id": "20fda5ebe3aabcba",
+        "type": "window",
+        "children": [
+          {
+            "id": "c02ea43831c2f066",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2a5bad8b0405f37b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Dataview/Files - Categories.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Files - Categories"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2227,
+        "y": 82,
+        "width": 1276,
+        "height": 1040,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "fc2992adf31b1cd4",
   "lastOpenFiles": [
-    "_drafts/test/_posts/2022-01-01-Papad.md",
-    "_drafts/test/_posts/2022-01-01-Koramangala.md",
-    "_drafts/test/_posts/2022-01-01-Milli.md",
-    "_drafts/test/_posts",
-    "_drafts/test",
-    "assets/img/projects/Milli/Milli.md",
+    "#jekyll-theme-hydejack/_includes/pro/related-posts.html",
+    "Home/_posts/2022-01-01-EnableIndia-LE.md",
+    "#jekyll-theme-hydejack/_includes/pro/related-posts copy.html",
+    "#jekyll-theme-hydejack/_includes/pro/random-posts copy.html",
+    "#jekyll-theme-hydejack/_includes/pro/project-card copy.html",
+    "#jekyll-theme-hydejack/_includes/pro/post-card copy.html",
+    "#jekyll-theme-hydejack/_includes/pro/other-projects copy.html",
+    "#jekyll-theme-hydejack/_includes/pro/newsletter copy.html",
+    "#jekyll-theme-hydejack/_includes/pro/dark-mode-fix copy.html",
+    "#jekyll-theme-hydejack/_includes/pro/resume copy/work.html",
+    "#jekyll-theme-hydejack/_includes/pro/resume copy/volunteer.html",
+    "#jekyll-theme-hydejack/_includes/pro/resume copy/skills.html",
+    "Home/_posts/2024-01-01-Mapping-History-of-Cinema.md",
+    "Home/_posts/2024-05-01-IIIF-images.md",
+    "Home/_posts/redirect/2021-01-01-Compost-Magazine-Technofutures-from-Bidar.md",
+    "Home/_posts/redirect/Technofutures from Bidar.md",
+    "Home/_posts/redirect/The Case for a Webinar Pi.md",
+    "Home/_posts/redirect/2023-01-01-SADHR.md",
+    "Dataview/Files - Categories.md",
+    "Home/_posts/2021-01-01-Koramangala.md",
+    "Home/_posts/redirect/2024-12-12-DataViz-Indian-Cities.md",
+    "Home/_posts/2021-01-01-Milli.md",
+    "_site/assets/img/projects/koramangala.jpg",
+    "assets/img/projects/koramangala.jpg",
+    "Dataview/Files - Tags.md",
+    "Dataview/Categories - Files.md",
+    "Home/_posts/2017-01-02-Designers-Ace.md",
+    "Home/_posts/2019-01-01-Caste-and-Education.md",
+    "Dataview/Tags - Files.md",
+    "Home/_posts/2019-01-01-Antarsam-Exploring-Alternate-Histories-and-Futures.md",
+    "_featured_tags/Alternative Futures.md",
+    "_site/assets/img/projects/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala/f2c7c402bc8a7bcaeee3dd571d99e63f_MD5.jpg",
+    "_site/assets/img/projects/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala/96bfd4025f617a87f1bbbb27fa6d90ce_MD5.jpg",
+    "_site/Untitled.canvas",
+    "index.md",
+    "Home/_posts/2018-01-01-Carpooling-Unalone-Karwaan.md",
+    "Home/_posts/2018-01-01-Habba-Redesign.md",
+    "Home/_posts/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala.md",
+    "Home/_posts/2019-01-01-Making-The-Invisible-Visible-Around-An-RO-Plant.md",
+    "Home/_posts/2020-01-01-Carefull-Collectives-and-their-Care-Practices.md",
+    "Home/_posts/2020-01-01-The-Imposter-Among-Us.md",
     "assets/img/projects/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala/f2c7c402bc8a7bcaeee3dd571d99e63f_MD5.jpg",
     "assets/img/projects/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala/96bfd4025f617a87f1bbbb27fa6d90ce_MD5.jpg",
-    "_featured_tags/Worldbuilding.md",
-    "_featured_tags/Workshop Facilitation.md",
-    "_featured_tags/Wifi Mesh.md",
-    "_featured_tags/User Research.md",
-    "_featured_tags/Urban History.md",
-    "_featured_tags/Urban Experience.md",
-    "_featured_tags/Tooling.md",
-    "_featured_tags/Technology Deep Dive.md",
-    "_featured_tags/Speculative Fiction.md",
-    "_featured_tags/Speculative Design.md",
-    "_featured_tags/Social Justice.md",
-    "_featured_tags/Social Infrastructure.md",
-    "_featured_tags/Social Enterprise.md",
-    "_featured_tags/Small Archives.md",
-    "_featured_tags/Situated Practice.md",
-    "_featured_tags/Service Design.md",
-    "_featured_tags/Rural India.md",
-    "_featured_tags/Resource Directory.md",
-    "_featured_tags/QGIS.md",
-    "_featured_tags/Poetic Documentation.md",
-    "_featured_tags/Platform Analysis.md",
-    "_featured_tags/Place Writing.md",
-    "Untitled.canvas",
-    "Home/test/_posts",
-    "Home/test",
-    "Home/_posts/redirect",
-    "Home/_posts",
-    "Home",
-    "Dataview",
-    "#jekyll-theme-hydejack/_includes/components/filtered-grid.html",
-    "assets/img/projects/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala"
+    "Untitled.canvas"
   ]
 }

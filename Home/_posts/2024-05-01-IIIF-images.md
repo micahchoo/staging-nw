@@ -7,16 +7,17 @@ date: 01-05-2024
 sitemap: true
 image:
   path: /assets/img/projects/IIIF_Header_Post.png
-categories: [writing, pedagogy]
+categories:
+  - writing
+  - pedagogy
+  - experiments
 tags:
   - tooling
   - small-archives
   - technology-deep-dive
-  - IIIF
   - digital-humanities
   - archival-technology
 type: personal, professional
-
 ---
  
 For the last few years, I have been in search of a way to host images, text and other types of content on the internet in a no-code or low-code but organized and categorized setup. This has led me to many interesting places and ways of doing this. In this article, I want to talk about hosting images using self-hostable tools.

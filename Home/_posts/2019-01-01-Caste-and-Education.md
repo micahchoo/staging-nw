@@ -12,9 +12,6 @@ categories:
   - design
   - research
 tags:
-  - caste-system
-  - education
-  - rural-india
   - participatory-research
   - workshop-facilitation
   - game-design
