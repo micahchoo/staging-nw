@@ -13,7 +13,6 @@ tags:
   - user-research
   - service-design
   - design
-  - interface-design
 duration: 6 months
 role:
   - designer

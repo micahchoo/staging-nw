@@ -8,7 +8,7 @@ image:
 date: '10-05-2024'
 sitemap: true
 categories: [Mapping]
-tags: [QGIS, Maps, urban history]
+tags: [QGIS, Maps, urban-history]
 type: [experimental]
 ---
 The data was curated by Dr. Yamini and they approached me to make some printable maps. The challenge was to create a visually appealing and informative map that highlighted cinema halls with labels, specific localities like Abids, Musheerabad, and Khairatabad—areas known for their rich history of cinema. The centerpiece of the map was Hussain Sagar, a landmark that helps orient anyone familiar with Hyderabad to the map.

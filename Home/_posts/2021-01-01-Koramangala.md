@@ -1,13 +1,21 @@
 ---
-layout: project
-custom_layout: creative-post
-title: 'Feeling through the Cities - Koramangala'
-caption: An urban meditation
-description: >
-  A poetic reflection on the hidden rhythms and overlooked details 
-  of daily life in Koramangala, Bangalore.
-date: '01-02-2025'
+layout: post
+title: Feeling through the Cities - Koramangala
+description: |
+  A poetic reflection on the hidden rhythms and overlooked details  of daily life in Koramangala, Bangalore.
+image:
+  path: /assets/img/projects/koramangala.jpg
+date: 01-02-2021
 sitemap: true
+categories:
+  - writing
+tags:
+  - place-writing
+  - urban-experience
+  - personal-narrative
+  - poetic-documentation
+type:
+  - personal
 ---
 
 My house is in a silent place in koramangala  
@@ -37,5 +45,3 @@ I can't seem to remember the names of anyone else because I pay them cash"
   align="right"
   size="large"
 %}
-
-

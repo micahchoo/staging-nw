@@ -17,7 +17,6 @@ sitemap: true
 categories:
   - experiments
   - design
-  - research-and-writing
 tags:
   - game-design
   - design-thinking

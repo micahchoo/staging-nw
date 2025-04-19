@@ -1,9 +1,9 @@
 ```dataview
 TABLE
-		length(rows.file.tags) as numtags
+		length(rows.file.frontmatter.tags) as numtags
 	, join(rows.file.link, ", ") as tags
 FROM "Home"
-FLATTEN file.tags as tag
+FLATTEN file.frontmatter.tags as tag
 GROUP BY tag
 SORT numtags DESC
 ```

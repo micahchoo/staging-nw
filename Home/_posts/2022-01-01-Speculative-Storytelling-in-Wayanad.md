@@ -21,8 +21,6 @@ tags:
   - design
   - design-research
   - speculative-design
-  - design-methods
-  - indigenous-rights
   - media-making
   - worldbuilding
 ---

@@ -15,10 +15,8 @@ sitemap: true
 categories:
   - writing
 tags:
-  - indigenous-rights
-  - land-rights
-  - social-justice
   - ethnographic-research
+  - history
 type: personal,professional
 ---
 

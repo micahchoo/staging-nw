@@ -12,11 +12,8 @@ categories:
   - writing
 tags:
   - community-networks
-  - wifi-mesh
-  - knowledge-infrastructure
   - social-infrastructure
   - alternate-internet
-  - alternative-futures
   - organizational-practice
   - collectives
 type:
