@@ -1,23 +1,48 @@
-<!-- _includes/components/timeline.html -->
-<div class="timeline">
-    {% for event in include.events %}
-    <div class="timeline-item">
+<!-- components/timeline.html - A unified timeline component for both process steps and events -->
+<div class="timeline {% if include.type == 'process' %}timeline-process{% endif %}">
+  {% assign items = include.events | default:include.steps %}
+  {% for item in items %}
+    <div class="timeline-item {% if item.active %}active{% endif %}">
       <div class="timeline-marker">
-        {% if event.icon %}
-        <i class="icon-{{ event.icon }}"></i>
+        {% if include.type == 'process' %}
+          <!-- Process step with number -->
+          <div class="marker-circle">{{ item.number }}</div>
+        {% elsif item.icon %}
+          <!-- Event with icon -->
+          <div class="marker-circle icon">
+            <i class="icon-{{ item.icon }}"></i>
+          </div>
         {% else %}
-        <span class="dot"></span>
+          <!-- Event with dot -->
+          <div class="marker-circle dot"></div>
         {% endif %}
+        
+        {% unless forloop.last %}
+          <div class="marker-line"></div>
+        {% endunless %}
       </div>
+      
       <div class="timeline-content">
-        {% if event.date %}
-        <div class="timeline-date">{{ event.date }}</div>
+        {% if item.date and include.type != 'process' %}
+          <div class="timeline-date">{{ item.date }}</div>
         {% endif %}
-        <h3 class="timeline-title">{{ event.title }}</h3>
+        
+        <h3 class="timeline-title">
+          {% if include.type == 'process' %}
+            {{ item.label }}
+          {% else %}
+            {{ item.title }}
+          {% endif %}
+        </h3>
+        
         <div class="timeline-description">
-          {{ event.description | markdownify }}
+          {% if include.type == 'process' and item.description %}
+            <p>{{ item.description }}</p>
+          {% elsif include.type != 'process' %}
+            {{ item.description | markdownify }}
+          {% endif %}
         </div>
       </div>
     </div>
-    {% endfor %}
-  </div>
+  {% endfor %}
+</div>

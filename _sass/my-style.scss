@@ -100,93 +100,35 @@
     padding-bottom: 1rem; /* Add some padding at the bottom */
   }
 }
+/* Unified Timeline Component CSS */
 
-  /* XTimeline Component */
-  .timeline {
-    position: relative;
-    margin: 2rem 0;
-    padding-left: 2rem;
-  }
-  
-  .timeline::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0.5rem;
-    width: 2px;
-    height: 100%;
-    background-color: rgba(var(--accent-color-rgb), 0.05);
-  }
-  
-  .timeline-item {
-    position: relative;
-    margin-bottom: 2rem;
-    max-width: 50%;
-  }
-  
-  .timeline-marker {
-    position: absolute;
-    left: -2rem;
-    top: 0;
-    width: 1rem;
-    height: 1rem;
-    border-radius: 50%;
-    background-color: rgba(var(--accent-color-rgb), 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-  }
-  
-  .timeline-marker .dot {
-    display: block;
-    width: 1rem;
-    height: 1rem;
-    border-radius: 50%;
-    background-color: var(--accent-color);
-  }
-  
-  .timeline-marker i {
-    font-size: 1rem;
-    color: white;
-  }
-  
-  .timeline-content {
-    padding: 1rem;
-    border-radius: 4px;
-    background-color: rgba(var(--accent-color-rgb), 0.05);
-  }
-  
-  .timeline-date {
-    font-size: 0.9rem;
-    color: grey;
-    margin-bottom: 0.5rem;
-  }
-  
-  .timeline-title {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.2rem;
-  }
-  
-  .timeline-description p:last-child {
-    margin-bottom: 0;
-  }
-  
-
-/* Process Timeline Component */
-.process-timeline {
+/* Base timeline container styles */
+.timeline {
   position: relative;
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 20px;
+  margin: 2rem 0;
+  padding-left: 2rem;
 }
 
+
+/* For process timeline, adjust positioning */
+.timeline.timeline-process {
+  max-width: 100%;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.timeline.timeline-process::before {
+  left: 1.25rem;
+}
+
+/* Timeline item container */
 .timeline-item {
   position: relative;
   display: flex;
   margin-bottom: 2rem;
 }
 
+/* Timeline marker container (dot/circle and line) */
 .timeline-marker {
   position: relative;
   display: flex;
@@ -195,19 +137,33 @@
   margin-right: 1.5rem;
 }
 
+/* Circle marker styles */
 .marker-circle {
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   background-color: var(--accent-color, #5a67d8);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #272f32;
+  color: var(--body-bg);
   font-weight: bold;
   z-index: 2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Smaller dot for simple events */
+.marker-circle.dot {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Icon styling */
+.marker-circle.icon {
+  font-size: 1rem;
+}
+
+/* Connecting line between markers */
 .marker-line {
   width: 2px;
   background-color: var(--accent-color, #5a67d8);
@@ -215,48 +171,90 @@
   margin-top: 10px;
   height: calc(100% + 20px);
   position: absolute;
-  top: 40px;
+  top: 2.5rem;
   left: 50%;
   transform: translateX(-50%);
+  opacity: 0.5;
 }
 
+/* Content container */
 .timeline-content {
   flex: 1;
-  padding: 15px 20px;
-  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem 1.25rem;
+  background-color: rgba(var(--accent-color-rgb, 90, 103, 216), 0.05);
   border-radius: 8px;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
+/* Active state for process steps */
+.timeline-item.active .timeline-content {
+  background-color: rgba(var(--accent-color-rgb, 90, 103, 216), 0.1);
+  border-left: 3px solid var(--accent-color, #5a67d8);
+}
+
+/* Hover effect */
 .timeline-item:hover .timeline-content {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(var(--accent-color-rgb, 90, 103, 216), 0.1);
+  transform: translateX(3px);
 }
 
-.timeline-title {
-  margin-top: 0;
+/* Date display */
+.timeline-date {
+  font-size: 0.85rem;
+  color: #718096;
   margin-bottom: 0.5rem;
-  color: var(--accent-color, #5a67d8);
+  font-weight: 500;
 }
 
+/* Title styling */
+.timeline-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  color: var(--text-color, #2d3748);
+}
+
+/* Description text */
 .timeline-description {
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.6;
+  color: var(--text-muted, #4a5568);
+}
+
+.timeline-description p:last-child {
+  margin-bottom: 0;
 }
 
 /* Mobile responsiveness */
-@media (max-width: 576px) {
-  .timeline-marker {
-    margin-right: 1rem;
+@media (max-width: 768px) {
+  .timeline {
+    padding-left: 1.5rem;
+  }
+  
+  .timeline::before {
+    left: 0.4rem;
+  }
+  
+  .timeline.timeline-process {
+    padding: 0 1rem;
+  }
+  
+  .timeline.timeline-process::before {
+    left: 1rem;
   }
   
   .marker-circle {
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
     font-size: 0.9rem;
   }
   
+  .marker-line {
+    top: 2rem;
+  }
+  
   .timeline-content {
-    padding: 10px 15px;
+    padding: 0.75rem 1rem;
   }
   
   .timeline-title {
@@ -264,35 +262,39 @@
   }
   
   .timeline-description {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 }
+
 /* Dark mode adjustments */
+.dark-mode .timeline::before {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .dark-mode .timeline-content {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .dark-mode .timeline-item:hover .timeline-content {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.dark-mode .timeline-item.active .timeline-content {
+  background-color: rgba(var(--accent-color-rgb, 120, 134, 215), 0.15);
 }
 
 .dark-mode .timeline-title {
   color: var(--accent-color, #7886d7);
 }
 
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-  .process-timeline {
-    padding-bottom: 10px;
-  }
-  
-  .timeline-step {
-    min-width: 150px;
-  }
+.dark-mode .timeline-date {
+  color: #a0aec0;
 }
 
-
+.dark-mode .timeline-description {
+  color: #cbd5e0;
+}
 /* Two-column content layout with dark mode */
 .content-columns {
   display: flex;
@@ -1593,4 +1595,86 @@
   padding: 1.2rem;
   margin: 1rem -1rem;
   position: relative;
+}
+
+/* iframe responsive*/
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Link Grid Component Styles 
+ * These styles are designed to complement Hydejack's existing styles
+ * Add this to your _sass directory or include it in your custom CSS
+ */
+
+ .link-grid {
+  margin-bottom: 2rem;
+}
+
+.link-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-card:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.link-card .project-card-title {
+  margin-top: 0.75rem;
+}
+
+.link-card .fill-card {
+  margin-top: auto;
+}
+
+.link-card .project-card-img {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.link-card .project-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.link-card:hover .project-card-img img {
+  transform: scale(1.02);
+}
+
+/* Different column sizes based on screen size */
+@media (max-width: 42em) {
+  .link-grid .column-1-2,
+  .link-grid .column-1-3,
+  .link-grid .column-1-4 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 42em) and (max-width: 64em) {
+  .link-grid .column-1-3,
+  .link-grid .column-1-4 {
+    width: 50%;
+  }
 }
