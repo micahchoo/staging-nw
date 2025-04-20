@@ -1,0 +1,33 @@
+{% assign links = include.links %}
+{% assign columns = include.columns | default: 2 %}
+{% assign featured = include.featured | default: false %}
+{% assign no_third_column = include.no_third_column | default: site.hydejack.no_third_column | default: false %}
+
+<div class="link-grid">
+  <div class="columns {% unless no_third_column %}columns-break{% endunless %}">
+    {% for link in links %}
+      <div class="column {% if featured or columns == 1 %}column-1{% else %}column-1-{{ columns }}{% endif %}">
+        <article class="project-card link-card">
+          <a href="{{ link.url }}" class="no-hover no-print-link {% unless link.image == nil %}flip-project{% endunless %}" tabindex="-1" {% if link.external %}target="_blank" rel="noopener"{% endif %}>
+            <div class="project-card-img aspect-ratio sixteen-nine {% if link.image %}flip-project-img{% else %}fallback-img{% endif %}">
+              {% if link.image %}
+                <img src="{{ link.image | relative_url }}" alt="{{ link.title }}" class="lead" width="864" height="486" loading="lazy">
+              {% endif %}
+            </div>
+          </a>
+          <h3 class="project-card-title flip-project-title">
+            <a href="{{ link.url }}" class="flip-title" {% if link.external %}target="_blank" rel="noopener"{% endif %}>{{ link.title }}</a>
+          </h3>
+          {% if link.description %}
+            <p class="project-card-text fine">
+              {{ link.description | markdownify | replace:'<p>','' | replace:'</p>','' }}
+            </p>
+          {% endif %}
+          <a class="fill-card no-hover" href="{{ link.url }}" {% if link.external %}target="_blank" rel="noopener"{% endif %} tabindex="-1">
+            <span class="sr-only">Continue to {{ link.title }}</span>
+          </a>
+        </article>
+      </div>
+    {% endfor %}
+  </div>
+</div>
