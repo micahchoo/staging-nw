@@ -13,6 +13,7 @@ sitemap: true
 categories: [writing, research, experiments]
 tags: [Technology Networks,	Community Networks,	Local Knowledge]
 type: personal, professional
+redirect_to: https://one.compost.digital/fertile-technofutures-from-bidar
 ---
 
 * seed

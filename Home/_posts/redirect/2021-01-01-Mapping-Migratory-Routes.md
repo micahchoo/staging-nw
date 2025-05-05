@@ -11,6 +11,8 @@ sitemap: true
 categories: [Mapping]
 tags: [mapping,	pastoralist-communities,	migration,	geospatial-visualization]
 type: experimental
+redirect_to: https://blog.janastu.org/mapping-migratory-routes-of-pastoralists/
+
 
 ---
 The project aimed to comprehensively illustrate and document the migratory routes of pastoralist communities across various regions of India. 

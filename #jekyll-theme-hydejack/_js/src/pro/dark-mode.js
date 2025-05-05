@@ -7,6 +7,30 @@ const SEL_NAVBAR_BTN_BAR = '#_navbar > .content > .nav-btn-bar';
 (async () => {
   await stylesheetReady;
 
+  // Initialize dark mode state on page load
+  const initializeDarkMode = () => {
+    // Check if dark mode should be enabled by default
+    const shouldUseDarkMode = true; // Set based on your config.yml setting
+    
+    if (shouldUseDarkMode) {
+      // Apply dark mode class to body
+      document.body.classList.add('dark-mode');
+      document.body.classList.remove('light-mode');
+      
+      // Set color-scheme property on HTML element
+      document.documentElement.style.colorScheme = 'dark';
+      
+      // Update meta tag
+      const metaEl = document.querySelector('meta[name="color-scheme"]');
+      if (metaEl) metaEl.content = 'dark';
+    }
+  };
+  
+  // Call initialization function immediately
+  initializeDarkMode();
+
+
+
   const darkMode = importTemplate('_dark-mode-template');
   if (darkMode) {
     const navbarEl = document.querySelector(SEL_NAVBAR_BTN_BAR);
@@ -20,6 +44,7 @@ const SEL_NAVBAR_BTN_BAR = '#_navbar > .content > .nav-btn-bar';
       e.preventDefault();
       clearTimeout(tId);
       const list = document.body.classList;
+      list.add('dark-mode');
       if (
         list.contains('dark-mode') ||
         ('_sunset' in window && !list.contains('light-mode') && matchMedia('(prefers-color-scheme: dark)').matches)
