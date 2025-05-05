@@ -17,7 +17,22 @@
 layout: base
 ---
 
+<script>
+  // Try to open the link in a new tab
+  window.open("{{ page.redirect.to }}", "_blank");
+</script>
+
 <div class="page">
   <h1 class="page-title">{{ site.data.strings.redirecting | default:"Redirecting…" }}</h1>
-  <p class="lead"><a href="{{ page.redirect.to }}">{{ page.redirect.to }}</a></p>
+  <p class="lead"><a href="{{ page.redirect.to }}" target="_blank">{{ page.redirect.to }}</a></p>
+  
+  <!-- Display a notice about the redirect -->
+  <div class="redirect-notice" style="margin-bottom: 2rem; padding: 1rem; border: 1px solid #ddd; border-radius: 4px;">
+    <p>The link above will open in a new tab. If it didn't open automatically, please click the link.</p>
+  </div>
+  
+  <!-- Page content will appear below -->
+  <div class="page-content">
+    {% include_cached components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description %}
+  </div>
 </div>
