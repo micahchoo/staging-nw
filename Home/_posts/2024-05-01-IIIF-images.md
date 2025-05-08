@@ -154,13 +154,19 @@ In this configuration, there are a few storage locations that we need to solve.
 ## Is it possible to create a simple user-hosted IIIF archive
 A few attempts have been made to simplify the IIIF archive with different opinions on how to simplify this process. A massive simplification is to use github pages
 
-### Digirati Manifest Editor
+### For Single Images 
+#### Digirati Manifest Editor
 [The editor](https://manifest-editor.digirati.services/)
 For a smaller dataset, the Manifest Editor is a great tool, if you are willing to organise the images one after another. You are able to annotate and organize the images all in the editor and download the manifest and host it with the images and the html file with the IIIF viewer.
 Its fairly simple to use, you create or open a manifest, add canvases, add content to these canvases, add annotations and other metadata - preview what it looks like in different IIIF viewers. 
 The viewers that support text-on-image annotations through this method are Theseus and Annona *(as of Nov 2024)*
 
-### BIIIF (Build IIIF)
+
+### For Image collections
+
+<a class="spotlight" href="/assets/img/projects/IIIFCollections.png">![How different tools can be used as a pipeline for IIIF collections](/assets/img/projects/IIIFCollections.png){:.lead width="800" height="100" loading="lazy"}</a> 
+
+#### BIIIF (Build IIIF)
 [Github Repo](https://github.com/IIIF-Commons/biiif/)
 This method seeks to use folder hierarchy as a way to quickly organise the collection and generate the manifests. The way it does this is to use a naming convention as a symbol of the various resource types defined in the Presentation API
 
@@ -194,6 +200,157 @@ How Wax handles the files and metadata
 {:.figcaption}
 
 
+I deployed a test repo here - https://github.com/micahchoo/bhc-demo/
+- this is my config file
+
+```yml
+# ==============================================================
+# WAX CONFIGURATION
+# ==============================================================
+# Jekyll configuration files are written in YAML format.
+# Colons, tabs/spacing, and quotes are meaningful in YAML.
+# It is recommended you look at the following guide to avoid
+# syntax errors in this file:
+# ~> https://learnxinyminutes.com/docs/yaml/
+#
+#
+# Questions ?
+# ~> https://minicomp.github.io/wiki/#/
+#
+# ---------------------------------------------------------------
+# MAIN SETTINGS
+# ---------------------------------------------------------------
+# Feel free to change these! For more info, refer to:
+# ~> https://jekyllrb.com/docs/configuration/options/
+
+title:            'Bidar Heritage Center'
+description:      'A demo for the BHC Archives'
+url:              'https://minicomp.github.io'
+baseurl:          '/wax'
+copyright:        'Example copyright org, 2023'
+logo:             '/assets/logo.png'
+default_thumb:    '/assets/default.png'
+
+# ---------------------------------------------------------------
+# BUILD SETTINGS
+# ---------------------------------------------------------------
+# Best not to mess with these unless you know what you're doing!
+
+permalink: 'pretty'
+sass:
+  style: compressed
+exclude: ["Gemfile*", "*.gemspec", "Rakefile", "vendor", "spec", "README.md", "LICENSE.txt", "Docker*"]
+webrick:
+  headers:
+    'Access-Control-Allow-Origin': '*'
+kramdown:
+ auto_ids:       true
+ footnote_nr:    1
+ entity_output:  as_char
+ footnote_backlink: "&#x21a9;&#xfe0e;"
+ toc_levels:     1..6
+ smart_quotes:   lsquo,rsquo,ldquo,rdquo
+ enable_coderay: false
+
+
+# --------------------------------------------------------------
+# COLLECTION SETTINGS
+# --------------------------------------------------------------
+# Wax leverages Jekyll collections for much of its
+# functionality, therefor some of the keys below are from
+# Jekyll while others are Wax-specific.
+# For more info, refer to:
+# ~> https://jekyllrb.com/docs/collections/
+
+collections:
+  exhibits:
+    output: true
+  raj_bidri_pn: # name of collection
+    output: true # makes sure pages are output as html files
+    layout: 'raj_bidri_pn_item' # the layout for the pages to use
+    metadata:
+      source: 'raj_bidri_pn.csv' # path to the metadata file within `_data`
+    images:
+      source: 'raw_images/raj_bidri_pn' # path to the directory of images within `_data`
+
+# --------------------------------------------------------------
+# SEARCH INDEX SETTINGS
+# --------------------------------------------------------------
+# You can create multiple search indexes below (though only one is
+# recommended!) by specifying
+# an `index` file to write it to and some `collections` for it to index
+# and running `$ bundle exec rake wax:search` .
+
+search:
+  main:
+    index: '/search/index.json' # file the index will get written to
+    collections:
+      raj_bidri_pn:
+        content: true # whether or not to index page content
+        fields: # the metadata fields to index
+          - label
+          - subject
+          - description
+          - creator
+          - source
+          - publisher
+          - _date
+          - contributor
+          - rights
+          - relation
+          - format
+          - language
+          - type
+          - coverage
+          - collected_by
+          - collection_date
+# --------------------------------------------------------------
+# SITE MENU SETTINGS
+# --------------------------------------------------------------
+# Each menu item needs a `label` (whats shown), and a `link`
+# (where it goes). An item can optionally have a dropdown
+# submenu via `sub`.
+
+menu:
+  - label: 'About'
+    sub:
+      - label: 'Wax'
+        link: '/about/'
+      - label: 'Documentation'
+        link: 'https://minicomp.github.io/wiki/wax/'
+      - label: 'Credits'
+        link: '/credits/'
+  - label: 'Exhibits'
+    sub:
+      - label: 'Inline Parallax Image'
+        link: '/exhibits/a/'
+      - label: 'Inline Image References'
+        link: '/exhibits/b/'
+  - label: 'Browse'
+    link: '/collection/'
+  - label: 'Search'
+    link: '/search/'
+  - label: 'Reuse'
+    link: '/reuse/'
+
+# --------------------------------------------------------------
+# SITE FOOTER SETTINGS
+# --------------------------------------------------------------
+#
+
+footer:
+  links:
+    - label: 'GitHub'
+      link: 'https://github.com/minicomp/wax'
+    - label: 'Credits'
+      link: '/credits'
+    - label: 'Wiki'
+      link: 'https://minicomp.github.io/wiki/wax/'
+  logos:
+    - img: '/img/logo.png'
+
+# FIN
+```
 
 ### Tropy and Tropiiify
 
@@ -227,9 +384,31 @@ Exporting to Tropiiify
 
 See my test demo [here](https://github.com/micahchoo/Tropiiify-test) 
 
-## Some possible Alternatives to Github pages
-### Gitlab CI/CD 
-- Someone smarter than me could probably implement it for Gitlab CI/CD. Which could be an exciting possibility.
+### Canopy to deploy Tropiiify collection as a static site
 
+- Example Repo
+canopy.json
+```json
+{
+  "collection": "https://micahchoo.github.io/bhc-demo-tropy/index.json",
+  "devCollection": "https://micahchoo.github.io/bhc-demo-tropy/index.json",
+  "featured": [
+    "https://micahchoo.github.io/bhc-demo-tropy/bhc001_hakeem_abdul20170705_pn02/manifest.json",
+    "https://micahchoo.github.io/bhc-demo-tropy/bhc001_bid_laxmibai_af_01/manifest.json"
+  ],
+  "metadata": ["Date", "Subject"],
+  "label": { "none": ["Collection Title"] },
+  "summary": {
+    "none": ["Brief description of the site and its contents."]
+  },
+  "theme": {
+    "defaultTheme": "light",
+    "accentColor": "red",
+    "grayColor": "mauve",
+    "radius": "small",
+    "scaling": "100%"
+  }
+}
 
+```
 ---
