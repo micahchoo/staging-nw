@@ -93,6 +93,51 @@
   display: block;
 }
 
+.sidebar-thin {
+  width: 1rem !important; // Adjust width as needed
+  
+  // Hide sidebar content in thin mode
+  .sidebar-sticky {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+  }
+  
+  // Show only a thin strip with minimal visible content
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--sidebar-bg);
+    z-index: -1;
+  }
+  
+  // Add a visual indicator that it can be expanded
+  &::after {
+    content: "≫";  // Simple indicator
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--body-color);
+    opacity: 0.5;
+  }
+}
+
+// When hovering over thin sidebar, increase opacity of indicator
+.sidebar-thin:hover::after {
+  opacity: 0.8;
+}
+
+// Class for post pages to enable thin sidebar by default
+.layout-post .sidebar {
+  &:not(.sidebar-full) {
+    @extend .sidebar-thin;
+  }
+}
 /* Responsive adjustments */
 @media (min-width: 64em) {
   .sidebar-sticky {

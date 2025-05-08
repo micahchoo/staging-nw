@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home/_posts/2022-01-01-Facilitating-a-Design-Studio.md",
+                "file": "templates/markdown/spotlight-image.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2022-01-01-Facilitating-a-Design-Studio"
+              "title": "spotlight-image"
+            }
+          },
+          {
+            "id": "9ab67023e1e605ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home/_posts/2024-05-01-IIIF-images.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2024-05-01-IIIF-images"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -51,7 +76,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -104,8 +129,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/_posts/2022-01-01-Facilitating-a-Design-Studio.md",
-                "collapseAll": false,
+                "file": "Home/_posts/2024-05-01-IIIF-images.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -114,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2022-01-01-Facilitating-a-Design-Studio"
+              "title": "Backlinks for 2024-05-01-IIIF-images"
             }
           },
           {
@@ -123,12 +148,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home/_posts/2022-01-01-Facilitating-a-Design-Studio.md",
+                "file": "Home/_posts/2024-05-01-IIIF-images.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2022-01-01-Facilitating-a-Design-Studio"
+              "title": "Outgoing links from 2024-05-01-IIIF-images"
             }
           },
           {
@@ -166,17 +191,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home/_posts/2022-01-01-Facilitating-a-Design-Studio.md",
+                "file": "Home/_posts/2024-05-01-IIIF-images.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2022-01-01-Facilitating-a-Design-Studio"
+              "title": "Outline of 2024-05-01-IIIF-images"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,8 +220,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fc2992adf31b1cd4",
+  "active": "9ab67023e1e605ee",
   "lastOpenFiles": [
+    "assets/img/projects/IIIFCollections.png",
+    "assets/img/projects/Pasted image 20241126002006.png",
+    "templates/markdown/spotlight-image.md",
+    "Home/_posts/2024-05-01-IIIF-images.md",
+    "assets/img/projects/Pasted image 20250507220613.png",
+    "assets/img/projects/2024-05-01-IIIF-images",
+    "Home/_posts/2022-01-01-Facilitating-a-Design-Studio.md",
+    "_site/assets/js/sidebar.js",
+    "assets/js/sidebar.js",
     "#jekyll-theme-hydejack/_includes/body/breadcrumbs.html",
     "_site/home/pedagogy/2022-12-01-Facilitating-a-Design-Studio/index.html",
     "_site/home/pedagogy/2022-12-01-Facilitating-a-Design-Studio",
@@ -206,11 +239,6 @@
     "#jekyll-theme-hydejack/_includes/components/link-grid.html",
     "#jekyll-theme-hydejack/_includes/components/projectcard",
     "_drafts/test/_posts/2022-01-01-Papad.md",
-    "_data/datafiles/gather.yml",
-    "_data/datafiles/Gather.yml",
-    "Home/_posts/2022-01-01-Facilitating-a-Design-Studio.md",
-    "_site/home/writing/pedagogy/experiments/2024-05-01-IIIF-images/index.html",
-    "_site/home/writing/pedagogy/experiments/2024-05-01-IIIF-images",
     "_site/assets/img/projects/koramangala.jpg",
     "assets/img/projects/koramangala.jpg",
     "Home/_posts/2021-01-01-Koramangala.md",
@@ -228,14 +256,12 @@
     "Home/_posts/2022-01-01-Koramangala.md",
     "Home/_posts/2022-01-01-EnableIndia-LE.md",
     "Home/_posts/2024-01-01-Mapping-History-of-Cinema.md",
-    "Home/_posts/2024-05-01-IIIF-images.md",
     "Home/_posts/redirect/2021-01-01-Compost-Magazine-Technofutures-from-Bidar.md",
     "Home/_posts/redirect/Technofutures from Bidar.md",
     "Home/_posts/redirect/The Case for a Webinar Pi.md",
     "Home/_posts/redirect/2023-01-01-SADHR.md",
     "Dataview/Files - Categories.md",
     "Home/_posts/redirect/2024-12-12-DataViz-Indian-Cities.md",
-    "Home/_posts/2021-01-01-Milli.md",
     "_site/assets/img/projects/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala/f2c7c402bc8a7bcaeee3dd571d99e63f_MD5.jpg",
     "_site/assets/img/projects/2018-01-01-The-Disenfranchisement-of-Adivasis-in-Kerala/96bfd4025f617a87f1bbbb27fa6d90ce_MD5.jpg",
     "_site/Untitled.canvas",
