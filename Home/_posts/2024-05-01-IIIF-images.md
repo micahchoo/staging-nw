@@ -388,6 +388,7 @@ See my test demo [here](https://github.com/micahchoo/Tropiiify-test)
 
 - Example Repo
 canopy.json
+
 ```json
 {
   "collection": "https://micahchoo.github.io/bhc-demo-tropy/index.json",
